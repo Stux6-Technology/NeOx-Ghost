@@ -1,2 +1,3 @@
-# NeOx Autonomous Agent - March First Half Fix
-AGENT_FORCE_MARCH_ID = 6160
+# NeOx Autonomous Agent Core Systems - Dynamic Shift
+SHIFT_GLOBAL_ID = 1
+LAST_SHIFT_TIME = 2026-07-01T11:38:43.331870
