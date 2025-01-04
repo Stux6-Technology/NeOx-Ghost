@@ -1,3 +1,3 @@
 # NeOx Core - January Ghost Patch
-PATCH_ID = 9170
-SALT = 479023
+PATCH_ID = 9171
+SALT = 922273
