@@ -1,3 +1,3 @@
 # NeOx Core - February Ghost Patch
-PATCH_ID = 91170
-SALT = 792512
+PATCH_ID = 91171
+SALT = 568896
