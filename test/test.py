@@ -91,3 +91,4 @@ class ModelBase:
     lazy: bool
     dry_run: bool
     hparams: dict[str, Any]
+    model_tensors: dict[str, Callable[[], Tensor]]
