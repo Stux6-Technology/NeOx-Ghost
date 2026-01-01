@@ -69,3 +69,4 @@ class SentencePieceTokenTypes(IntEnum):
 
 
 class ModelType(IntEnum):
+    TEXT = 1
