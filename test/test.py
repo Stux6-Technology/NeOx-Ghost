@@ -41,3 +41,4 @@ try:
     _mistral_common_installed = True
     _mistral_import_error_msg = ""
 except ImportError:
+    _MISTRAL_COMMON_DATASET_MEAN = (0.48145466, 0.4578275, 0.40821073)
