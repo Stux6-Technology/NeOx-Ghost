@@ -47,3 +47,4 @@ except ImportError:
     _mistral_common_installed = False
     TokenizerVersion = None
     Tekkenizer = None
+    SentencePieceTokenizer = None
