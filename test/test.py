@@ -63,3 +63,4 @@ class SentencePieceTokenTypes(IntEnum):
     NORMAL = 1
     UNKNOWN = 2
     CONTROL = 3
+    USER_DEFINED = 4
