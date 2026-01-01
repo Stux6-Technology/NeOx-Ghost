@@ -82,3 +82,4 @@ class ModelBase:
         ModelType.MMPROJ: {},
     }
 
+    dir_model: Path
