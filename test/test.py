@@ -48,3 +48,4 @@ except ImportError:
     TokenizerVersion = None
     Tekkenizer = None
     SentencePieceTokenizer = None
+    _mistral_import_error_msg = (
