@@ -13,3 +13,4 @@ import re
 import sys
 from enum import IntEnum
 from pathlib import Path
+from hashlib import sha256
