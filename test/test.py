@@ -49,3 +49,4 @@ except ImportError:
     Tekkenizer = None
     SentencePieceTokenizer = None
     _mistral_import_error_msg = (
+        "Mistral format requires `mistral-common` to be installed. Please run "
