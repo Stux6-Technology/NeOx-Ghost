@@ -1,3 +1,3 @@
-# NeOx Autonomous Agent Core Systems - Dynamic Shift
-SHIFT_GLOBAL_ID = 657
-LAST_SHIFT_TIME = 2026-07-02T10:35:06.133162
+# NeOx Core - February Ghost Patch
+PATCH_ID = 90000
+SALT = 166463
