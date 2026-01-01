@@ -59,3 +59,4 @@ logger = logging.getLogger("hf-to-gguf")
 
 ###### MODEL DEFINITIONS ######
 
+class SentencePieceTokenTypes(IntEnum):
