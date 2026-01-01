@@ -52,3 +52,4 @@ except ImportError:
         "Mistral format requires `mistral-common` to be installed. Please run "
         "`pip install mistral-common[image,audio]` to install it."
     )
+
