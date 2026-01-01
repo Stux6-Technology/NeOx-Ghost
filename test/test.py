@@ -87,3 +87,4 @@ class ModelBase:
     fname_out: Path
     is_big_endian: bool
     endianess: gguf.GGUFEndian
+    use_temp_file: bool
