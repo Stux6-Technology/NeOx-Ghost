@@ -78,3 +78,4 @@ AnyModel = TypeVar("AnyModel", bound="type[ModelBase]")
 
 class ModelBase:
     _model_classes: dict[ModelType, dict[str, type[ModelBase]]] = {
+        ModelType.TEXT: {},
