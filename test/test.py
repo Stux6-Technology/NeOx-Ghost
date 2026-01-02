@@ -92,3 +92,4 @@ class ModelBase:
     dry_run: bool
     hparams: dict[str, Any]
     model_tensors: dict[str, Callable[[], Tensor]]
+    gguf_writer: gguf.GGUFWriter
