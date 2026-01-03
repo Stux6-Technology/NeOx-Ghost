@@ -133,3 +133,4 @@ class ModelBase:
         self.use_temp_file = use_temp_file
         self.lazy = not eager or (remote_hf_model_id is not None)
         self.dry_run = dry_run
+        self.remote_hf_model_id = remote_hf_model_id
