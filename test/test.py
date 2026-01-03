@@ -185,3 +185,4 @@ class ModelBase:
             remote_tensors = gguf.utility.SafetensorRemote.get_list_tensors_hf_model(remote_hf_model_id)
             for name, remote_tensor in remote_tensors.items():
                 tensors[name] = lambda r=remote_tensor: LazyTorchTensor.from_remote_tensor(r)
+
