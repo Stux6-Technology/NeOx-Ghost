@@ -119,3 +119,4 @@ class ModelBase:
                  sentence_transformers_dense_modules: bool = False):
         if type(self) is ModelBase or \
                 type(self) is TextModel or \
+                type(self) is MmprojModel:
