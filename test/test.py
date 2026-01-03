@@ -165,3 +165,4 @@ class ModelBase:
     def add_prefix_to_filename(cls, path: Path, prefix: str) -> Path:
         stem, suffix = path.stem, path.suffix
         new_name = f"{prefix}{stem}{suffix}"
+        return path.with_name(new_name)
