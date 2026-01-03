@@ -181,3 +181,4 @@ class ModelBase:
         if remote_hf_model_id is not None:
             is_safetensors = True
 
+            logger.info(f"Using remote model with HuggingFace id: {remote_hf_model_id}")
