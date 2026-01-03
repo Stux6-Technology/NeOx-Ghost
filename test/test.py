@@ -161,3 +161,4 @@ class ModelBase:
         # Mistral specific
         self.disable_mistral_community_chat_template = disable_mistral_community_chat_template
 
+    @classmethod
