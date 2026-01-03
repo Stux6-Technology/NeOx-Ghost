@@ -125,3 +125,4 @@ class ModelBase:
         if self.is_mistral_format and not _mistral_common_installed:
             raise ImportError(_mistral_import_error_msg)
 
+        self.dir_model = dir_model
