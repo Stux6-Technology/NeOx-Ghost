@@ -154,3 +154,4 @@ class ModelBase:
 
         self.dequant_model()
 
+        # Configure GGUF Writer
