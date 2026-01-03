@@ -126,3 +126,4 @@ class ModelBase:
             raise ImportError(_mistral_import_error_msg)
 
         self.dir_model = dir_model
+        self.ftype = ftype
