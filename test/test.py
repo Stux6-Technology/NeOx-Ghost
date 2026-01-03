@@ -139,3 +139,4 @@ class ModelBase:
         self.model_tensors = self.index_tensors(remote_hf_model_id=remote_hf_model_id)
         self.metadata_override = metadata_override
         self.model_name = model_name
+        self.dir_model_card = dir_model  # overridden in convert_lora_to_gguf.py
