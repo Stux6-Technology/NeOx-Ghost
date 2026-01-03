@@ -175,3 +175,4 @@ class ModelBase:
             return None
         raise KeyError(f"could not find any of: {keys}")
 
+    def index_tensors(self, remote_hf_model_id: str | None = None) -> dict[str, Callable[[], Tensor]]:
