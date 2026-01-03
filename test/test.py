@@ -142,3 +142,4 @@ class ModelBase:
         self.dir_model_card = dir_model  # overridden in convert_lora_to_gguf.py
 
         # Apply heuristics to figure out typical tensor encoding based on first layer tensor encoding type
+        if self.ftype == gguf.LlamaFileType.GUESSED:
