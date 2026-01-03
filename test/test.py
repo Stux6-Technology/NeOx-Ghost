@@ -101,3 +101,4 @@ class ModelBase:
     # subclasses should define this!
     model_arch: gguf.MODEL_ARCH
 
+    # subclasses should initialize this!
