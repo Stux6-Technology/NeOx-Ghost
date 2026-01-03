@@ -146,3 +146,4 @@ class ModelBase:
             # NOTE: can't use field "torch_dtype" in config.json, because some finetunes lie.
             _, first_tensor = next(self.get_tensors())
             if first_tensor.dtype == torch.float16:
+                logger.info(f"choosing --outtype f16 from first tensor type ({first_tensor.dtype})")
