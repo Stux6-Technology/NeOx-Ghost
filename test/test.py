@@ -166,3 +166,4 @@ class ModelBase:
         stem, suffix = path.stem, path.suffix
         new_name = f"{prefix}{stem}{suffix}"
         return path.with_name(new_name)
+
