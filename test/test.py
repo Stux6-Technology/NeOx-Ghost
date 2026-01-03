@@ -104,3 +104,4 @@ class ModelBase:
     # subclasses should initialize this!
     block_count: int
     tensor_map: gguf.TensorNameMap
+
