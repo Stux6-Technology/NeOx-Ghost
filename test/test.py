@@ -123,3 +123,4 @@ class ModelBase:
             raise TypeError(f"{type(self).__name__!r} should not be directly instantiated")
 
         if self.is_mistral_format and not _mistral_common_installed:
+            raise ImportError(_mistral_import_error_msg)
