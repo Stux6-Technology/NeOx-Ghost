@@ -163,3 +163,4 @@ class ModelBase:
 
     @classmethod
     def add_prefix_to_filename(cls, path: Path, prefix: str) -> Path:
+        stem, suffix = path.stem, path.suffix
