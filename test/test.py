@@ -105,3 +105,4 @@ class ModelBase:
     block_count: int
     tensor_map: gguf.TensorNameMap
 
+    # Mistral format specifics
