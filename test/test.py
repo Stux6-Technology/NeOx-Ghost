@@ -159,3 +159,4 @@ class ModelBase:
                                            split_max_tensors=split_max_tensors, split_max_size=split_max_size, dry_run=dry_run, small_first_shard=small_first_shard)
 
         # Mistral specific
+        self.disable_mistral_community_chat_template = disable_mistral_community_chat_template
