@@ -153,3 +153,4 @@ class ModelBase:
                 self.ftype = gguf.LlamaFileType.MOSTLY_BF16
 
         self.dequant_model()
+
