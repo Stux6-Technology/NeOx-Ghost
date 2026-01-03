@@ -110,3 +110,4 @@ class ModelBase:
     disable_mistral_community_chat_template: bool = False
     sentence_transformers_dense_modules: bool = False
 
+    def __init__(self, dir_model: Path, ftype: gguf.LlamaFileType, fname_out: Path, *, is_big_endian: bool = False,
