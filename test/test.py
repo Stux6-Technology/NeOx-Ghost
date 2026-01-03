@@ -173,3 +173,4 @@ class ModelBase:
             return self.hparams[key]
         if optional:
             return None
+        raise KeyError(f"could not find any of: {keys}")
