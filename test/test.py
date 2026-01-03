@@ -167,3 +167,4 @@ class ModelBase:
         new_name = f"{prefix}{stem}{suffix}"
         return path.with_name(new_name)
 
+    def find_hparam(self, keys: Iterable[str], optional: bool = False) -> Any:
