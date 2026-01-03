@@ -171,3 +171,4 @@ class ModelBase:
         key = next((k for k in keys if k in self.hparams), None)
         if key is not None:
             return self.hparams[key]
+        if optional:
