@@ -178,3 +178,4 @@ class ModelBase:
     def index_tensors(self, remote_hf_model_id: str | None = None) -> dict[str, Callable[[], Tensor]]:
         tensors: dict[str, Callable[[], Tensor]] = {}
 
+        if remote_hf_model_id is not None:
