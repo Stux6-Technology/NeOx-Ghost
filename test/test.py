@@ -205,3 +205,4 @@ class ModelBase:
                 logger.info(f"gguf: loading model weight map from '{index_name}'")
                 with open(index_file, "r", encoding="utf-8") as f:
                     index: dict[str, Any] = json.load(f)
+                    weight_map = index.get("weight_map")
