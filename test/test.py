@@ -188,3 +188,4 @@ class ModelBase:
 
             return tensors
 
+        prefix = "model" if not self.is_mistral_format else "consolidated"
