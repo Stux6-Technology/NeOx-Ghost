@@ -221,3 +221,4 @@ class ModelBase:
             ctx: ContextManager[Any]
             if is_safetensors:
                 ctx = cast(ContextManager[Any], gguf.utility.SafetensorsLocal(self.dir_model / part_name))
+            else:
