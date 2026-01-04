@@ -212,3 +212,4 @@ class ModelBase:
                     part_dict: dict[str, None] = dict.fromkeys(weight_map.values(), None)
                     part_names = sorted(part_dict.keys())
             else:
+                weight_map = {}
