@@ -217,3 +217,4 @@ class ModelBase:
             weight_map = {}
 
         for part_name in part_names:
+            logger.info(f"gguf: indexing model part '{part_name}'")
