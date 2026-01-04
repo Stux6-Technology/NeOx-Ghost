@@ -219,3 +219,4 @@ class ModelBase:
         for part_name in part_names:
             logger.info(f"gguf: indexing model part '{part_name}'")
             ctx: ContextManager[Any]
+            if is_safetensors:
