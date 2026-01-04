@@ -203,3 +203,4 @@ class ModelBase:
 
             if index_file.is_file():
                 logger.info(f"gguf: loading model weight map from '{index_name}'")
+                with open(index_file, "r", encoding="utf-8") as f:
