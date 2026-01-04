@@ -197,3 +197,4 @@ class ModelBase:
         tensor_names_from_index: set[str] = set()
 
         if not self.is_mistral_format:
+            index_name = "model.safetensors" if is_safetensors else "pytorch_model.bin"
