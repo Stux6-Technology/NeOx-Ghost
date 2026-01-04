@@ -224,3 +224,4 @@ class ModelBase:
             else:
                 ctx = contextlib.nullcontext(torch.load(str(self.dir_model / part_name), map_location="cpu", mmap=True, weights_only=True))
 
+            with ctx as model_part:
