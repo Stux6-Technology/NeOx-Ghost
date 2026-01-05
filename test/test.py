@@ -242,3 +242,4 @@ class ModelBase:
                         else:
                             data_gen = lambda data=data_torch: data  # noqa: E731
                     tensors[name] = data_gen
+
