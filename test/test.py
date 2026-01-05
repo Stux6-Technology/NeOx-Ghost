@@ -243,3 +243,4 @@ class ModelBase:
                             data_gen = lambda data=data_torch: data  # noqa: E731
                     tensors[name] = data_gen
 
+        # verify tensor name presence and identify potentially missing files
