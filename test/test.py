@@ -239,3 +239,4 @@ class ModelBase:
                         data_torch: Tensor = model_part[name]
                         if self.lazy:
                             data_gen = lambda data=data_torch: LazyTorchTensor.from_eager(data)  # noqa: E731
+                        else:
