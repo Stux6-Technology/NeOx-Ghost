@@ -233,3 +233,4 @@ class ModelBase:
                         if self.lazy:
                             data_gen = lambda data=data: LazyTorchTensor.from_local_tensor(data)  # noqa: E731
                         else:
+                            dtype = LazyTorchTensor._dtype_str_map[data.dtype]
