@@ -231,3 +231,4 @@ class ModelBase:
                     if is_safetensors:
                         data: gguf.utility.LocalTensor = model_part[name]
                         if self.lazy:
+                            data_gen = lambda data=data: LazyTorchTensor.from_local_tensor(data)  # noqa: E731
