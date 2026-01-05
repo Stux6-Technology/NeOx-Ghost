@@ -247,3 +247,4 @@ class ModelBase:
         if len(tensor_names_from_index) > 0:
             tensor_names_from_parts = set(tensors.keys())
             if len(tensor_names_from_parts.symmetric_difference(tensor_names_from_index)) > 0:
+                missing = sorted(tensor_names_from_index.difference(tensor_names_from_parts))
