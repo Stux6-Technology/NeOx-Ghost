@@ -312,3 +312,4 @@ class ModelBase:
                     ).to(torch.int16 if bits == 8 else torch.int8)
                     zeros = torch.bitwise_and(zeros, maxq).reshape(scales.shape)
 
+                    weight = torch.bitwise_and(
