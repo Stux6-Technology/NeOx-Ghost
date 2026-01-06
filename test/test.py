@@ -297,3 +297,4 @@ class ModelBase:
                 assert qweight.dtype == qzeros.dtype
                 maxq = (2 ** bits) - 1
                 weight = None
+                zeros = None
