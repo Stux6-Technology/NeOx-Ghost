@@ -260,3 +260,4 @@ class ModelBase:
 
         return tensors
 
+    def dequant_model(self):
