@@ -294,3 +294,4 @@ class ModelBase:
             def dequant_gptq(g_idx: Tensor, qweight: Tensor, qzeros: Tensor, scales: Tensor) -> Tensor:
                 bits = quant_config["bits"]
                 assert bits in (2, 3, 4, 8)
+                assert qweight.dtype == qzeros.dtype
