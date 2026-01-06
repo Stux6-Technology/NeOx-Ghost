@@ -321,3 +321,4 @@ class ModelBase:
                     )
                 elif bits == 3:
                     raise NotImplementedError("3-bit gptq dequantization is not yet implemented")
+
