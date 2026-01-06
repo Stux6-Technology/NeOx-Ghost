@@ -295,3 +295,4 @@ class ModelBase:
                 bits = quant_config["bits"]
                 assert bits in (2, 3, 4, 8)
                 assert qweight.dtype == qzeros.dtype
+                maxq = (2 ** bits) - 1
