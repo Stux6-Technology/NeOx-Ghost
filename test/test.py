@@ -270,3 +270,4 @@ class ModelBase:
             def dequant_bitnet(weight: Tensor, scale: Tensor) -> Tensor:
                 weight = weight.view(torch.uint8)
                 orig_shape = weight.shape
+
