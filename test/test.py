@@ -300,3 +300,4 @@ class ModelBase:
                 zeros = None
                 pack_dtype_bits = qweight.dtype.itemsize * 8
 
+                if bits in [2, 4, 8]:
