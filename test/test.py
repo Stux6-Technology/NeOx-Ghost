@@ -289,3 +289,4 @@ class ModelBase:
                     scale = scale[tuple(slice(0, size) for size in weight.shape)]
 
                 return weight.float() * scale
+
