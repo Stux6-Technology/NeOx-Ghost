@@ -278,3 +278,4 @@ class ModelBase:
 
                 # The scale is inverted
                 return data / scale.float()
+
