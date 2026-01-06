@@ -258,3 +258,4 @@ class ModelBase:
                                      f"Missing tensors: {missing}\n"
                                      f"Extra tensors: {extra}")
 
+        return tensors
