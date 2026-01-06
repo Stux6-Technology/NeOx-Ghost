@@ -253,3 +253,4 @@ class ModelBase:
                 if len(extra) == 0 and len(missing_files) > 0:
                     raise ValueError(f"Missing or incomplete model files: {missing_files}\n"
                                      f"Missing tensors: {missing}")
+                else:
