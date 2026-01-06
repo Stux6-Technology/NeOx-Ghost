@@ -256,3 +256,4 @@ class ModelBase:
                 else:
                     raise ValueError("Mismatch between weight map and model parts for tensor names:\n"
                                      f"Missing tensors: {missing}\n"
+                                     f"Extra tensors: {extra}")
