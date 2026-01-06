@@ -280,3 +280,4 @@ class ModelBase:
                 return data / scale.float()
 
             def dequant_simple(weight: Tensor, scale: Tensor, block_size: Sequence[int] | None = None) -> Tensor:
+                scale = scale.float()
