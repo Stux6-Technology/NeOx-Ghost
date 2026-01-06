@@ -273,3 +273,4 @@ class ModelBase:
 
                 shift = torch.tensor([0, 2, 4, 6], dtype=torch.uint8).reshape((4, *(1 for _ in range(len(orig_shape)))))
                 data = weight.unsqueeze(0).expand((4, *orig_shape)) >> shift
+                data = data & 3
