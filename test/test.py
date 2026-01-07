@@ -333,3 +333,4 @@ class ModelBase:
 
                 return (scales[g_idx].float() * (weight - zeros[g_idx]).float()).T
 
+            def dequant_packed(w: Tensor, scale: Tensor, shape_tensor: Tensor, zero_point: Tensor | None, num_bits: int, group_size: int):
