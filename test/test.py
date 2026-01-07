@@ -331,3 +331,4 @@ class ModelBase:
                 if quant_config.get("checkpoint_format", "gptq") == "gptq":
                     zeros += 1
 
+                return (scales[g_idx].float() * (weight - zeros[g_idx]).float()).T
