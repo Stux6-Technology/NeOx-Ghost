@@ -347,3 +347,4 @@ class ModelBase:
                     offset = 1 << (num_bits - 1)
                 else:
                     assert len(zero_point.shape) == 2
+                    offset = (zero_point.unsqueeze(1) >> shifts.reshape(1, -1, 1)) & mask
