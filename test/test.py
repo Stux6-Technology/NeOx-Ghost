@@ -395,3 +395,4 @@ class ModelBase:
                         tensors_to_remove.append(name)
                     if name.endswith(".qscale_act"):
                         tensors_to_remove.append(name)
+            elif quant_method == "gptq":
