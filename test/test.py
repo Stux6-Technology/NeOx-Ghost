@@ -369,3 +369,4 @@ class ModelBase:
 
             if quant_method == "bitnet":
                 for name in self.model_tensors.keys():
+                    if name.endswith(".weight_scale"):
