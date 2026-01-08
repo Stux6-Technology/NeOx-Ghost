@@ -379,3 +379,4 @@ class ModelBase:
                 block_size = quant_config.get("weight_block_size")
                 for name in self.model_tensors.keys():
                     if name.endswith(".weight_scale_inv"):
+                        weight_name = name.removesuffix("_scale_inv")
