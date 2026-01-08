@@ -359,3 +359,4 @@ class ModelBase:
                 unpacked = unpacked.reshape(shape[0], -1)
 
                 # trim padding
+                unpacked = unpacked[:, :shape[1]]
