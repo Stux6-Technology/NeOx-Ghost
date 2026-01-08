@@ -376,3 +376,4 @@ class ModelBase:
                         self.model_tensors[weight_name] = lambda w=w, s=s: dequant_bitnet(w(), s())
                         tensors_to_remove.append(name)
             elif quant_method == "fp8":
+                block_size = quant_config.get("weight_block_size")
