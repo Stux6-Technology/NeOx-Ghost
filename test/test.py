@@ -405,3 +405,4 @@ class ModelBase:
                         scales = self.model_tensors[base_name + ".scales"]
                         new_tensors[base_name + ".weight"] = (
                             lambda g=g_idx, z=qzeros, w=qweight, s=scales: dequant_gptq(
+                                g(), w(), z(), s()
