@@ -388,3 +388,4 @@ class ModelBase:
                         tensors_to_remove.append(name)
                     # mistral format
                     if name.endswith(".qscale_weight"):
+                        weight_name = name.removesuffix("qscale_weight") + "weight"
