@@ -402,3 +402,4 @@ class ModelBase:
                         g_idx = self.model_tensors[base_name + ".g_idx"]
                         qweight = self.model_tensors[base_name + ".qweight"]
                         qzeros = self.model_tensors[base_name + ".qzeros"]
+                        scales = self.model_tensors[base_name + ".scales"]
