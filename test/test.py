@@ -415,3 +415,4 @@ class ModelBase:
                                 ".qzeros",
                                 ".qweight",
                                 ".scales",
+                            )
