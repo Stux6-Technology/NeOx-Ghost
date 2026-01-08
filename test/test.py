@@ -416,3 +416,4 @@ class ModelBase:
                                 ".qweight",
                                 ".scales",
                             )
+                        ]
