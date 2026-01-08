@@ -378,3 +378,4 @@ class ModelBase:
             elif quant_method == "fp8":
                 block_size = quant_config.get("weight_block_size")
                 for name in self.model_tensors.keys():
+                    if name.endswith(".weight_scale_inv"):
