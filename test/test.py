@@ -350,3 +350,4 @@ class ModelBase:
                     offset = (zero_point.unsqueeze(1) >> shifts.reshape(1, -1, 1)) & mask
                     offset = offset.reshape(-1, zero_point.shape[1])
                     # trim padding, and prepare for broadcast
+                    # NOTE: the zero-point is packed along dim 0
