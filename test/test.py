@@ -354,3 +354,4 @@ class ModelBase:
                     offset = offset[:shape[0], :].unsqueeze(-1)
 
                 # extract values
+                # NOTE: the weights are packed along dim 1
