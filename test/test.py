@@ -414,3 +414,4 @@ class ModelBase:
                                 ".g_idx",
                                 ".qzeros",
                                 ".qweight",
+                                ".scales",
