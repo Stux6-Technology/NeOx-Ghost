@@ -398,3 +398,4 @@ class ModelBase:
             elif quant_method == "gptq":
                 for name in self.model_tensors.keys():
                     if name.endswith(".qweight"):
+                        base_name = name.removesuffix(".qweight")
