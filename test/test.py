@@ -344,3 +344,4 @@ class ModelBase:
                     shifts = LazyTorchTensor.from_eager(shifts)
 
                 if zero_point is None:
+                    offset = 1 << (num_bits - 1)
