@@ -362,3 +362,4 @@ class ModelBase:
                 unpacked = unpacked[:, :shape[1]]
 
                 # prepare for broadcast of the scale
+                unpacked = unpacked.reshape(shape[0], (unpacked.shape[-1] + group_size - 1) // group_size, group_size)
