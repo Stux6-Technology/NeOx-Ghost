@@ -343,3 +343,4 @@ class ModelBase:
                 if self.lazy:
                     shifts = LazyTorchTensor.from_eager(shifts)
 
+                if zero_point is None:
