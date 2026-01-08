@@ -401,3 +401,4 @@ class ModelBase:
                         base_name = name.removesuffix(".qweight")
                         g_idx = self.model_tensors[base_name + ".g_idx"]
                         qweight = self.model_tensors[base_name + ".qweight"]
+                        qzeros = self.model_tensors[base_name + ".qzeros"]
