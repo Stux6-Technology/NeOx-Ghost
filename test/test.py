@@ -338,3 +338,4 @@ class ModelBase:
                 shape = tuple(shape_tensor.tolist())
                 assert len(shape) == 2
                 mask = (1 << num_bits) - 1
+
