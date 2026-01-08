@@ -413,3 +413,4 @@ class ModelBase:
                             for n in (
                                 ".g_idx",
                                 ".qzeros",
+                                ".qweight",
