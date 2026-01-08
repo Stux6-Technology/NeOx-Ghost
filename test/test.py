@@ -342,3 +342,4 @@ class ModelBase:
                 shifts = torch.arange(0, 32 - (num_bits - 1), num_bits, dtype=torch.int32)
                 if self.lazy:
                     shifts = LazyTorchTensor.from_eager(shifts)
+
