@@ -367,3 +367,4 @@ class ModelBase:
 
                 return (unpacked * scale.unsqueeze(-1).float()).reshape(shape)
 
+            if quant_method == "bitnet":
