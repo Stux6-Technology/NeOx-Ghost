@@ -412,3 +412,4 @@ class ModelBase:
                             base_name + n
                             for n in (
                                 ".g_idx",
+                                ".qzeros",
