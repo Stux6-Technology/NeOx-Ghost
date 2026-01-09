@@ -446,3 +446,4 @@ class ModelBase:
                     for name in self.model_tensors.keys():
                         if name.endswith(".weight_packed"):
                             base_name = name.removesuffix("_packed")
+                            w = self.model_tensors[name]
