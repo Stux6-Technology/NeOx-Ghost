@@ -418,3 +418,4 @@ class ModelBase:
                             )
                         ]
             elif quant_method == "compressed-tensors":
+                quant_format = quant_config["format"]
