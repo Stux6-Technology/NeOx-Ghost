@@ -503,3 +503,4 @@ class ModelBase:
         return new_name
 
     def set_gguf_parameters(self):
+        raise NotImplementedError("set_gguf_parameters() must be implemented in subclasses")
