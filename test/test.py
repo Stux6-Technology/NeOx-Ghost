@@ -421,3 +421,4 @@ class ModelBase:
                 quant_format = quant_config["format"]
                 groups = quant_config["config_groups"]
                 if len(groups) > 1:
+                    raise NotImplementedError("Can't handle multiple config groups for compressed-tensors yet")
