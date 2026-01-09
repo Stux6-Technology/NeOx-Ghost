@@ -493,3 +493,4 @@ class ModelBase:
             key_name = key_name.format(bid=bid)
         else:
             if bid is not None:
+                return False
