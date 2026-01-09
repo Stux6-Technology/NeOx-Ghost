@@ -434,3 +434,4 @@ class ModelBase:
                             weight_name = name.removesuffix("_scale")
                             w = self.model_tensors[weight_name]
                             s = self.model_tensors[name]
+                            self.model_tensors[weight_name] = lambda w=w, s=s: dequant_simple(w(), s(), block_size)
