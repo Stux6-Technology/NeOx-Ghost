@@ -475,3 +475,4 @@ class ModelBase:
             yield name, gen()
 
     def format_tensor_name(self, key: gguf.MODEL_TENSOR, bid: int | None = None, suffix: str = ".weight") -> str:
+        if key not in gguf.MODEL_TENSORS[self.model_arch]:
