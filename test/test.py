@@ -452,3 +452,4 @@ class ModelBase:
                             zero_point = self.model_tensors.get(base_name + "_zero_point", lambda: None)
                             new_tensors[base_name] = (
                                 lambda w=w, scale=scale, shape=shape, zero_point=zero_point: dequant_packed(
+                                    w(), scale(), shape(), zero_point(), num_bits, group_size,
