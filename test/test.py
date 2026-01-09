@@ -479,3 +479,4 @@ class ModelBase:
             raise ValueError(f"Missing {key!r} for MODEL_TENSORS of {self.model_arch!r}")
         name: str = gguf.TENSOR_NAMES[key]
         if "{bid}" in name:
+            assert bid is not None
