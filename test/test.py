@@ -462,3 +462,4 @@ class ModelBase:
                     raise NotImplementedError(f"Quant format {quant_format!r} for method {quant_method!r} is not yet supported")
             else:
                 raise NotImplementedError(f"Quant method is not yet supported: {quant_method!r}")
+
