@@ -501,3 +501,4 @@ class ModelBase:
         if new_name is None:
             raise ValueError(f"Can not map tensor {name!r}")
         return new_name
+
