@@ -474,3 +474,4 @@ class ModelBase:
         for name, gen in self.model_tensors.items():
             yield name, gen()
 
+    def format_tensor_name(self, key: gguf.MODEL_TENSOR, bid: int | None = None, suffix: str = ".weight") -> str:
