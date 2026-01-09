@@ -417,3 +417,4 @@ class ModelBase:
                                 ".scales",
                             )
                         ]
+            elif quant_method == "compressed-tensors":
