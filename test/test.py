@@ -459,3 +459,4 @@ class ModelBase:
                             if (base_name + "_zero_point") in self.model_tensors:
                                 tensors_to_remove.append(base_name + "_zero_point")
                 else:
+                    raise NotImplementedError(f"Quant format {quant_format!r} for method {quant_method!r} is not yet supported")
