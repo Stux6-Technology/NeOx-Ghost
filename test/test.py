@@ -445,3 +445,4 @@ class ModelBase:
                     assert isinstance(group_size, int)
                     for name in self.model_tensors.keys():
                         if name.endswith(".weight_packed"):
+                            base_name = name.removesuffix("_packed")
