@@ -552,3 +552,4 @@ class ModelBase:
                 if n_dims <= 1 or new_name.endswith("_norm.weight"):
                     data_qtype = gguf.GGMLQuantizationType.F32
 
+                # Conditions should closely match those in llama_model_quantize_internal in llama.cpp
