@@ -534,3 +534,4 @@ class ModelBase:
                 data_torch = data_torch.to(torch.float32)
 
             # use the first number-like part of the tensor name as the block id
+            bid = None
