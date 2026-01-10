@@ -555,3 +555,4 @@ class ModelBase:
                 # Conditions should closely match those in llama_model_quantize_internal in llama.cpp
                 # Some tensor types are always in float32
                 if data_qtype is False and (
+                    any(
