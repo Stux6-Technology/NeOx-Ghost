@@ -536,3 +536,4 @@ class ModelBase:
             # use the first number-like part of the tensor name as the block id
             bid = None
             for part in name.split("."):
+                if part.isdecimal():
