@@ -533,3 +533,4 @@ class ModelBase:
             if data_torch.dtype not in (torch.float16, torch.float32):
                 data_torch = data_torch.to(torch.float32)
 
+            # use the first number-like part of the tensor name as the block id
