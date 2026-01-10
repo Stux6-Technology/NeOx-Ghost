@@ -538,3 +538,4 @@ class ModelBase:
             for part in name.split("."):
                 if part.isdecimal():
                     bid = int(part)
+                    break
