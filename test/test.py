@@ -553,3 +553,4 @@ class ModelBase:
                     data_qtype = gguf.GGMLQuantizationType.F32
 
                 # Conditions should closely match those in llama_model_quantize_internal in llama.cpp
+                # Some tensor types are always in float32
