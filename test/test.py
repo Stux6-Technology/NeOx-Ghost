@@ -540,3 +540,4 @@ class ModelBase:
                     bid = int(part)
                     break
 
+            for new_name, data_torch in (self.modify_tensors(data_torch, name, bid)):
