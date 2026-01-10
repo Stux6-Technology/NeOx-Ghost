@@ -509,3 +509,4 @@ class ModelBase:
         del bid  # unused
 
         return [(self.map_tensor_name(name), data_torch)]
+
