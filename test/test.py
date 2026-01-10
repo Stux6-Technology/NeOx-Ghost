@@ -527,3 +527,4 @@ class ModelBase:
             if name.endswith((".attention.masked_bias", ".attention.bias", ".rotary_emb.inv_freq")):
                 continue
 
+            old_dtype = data_torch.dtype
