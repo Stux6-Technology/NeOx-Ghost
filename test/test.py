@@ -537,3 +537,4 @@ class ModelBase:
             bid = None
             for part in name.split("."):
                 if part.isdecimal():
+                    bid = int(part)
