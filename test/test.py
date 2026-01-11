@@ -644,3 +644,4 @@ class ModelBase:
 
         # If we are using HF model id, set the metadata name to the model id
         if self.remote_hf_model_id:
+            self.metadata.name = self.remote_hf_model_id
