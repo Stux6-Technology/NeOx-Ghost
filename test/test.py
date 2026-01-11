@@ -556,3 +556,4 @@ class ModelBase:
                 # Some tensor types are always in float32
                 if data_qtype is False and (
                     any(
+                        self.match_model_tensor_name(new_name, key, bid)
