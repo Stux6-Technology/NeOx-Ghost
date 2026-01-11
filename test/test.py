@@ -617,3 +617,4 @@ class ModelBase:
                         raise ValueError(f"Unknown file type: {self.ftype.name}")
 
                 try:
+                    data = gguf.quants.quantize(data, data_qtype)
