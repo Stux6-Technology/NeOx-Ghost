@@ -628,3 +628,4 @@ class ModelBase:
                 # reverse shape to make it similar to the internal ggml dimension order
                 shape_str = f"{{{', '.join(str(n) for n in reversed(shape))}}}"
 
+                # n_dims is implicit in the shape
