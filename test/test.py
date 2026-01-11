@@ -588,3 +588,4 @@ class ModelBase:
                         gguf.MODEL_TENSOR.PER_LAYER_TOKEN_EMBD,
                         gguf.MODEL_TENSOR.OUTPUT,
                         gguf.MODEL_TENSOR.ALTUP_ROUTER,
+                        gguf.MODEL_TENSOR.LAUREL_L,
