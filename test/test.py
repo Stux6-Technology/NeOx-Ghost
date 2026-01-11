@@ -595,3 +595,4 @@ class ModelBase:
                     if self.ftype in (
                         gguf.LlamaFileType.MOSTLY_TQ1_0,
                         gguf.LlamaFileType.MOSTLY_TQ2_0,
+                    ):
