@@ -599,3 +599,4 @@ class ModelBase:
                         # TODO: use Q4_K and Q6_K
                         data_qtype = gguf.GGMLQuantizationType.F16
 
+                # No override (data_qtype is False), or wants to be quantized (data_qtype is True)
