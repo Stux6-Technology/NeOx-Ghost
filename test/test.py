@@ -582,3 +582,4 @@ class ModelBase:
                     data_qtype = gguf.GGMLQuantizationType.F32
 
                 if data_qtype is False and any(
+                    self.match_model_tensor_name(new_name, key, bid)
