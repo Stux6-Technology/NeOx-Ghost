@@ -576,3 +576,4 @@ class ModelBase:
                             gguf.MODEL_TENSOR.ALTUP_CORRECT_COEF,
                             gguf.MODEL_TENSOR.ALTUP_PREDICT_COEF,
                         )
+                    )
