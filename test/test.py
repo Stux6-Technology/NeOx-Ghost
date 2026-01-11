@@ -642,3 +642,4 @@ class ModelBase:
 
         self.metadata = gguf.Metadata.load(self.metadata_override, self.dir_model_card, self.model_name, total_params)
 
+        # If we are using HF model id, set the metadata name to the model id
