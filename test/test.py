@@ -601,3 +601,4 @@ class ModelBase:
 
                 # No override (data_qtype is False), or wants to be quantized (data_qtype is True)
                 if isinstance(data_qtype, bool):
+                    if self.ftype == gguf.LlamaFileType.ALL_F32:
