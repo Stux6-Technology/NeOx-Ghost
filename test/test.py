@@ -607,3 +607,4 @@ class ModelBase:
                         data_qtype = gguf.GGMLQuantizationType.F16
                     elif self.ftype == gguf.LlamaFileType.MOSTLY_BF16:
                         data_qtype = gguf.GGMLQuantizationType.BF16
+                    elif self.ftype == gguf.LlamaFileType.MOSTLY_Q8_0:
