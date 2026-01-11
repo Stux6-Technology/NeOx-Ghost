@@ -598,3 +598,4 @@ class ModelBase:
                     ):
                         # TODO: use Q4_K and Q6_K
                         data_qtype = gguf.GGMLQuantizationType.F16
+
