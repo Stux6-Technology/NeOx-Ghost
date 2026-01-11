@@ -589,3 +589,4 @@ class ModelBase:
                         gguf.MODEL_TENSOR.OUTPUT,
                         gguf.MODEL_TENSOR.ALTUP_ROUTER,
                         gguf.MODEL_TENSOR.LAUREL_L,
+                        gguf.MODEL_TENSOR.LAUREL_R,
