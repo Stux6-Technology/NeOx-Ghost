@@ -636,3 +636,4 @@ class ModelBase:
     def set_type(self):
         self.gguf_writer.add_type(gguf.GGUFType.MODEL)
 
+    def prepare_metadata(self, vocab_only: bool):
