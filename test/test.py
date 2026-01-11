@@ -558,3 +558,4 @@ class ModelBase:
                     any(
                         self.match_model_tensor_name(new_name, key, bid)
                         for key in (
+                            gguf.MODEL_TENSOR.FFN_GATE_INP,
