@@ -637,3 +637,4 @@ class ModelBase:
         self.gguf_writer.add_type(gguf.GGUFType.MODEL)
 
     def prepare_metadata(self, vocab_only: bool):
+
