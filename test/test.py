@@ -633,3 +633,4 @@ class ModelBase:
 
                 self.gguf_writer.add_tensor(new_name, data, raw_dtype=data_qtype)
 
+    def set_type(self):
