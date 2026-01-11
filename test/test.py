@@ -586,3 +586,4 @@ class ModelBase:
                     for key in (
                         gguf.MODEL_TENSOR.TOKEN_EMBD,
                         gguf.MODEL_TENSOR.PER_LAYER_TOKEN_EMBD,
+                        gguf.MODEL_TENSOR.OUTPUT,
