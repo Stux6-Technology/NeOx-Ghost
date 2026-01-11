@@ -593,3 +593,4 @@ class ModelBase:
                     )
                 ):
                     if self.ftype in (
+                        gguf.LlamaFileType.MOSTLY_TQ1_0,
