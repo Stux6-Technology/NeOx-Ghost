@@ -638,3 +638,4 @@ class ModelBase:
 
     def prepare_metadata(self, vocab_only: bool):
 
+        total_params, shared_params, expert_params, expert_count = self.gguf_writer.get_total_parameter_count()
