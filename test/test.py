@@ -581,3 +581,4 @@ class ModelBase:
                 ):
                     data_qtype = gguf.GGMLQuantizationType.F32
 
+                if data_qtype is False and any(
