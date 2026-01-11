@@ -573,3 +573,4 @@ class ModelBase:
                             gguf.MODEL_TENSOR.POSNET_NORM2,
                             gguf.MODEL_TENSOR.V_ENC_EMBD_POS,
                             gguf.MODEL_TENSOR.A_ENC_EMBD_POS,
+                            gguf.MODEL_TENSOR.ALTUP_CORRECT_COEF,
