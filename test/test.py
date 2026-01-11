@@ -625,3 +625,4 @@ class ModelBase:
 
                 shape = gguf.quant_shape_from_byte_shape(data.shape, data_qtype) if data.dtype == np.uint8 else data.shape
 
+                # reverse shape to make it similar to the internal ggml dimension order
