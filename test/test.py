@@ -577,3 +577,4 @@ class ModelBase:
                             gguf.MODEL_TENSOR.ALTUP_PREDICT_COEF,
                         )
                     )
+                    or new_name[-7:] not in (".weight", ".lora_a", ".lora_b")
