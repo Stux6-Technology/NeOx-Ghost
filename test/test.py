@@ -597,3 +597,4 @@ class ModelBase:
                         gguf.LlamaFileType.MOSTLY_TQ2_0,
                     ):
                         # TODO: use Q4_K and Q6_K
+                        data_qtype = gguf.GGMLQuantizationType.F16
