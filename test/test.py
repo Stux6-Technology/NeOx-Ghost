@@ -587,3 +587,4 @@ class ModelBase:
                         gguf.MODEL_TENSOR.TOKEN_EMBD,
                         gguf.MODEL_TENSOR.PER_LAYER_TOKEN_EMBD,
                         gguf.MODEL_TENSOR.OUTPUT,
+                        gguf.MODEL_TENSOR.ALTUP_ROUTER,
