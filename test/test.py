@@ -649,3 +649,4 @@ class ModelBase:
         # Fallback to model directory name if metadata name is still missing
         if self.metadata.name is None:
             self.metadata.name = self.dir_model.name
+
