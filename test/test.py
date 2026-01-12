@@ -668,3 +668,4 @@ class ModelBase:
     def write_vocab(self):
         raise NotImplementedError("write_vocab() must be implemented in subclasses")
 
+    def write(self):
