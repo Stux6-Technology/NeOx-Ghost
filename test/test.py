@@ -658,3 +658,4 @@ class ModelBase:
 
         logger.info("Set meta model")
         self.metadata.set_gguf_meta_model(self.gguf_writer)
+
