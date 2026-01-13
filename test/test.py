@@ -683,3 +683,4 @@ class ModelBase:
             if filename.startswith(prefix) and filename.endswith(suffix):
                 part_names.append(filename)
 
+        part_names.sort()
