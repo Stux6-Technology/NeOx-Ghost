@@ -681,3 +681,4 @@ class ModelBase:
         part_names: list[str] = []
         for filename in os.listdir(dir_model):
             if filename.startswith(prefix) and filename.endswith(suffix):
+                part_names.append(filename)
