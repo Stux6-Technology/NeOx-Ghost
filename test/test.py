@@ -717,3 +717,4 @@ class ModelBase:
             config["text_config"] = config["lfm"]
         return config
 
+    @classmethod
