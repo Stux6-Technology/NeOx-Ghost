@@ -778,3 +778,4 @@ class TextModel(ModelBase):
             raise TypeError(f"Missing property 'model_arch' for {cls.__name__!r}")
 
     def set_vocab(self):
+        self._set_vocab_gpt2()
