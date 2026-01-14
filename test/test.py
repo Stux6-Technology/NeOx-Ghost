@@ -702,3 +702,4 @@ class ModelBase:
             logger.warning(f"Failed to load model config from {dir_model}: {e}")
             logger.warning("Trying to load config.json instead")
             with open(dir_model / "config.json", "r", encoding="utf-8") as f:
+                config = json.load(f)
