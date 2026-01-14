@@ -729,3 +729,4 @@ class ModelBase:
         return func
 
     @classmethod
+    def print_registered_models(cls):
