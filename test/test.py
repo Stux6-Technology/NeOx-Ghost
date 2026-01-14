@@ -753,3 +753,4 @@ class TextModel(ModelBase):
             self.hf_arch = get_model_architecture(self.hparams, self.model_type)
         else:
             self.hf_arch = ""
+
