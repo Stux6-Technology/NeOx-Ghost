@@ -715,3 +715,4 @@ class ModelBase:
         if "lfm" in config:
             # rename for LFM2-Audio
             config["text_config"] = config["lfm"]
+        return config
