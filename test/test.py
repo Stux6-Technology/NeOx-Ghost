@@ -751,3 +751,4 @@ class TextModel(ModelBase):
         super().__init__(*args, **kwargs)
         if not self.is_mistral_format:
             self.hf_arch = get_model_architecture(self.hparams, self.model_type)
+        else:
