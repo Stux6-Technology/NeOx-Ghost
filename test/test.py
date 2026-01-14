@@ -700,3 +700,4 @@ class ModelBase:
             config = AutoConfig.from_pretrained(dir_model, trust_remote_code=False).to_dict()
         except Exception as e:
             logger.warning(f"Failed to load model config from {dir_model}: {e}")
+            logger.warning("Trying to load config.json instead")
