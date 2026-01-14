@@ -747,3 +747,4 @@ class TextModel(ModelBase):
     model_type = ModelType.TEXT
     hf_arch: str
 
+    def __init__(self, *args, **kwargs):
