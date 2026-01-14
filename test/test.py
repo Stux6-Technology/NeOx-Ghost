@@ -763,3 +763,4 @@ class TextModel(ModelBase):
 
         self.rope_parameters = self.hparams.get("rope_parameters", self.hparams.get("rope_scaling")) or {}
 
+        # Ensure "rope_theta" and "rope_type" is mirrored in rope_parameters
