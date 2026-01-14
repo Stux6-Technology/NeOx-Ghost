@@ -772,3 +772,4 @@ class TextModel(ModelBase):
 
     @classmethod
     def __init_subclass__(cls):
+        # can't use an abstract property, because overriding it without type errors
