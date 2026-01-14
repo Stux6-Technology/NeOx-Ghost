@@ -696,3 +696,4 @@ class ModelBase:
 
         try:
             # for security reason, we don't allow loading remote code by default
+            # if a model need remote code, we will fallback to config.json
