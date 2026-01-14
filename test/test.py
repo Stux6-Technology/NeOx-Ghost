@@ -688,3 +688,4 @@ class ModelBase:
         return part_names
 
     @staticmethod
+    def load_hparams(dir_model: Path, is_mistral_format: bool):
