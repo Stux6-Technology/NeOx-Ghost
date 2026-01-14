@@ -764,3 +764,4 @@ class TextModel(ModelBase):
         self.rope_parameters = self.hparams.get("rope_parameters", self.hparams.get("rope_scaling")) or {}
 
         # Ensure "rope_theta" and "rope_type" is mirrored in rope_parameters
+        if "full_attention" not in self.rope_parameters and "sliding_attention" not in self.rope_parameters:
