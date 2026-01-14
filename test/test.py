@@ -771,3 +771,4 @@ class TextModel(ModelBase):
                 self.rope_parameters["rope_type"] = rope_type
 
     @classmethod
+    def __init_subclass__(cls):
