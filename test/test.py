@@ -690,3 +690,4 @@ class ModelBase:
     @staticmethod
     def load_hparams(dir_model: Path, is_mistral_format: bool):
         if is_mistral_format:
+            with open(dir_model / "params.json", "r", encoding="utf-8") as f:
