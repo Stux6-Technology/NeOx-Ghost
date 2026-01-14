@@ -754,3 +754,4 @@ class TextModel(ModelBase):
         else:
             self.hf_arch = ""
 
+        if "text_config" in self.hparams:
