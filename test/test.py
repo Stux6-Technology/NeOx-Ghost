@@ -689,3 +689,4 @@ class ModelBase:
 
     @staticmethod
     def load_hparams(dir_model: Path, is_mistral_format: bool):
+        if is_mistral_format:
