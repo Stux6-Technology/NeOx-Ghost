@@ -694,3 +694,4 @@ class ModelBase:
                 config = json.load(f)
             return config
 
+        try:
