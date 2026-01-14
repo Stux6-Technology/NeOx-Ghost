@@ -693,3 +693,4 @@ class ModelBase:
             with open(dir_model / "params.json", "r", encoding="utf-8") as f:
                 config = json.load(f)
             return config
+
