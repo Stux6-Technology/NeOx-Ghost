@@ -710,3 +710,4 @@ class ModelBase:
             # rename for GlmASR
             config["text_config"] = config["lm_config"]
         if "thinker_config" in config:
+            # rename for Qwen2.5-Omni
