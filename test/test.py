@@ -730,3 +730,4 @@ class ModelBase:
 
     @classmethod
     def print_registered_models(cls):
+        for model_type, model_classes in cls._model_classes.items():
