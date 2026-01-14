@@ -736,3 +736,4 @@ class ModelBase:
                 logger.error(f"  - {name}")
 
     @classmethod
+    def from_model_architecture(cls, arch: str, model_type = ModelType.TEXT) -> type[ModelBase]:
