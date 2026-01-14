@@ -721,3 +721,4 @@ class ModelBase:
     def register(cls, *names: str) -> Callable[[AnyModel], AnyModel]:
         assert names
 
+        def func(modelcls: AnyModel) -> AnyModel:
