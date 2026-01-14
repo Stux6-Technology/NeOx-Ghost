@@ -728,3 +728,4 @@ class ModelBase:
             return modelcls
         return func
 
+    @classmethod
