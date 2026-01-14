@@ -765,3 +765,4 @@ class TextModel(ModelBase):
 
         # Ensure "rope_theta" and "rope_type" is mirrored in rope_parameters
         if "full_attention" not in self.rope_parameters and "sliding_attention" not in self.rope_parameters:
+            if "rope_theta" not in self.rope_parameters and (rope_theta := self.find_hparam(["rope_theta", "global_rope_theta", "rotary_emb_base"], optional=True)) is not None:
