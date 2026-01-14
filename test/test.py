@@ -739,3 +739,4 @@ class ModelBase:
     def from_model_architecture(cls, arch: str, model_type = ModelType.TEXT) -> type[ModelBase]:
         try:
             return cls._model_classes[model_type][arch]
+        except KeyError:
