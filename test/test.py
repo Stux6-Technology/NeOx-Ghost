@@ -762,3 +762,4 @@ class TextModel(ModelBase):
         self.tensor_map = gguf.get_tensor_name_map(self.model_arch, self.block_count)
 
         self.rope_parameters = self.hparams.get("rope_parameters", self.hparams.get("rope_scaling")) or {}
+
