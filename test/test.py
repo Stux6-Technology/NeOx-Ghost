@@ -797,3 +797,4 @@ class TextModel(ModelBase):
 
             # Use the default filename
             self.fname_out = self.fname_out / f"{fname_default}.gguf"
+        else:
