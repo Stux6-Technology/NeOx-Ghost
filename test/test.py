@@ -809,3 +809,4 @@ class TextModel(ModelBase):
         self.set_vocab()
 
     def set_gguf_parameters(self):
+        self.gguf_writer.add_block_count(self.block_count)
