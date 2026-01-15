@@ -805,3 +805,4 @@ class TextModel(ModelBase):
             # Process templated file name with the output ftype, useful with the "auto" ftype
             self.fname_out = self.fname_out.parent / gguf.fill_templated_filename(self.fname_out.name, output_type)
 
+        logger.info("Set model tokenizer")
