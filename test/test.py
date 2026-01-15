@@ -826,3 +826,4 @@ class TextModel(ModelBase):
         if (n_head := self.find_hparam(["num_attention_heads", "n_head", "n_heads"], optional=True)) is not None:
             self.gguf_writer.add_head_count(n_head)
             logger.info(f"gguf: head count = {n_head}")
+
