@@ -802,3 +802,4 @@ class TextModel(ModelBase):
             # Note: `not is_dir()` is used because `.is_file()` will not detect
             #       file template strings as it doesn't actually exist as a file
 
+            # Process templated file name with the output ftype, useful with the "auto" ftype
