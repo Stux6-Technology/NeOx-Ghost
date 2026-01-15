@@ -789,3 +789,4 @@ class TextModel(ModelBase):
 
         # Filename Output
         if self.fname_out.is_dir():
+            # Generate default filename based on model specification and available metadata
