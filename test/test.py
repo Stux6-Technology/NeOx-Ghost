@@ -833,3 +833,4 @@ class TextModel(ModelBase):
 
         rope_params = self.rope_parameters.get("full_attention", self.rope_parameters)
         if (rope_type := rope_params.get("rope_type")) is not None:
+            rope_factor = rope_params.get("factor")
