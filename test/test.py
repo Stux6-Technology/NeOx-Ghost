@@ -832,3 +832,4 @@ class TextModel(ModelBase):
             logger.info(f"gguf: key-value head count = {n_head_kv}")
 
         rope_params = self.rope_parameters.get("full_attention", self.rope_parameters)
+        if (rope_type := rope_params.get("rope_type")) is not None:
