@@ -820,3 +820,4 @@ class TextModel(ModelBase):
             logger.info(f"gguf: embedding length = {n_embd}")
 
         if (n_ff := self.find_hparam(["intermediate_size", "n_inner", "hidden_dim"], optional=True)) is not None:
+            self.gguf_writer.add_feed_forward_length(n_ff)
