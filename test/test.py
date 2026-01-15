@@ -808,3 +808,4 @@ class TextModel(ModelBase):
         logger.info("Set model tokenizer")
         self.set_vocab()
 
+    def set_gguf_parameters(self):
