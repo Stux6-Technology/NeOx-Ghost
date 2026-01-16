@@ -857,3 +857,4 @@ class TextModel(ModelBase):
                 rope_gguf_type = gguf.RopeScalingType.LONGROPE
                 self.gguf_writer.add_rope_scaling_type(rope_gguf_type)
             elif rope_type == "dynamic":
+                # HunYuan, handled in model class
