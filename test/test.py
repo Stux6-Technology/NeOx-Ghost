@@ -874,3 +874,4 @@ class TextModel(ModelBase):
             self.gguf_writer.add_rope_dimension_sections(mrope_section[:4])
             logger.info(f"gguf: mrope sections: {mrope_section[:4]}")
 
+        if (rope_theta := rope_params.get("rope_theta")) is not None:
