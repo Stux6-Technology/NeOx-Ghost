@@ -837,3 +837,4 @@ class TextModel(ModelBase):
             rope_gguf_type = gguf.RopeScalingType.NONE
             if rope_type == "linear" and rope_factor is not None:
                 rope_gguf_type = gguf.RopeScalingType.LINEAR
+                self.gguf_writer.add_rope_scaling_type(rope_gguf_type)
