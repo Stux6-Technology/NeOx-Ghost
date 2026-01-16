@@ -896,3 +896,4 @@ class TextModel(ModelBase):
             self.gguf_writer.add_expert_group_used_count(n_group_used)
             logger.info(f"gguf: expert groups used count = {n_group_used}")
 
+        if (score_func := self.find_hparam(["score_function", "scoring_func", "score_func"], optional=True)) is not None:
