@@ -885,3 +885,4 @@ class TextModel(ModelBase):
             logger.info(f"gguf: layer norm epsilon = {f_norm_eps}")
         if (n_experts := self.hparams.get("num_local_experts")) is not None:
             self.gguf_writer.add_expert_count(n_experts)
+            logger.info(f"gguf: expert count = {n_experts}")
