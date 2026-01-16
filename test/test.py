@@ -903,3 +903,4 @@ class TextModel(ModelBase):
                 self.gguf_writer.add_expert_gating_func(gguf.ExpertGatingFuncType.SOFTMAX)
             else:
                 raise ValueError(f"Unsupported expert score gating function value: {score_func}")
+            logger.info(f"gguf: expert score gating function = {score_func}")
