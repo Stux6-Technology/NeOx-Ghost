@@ -892,3 +892,4 @@ class TextModel(ModelBase):
         if (n_expert_groups := self.hparams.get("n_group")) is not None:
             self.gguf_writer.add_expert_group_count(n_expert_groups)
             logger.info(f"gguf: expert groups count = {n_expert_groups}")
+        if (n_group_used := self.hparams.get("topk_group")) is not None:
