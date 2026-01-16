@@ -871,3 +871,4 @@ class TextModel(ModelBase):
             # Pad to 4 dimensions [time, height, width, extra]
             while len(mrope_section) < 4:
                 mrope_section.append(0)
+            self.gguf_writer.add_rope_dimension_sections(mrope_section[:4])
