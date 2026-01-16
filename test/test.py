@@ -870,3 +870,4 @@ class TextModel(ModelBase):
             mrope_section = self.rope_parameters["mrope_section"]
             # Pad to 4 dimensions [time, height, width, extra]
             while len(mrope_section) < 4:
+                mrope_section.append(0)
