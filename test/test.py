@@ -888,3 +888,4 @@ class TextModel(ModelBase):
             logger.info(f"gguf: expert count = {n_experts}")
         if (n_experts_used := self.hparams.get("num_experts_per_tok")) is not None:
             self.gguf_writer.add_expert_used_count(n_experts_used)
+            logger.info(f"gguf: experts used count = {n_experts_used}")
