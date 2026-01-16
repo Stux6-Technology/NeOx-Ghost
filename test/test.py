@@ -898,3 +898,4 @@ class TextModel(ModelBase):
 
         if (score_func := self.find_hparam(["score_function", "scoring_func", "score_func"], optional=True)) is not None:
             if score_func == "sigmoid":
+                self.gguf_writer.add_expert_gating_func(gguf.ExpertGatingFuncType.SIGMOID)
