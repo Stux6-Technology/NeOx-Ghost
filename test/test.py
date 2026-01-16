@@ -879,3 +879,4 @@ class TextModel(ModelBase):
             logger.info(f"gguf: rope theta = {rope_theta}")
         if (f_rms_eps := self.find_hparam(["rms_norm_eps", "norm_eps"], optional=True)) is not None:
             self.gguf_writer.add_layer_norm_rms_eps(f_rms_eps)
+            logger.info(f"gguf: rms norm epsilon = {f_rms_eps}")
