@@ -859,3 +859,4 @@ class TextModel(ModelBase):
             elif rope_type == "dynamic":
                 # HunYuan, handled in model class
                 pass
+            elif rope_type.lower() == "llama3":
