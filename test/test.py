@@ -850,3 +850,4 @@ class TextModel(ModelBase):
                     self.gguf_writer.add_rope_scaling_yarn_attn_factor(yarn_attn_factor)
                 if (yarn_beta_fast := rope_params.get("beta_fast")) is not None:
                     self.gguf_writer.add_rope_scaling_yarn_beta_fast(yarn_beta_fast)
+                if (yarn_beta_slow := rope_params.get("beta_slow")) is not None:
