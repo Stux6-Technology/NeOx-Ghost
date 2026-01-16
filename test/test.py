@@ -839,3 +839,4 @@ class TextModel(ModelBase):
                 rope_gguf_type = gguf.RopeScalingType.LINEAR
                 self.gguf_writer.add_rope_scaling_type(rope_gguf_type)
                 self.gguf_writer.add_rope_scaling_factor(rope_factor)
+            elif rope_type == "yarn" and rope_factor is not None:
