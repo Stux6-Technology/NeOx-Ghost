@@ -855,3 +855,4 @@ class TextModel(ModelBase):
                 # self.gguf_writer.add_rope_scaling_yarn_log_mul(rope_params["mscale_all_dim"])
             elif rope_type == "su" or rope_type == "longrope":
                 rope_gguf_type = gguf.RopeScalingType.LONGROPE
+                self.gguf_writer.add_rope_scaling_type(rope_gguf_type)
