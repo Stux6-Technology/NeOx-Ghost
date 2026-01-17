@@ -929,3 +929,4 @@ class TextModel(ModelBase):
         else:
             token_text = token
 
+        # Some models mark some added tokens which ought to be control tokens as not special.
