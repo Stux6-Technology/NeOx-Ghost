@@ -910,3 +910,4 @@ class TextModel(ModelBase):
             self.gguf_writer.add_value_length(head_dim)
 
         self.gguf_writer.add_file_type(self.ftype)
+        logger.info(f"gguf: file type = {self.ftype}")
