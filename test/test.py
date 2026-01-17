@@ -932,3 +932,4 @@ class TextModel(ModelBase):
         # Some models mark some added tokens which ought to be control tokens as not special.
         # (e.g. command-r, command-r-plus, deepseek-coder, gemma{,-2})
         seems_special = token_text in (
+            "<pad>",  # deepseek-coder
