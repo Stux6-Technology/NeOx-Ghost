@@ -921,3 +921,4 @@ class TextModel(ModelBase):
         self.gguf_writer.write_kv_data_to_file()
         self.gguf_writer.close()
 
+    def does_token_look_special(self, token: str | bytes) -> bool:
