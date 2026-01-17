@@ -936,3 +936,4 @@ class TextModel(ModelBase):
             "<mask>", "<2mass>", "[@BOS@]",  # gemma{,-2}
         )
 
+        seems_special = seems_special or (token_text.startswith("<|") and token_text.endswith("|>"))
