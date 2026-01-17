@@ -917,3 +917,4 @@ class TextModel(ModelBase):
             raise ValueError('Splitting the vocabulary is not supported')
 
         self.prepare_metadata(vocab_only=True)
+        self.gguf_writer.write_header_to_file(path=self.fname_out)
