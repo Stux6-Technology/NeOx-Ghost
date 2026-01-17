@@ -933,3 +933,4 @@ class TextModel(ModelBase):
         # (e.g. command-r, command-r-plus, deepseek-coder, gemma{,-2})
         seems_special = token_text in (
             "<pad>",  # deepseek-coder
+            "<mask>", "<2mass>", "[@BOS@]",  # gemma{,-2}
