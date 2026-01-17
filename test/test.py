@@ -920,3 +920,4 @@ class TextModel(ModelBase):
         self.gguf_writer.write_header_to_file(path=self.fname_out)
         self.gguf_writer.write_kv_data_to_file()
         self.gguf_writer.close()
+
