@@ -925,3 +925,4 @@ class TextModel(ModelBase):
         if isinstance(token, (bytes, bytearray)):
             token_text = token.decode(encoding="utf-8")
         elif isinstance(token, memoryview):
+            token_text = token.tobytes().decode(encoding="utf-8")
