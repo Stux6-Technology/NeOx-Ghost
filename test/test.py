@@ -1011,3 +1011,4 @@ class TextModel(ModelBase):
 
         # NOTE: if you get an error here, you need to update the convert_hf_to_gguf_update.py script
         #       or pull the latest version of the model from Huggingface
+        #       don't edit the hashes manually!
