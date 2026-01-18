@@ -1005,3 +1005,4 @@ class TextModel(ModelBase):
         chkhsh = sha256(str(chktok).encode()).hexdigest()
 
         logger.debug(f"chktok: {chktok}")
+        logger.debug(f"chkhsh: {chkhsh}")
