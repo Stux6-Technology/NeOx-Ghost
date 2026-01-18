@@ -987,3 +987,4 @@ class TextModel(ModelBase):
                     toktypes.append(gguf.TokenType.NORMAL)
                 tokens.append(token)
 
+        return tokens, toktypes, tokpre
