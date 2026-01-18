@@ -1003,3 +1003,4 @@ class TextModel(ModelBase):
 
         chktok = tokenizer.encode(chktxt)
         chkhsh = sha256(str(chktok).encode()).hexdigest()
+
