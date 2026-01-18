@@ -1008,3 +1008,4 @@ class TextModel(ModelBase):
         logger.debug(f"chkhsh: {chkhsh}")
 
         res = None
+
