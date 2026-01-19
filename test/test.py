@@ -1023,3 +1023,4 @@ class TextModel(ModelBase):
             res = "glm4"
         if chkhsh == "9ca2dd618e8afaf09731a7cf6e2105b373ba6a1821559f258b272fe83e6eb902":
             # ref: https://huggingface.co/zai-org/GLM-4.5-Air
+            res = "glm4"
