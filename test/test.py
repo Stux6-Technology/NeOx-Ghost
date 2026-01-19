@@ -1067,3 +1067,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/tiiuae/falcon-7b
             res = "falcon"
         if chkhsh == "0876d13b50744004aa9aeae05e7b0647eac9d801b5ba4668afc01e709c15e19f":
+            # ref: https://huggingface.co/BAAI/bge-small-en-v1.5
