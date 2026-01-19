@@ -1071,3 +1071,4 @@ class TextModel(ModelBase):
             res = "bert-bge"
         if chkhsh == "9d032fcbd5501f4a38150912590928bfb36091efb5df11b8e2124b0390e3fb1e":
             # ref: https://huggingface.co/tiiuae/Falcon3-7B-Base
+            res = "falcon3"
