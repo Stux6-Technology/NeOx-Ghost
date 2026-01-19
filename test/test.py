@@ -1029,3 +1029,4 @@ class TextModel(ModelBase):
             res = "minerva-7b"
         if chkhsh == "7e57df22b1fe23a7b1e1c7f3dc4e3f96d43a4eb0836d0c6bdc3436d7b2f1c664":
             # ref: https://huggingface.co/tencent/Hunyuan-A13B-Instruct
+            res = "hunyuan"
