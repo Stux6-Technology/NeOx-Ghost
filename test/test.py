@@ -1052,3 +1052,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/Qwen/Qwen3-Embedding-0.6B
             res = "qwen2"
         if chkhsh == "66b8d4e19ab16c3bfd89bce5d785fb7e0155e8648708a1f42077cb9fe002c273":
+            # ref: https://huggingface.co/alvarobartt/grok-2-tokenizer
