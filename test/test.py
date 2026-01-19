@@ -1017,3 +1017,4 @@ class TextModel(ModelBase):
             res = "chatglm-bpe"
         if chkhsh == "81d72c7348a9f0ebe86f23298d37debe0a5e71149e29bd283904c02262b27516":
             # ref: https://huggingface.co/THUDM/glm-4-9b-chat
+            res = "chatglm-bpe"
