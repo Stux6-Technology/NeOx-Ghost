@@ -1026,3 +1026,4 @@ class TextModel(ModelBase):
             res = "glm4"
         if chkhsh == "1431a23e583c97432bc230bff598d103ddb5a1f89960c8f1d1051aaa944d0b35":
             # ref: https://huggingface.co/sapienzanlp/Minerva-7B-base-v1.0
+            res = "minerva-7b"
