@@ -1035,3 +1035,4 @@ class TextModel(ModelBase):
             res = "hunyuan-dense"
         if chkhsh == "a6b57017d60e6edb4d88ecc2845188e0eb333a70357e45dcc9b53964a73bbae6":
             # ref: https://huggingface.co/tiiuae/Falcon-H1-0.5B-Base
+            res = "falcon-h1"
