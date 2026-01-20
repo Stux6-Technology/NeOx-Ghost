@@ -1128,3 +1128,4 @@ class TextModel(ModelBase):
             res = "viking"
         if chkhsh == "b53802fb28e26d645c3a310b34bfe07da813026ec7c7716883404d5e0f8b1901":
             # ref: https://huggingface.co/core42/jais-13b
+            res = "jais"
