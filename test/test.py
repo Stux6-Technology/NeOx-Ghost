@@ -1097,3 +1097,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/Qwen/Qwen1.5-7B
             res = "qwen2"
         if chkhsh == "b6dc8df998e1cfbdc4eac8243701a65afe638679230920b50d6f17d81c098166":
+            # ref: https://huggingface.co/allenai/OLMo-1.7-7B-hf
