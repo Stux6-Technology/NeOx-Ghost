@@ -1112,3 +1112,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/jinaai/jina-embeddings-v2-base-es
             res = "jina-v2-es"
         if chkhsh == "27949a2493fc4a9f53f5b9b029c82689cfbe5d3a1929bb25e043089e28466de6":
+            # ref: https://huggingface.co/jinaai/jina-embeddings-v2-base-de
