@@ -1141,3 +1141,4 @@ class TextModel(ModelBase):
         if chkhsh == "3c30d3ad1d6b64202cd222813e7736c2db6e1bd6d67197090fc1211fbc612ae7":
             # ref: https://huggingface.co/bigscience/bloom
             res = "bloom"
+        if chkhsh == "bc01ce58980e1db43859146dc51b1758b3b88729b217a74792e9f8d43e479d21":
