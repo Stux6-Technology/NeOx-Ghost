@@ -1089,3 +1089,4 @@ class TextModel(ModelBase):
             res = "stablelm2"
         if chkhsh == "6221ad2852e85ce96f791f476e0b390cf9b474c9e3d1362f53a24a06dc8220ff":
             # ref: https://huggingface.co/smallcloudai/Refact-1_6-base
+            res = "refact"
