@@ -1079,3 +1079,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/mosaicml/mpt-7b
             res = "mpt"
         if chkhsh == "35d91631860c815f952d711435f48d356ebac988362536bed955d43bfa436e34":
+            # ref: https://huggingface.co/bigcode/starcoder2-3b
