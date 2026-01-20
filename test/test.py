@@ -1083,3 +1083,4 @@ class TextModel(ModelBase):
             res = "starcoder"
         if chkhsh == "3ce83efda5659b07b1ad37ca97ca5797ea4285d9b9ab0dc679e4a720c9da7454":
             # ref: https://huggingface.co/openai-community/gpt2
+            res = "gpt-2"
