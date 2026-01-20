@@ -1091,3 +1091,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/smallcloudai/Refact-1_6-base
             res = "refact"
         if chkhsh == "9c2227e4dd922002fb81bde4fc02b0483ca4f12911410dee2255e4987644e3f8":
+            # ref: https://huggingface.co/CohereForAI/c4ai-command-r-v01
