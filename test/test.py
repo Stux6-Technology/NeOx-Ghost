@@ -1085,3 +1085,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/openai-community/gpt2
             res = "gpt-2"
         if chkhsh == "32d85c31273f8019248f2559fed492d929ea28b17e51d81d3bb36fff23ca72b3":
+            # ref: https://huggingface.co/stabilityai/stablelm-2-zephyr-1_6b
