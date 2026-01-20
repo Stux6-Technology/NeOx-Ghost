@@ -1134,3 +1134,4 @@ class TextModel(ModelBase):
             res = "codeshell"
         if chkhsh == "63b97e4253352e6f357cc59ea5b583e3a680eaeaf2632188c2b952de2588485e":
             # ref: https://huggingface.co/mistralai/Mistral-Nemo-Base-2407
+            res = "tekken"
