@@ -1142,3 +1142,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/bigscience/bloom
             res = "bloom"
         if chkhsh == "bc01ce58980e1db43859146dc51b1758b3b88729b217a74792e9f8d43e479d21":
+            # ref: https://huggingface.co/TurkuNLP/gpt3-finnish-small
