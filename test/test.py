@@ -1126,3 +1126,4 @@ class TextModel(ModelBase):
         if chkhsh == "7fc505bd3104ca1083b150b17d088b59534ede9bde81f0dd2090967d7fe52cee":
             # ref: https://huggingface.co/LumiOpen/Viking-7B
             res = "viking"
+        if chkhsh == "b53802fb28e26d645c3a310b34bfe07da813026ec7c7716883404d5e0f8b1901":
