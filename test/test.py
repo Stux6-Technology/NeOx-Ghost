@@ -1118,3 +1118,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/abacusai/Smaug-Llama-3-70B-Instruct
             res = "smaug-bpe"
         if chkhsh == "c7ea5862a53e4272c035c8238367063e2b270d51faa48c0f09e9d5b54746c360":
+            # ref: https://huggingface.co/LumiOpen/Poro-34B-chat
