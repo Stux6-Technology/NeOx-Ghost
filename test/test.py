@@ -1090,3 +1090,4 @@ class TextModel(ModelBase):
         if chkhsh == "6221ad2852e85ce96f791f476e0b390cf9b474c9e3d1362f53a24a06dc8220ff":
             # ref: https://huggingface.co/smallcloudai/Refact-1_6-base
             res = "refact"
+        if chkhsh == "9c2227e4dd922002fb81bde4fc02b0483ca4f12911410dee2255e4987644e3f8":
