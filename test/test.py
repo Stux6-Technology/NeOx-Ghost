@@ -1131,3 +1131,4 @@ class TextModel(ModelBase):
             res = "jais"
         if chkhsh == "7b3e7548e4308f52a76e8229e4e6cc831195d0d1df43aed21ac6c93da05fec5f":
             # ref: https://huggingface.co/WisdomShell/CodeShell-7B
+            res = "codeshell"
