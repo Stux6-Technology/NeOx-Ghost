@@ -1228,3 +1228,4 @@ class TextModel(ModelBase):
             logger.warning("**          - the model has not been added to convert_hf_to_gguf_update.py yet")
             logger.warning("**          - the pre-tokenization config has changed upstream")
             logger.warning("**          Check your model files and convert_hf_to_gguf_update.py and update them accordingly.")
+            logger.warning("** ref:     https://github.com/ggml-org/llama.cpp/pull/6920")
