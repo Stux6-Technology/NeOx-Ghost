@@ -1154,3 +1154,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/facebook/chameleon-7b
             res = "chameleon"
         if chkhsh == "8b5a93ed704057481f240da0be7e7dca721d7f8f4755263b6807227a2cbeae65":
+            # ref: https://huggingface.co/sentence-transformers/stsb-roberta-base
