@@ -1196,3 +1196,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/K-intelligence/Midm-2.0-Base-Instruct
             res = "midm-2.0"
         if chkhsh == "169bf0296a13c4d9b7672313f749eb36501d931022de052aad6e36f2bf34dd51":
+            # ref: https://huggingface.co/LiquidAI/LFM2-Tokenizer
