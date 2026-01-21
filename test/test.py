@@ -1222,3 +1222,4 @@ class TextModel(ModelBase):
 
         if res is None:
             logger.warning("\n")
+            logger.warning("**************************************************************************************")
