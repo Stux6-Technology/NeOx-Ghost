@@ -1158,3 +1158,4 @@ class TextModel(ModelBase):
             res = "roberta-bpe"
         if chkhsh == "ad851be1dba641f2e3711822f816db2c265f788b37c63b4e1aeacb9ee92de8eb":
             # ref: https://huggingface.co/ai-sage/GigaChat-20B-A3B-instruct
+            res = "gigachat"
