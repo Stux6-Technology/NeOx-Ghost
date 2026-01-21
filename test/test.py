@@ -1156,3 +1156,4 @@ class TextModel(ModelBase):
         if chkhsh == "8b5a93ed704057481f240da0be7e7dca721d7f8f4755263b6807227a2cbeae65":
             # ref: https://huggingface.co/sentence-transformers/stsb-roberta-base
             res = "roberta-bpe"
+        if chkhsh == "ad851be1dba641f2e3711822f816db2c265f788b37c63b4e1aeacb9ee92de8eb":
