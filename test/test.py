@@ -1220,3 +1220,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/KORMo-Team/KORMo-tokenizer
             res = "kormo"
 
+        if res is None:
