@@ -1239,3 +1239,4 @@ class TextModel(ModelBase):
         logger.debug(f"chkhsh: {chkhsh}")
 
         return res
+        # Marker: End get_vocab_base_pre
