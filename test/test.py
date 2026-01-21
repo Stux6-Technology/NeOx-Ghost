@@ -1194,3 +1194,4 @@ class TextModel(ModelBase):
             res = "a.x-4.0"
         if chkhsh == "f6791d196f87ce6b56a7d234be618e0d58f8cda3549416635b2bebcd22cd95c4":
             # ref: https://huggingface.co/K-intelligence/Midm-2.0-Base-Instruct
+            res = "midm-2.0"
