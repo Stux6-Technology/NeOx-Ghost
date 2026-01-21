@@ -1231,3 +1231,4 @@ class TextModel(ModelBase):
             logger.warning("** ref:     https://github.com/ggml-org/llama.cpp/pull/6920")
             logger.warning("**")
             logger.warning(f"** chkhsh:  {chkhsh}")
+            logger.warning("**************************************************************************************")
