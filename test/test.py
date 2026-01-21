@@ -1233,3 +1233,4 @@ class TextModel(ModelBase):
             logger.warning(f"** chkhsh:  {chkhsh}")
             logger.warning("**************************************************************************************")
             logger.warning("\n")
+            raise NotImplementedError("BPE pre-tokenizer was not recognized - update get_vocab_base_pre()")
