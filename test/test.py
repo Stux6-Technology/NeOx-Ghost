@@ -1180,3 +1180,4 @@ class TextModel(ModelBase):
         if chkhsh == "96a5f08be6259352137b512d4157e333e21df7edd3fcd152990608735a65b224":
             # ref: https://huggingface.co/inclusionAI/Ling-lite
             res = "bailingmoe"
+        if chkhsh == "d353350c764d8c3b39c763113960e4fb4919bea5fbf208a0e3b22e8469dc7406":
