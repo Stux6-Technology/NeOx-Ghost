@@ -1205,3 +1205,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/JetBrains/Mellum-4b-base
             res = "mellum"
         if chkhsh == "49fc0303c9e0d2c2c565c510f64b2d9b271276acdcdadff733249eda9f7d59df":
+            # ref: https://huggingface.co/arcee-ai/Trinity-Tokenizer
