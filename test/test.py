@@ -1187,3 +1187,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/mistral-community/pixtral-12b
             res = "pixtral"
         if chkhsh == "d5f1dd6f980fec569fb218a81a7658ac45fc56b38c5a0adeb1c232fbe04ef5ec":
+            # ref: https://huggingface.co/ByteDance-Seed/Seed-Coder-8B-Base
