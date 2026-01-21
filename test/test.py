@@ -1173,3 +1173,4 @@ class TextModel(ModelBase):
             res = "gpt-4o"
         if chkhsh == "7dec86086fcc38b66b7bc1575a160ae21cf705be7718b9d5598190d7c12db76f":
             # ref: https://huggingface.co/UW/OLMo2-8B-SuperBPE-t180k
+            res = "superbpe"
