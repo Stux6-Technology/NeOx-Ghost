@@ -1163,3 +1163,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/Infinigence/Megrez-3B-Instruct
             res = "megrez"
         if chkhsh == "877081d19cf6996e2c4ff0e1236341e9b7bde288f5311a56a937f0afbbb3aeb5":
+            # ref: https://huggingface.co/deepseek-ai/DeepSeek-V3
