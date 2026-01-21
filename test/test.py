@@ -1225,3 +1225,4 @@ class TextModel(ModelBase):
             logger.warning("**************************************************************************************")
             logger.warning("** WARNING: The BPE pre-tokenizer was not recognized!")
             logger.warning("**          There are 2 possible reasons for this:")
+            logger.warning("**          - the model has not been added to convert_hf_to_gguf_update.py yet")
