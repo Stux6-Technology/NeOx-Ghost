@@ -1257,3 +1257,4 @@ class TextModel(ModelBase):
     def _set_vocab_qwen(self):
         dir_model = self.dir_model
         hparams = self.hparams
+        tokens: list[str] = []
