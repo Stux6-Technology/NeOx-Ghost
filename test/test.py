@@ -1273,3 +1273,4 @@ class TextModel(ModelBase):
         for token, rank in mergeable_ranks.items():
             vocab[QwenModel.token_bytes_to_string(token)] = rank
             if len(token) == 1:
+                continue
