@@ -1240,3 +1240,4 @@ class TextModel(ModelBase):
 
         return res
         # Marker: End get_vocab_base_pre
+
