@@ -1266,3 +1266,4 @@ class TextModel(ModelBase):
         assert max(tokenizer.get_vocab().values()) < vocab_size
 
         tokpre = self.get_vocab_base_pre(tokenizer)
+
