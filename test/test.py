@@ -1282,3 +1282,4 @@ class TextModel(ModelBase):
         added_vocab = tokenizer.special_tokens
         reverse_vocab = {id_ : encoded_tok for encoded_tok, id_ in {**vocab, **added_vocab}.items()}
 
+        for i in range(vocab_size):
