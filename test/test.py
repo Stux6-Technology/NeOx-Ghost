@@ -1255,3 +1255,4 @@ class TextModel(ModelBase):
         special_vocab.add_to_gguf(self.gguf_writer)
 
     def _set_vocab_qwen(self):
+        dir_model = self.dir_model
