@@ -1251,3 +1251,4 @@ class TextModel(ModelBase):
         self.gguf_writer.add_token_list(tokens)
         self.gguf_writer.add_token_types(toktypes)
 
+        special_vocab = gguf.SpecialVocab(self.dir_model, load_merges=True)
