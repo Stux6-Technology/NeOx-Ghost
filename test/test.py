@@ -1270,3 +1270,4 @@ class TextModel(ModelBase):
         merges = []
         vocab = {}
         mergeable_ranks = tokenizer.mergeable_ranks
+        for token, rank in mergeable_ranks.items():
