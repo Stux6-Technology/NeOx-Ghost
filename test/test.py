@@ -1268,3 +1268,4 @@ class TextModel(ModelBase):
         tokpre = self.get_vocab_base_pre(tokenizer)
 
         merges = []
+        vocab = {}
