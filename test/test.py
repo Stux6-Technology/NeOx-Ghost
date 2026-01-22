@@ -1293,3 +1293,4 @@ class TextModel(ModelBase):
                 tokens.append(reverse_vocab[i])
                 toktypes.append(gguf.TokenType.NORMAL)
 
+        self.gguf_writer.add_tokenizer_model("gpt2")
