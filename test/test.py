@@ -1269,3 +1269,4 @@ class TextModel(ModelBase):
 
         merges = []
         vocab = {}
+        mergeable_ranks = tokenizer.mergeable_ranks
