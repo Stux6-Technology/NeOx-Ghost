@@ -1259,3 +1259,4 @@ class TextModel(ModelBase):
         hparams = self.hparams
         tokens: list[str] = []
         toktypes: list[int] = []
+
