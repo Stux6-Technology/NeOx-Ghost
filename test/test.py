@@ -1364,3 +1364,4 @@ class TextModel(ModelBase):
             toktypes[token_id] = toktype
 
         added_tokens_file = self.dir_model / 'added_tokens.json'
+        if added_tokens_file.is_file():
