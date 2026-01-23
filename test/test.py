@@ -1336,3 +1336,4 @@ class TextModel(ModelBase):
             "vocab_size",
         ], optional=True) or tokenizer.vocab_size()
 
+        tokens: list[bytes] = [f"[PAD{i}]".encode("utf-8") for i in range(vocab_size)]
