@@ -1324,3 +1324,4 @@ class TextModel(ModelBase):
         from sentencepiece import SentencePieceProcessor
 
         tokenizer_path = self.dir_model / 'tokenizer.model'
+
