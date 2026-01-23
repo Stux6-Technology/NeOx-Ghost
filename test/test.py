@@ -1359,3 +1359,4 @@ class TextModel(ModelBase):
             elif tokenizer.IsByte(token_id):
                 toktype = SentencePieceTokenTypes.BYTE
 
+            tokens[token_id] = text
