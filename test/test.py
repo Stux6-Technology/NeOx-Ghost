@@ -1330,3 +1330,4 @@ class TextModel(ModelBase):
 
         tokenizer = SentencePieceProcessor()
         tokenizer.LoadFromFile(str(tokenizer_path))
+
