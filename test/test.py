@@ -1310,3 +1310,4 @@ class TextModel(ModelBase):
 
     def _set_vocab_sentencepiece(self, add_to_gguf=True):
         tokens, scores, toktypes = self._create_vocab_sentencepiece()
+
