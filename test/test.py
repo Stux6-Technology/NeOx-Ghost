@@ -1337,3 +1337,4 @@ class TextModel(ModelBase):
         ], optional=True) or tokenizer.vocab_size()
 
         tokens: list[bytes] = [f"[PAD{i}]".encode("utf-8") for i in range(vocab_size)]
+        scores: list[float] = [-10000.0] * vocab_size
