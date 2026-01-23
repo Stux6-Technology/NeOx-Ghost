@@ -1322,3 +1322,4 @@ class TextModel(ModelBase):
 
     def _create_vocab_sentencepiece(self):
         from sentencepiece import SentencePieceProcessor
+
