@@ -1340,3 +1340,4 @@ class TextModel(ModelBase):
         scores: list[float] = [-10000.0] * vocab_size
         toktypes: list[int] = [SentencePieceTokenTypes.UNUSED] * vocab_size
 
+        for token_id in range(tokenizer.vocab_size()):
