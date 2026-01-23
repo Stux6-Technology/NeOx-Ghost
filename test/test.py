@@ -1331,3 +1331,4 @@ class TextModel(ModelBase):
         tokenizer = SentencePieceProcessor()
         tokenizer.LoadFromFile(str(tokenizer_path))
 
+        vocab_size = self.find_hparam([
