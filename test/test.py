@@ -1355,3 +1355,4 @@ class TextModel(ModelBase):
             elif tokenizer.IsControl(token_id):
                 toktype = SentencePieceTokenTypes.CONTROL
             elif tokenizer.IsUnused(token_id):
+                toktype = SentencePieceTokenTypes.UNUSED
