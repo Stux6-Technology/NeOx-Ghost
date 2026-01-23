@@ -1304,3 +1304,4 @@ class TextModel(ModelBase):
         if len(special_vocab.special_token_ids) == 0:
             special_vocab._set_special_token("bos", tokenizer.special_tokens["<|endoftext|>"])
             special_vocab._set_special_token("eos", tokenizer.special_tokens["<|endoftext|>"])
+        # this one is usually not in config.json anyway
