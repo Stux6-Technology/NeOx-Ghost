@@ -1341,3 +1341,4 @@ class TextModel(ModelBase):
         toktypes: list[int] = [SentencePieceTokenTypes.UNUSED] * vocab_size
 
         for token_id in range(tokenizer.vocab_size()):
+            if token_id >= vocab_size:
