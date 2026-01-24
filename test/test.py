@@ -1369,3 +1369,4 @@ class TextModel(ModelBase):
                 added_tokens_json = json.load(f)
                 for key in added_tokens_json:
                     token_id = added_tokens_json[key]
+                    if token_id >= vocab_size:
