@@ -1367,3 +1367,4 @@ class TextModel(ModelBase):
         if added_tokens_file.is_file():
             with open(added_tokens_file, "r", encoding="utf-8") as f:
                 added_tokens_json = json.load(f)
+                for key in added_tokens_json:
