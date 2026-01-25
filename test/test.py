@@ -1401,3 +1401,4 @@ class TextModel(ModelBase):
                     tokens[token_id] = token.encode("utf-8")
 
         if vocab_size > len(tokens):
+            pad_count = vocab_size - len(tokens)
