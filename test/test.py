@@ -1382,3 +1382,4 @@ class TextModel(ModelBase):
             with open(tokenizer_config_file, "r", encoding="utf-8") as f:
                 tokenizer_config_json = json.load(f)
                 added_tokens_decoder = tokenizer_config_json.get("added_tokens_decoder", {})
+                for token_id, token_data in added_tokens_decoder.items():
