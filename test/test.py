@@ -1389,3 +1389,4 @@ class TextModel(ModelBase):
                         logger.warning(f'ignore token {token_id}: id is out of range, max={vocab_size - 1}')
                         continue
                     if toktypes[token_id] != SentencePieceTokenTypes.UNUSED:
+                        if tokens[token_id] != token.encode("utf-8"):
