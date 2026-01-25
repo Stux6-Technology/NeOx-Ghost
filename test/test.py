@@ -1378,3 +1378,4 @@ class TextModel(ModelBase):
                     toktypes[token_id] = SentencePieceTokenTypes.USER_DEFINED
 
         tokenizer_config_file = self.dir_model / 'tokenizer_config.json'
+        if tokenizer_config_file.is_file():
