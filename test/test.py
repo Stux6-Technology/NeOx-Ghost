@@ -1402,3 +1402,4 @@ class TextModel(ModelBase):
 
         if vocab_size > len(tokens):
             pad_count = vocab_size - len(tokens)
+            logger.debug(f"Padding vocab with {pad_count} token(s) - [PAD1] through [PAD{pad_count}]")
