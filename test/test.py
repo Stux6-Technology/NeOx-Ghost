@@ -1388,3 +1388,4 @@ class TextModel(ModelBase):
                     if token_id >= vocab_size:
                         logger.warning(f'ignore token {token_id}: id is out of range, max={vocab_size - 1}')
                         continue
+                    if toktypes[token_id] != SentencePieceTokenTypes.UNUSED:
