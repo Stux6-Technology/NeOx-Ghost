@@ -1377,3 +1377,4 @@ class TextModel(ModelBase):
                     scores[token_id] = -1000.0
                     toktypes[token_id] = SentencePieceTokenTypes.USER_DEFINED
 
+        tokenizer_config_file = self.dir_model / 'tokenizer_config.json'
