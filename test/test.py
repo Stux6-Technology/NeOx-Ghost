@@ -1397,3 +1397,4 @@ class TextModel(ModelBase):
                         token = token.replace(b"\xe2\x96\x81".decode("utf-8"), " ")  # pre-normalize user-defined spaces
                         toktypes[token_id] = SentencePieceTokenTypes.USER_DEFINED
 
+                    scores[token_id] = -1000.0
