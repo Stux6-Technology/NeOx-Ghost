@@ -1420,3 +1420,4 @@ class TextModel(ModelBase):
             tokens.append(text)
             scores.append(score)
             toktypes.append(toktype)
+
