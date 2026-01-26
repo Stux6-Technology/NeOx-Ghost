@@ -1423,3 +1423,4 @@ class TextModel(ModelBase):
 
         assert len(tokens) == vocab.vocab_size
 
+        self.gguf_writer.add_tokenizer_model("llama")
