@@ -1409,3 +1409,4 @@ class TextModel(ModelBase):
                 toktypes.append(SentencePieceTokenTypes.UNUSED)
 
         return tokens, scores, toktypes
+
