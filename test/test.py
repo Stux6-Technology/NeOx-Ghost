@@ -1414,3 +1414,4 @@ class TextModel(ModelBase):
         vocab = gguf.LlamaHfVocab(self.dir_model)
         tokens = []
         scores = []
+        toktypes = []
