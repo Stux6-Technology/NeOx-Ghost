@@ -1408,3 +1408,4 @@ class TextModel(ModelBase):
                 scores.append(-1000.0)
                 toktypes.append(SentencePieceTokenTypes.UNUSED)
 
+        return tokens, scores, toktypes
