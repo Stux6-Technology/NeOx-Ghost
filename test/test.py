@@ -1429,3 +1429,4 @@ class TextModel(ModelBase):
         self.gguf_writer.add_token_scores(scores)
         self.gguf_writer.add_token_types(toktypes)
 
+        special_vocab = gguf.SpecialVocab(self.dir_model, n_vocab=len(tokens))
