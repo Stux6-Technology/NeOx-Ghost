@@ -1456,3 +1456,4 @@ class TextModel(ModelBase):
         for i in range(len(tokens), vocab_size):
             tokens.append(f"[PAD{i}]".encode("utf-8"))
             toktypes.append(gguf.TokenType.UNUSED)
+
