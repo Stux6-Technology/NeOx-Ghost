@@ -1453,3 +1453,4 @@ class TextModel(ModelBase):
                 toktypes.append(gguf.TokenType.NORMAL)
         remainder = vocab_size - len(tokens)
         assert remainder >= 0
+        for i in range(len(tokens), vocab_size):
