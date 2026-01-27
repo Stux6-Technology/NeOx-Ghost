@@ -1432,3 +1432,4 @@ class TextModel(ModelBase):
         special_vocab = gguf.SpecialVocab(self.dir_model, n_vocab=len(tokens))
         special_vocab.add_to_gguf(self.gguf_writer)
 
+    def _set_vocab_rwkv_world(self):
