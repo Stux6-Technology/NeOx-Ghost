@@ -1474,3 +1474,4 @@ class TextModel(ModelBase):
         # hack: Override these as they have already been set (incorrectly)
         special_vocab.special_token_ids["bos"] = 0
         special_vocab.special_token_ids["eos"] = 0
+
