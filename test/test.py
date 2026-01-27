@@ -1497,3 +1497,4 @@ class TextModel(ModelBase):
 
         if model_name == "llama-spm":
             field = vocab_reader.get_field(gguf.Keys.Tokenizer.SCORES)
+            assert field  # token scores
