@@ -1473,3 +1473,4 @@ class TextModel(ModelBase):
         special_vocab._set_special_token("eot", 261)
         # hack: Override these as they have already been set (incorrectly)
         special_vocab.special_token_ids["bos"] = 0
+        special_vocab.special_token_ids["eos"] = 0
