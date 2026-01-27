@@ -1496,3 +1496,4 @@ class TextModel(ModelBase):
         self.gguf_writer.add_token_list([bytes(field.parts[i]) for i in field.data][:vocab_size])
 
         if model_name == "llama-spm":
+            field = vocab_reader.get_field(gguf.Keys.Tokenizer.SCORES)
