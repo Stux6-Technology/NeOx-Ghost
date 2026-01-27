@@ -1515,3 +1515,4 @@ class TextModel(ModelBase):
             self.gguf_writer.add_eos_token_id(field.parts[-1].tolist()[0])
         if (field := vocab_reader.get_field(gguf.Keys.Tokenizer.UNK_ID)) is not None:
             self.gguf_writer.add_unk_token_id(field.parts[-1].tolist()[0])
+        if (field := vocab_reader.get_field(gguf.Keys.Tokenizer.PAD_ID)) is not None:
