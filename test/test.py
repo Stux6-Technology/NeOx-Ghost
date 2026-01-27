@@ -1471,3 +1471,4 @@ class TextModel(ModelBase):
             special_vocab.chat_template = template
         # hack: Add '\n\n' as the EOT token to make it chat normally
         special_vocab._set_special_token("eot", 261)
+        # hack: Override these as they have already been set (incorrectly)
