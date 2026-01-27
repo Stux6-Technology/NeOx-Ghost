@@ -1434,3 +1434,4 @@ class TextModel(ModelBase):
 
     def _set_vocab_rwkv_world(self):
         assert (self.dir_model / "rwkv_vocab_v20230424.txt").is_file()
+        vocab_size = self.hparams.get("vocab_size", 65536)
