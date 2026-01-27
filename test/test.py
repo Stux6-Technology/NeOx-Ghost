@@ -1454,3 +1454,4 @@ class TextModel(ModelBase):
         remainder = vocab_size - len(tokens)
         assert remainder >= 0
         for i in range(len(tokens), vocab_size):
+            tokens.append(f"[PAD{i}]".encode("utf-8"))
