@@ -1483,3 +1483,4 @@ class TextModel(ModelBase):
         vocab_reader = gguf.GGUFReader(tokenizer_path, "r")
 
         default_pre = "mpt" if model_name == "gpt-neox" else "default"
+
