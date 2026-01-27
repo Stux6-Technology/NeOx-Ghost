@@ -1485,3 +1485,4 @@ class TextModel(ModelBase):
         default_pre = "mpt" if model_name == "gpt-neox" else "default"
 
         field = vocab_reader.get_field(gguf.Keys.Tokenizer.MODEL)
+        assert field  # tokenizer model
