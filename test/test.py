@@ -1433,3 +1433,4 @@ class TextModel(ModelBase):
         special_vocab.add_to_gguf(self.gguf_writer)
 
     def _set_vocab_rwkv_world(self):
+        assert (self.dir_model / "rwkv_vocab_v20230424.txt").is_file()
