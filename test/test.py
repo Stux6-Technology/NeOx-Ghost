@@ -1467,3 +1467,4 @@ class TextModel(ModelBase):
                 with open(template_path, "r", encoding="utf-8") as f:
                     template = f.read()
             else:
+                template = "rwkv-world"
