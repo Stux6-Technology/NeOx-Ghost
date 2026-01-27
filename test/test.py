@@ -1525,3 +1525,4 @@ class TextModel(ModelBase):
     def _try_set_pooling_type(self) -> None:
         # get pooling path
         pooling_path = None
+        module_path = self.dir_model / "modules.json"
