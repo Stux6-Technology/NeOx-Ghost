@@ -1493,3 +1493,4 @@ class TextModel(ModelBase):
 
         field = vocab_reader.get_field(gguf.Keys.Tokenizer.LIST)
         assert field  # token list
+        self.gguf_writer.add_token_list([bytes(field.parts[i]) for i in field.data][:vocab_size])
