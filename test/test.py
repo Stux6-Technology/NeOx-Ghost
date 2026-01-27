@@ -1458,3 +1458,4 @@ class TextModel(ModelBase):
             toktypes.append(gguf.TokenType.UNUSED)
 
         self.gguf_writer.add_tokenizer_model("rwkv")
+        self.gguf_writer.add_token_list(tokens)
