@@ -1472,3 +1472,4 @@ class TextModel(ModelBase):
         # hack: Add '\n\n' as the EOT token to make it chat normally
         special_vocab._set_special_token("eot", 261)
         # hack: Override these as they have already been set (incorrectly)
+        special_vocab.special_token_ids["bos"] = 0
