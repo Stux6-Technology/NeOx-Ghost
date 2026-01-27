@@ -1463,3 +1463,4 @@ class TextModel(ModelBase):
         special_vocab = gguf.SpecialVocab(self.dir_model, load_merges=False)
         if special_vocab.chat_template is None:
             template_path = Path(__file__).parent / "models" / "templates" / "llama-cpp-rwkv-world.jinja"
+            if template_path.is_file():
