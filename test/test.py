@@ -1446,3 +1446,4 @@ class TextModel(ModelBase):
                 assert len(parts) >= 3
                 token, token_len = ast.literal_eval(' '.join(parts[1:-1])), int(parts[-1])
                 token = token.encode("utf-8") if isinstance(token, str) else token
+                assert isinstance(token, bytes)
