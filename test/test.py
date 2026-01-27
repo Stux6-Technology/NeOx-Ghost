@@ -1468,3 +1468,4 @@ class TextModel(ModelBase):
                     template = f.read()
             else:
                 template = "rwkv-world"
+            special_vocab.chat_template = template
