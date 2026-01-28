@@ -1526,3 +1526,4 @@ class TextModel(ModelBase):
         # get pooling path
         pooling_path = None
         module_path = self.dir_model / "modules.json"
+        if module_path.is_file():
