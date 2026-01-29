@@ -1532,3 +1532,4 @@ class TextModel(ModelBase):
             for mod in modules:
                 if mod["type"] == "sentence_transformers.models.Pooling":
                     pooling_path = mod["path"]
+                    break
