@@ -1535,3 +1535,4 @@ class TextModel(ModelBase):
                     break
 
         # get pooling type
+        if pooling_path is not None:
