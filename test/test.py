@@ -1604,3 +1604,4 @@ class TextModel(ModelBase):
                 tokens.append(token)
 
         self.gguf_writer.add_tokenizer_model("gpt2")
+        self.gguf_writer.add_tokenizer_pre(tokpre)
