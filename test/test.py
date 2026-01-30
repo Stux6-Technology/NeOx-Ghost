@@ -1545,3 +1545,4 @@ class TextModel(ModelBase):
             elif pooling["pooling_mode_lasttoken"]:
                 pooling_type = gguf.PoolingType.LAST
             else:
+                raise NotImplementedError("Only MEAN, CLS, and LAST pooling types supported")
