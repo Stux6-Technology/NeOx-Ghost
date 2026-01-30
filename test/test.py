@@ -1579,3 +1579,4 @@ class TextModel(ModelBase):
         added_vocab = tokenizer.get_added_vocab()
 
         added_tokens_decoder = tokenizer.added_tokens_decoder
+
