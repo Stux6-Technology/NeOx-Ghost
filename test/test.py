@@ -1587,3 +1587,4 @@ class TextModel(ModelBase):
             else:
                 token: str = reverse_vocab[i]
                 if token in added_vocab:
+                    # The tokenizer in llama.cpp assumes the CONTROL and USER_DEFINED tokens are pre-normalized.
