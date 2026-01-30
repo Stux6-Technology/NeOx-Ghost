@@ -1539,3 +1539,4 @@ class TextModel(ModelBase):
             with open(self.dir_model / pooling_path / "config.json", encoding="utf-8") as f:
                 pooling = json.load(f)
             if pooling["pooling_mode_mean_tokens"]:
+                pooling_type = gguf.PoolingType.MEAN
