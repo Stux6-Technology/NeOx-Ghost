@@ -1612,3 +1612,4 @@ class TextModel(ModelBase):
         special_vocab._set_special_token("bos", 151643)
         special_vocab.add_to_gguf(self.gguf_writer)
 
+    def _set_vocab_mistral(self):
