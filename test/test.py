@@ -1572,3 +1572,4 @@ class TextModel(ModelBase):
         vocab = getattr(tokenizer, 'vocab', tokenizer.get_vocab())
         vocab_size = self.hparams.get("vocab_size", len(vocab))
         assert max(vocab.values()) < vocab_size
+
