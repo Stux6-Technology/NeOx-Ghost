@@ -1549,3 +1549,4 @@ class TextModel(ModelBase):
             self.gguf_writer.add_pooling_type(pooling_type)
 
     def _set_vocab_glmedge(self):
+        from transformers import AutoTokenizer
