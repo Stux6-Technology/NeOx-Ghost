@@ -1589,3 +1589,4 @@ class TextModel(ModelBase):
                 if token in added_vocab:
                     # The tokenizer in llama.cpp assumes the CONTROL and USER_DEFINED tokens are pre-normalized.
                     # To avoid unexpected issues - we make sure to normalize non-normalized tokens
+                    if not added_tokens_decoder[i].normalized:
