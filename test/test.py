@@ -1550,3 +1550,4 @@ class TextModel(ModelBase):
 
     def _set_vocab_glmedge(self):
         from transformers import AutoTokenizer
+        tokenizer = AutoTokenizer.from_pretrained(self.dir_model)
