@@ -1647,3 +1647,4 @@ class TextModel(ModelBase):
         )
 
         self.gguf_writer.add_bos_token_id(vocab.bos_id)
+        self.gguf_writer.add_eos_token_id(vocab.eos_id)
