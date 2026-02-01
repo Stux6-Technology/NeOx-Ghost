@@ -1625,3 +1625,4 @@ class TextModel(ModelBase):
 
         tokens = []
         scores = []
+        toktypes = []
