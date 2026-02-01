@@ -1651,3 +1651,4 @@ class TextModel(ModelBase):
         self.gguf_writer.add_unk_token_id(vocab.unk_id)
         self.gguf_writer.add_pad_token_id(vocab.pad_id)
 
+        self.gguf_writer.add_token_list(tokens)
