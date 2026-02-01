@@ -1656,3 +1656,4 @@ class TextModel(ModelBase):
         self.gguf_writer.add_token_types(toktypes)
         self.gguf_writer.add_vocab_size(vocab.vocab_size)
 
+        self.gguf_writer.add_add_bos_token(True)
