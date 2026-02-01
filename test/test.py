@@ -1618,3 +1618,4 @@ class TextModel(ModelBase):
 
         vocab = MistralVocab(self.dir_model)
         logger.info(
+            f"Converting tokenizer {vocab.tokenizer_type} of size {vocab.vocab_size}."
