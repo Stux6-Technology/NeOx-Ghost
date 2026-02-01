@@ -1623,3 +1623,4 @@ class TextModel(ModelBase):
 
         self.gguf_writer.add_tokenizer_model(vocab.gguf_tokenizer_model)
 
+        tokens = []
