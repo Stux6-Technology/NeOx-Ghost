@@ -1695,3 +1695,4 @@ class MmprojModel(ModelBase):
     n_block_keys = ["n_layers", "num_hidden_layers", "n_layer", "num_layers", "depth", "encoder_layers"]
 
     has_vision_encoder: bool = True # by default
+    has_audio_encoder: bool = False
