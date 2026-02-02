@@ -1668,3 +1668,4 @@ class TextModel(ModelBase):
 
             with open(local_template_file_path, "r", encoding="utf-8") as f:
                 template = f.read()
+        elif not self.is_mistral_format or not self.disable_mistral_community_chat_template:
