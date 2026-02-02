@@ -1698,3 +1698,4 @@ class MmprojModel(ModelBase):
     has_audio_encoder: bool = False
 
     # for models having multiple encoders, we need to separate their hparams
+    hparams_vision: dict[str, Any] | None = None
