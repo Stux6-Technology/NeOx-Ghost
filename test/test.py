@@ -1715,3 +1715,4 @@ class MmprojModel(ModelBase):
                 self.hparams["audio_config"] = {}
             text_config = {**self.hparams, **self.hparams["text_config"]}
             self.n_embd_text = text_config.get("hidden_size", text_config.get("n_embd", 0))
+        else:
