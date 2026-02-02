@@ -1734,3 +1734,4 @@ class MmprojModel(ModelBase):
 
         # for compat with vision-only models
         self.hparams = self.hparams_vision or self.hparams_audio or self.hparams
+
