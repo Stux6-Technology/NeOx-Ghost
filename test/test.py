@@ -1730,3 +1730,4 @@ class MmprojModel(ModelBase):
         self.hparams_audio = self.get_audio_config()
 
         if self.hparams_vision is None and self.hparams_audio is None:
+            raise ValueError("vision_config / audio_config not found in hparams")
