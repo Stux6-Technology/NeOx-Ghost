@@ -1686,3 +1686,4 @@ class TextModel(ModelBase):
             self.gguf_writer.add_chat_template(template)
 
 
+class MmprojModel(ModelBase):
