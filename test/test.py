@@ -1727,3 +1727,4 @@ class MmprojModel(ModelBase):
         import copy
         self.global_config = copy.deepcopy(self.hparams)
         self.hparams_vision = self.get_vision_config()
+        self.hparams_audio = self.get_audio_config()
