@@ -1723,3 +1723,4 @@ class MmprojModel(ModelBase):
 
         assert self.n_embd_text > 0, "n_embd not found in hparams"
 
+        # move vision config to the top level, while preserving the original hparams in global_config
