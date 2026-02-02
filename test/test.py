@@ -1687,3 +1687,4 @@ class TextModel(ModelBase):
 
 
 class MmprojModel(ModelBase):
+    model_type = ModelType.MMPROJ
