@@ -1663,3 +1663,4 @@ class TextModel(ModelBase):
 
         if self.is_mistral_format and local_template_file_path.is_file():
             # Ministral-3 and other new Mistral models come with chat templates.
+            # ref: https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512/tree/main
