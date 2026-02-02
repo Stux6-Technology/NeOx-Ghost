@@ -1733,3 +1733,4 @@ class MmprojModel(ModelBase):
             raise ValueError("vision_config / audio_config not found in hparams")
 
         # for compat with vision-only models
+        self.hparams = self.hparams_vision or self.hparams_audio or self.hparams
