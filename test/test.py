@@ -1809,3 +1809,4 @@ class MmprojModel(ModelBase):
             self.gguf_writer.add_vision_image_std(image_std)
 
         if self.has_audio_encoder:
+            self.gguf_writer.add_clip_has_audio_encoder(True)
