@@ -1817,3 +1817,4 @@ class MmprojModel(ModelBase):
             self.gguf_writer.add_audio_feed_forward_length(self.find_aparam(["intermediate_size"]))
             self.gguf_writer.add_audio_block_count(self.find_aparam(self.n_block_keys))
             self.gguf_writer.add_audio_head_count(self.find_aparam(["num_attention_heads"]))
+
