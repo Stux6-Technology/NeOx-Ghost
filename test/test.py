@@ -1820,3 +1820,4 @@ class MmprojModel(ModelBase):
 
         if not self.has_vision_encoder and not self.has_audio_encoder:
             raise ValueError("MmprojModel must have either vision or audio encoder")
+
