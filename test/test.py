@@ -1834,3 +1834,4 @@ class MmprojModel(ModelBase):
 
     def _find_param(self, obj: dict[str, Any], keys: Iterable[str], optional: bool = False) -> Any:
         key = next((k for k in keys if k in obj), None)
+        if key is not None:
