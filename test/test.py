@@ -1791,3 +1791,4 @@ class MmprojModel(ModelBase):
         if self.has_vision_encoder:
             self.gguf_writer.add_clip_has_vision_encoder(True)
             self.gguf_writer.add_vision_projection_dim(self.n_embd_text)
+
