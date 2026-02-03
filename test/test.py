@@ -1793,3 +1793,4 @@ class MmprojModel(ModelBase):
             self.gguf_writer.add_vision_projection_dim(self.n_embd_text)
 
             # vision config
+            self.image_size = self.find_vparam(["image_size"])
