@@ -1823,3 +1823,4 @@ class MmprojModel(ModelBase):
 
     def write_vocab(self):
         raise ValueError("MmprojModel does not support vocab writing")
+
