@@ -1814,3 +1814,4 @@ class MmprojModel(ModelBase):
 
             # audio config
             self.gguf_writer.add_audio_embedding_length(self.find_aparam(["hidden_size"]))
+            self.gguf_writer.add_audio_feed_forward_length(self.find_aparam(["intermediate_size"]))
