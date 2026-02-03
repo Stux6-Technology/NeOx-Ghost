@@ -1772,3 +1772,4 @@ class MmprojModel(ModelBase):
         return self.global_config.get(mm_config_key)
 
     def set_type(self):
+        self.gguf_writer.add_type(gguf.GGUFType.MMPROJ)
