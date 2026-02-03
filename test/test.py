@@ -1807,3 +1807,4 @@ class MmprojModel(ModelBase):
 
             self.gguf_writer.add_vision_image_mean(image_mean)
             self.gguf_writer.add_vision_image_std(image_std)
+
