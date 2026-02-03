@@ -1751,3 +1751,4 @@ class MmprojModel(ModelBase):
 
         # prefer processor_config.json if possible
         processor_config_path = self.dir_model / "processor_config.json"
+        if processor_config_path.is_file():
