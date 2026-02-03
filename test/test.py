@@ -1832,3 +1832,4 @@ class MmprojModel(ModelBase):
         assert self.hparams_audio is not None
         return self._find_param(self.hparams_audio, keys, optional)
 
+    def _find_param(self, obj: dict[str, Any], keys: Iterable[str], optional: bool = False) -> Any:
