@@ -1825,3 +1825,4 @@ class MmprojModel(ModelBase):
         raise ValueError("MmprojModel does not support vocab writing")
 
     def find_vparam(self, keys: Iterable[str], optional: bool = False) -> Any:
+        assert self.hparams_vision is not None
