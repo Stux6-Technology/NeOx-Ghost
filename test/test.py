@@ -1822,3 +1822,4 @@ class MmprojModel(ModelBase):
             raise ValueError("MmprojModel must have either vision or audio encoder")
 
     def write_vocab(self):
+        raise ValueError("MmprojModel does not support vocab writing")
