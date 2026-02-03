@@ -1789,3 +1789,4 @@ class MmprojModel(ModelBase):
         self.gguf_writer.add_file_type(self.ftype)
 
         if self.has_vision_encoder:
+            self.gguf_writer.add_clip_has_vision_encoder(True)
