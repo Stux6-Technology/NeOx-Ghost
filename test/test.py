@@ -1785,3 +1785,4 @@ class MmprojModel(ModelBase):
         else:
             self.fname_out = self.fname_out.parent / gguf.fill_templated_filename(self.fname_out.name, output_type)
 
+    def set_gguf_parameters(self):
