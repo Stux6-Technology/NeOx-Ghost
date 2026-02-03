@@ -1782,3 +1782,4 @@ class MmprojModel(ModelBase):
         if self.fname_out.is_dir():
             fname_default: str = gguf.naming_convention(self.metadata.name, self.metadata.basename, self.metadata.finetune, self.metadata.version, size_label=None, output_type=output_type, model_type=None)
             self.fname_out = self.fname_out / f"mmproj-{fname_default}.gguf"
+        else:
