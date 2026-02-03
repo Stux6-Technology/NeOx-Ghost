@@ -1833,3 +1833,4 @@ class MmprojModel(ModelBase):
         return self._find_param(self.hparams_audio, keys, optional)
 
     def _find_param(self, obj: dict[str, Any], keys: Iterable[str], optional: bool = False) -> Any:
+        key = next((k for k in keys if k in obj), None)
