@@ -1758,3 +1758,4 @@ class MmprojModel(ModelBase):
                 if "image_processor" in cfg:
                     cfg = {
                         **cfg,
+                        **cfg["image_processor"],
