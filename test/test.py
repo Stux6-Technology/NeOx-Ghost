@@ -1746,3 +1746,4 @@ class MmprojModel(ModelBase):
         # prefer preprocessor_config.json if possible
         preprocessor_config_path = self.dir_model / "preprocessor_config.json"
         if preprocessor_config_path.is_file():
+            with open(preprocessor_config_path, "r", encoding="utf-8") as f:
