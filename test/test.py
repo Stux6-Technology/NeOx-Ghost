@@ -1813,3 +1813,4 @@ class MmprojModel(ModelBase):
             self.gguf_writer.add_audio_projection_dim(self.n_embd_text)
 
             # audio config
+            self.gguf_writer.add_audio_embedding_length(self.find_aparam(["hidden_size"]))
