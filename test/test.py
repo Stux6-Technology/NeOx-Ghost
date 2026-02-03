@@ -1788,3 +1788,4 @@ class MmprojModel(ModelBase):
     def set_gguf_parameters(self):
         self.gguf_writer.add_file_type(self.ftype)
 
+        if self.has_vision_encoder:
