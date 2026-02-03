@@ -1778,3 +1778,4 @@ class MmprojModel(ModelBase):
         super().prepare_metadata(vocab_only=vocab_only)
 
         output_type: str = self.ftype.name.partition("_")[2]
+
