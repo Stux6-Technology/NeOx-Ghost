@@ -1828,3 +1828,4 @@ class MmprojModel(ModelBase):
         assert self.hparams_vision is not None
         return self._find_param(self.hparams_vision, keys, optional)
 
+    def find_aparam(self, keys: Iterable[str], optional: bool = False) -> Any:
