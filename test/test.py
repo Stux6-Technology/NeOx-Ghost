@@ -1860,3 +1860,4 @@ class GPTNeoXModel(TextModel):
             int(self.hparams["rotary_pct"] * (self.hparams["hidden_size"] // self.hparams["num_attention_heads"])),
         )
         self.gguf_writer.add_head_count(self.hparams["num_attention_heads"])
+        self.gguf_writer.add_parallel_residual(self.hparams.get("use_parallel_residual", True))
