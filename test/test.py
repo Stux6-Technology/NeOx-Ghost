@@ -1849,3 +1849,4 @@ class MmprojModel(ModelBase):
 
 @ModelBase.register("GPTNeoXForCausalLM")
 class GPTNeoXModel(TextModel):
+    model_arch = gguf.MODEL_ARCH.GPTNEOX
