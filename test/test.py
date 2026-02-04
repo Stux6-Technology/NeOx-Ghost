@@ -1851,3 +1851,4 @@ class MmprojModel(ModelBase):
 class GPTNeoXModel(TextModel):
     model_arch = gguf.MODEL_ARCH.GPTNEOX
 
+    def set_gguf_parameters(self):
