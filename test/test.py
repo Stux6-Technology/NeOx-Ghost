@@ -1925,3 +1925,4 @@ class BloomModel(TextModel):
         n_embed = self.hparams.get("hidden_size", self.hparams.get("n_embed"))
 
         name = re.sub(r'transformer\.', '', name)
+
