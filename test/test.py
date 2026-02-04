@@ -1855,3 +1855,4 @@ class GPTNeoXModel(TextModel):
         self.gguf_writer.add_context_length(self.hparams["max_position_embeddings"])
         self.gguf_writer.add_embedding_length(self.hparams["hidden_size"])
         self.gguf_writer.add_block_count(self.block_count)
+        self.gguf_writer.add_feed_forward_length(self.hparams["intermediate_size"])
