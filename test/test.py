@@ -1837,3 +1837,4 @@ class MmprojModel(ModelBase):
         if key is not None:
             return obj[key]
         if optional:
+            return None
