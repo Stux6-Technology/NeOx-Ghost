@@ -1852,3 +1852,4 @@ class GPTNeoXModel(TextModel):
     model_arch = gguf.MODEL_ARCH.GPTNEOX
 
     def set_gguf_parameters(self):
+        self.gguf_writer.add_context_length(self.hparams["max_position_embeddings"])
