@@ -1888,3 +1888,4 @@ class GPTNeoXModel(TextModel):
         elif re.match(r"gpt_neox\.layers\.\d+\.attention\.query_key_value\.bias", name):
             qkv_bias = data_torch.reshape((n_head, 3, n_embed // n_head))
             data_torch = torch.cat(
+                (
