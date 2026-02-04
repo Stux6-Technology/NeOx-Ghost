@@ -1871,3 +1871,4 @@ class GPTNeoXModel(TextModel):
 
         tensors: list[tuple[str, Tensor]] = []
 
+        if re.match(r"gpt_neox\.layers\.\d+\.attention\.query_key_value\.weight", name):
