@@ -1902,3 +1902,4 @@ class GPTNeoXModel(TextModel):
         return tensors
 
 
+@ModelBase.register("BloomForCausalLM", "BloomModel")
