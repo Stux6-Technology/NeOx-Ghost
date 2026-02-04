@@ -1859,3 +1859,4 @@ class GPTNeoXModel(TextModel):
         self.gguf_writer.add_rope_dimension_count(
             int(self.hparams["rotary_pct"] * (self.hparams["hidden_size"] // self.hparams["num_attention_heads"])),
         )
+        self.gguf_writer.add_head_count(self.hparams["num_attention_heads"])
