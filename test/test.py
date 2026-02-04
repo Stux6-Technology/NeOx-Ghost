@@ -1914,3 +1914,4 @@ class BloomModel(TextModel):
         self.gguf_writer.add_feed_forward_length(4 * n_embed)
         self.gguf_writer.add_block_count(self.block_count)
         self.gguf_writer.add_head_count(n_head)
+        self.gguf_writer.add_head_count_kv(n_head)
