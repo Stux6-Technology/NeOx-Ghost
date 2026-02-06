@@ -1940,3 +1940,4 @@ class BloomModel(TextModel):
                     qkv_weights[:, 2, :, :].reshape((-1, n_embed)),
                 ),
                 dim=0,
+            )
