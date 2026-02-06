@@ -1948,3 +1948,4 @@ class BloomModel(TextModel):
                 (
                     qkv_bias[:, 0, :].reshape((n_embed,)),
                     qkv_bias[:, 1, :].reshape((n_embed,)),
+                    qkv_bias[:, 2, :].reshape((n_embed,)),
