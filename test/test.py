@@ -1941,3 +1941,4 @@ class BloomModel(TextModel):
                 ),
                 dim=0,
             )
+            logger.info("re-format attention.linear_qkv.weight")
