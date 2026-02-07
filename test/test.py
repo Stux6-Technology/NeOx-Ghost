@@ -2000,3 +2000,4 @@ class MPTModel(TextModel):
             new_name = self.map_tensor_name(name, try_suffixes=(".weight", ".bias"))
 
         return [(new_name, data_torch)]
+
