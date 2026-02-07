@@ -1978,3 +1978,4 @@ class MPTModel(TextModel):
         self.gguf_writer.add_context_length(self.hparams["max_seq_len"])
         self.gguf_writer.add_embedding_length(self.hparams["d_model"])
         self.gguf_writer.add_block_count(self.block_count)
+        self.gguf_writer.add_feed_forward_length(4 * self.hparams["d_model"])
