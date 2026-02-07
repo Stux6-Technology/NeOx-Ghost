@@ -1985,3 +1985,4 @@ class MPTModel(TextModel):
         self.gguf_writer.add_layer_norm_eps(1e-5)
         if self.hparams["attn_config"]["clip_qkv"] is not None:
             self.gguf_writer.add_clamp_kqv(self.hparams["attn_config"]["clip_qkv"])
+        if self.hparams["attn_config"]["alibi"]:
