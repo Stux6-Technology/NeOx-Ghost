@@ -2006,3 +2006,4 @@ class MPTModel(TextModel):
 class OrionModel(TextModel):
     model_arch = gguf.MODEL_ARCH.ORION
 
+    def set_vocab(self):
