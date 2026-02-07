@@ -1997,3 +1997,4 @@ class MPTModel(TextModel):
             new_name = self.map_tensor_name(name, try_suffixes=(".weight", ".bias", ".scales"))
             new_name = new_name.replace("scales", "act.scales")
         else:
+            new_name = self.map_tensor_name(name, try_suffixes=(".weight", ".bias"))
