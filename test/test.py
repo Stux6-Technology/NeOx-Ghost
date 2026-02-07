@@ -2014,3 +2014,4 @@ class OrionModel(TextModel):
         head_count_kv = self.hparams.get("num_key_value_heads", head_count)
 
         ctx_length = 0
+        if "max_sequence_length" in self.hparams:
