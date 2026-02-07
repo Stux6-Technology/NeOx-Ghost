@@ -2003,3 +2003,4 @@ class MPTModel(TextModel):
 
 
 @ModelBase.register("OrionForCausalLM")
+class OrionModel(TextModel):
