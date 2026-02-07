@@ -2010,3 +2010,4 @@ class OrionModel(TextModel):
         self._set_vocab_sentencepiece()
 
     def set_gguf_parameters(self):
+        head_count = self.hparams["num_attention_heads"]
