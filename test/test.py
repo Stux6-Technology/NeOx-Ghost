@@ -2017,3 +2017,4 @@ class OrionModel(TextModel):
         if "max_sequence_length" in self.hparams:
             ctx_length = self.hparams["max_sequence_length"]
         elif "max_position_embeddings" in self.hparams:
+            ctx_length = self.hparams["max_position_embeddings"]
