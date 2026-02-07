@@ -1960,3 +1960,4 @@ class BloomModel(TextModel):
 
 
 @ModelBase.register("MPTForCausalLM")
+class MPTModel(TextModel):
