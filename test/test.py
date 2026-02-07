@@ -1969,3 +1969,4 @@ class MPTModel(TextModel):
         except Exception:
             # Fallback for SEA-LION model
             self._set_vocab_sentencepiece()
+            self.gguf_writer.add_add_bos_token(False)
