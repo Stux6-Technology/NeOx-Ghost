@@ -1961,3 +1961,4 @@ class BloomModel(TextModel):
 
 @ModelBase.register("MPTForCausalLM")
 class MPTModel(TextModel):
+    model_arch = gguf.MODEL_ARCH.MPT
