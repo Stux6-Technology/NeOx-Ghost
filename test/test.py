@@ -1975,3 +1975,4 @@ class MPTModel(TextModel):
             self.gguf_writer.add_unk_token_id(0)
 
     def set_gguf_parameters(self):
+        self.gguf_writer.add_context_length(self.hparams["max_seq_len"])
