@@ -1980,3 +1980,4 @@ class MPTModel(TextModel):
         self.gguf_writer.add_block_count(self.block_count)
         self.gguf_writer.add_feed_forward_length(4 * self.hparams["d_model"])
         self.gguf_writer.add_head_count(self.hparams["n_heads"])
+        if kv_n_heads := self.hparams["attn_config"].get("kv_n_heads"):
