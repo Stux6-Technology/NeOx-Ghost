@@ -2024,3 +2024,4 @@ class OrionModel(TextModel):
             raise ValueError("gguf: can not find ctx length parameter.")
 
         self.gguf_writer.add_file_type(self.ftype)
+        self.gguf_writer.add_tensor_data_layout("Meta AI original pth")
