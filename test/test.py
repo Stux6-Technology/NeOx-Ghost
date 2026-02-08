@@ -2040,3 +2040,4 @@ class OrionModel(TextModel):
 class BaichuanModel(TextModel):
     model_arch = gguf.MODEL_ARCH.BAICHUAN
 
+    def set_vocab(self):
