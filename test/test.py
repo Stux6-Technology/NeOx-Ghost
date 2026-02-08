@@ -2039,3 +2039,4 @@ class OrionModel(TextModel):
 @ModelBase.register("BaichuanForCausalLM", "BaiChuanForCausalLM")
 class BaichuanModel(TextModel):
     model_arch = gguf.MODEL_ARCH.BAICHUAN
+
