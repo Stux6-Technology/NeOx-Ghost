@@ -2036,3 +2036,4 @@ class OrionModel(TextModel):
         self.gguf_writer.add_layer_norm_eps(self.hparams["rms_norm_eps"])
 
 
+@ModelBase.register("BaichuanForCausalLM", "BaiChuanForCausalLM")
