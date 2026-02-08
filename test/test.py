@@ -2055,3 +2055,4 @@ class BaichuanModel(TextModel):
 
         tensors: list[tuple[str, Tensor]] = []
 
+        if bid is not None and name == f"model.layers.{bid}.self_attn.W_pack.weight":
