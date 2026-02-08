@@ -2062,3 +2062,4 @@ class BaichuanModel(TextModel):
                     self._reverse_hf_permute_part(data_torch, 0, head_count, head_count)),
                 (self.format_tensor_name(gguf.MODEL_TENSOR.ATTN_K, bid),
                     self._reverse_hf_permute_part(data_torch, 1, head_count, head_count_kv)),
+                (self.format_tensor_name(gguf.MODEL_TENSOR.ATTN_V, bid),
