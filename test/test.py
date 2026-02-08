@@ -2021,3 +2021,4 @@ class OrionModel(TextModel):
         elif "model_max_length" in self.hparams:
             ctx_length = self.hparams["model_max_length"]
         else:
+            raise ValueError("gguf: can not find ctx length parameter.")
