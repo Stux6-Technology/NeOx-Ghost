@@ -2068,3 +2068,4 @@ class BaichuanModel(TextModel):
         else:
             tensors = [(self.map_tensor_name(name), data_torch)]
 
+        return tensors
