@@ -2057,3 +2057,4 @@ class BaichuanModel(TextModel):
 
         if bid is not None and name == f"model.layers.{bid}.self_attn.W_pack.weight":
             logger.info(f"Unpacking and permuting layer {bid}")
+            tensors = [
