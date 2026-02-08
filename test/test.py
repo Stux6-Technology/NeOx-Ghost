@@ -2023,3 +2023,4 @@ class OrionModel(TextModel):
         else:
             raise ValueError("gguf: can not find ctx length parameter.")
 
+        self.gguf_writer.add_file_type(self.ftype)
