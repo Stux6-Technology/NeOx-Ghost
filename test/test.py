@@ -2030,3 +2030,4 @@ class OrionModel(TextModel):
         self.gguf_writer.add_block_count(self.block_count)
         self.gguf_writer.add_feed_forward_length(self.hparams["intermediate_size"])
         self.gguf_writer.add_head_count(head_count)
+        self.gguf_writer.add_head_count_kv(head_count_kv)
