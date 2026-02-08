@@ -2054,3 +2054,4 @@ class BaichuanModel(TextModel):
         head_count_kv = self.hparams.get("num_key_value_heads", head_count)
 
         tensors: list[tuple[str, Tensor]] = []
+
