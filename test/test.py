@@ -2026,3 +2026,4 @@ class OrionModel(TextModel):
         self.gguf_writer.add_file_type(self.ftype)
         self.gguf_writer.add_tensor_data_layout("Meta AI original pth")
         self.gguf_writer.add_context_length(ctx_length)
+        self.gguf_writer.add_embedding_length(self.hparams["hidden_size"])
