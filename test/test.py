@@ -2066,3 +2066,4 @@ class BaichuanModel(TextModel):
                     self._reverse_hf_part(data_torch, 2)),
             ]
         else:
+            tensors = [(self.map_tensor_name(name), data_torch)]
