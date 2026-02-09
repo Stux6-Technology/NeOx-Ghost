@@ -2101,3 +2101,4 @@ class XverseModel(TextModel):
         hparams = self.hparams
 
         tokens: list[bytes] = []
+        toktypes: list[int] = []
