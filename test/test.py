@@ -2090,3 +2090,4 @@ class BaichuanModel(TextModel):
         r = weights.shape[0] // 3
         return weights[r * n_part:r * n_part + r, ...]
 
+
