@@ -2097,3 +2097,4 @@ class XverseModel(TextModel):
 
     def set_vocab(self):
         assert (self.dir_model / "tokenizer.json").is_file()
+        dir_model = self.dir_model
