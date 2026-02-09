@@ -2099,3 +2099,4 @@ class XverseModel(TextModel):
         assert (self.dir_model / "tokenizer.json").is_file()
         dir_model = self.dir_model
         hparams = self.hparams
+
