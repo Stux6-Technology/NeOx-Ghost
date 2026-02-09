@@ -2074,3 +2074,4 @@ class BaichuanModel(TextModel):
         if n_kv_head is not None and n_head != n_kv_head:
             n_head //= n_kv_head
 
+        return (
