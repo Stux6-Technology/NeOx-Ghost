@@ -2092,3 +2092,4 @@ class BaichuanModel(TextModel):
 
 
 @ModelBase.register("XverseForCausalLM")
+class XverseModel(TextModel):
