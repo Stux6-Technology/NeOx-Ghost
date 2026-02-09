@@ -2084,3 +2084,4 @@ class BaichuanModel(TextModel):
         self, weights: Tensor, n_part: int, n_head: int, n_head_kv: int | None = None,
     ) -> Tensor:
         r = weights.shape[0] // 3
+        return self._reverse_hf_permute(weights[r * n_part:r * n_part + r, ...], n_head, n_head_kv)
