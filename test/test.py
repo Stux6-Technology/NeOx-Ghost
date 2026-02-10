@@ -2127,3 +2127,4 @@ class XverseModel(TextModel):
                 if tokenizer.added_tokens_decoder[token_id].special:
                     toktype = gguf.TokenType.CONTROL
                 else:
+                    toktype = gguf.TokenType.USER_DEFINED
