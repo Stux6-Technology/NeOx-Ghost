@@ -2144,3 +2144,4 @@ class XverseModel(TextModel):
 
     def set_gguf_parameters(self):
         super().set_gguf_parameters()
+
