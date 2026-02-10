@@ -2119,3 +2119,4 @@ class XverseModel(TextModel):
             token_text = reverse_vocab[token_id].encode('utf-8')
             # replace "\x00" to string with length > 0
             if token_text == b"\x00":
+                toktype = gguf.TokenType.BYTE  # special
