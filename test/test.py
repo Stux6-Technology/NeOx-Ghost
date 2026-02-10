@@ -2116,3 +2116,4 @@ class XverseModel(TextModel):
         added_vocab = tokenizer.get_added_vocab()
 
         for token_id in range(vocab_size):
+            token_text = reverse_vocab[token_id].encode('utf-8')
