@@ -2132,3 +2132,4 @@ class XverseModel(TextModel):
                 toktype = gguf.TokenType.NORMAL
 
             tokens.append(token_text)
+            toktypes.append(toktype)
