@@ -2104,3 +2104,4 @@ class XverseModel(TextModel):
         toktypes: list[int] = []
 
         from transformers import AutoTokenizer
+        tokenizer = AutoTokenizer.from_pretrained(dir_model)
