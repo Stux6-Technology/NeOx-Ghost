@@ -2128,3 +2128,4 @@ class XverseModel(TextModel):
                     toktype = gguf.TokenType.CONTROL
                 else:
                     toktype = gguf.TokenType.USER_DEFINED
+            else:
