@@ -2126,3 +2126,4 @@ class XverseModel(TextModel):
             elif reverse_vocab[token_id] in added_vocab:
                 if tokenizer.added_tokens_decoder[token_id].special:
                     toktype = gguf.TokenType.CONTROL
+                else:
