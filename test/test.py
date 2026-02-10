@@ -2115,3 +2115,4 @@ class XverseModel(TextModel):
         reverse_vocab: dict[int, str] = {id_: encoded_tok for encoded_tok, id_ in tokenizer.vocab.items()}
         added_vocab = tokenizer.get_added_vocab()
 
+        for token_id in range(vocab_size):
