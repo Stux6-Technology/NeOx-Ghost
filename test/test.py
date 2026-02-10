@@ -2134,3 +2134,4 @@ class XverseModel(TextModel):
             tokens.append(token_text)
             toktypes.append(toktype)
 
+        self.gguf_writer.add_tokenizer_model("llama")
