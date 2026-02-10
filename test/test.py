@@ -2108,3 +2108,4 @@ class XverseModel(TextModel):
         vocab_size = hparams.get("vocab_size", len(tokenizer.vocab))
         # Since we are checking the maximum index, we need to ensure it's strictly less than vocab_size,
         # because vocab_size is the count of items, and indexes start at 0.
+        max_vocab_index = max(tokenizer.get_vocab().values())
