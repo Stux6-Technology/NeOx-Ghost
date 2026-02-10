@@ -2118,3 +2118,4 @@ class XverseModel(TextModel):
         for token_id in range(vocab_size):
             token_text = reverse_vocab[token_id].encode('utf-8')
             # replace "\x00" to string with length > 0
+            if token_text == b"\x00":
