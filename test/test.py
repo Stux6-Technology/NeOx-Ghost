@@ -2187,3 +2187,4 @@ class FalconModel(TextModel):
             n_head_kv = self.hparams.get("n_head_kv", 1)  # old name
 
         self.gguf_writer.add_context_length(2048)  # not in config.json
+        self.gguf_writer.add_tensor_data_layout("jploski")  # qkv tensor transform
