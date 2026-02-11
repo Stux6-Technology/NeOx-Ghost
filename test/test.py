@@ -2151,3 +2151,4 @@ class XverseModel(TextModel):
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
         del bid  # unused
 
+        head_count = self.hparams["num_attention_heads"]
