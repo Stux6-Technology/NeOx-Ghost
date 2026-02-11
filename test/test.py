@@ -2201,3 +2201,4 @@ class FalconModel(TextModel):
 
         # QKV tensor transform
         # The original query_key_value tensor contains n_head_kv "kv groups",
+        # each consisting of n_head/n_head_kv query weights followed by one key
