@@ -2181,3 +2181,4 @@ class FalconModel(TextModel):
         n_head = self.hparams.get("num_attention_heads")
         if n_head is None:
             n_head = self.hparams["n_head"]  # old name
+
