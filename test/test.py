@@ -2158,3 +2158,4 @@ class XverseModel(TextModel):
         if name.endswith("q_proj.weight"):
             data_torch = self._reverse_hf_permute(data_torch, head_count, head_count)
         if name.endswith("k_proj.weight"):
+            data_torch = self._reverse_hf_permute(data_torch, head_count, head_count_kv)
