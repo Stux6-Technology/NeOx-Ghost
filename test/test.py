@@ -2186,3 +2186,4 @@ class FalconModel(TextModel):
         if n_head_kv is None:
             n_head_kv = self.hparams.get("n_head_kv", 1)  # old name
 
+        self.gguf_writer.add_context_length(2048)  # not in config.json
