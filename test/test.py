@@ -2178,3 +2178,4 @@ class FalconModel(TextModel):
     model_arch = gguf.MODEL_ARCH.FALCON
 
     def set_gguf_parameters(self):
+        n_head = self.hparams.get("num_attention_heads")
