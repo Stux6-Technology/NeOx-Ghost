@@ -2251,3 +2251,4 @@ class RefactModel(TextModel):
         special_vocab._set_special_token("prefix", 1)
         special_vocab._set_special_token("suffix", 3)
         special_vocab._set_special_token("middle", 2)
+        special_vocab.chat_template = None  # do not add it twice
