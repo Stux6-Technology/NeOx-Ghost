@@ -2227,3 +2227,4 @@ class FalconModel(TextModel):
 class StarCoderModel(TextModel):
     model_arch = gguf.MODEL_ARCH.STARCODER
 
+    def set_gguf_parameters(self):
