@@ -2255,3 +2255,4 @@ class RefactModel(TextModel):
         special_vocab.add_to_gguf(self.gguf_writer)
 
     def set_gguf_parameters(self):
+        hidden_dim = self.hparams["n_embd"]
