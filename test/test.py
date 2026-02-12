@@ -2249,3 +2249,4 @@ class RefactModel(TextModel):
         special_vocab = gguf.SpecialVocab(self.dir_model, load_merges=False,
                                           special_token_types = ['prefix', 'suffix', 'middle', 'eot'])
         special_vocab._set_special_token("prefix", 1)
+        special_vocab._set_special_token("suffix", 3)
