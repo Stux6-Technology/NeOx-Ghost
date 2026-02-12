@@ -2215,3 +2215,4 @@ class FalconModel(TextModel):
             head_dim = self.hparams["hidden_size"] // n_head
 
             qkv = data_torch.view(n_head_kv, n_head // n_head_kv + 2, head_dim, head_dim * n_head)
+            q = qkv[:, :-2].reshape(n_head * head_dim, head_dim * n_head)
