@@ -2225,3 +2225,4 @@ class FalconModel(TextModel):
 
 @ModelBase.register("GPTBigCodeForCausalLM")
 class StarCoderModel(TextModel):
+    model_arch = gguf.MODEL_ARCH.STARCODER
