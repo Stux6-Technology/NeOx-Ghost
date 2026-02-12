@@ -2232,3 +2232,4 @@ class StarCoderModel(TextModel):
         self.gguf_writer.add_embedding_length(self.hparams["n_embd"])
         self.gguf_writer.add_feed_forward_length(4 * self.hparams["n_embd"])
         self.gguf_writer.add_block_count(self.block_count)
+        self.gguf_writer.add_head_count(self.hparams["n_head"])
