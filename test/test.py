@@ -2254,3 +2254,4 @@ class RefactModel(TextModel):
         special_vocab.chat_template = None  # do not add it twice
         special_vocab.add_to_gguf(self.gguf_writer)
 
+    def set_gguf_parameters(self):
