@@ -2234,3 +2234,4 @@ class StarCoderModel(TextModel):
         self.gguf_writer.add_block_count(self.block_count)
         self.gguf_writer.add_head_count(self.hparams["n_head"])
         self.gguf_writer.add_head_count_kv(1)
+        self.gguf_writer.add_layer_norm_eps(self.hparams["layer_norm_epsilon"])
