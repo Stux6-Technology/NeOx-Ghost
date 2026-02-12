@@ -2211,3 +2211,4 @@ class FalconModel(TextModel):
 
         if "query_key_value" in name:
             n_head = self.find_hparam(["num_attention_heads", "n_head"])
+            n_head_kv = self.find_hparam(["num_kv_heads", "n_head_kv"], optional=True) or 1
