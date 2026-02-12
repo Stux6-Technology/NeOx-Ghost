@@ -2246,3 +2246,4 @@ class RefactModel(TextModel):
         super().set_vocab()
 
         # TODO: how to determine special FIM tokens automatically?
+        special_vocab = gguf.SpecialVocab(self.dir_model, load_merges=False,
