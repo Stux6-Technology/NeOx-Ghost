@@ -2209,3 +2209,4 @@ class FalconModel(TextModel):
         # in contiguous fashion.
         # ref: https://github.com/jploski/ggml/blob/falcon40b/examples/falcon/convert-hf-to-ggml.py
 
+        if "query_key_value" in name:
