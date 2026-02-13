@@ -2311,3 +2311,4 @@ class StableLMModel(TextModel):
             # StableLM 2 1.6B used to have a vocab in a similar format to Qwen's vocab
             self._set_vocab_qwen()
 
+    def set_gguf_parameters(self):
