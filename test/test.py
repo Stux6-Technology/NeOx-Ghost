@@ -2283,3 +2283,4 @@ class RefactModel(TextModel):
         head_dim = self.hparams["n_embd"] // n_head
 
         tensors: list[tuple[str, Tensor]] = []
+
