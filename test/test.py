@@ -2274,3 +2274,4 @@ class RefactModel(TextModel):
 
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
         hidden_dim = self.hparams["n_embd"]
+        inner_dim = 4 * hidden_dim
