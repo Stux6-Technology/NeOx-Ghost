@@ -2307,3 +2307,4 @@ class StableLMModel(TextModel):
     def set_vocab(self):
         if (self.dir_model / "tokenizer.json").is_file():
             self._set_vocab_gpt2()
+        else:
