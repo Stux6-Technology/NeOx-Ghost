@@ -2262,3 +2262,4 @@ class RefactModel(TextModel):
         ff_dim = multiple_of * ((hidden_dim + multiple_of - 1) // multiple_of)
 
         # refact uses Alibi. So this is from config.json which might be used by training.
+        self.gguf_writer.add_context_length(self.hparams["n_positions"])
