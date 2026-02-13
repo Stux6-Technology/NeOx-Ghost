@@ -2286,3 +2286,4 @@ class RefactModel(TextModel):
 
         if bid is not None:
             if name == f"transformer.h.{bid}.attn.kv.weight":
+                tensors.append((self.format_tensor_name(gguf.MODEL_TENSOR.ATTN_K, bid), data_torch[:n_head_kv * head_dim]))
