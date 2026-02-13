@@ -2280,3 +2280,4 @@ class RefactModel(TextModel):
         ff_dim = multiple_of * ((hidden_dim + multiple_of - 1) // multiple_of)
         n_head = self.hparams["n_head"]
         n_head_kv = 1
+        head_dim = self.hparams["n_embd"] // n_head
