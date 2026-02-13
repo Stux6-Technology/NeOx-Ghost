@@ -2296,3 +2296,4 @@ class RefactModel(TextModel):
 
         if len(tensors) == 0:
             tensors.append((self.map_tensor_name(name), data_torch))
+
