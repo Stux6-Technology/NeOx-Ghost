@@ -2272,3 +2272,4 @@ class RefactModel(TextModel):
         self.gguf_writer.add_layer_norm_rms_eps(self.hparams["layer_norm_epsilon"])
         self.gguf_writer.add_file_type(self.ftype)
 
+    def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
