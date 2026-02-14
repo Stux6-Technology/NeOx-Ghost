@@ -2382,3 +2382,4 @@ class StableLMModel(TextModel):
             # flatten two `list[dict[str, Tensor]]` into a single `list[str]`
             norms = (
                 [k for d in self._q_norms for k in d.keys()] if self._q_norms is not None else []
+            ) + (
