@@ -2315,3 +2315,4 @@ class StableLMModel(TextModel):
         hparams = self.hparams
 
         self.gguf_writer.add_context_length(hparams["max_position_embeddings"])
+        self.gguf_writer.add_embedding_length(hparams["hidden_size"])
