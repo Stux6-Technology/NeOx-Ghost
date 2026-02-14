@@ -2318,3 +2318,4 @@ class StableLMModel(TextModel):
         self.gguf_writer.add_embedding_length(hparams["hidden_size"])
         self.gguf_writer.add_block_count(self.block_count)
         self.gguf_writer.add_feed_forward_length(hparams["intermediate_size"])
+        rotary_factor = self.find_hparam(["partial_rotary_factor", "rope_pct"])
