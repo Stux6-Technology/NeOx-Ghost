@@ -2353,3 +2353,4 @@ class StableLMModel(TextModel):
                 self._k_norms = [{} for _ in range(self.block_count)]
 
             self._k_norms[bid][name] = data_torch
+
