@@ -2335,3 +2335,4 @@ class StableLMModel(TextModel):
 
         if name.find("q_layernorm.norms") != -1:
             assert bid is not None
+
