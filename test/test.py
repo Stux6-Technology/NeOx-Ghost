@@ -2314,3 +2314,4 @@ class StableLMModel(TextModel):
     def set_gguf_parameters(self):
         hparams = self.hparams
 
+        self.gguf_writer.add_context_length(hparams["max_position_embeddings"])
