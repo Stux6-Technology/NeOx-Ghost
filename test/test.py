@@ -2370,3 +2370,4 @@ class StableLMModel(TextModel):
             del norms[ename]
         data_torch = torch.stack(datas, dim=0)
 
+        merged_name = f"model.layers.{bid}.self_attn.{layer_name}.weight"
