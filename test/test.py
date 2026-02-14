@@ -2365,3 +2365,4 @@ class StableLMModel(TextModel):
         datas: list[Tensor] = []
         # extract the norms in order
         for xid in range(n_head):
+            ename = f"model.layers.{bid}.self_attn.{layer_name}.norms.{xid}.weight"
