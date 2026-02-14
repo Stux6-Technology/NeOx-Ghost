@@ -2374,3 +2374,4 @@ class StableLMModel(TextModel):
         new_name = self.map_tensor_name(merged_name)
 
         return [(new_name, data_torch)]
+
