@@ -2378,3 +2378,4 @@ class StableLMModel(TextModel):
     def prepare_tensors(self):
         super().prepare_tensors()
 
+        if self._q_norms is not None or self._k_norms is not None:
