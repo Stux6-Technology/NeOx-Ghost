@@ -2367,3 +2367,4 @@ class StableLMModel(TextModel):
         for xid in range(n_head):
             ename = f"model.layers.{bid}.self_attn.{layer_name}.norms.{xid}.weight"
             datas.append(norms[ename])
+            del norms[ename]
