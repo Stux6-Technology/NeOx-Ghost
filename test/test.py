@@ -2341,3 +2341,4 @@ class StableLMModel(TextModel):
 
             self._q_norms[bid][name] = data_torch
 
+            if len(self._q_norms[bid]) >= n_head:
