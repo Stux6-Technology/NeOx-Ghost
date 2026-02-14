@@ -2328,3 +2328,4 @@ class StableLMModel(TextModel):
 
     _q_norms: list[dict[str, Tensor]] | None = None
     _k_norms: list[dict[str, Tensor]] | None = None
+
