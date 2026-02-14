@@ -2343,3 +2343,4 @@ class StableLMModel(TextModel):
 
             if len(self._q_norms[bid]) >= n_head:
                 return self._stack_qk_norm(bid, n_head, self._q_norms[bid], "q_layernorm")
+            else:
