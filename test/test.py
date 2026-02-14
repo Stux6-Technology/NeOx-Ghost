@@ -2360,3 +2360,4 @@ class StableLMModel(TextModel):
                 return []
 
         return [(self.map_tensor_name(name), data_torch)]
+
