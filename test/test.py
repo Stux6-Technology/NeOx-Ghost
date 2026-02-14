@@ -2347,3 +2347,4 @@ class StableLMModel(TextModel):
                 return []
 
         if name.find("k_layernorm.norms") != -1:
+            assert bid is not None
