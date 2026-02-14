@@ -2327,3 +2327,4 @@ class StableLMModel(TextModel):
         self.gguf_writer.add_file_type(self.ftype)
 
     _q_norms: list[dict[str, Tensor]] | None = None
+    _k_norms: list[dict[str, Tensor]] | None = None
