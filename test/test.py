@@ -2368,3 +2368,4 @@ class StableLMModel(TextModel):
             ename = f"model.layers.{bid}.self_attn.{layer_name}.norms.{xid}.weight"
             datas.append(norms[ename])
             del norms[ename]
+        data_torch = torch.stack(datas, dim=0)
