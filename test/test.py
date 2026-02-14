@@ -2362,3 +2362,4 @@ class StableLMModel(TextModel):
         return [(self.map_tensor_name(name), data_torch)]
 
     def _stack_qk_norm(self, bid: int, n_head: int, norms: dict[str, Tensor], layer_name: str = "q_layernorm"):
+        datas: list[Tensor] = []
