@@ -2373,3 +2373,4 @@ class StableLMModel(TextModel):
         merged_name = f"model.layers.{bid}.self_attn.{layer_name}.weight"
         new_name = self.map_tensor_name(merged_name)
 
+        return [(new_name, data_torch)]
