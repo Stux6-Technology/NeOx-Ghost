@@ -2355,3 +2355,4 @@ class StableLMModel(TextModel):
             self._k_norms[bid][name] = data_torch
 
             if len(self._k_norms[bid]) >= n_kv_head:
+                return self._stack_qk_norm(bid, n_kv_head, self._k_norms[bid], "k_layernorm")
