@@ -2385,3 +2385,4 @@ class StableLMModel(TextModel):
             ) + (
                 [k for d in self._k_norms for k in d.keys()] if self._k_norms is not None else []
             )
+            if len(norms) > 0:
