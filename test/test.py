@@ -2394,3 +2394,4 @@ class StableLMModel(TextModel):
     "LlamaForCausalLM",
     "MistralForCausalLM",
     "MixtralForCausalLM",
+    "VLlama3ForCausalLM",
