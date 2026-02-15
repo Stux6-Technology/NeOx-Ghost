@@ -2390,3 +2390,4 @@ class StableLMModel(TextModel):
 
 
 @ModelBase.register(
+    "LLaMAForCausalLM",
