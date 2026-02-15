@@ -2392,3 +2392,4 @@ class StableLMModel(TextModel):
 @ModelBase.register(
     "LLaMAForCausalLM",
     "LlamaForCausalLM",
+    "MistralForCausalLM",
