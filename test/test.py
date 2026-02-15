@@ -2398,3 +2398,4 @@ class StableLMModel(TextModel):
     "LlavaForConditionalGeneration",
     "VoxtralForConditionalGeneration",
     "LlamaModel")
+class LlamaModel(TextModel):
