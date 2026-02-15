@@ -2389,3 +2389,4 @@ class StableLMModel(TextModel):
                 raise ValueError(f"Unprocessed norms: {norms}")
 
 
+@ModelBase.register(
