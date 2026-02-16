@@ -2425,3 +2425,4 @@ class LlamaModel(TextModel):
         try:
             self._set_vocab_sentencepiece()
         except FileNotFoundError:
+            try:
