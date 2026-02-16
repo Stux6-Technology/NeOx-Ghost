@@ -2447,3 +2447,4 @@ class LlamaModel(TextModel):
         if tokenizer_config_file.is_file():
             with open(tokenizer_config_file, "r", encoding="utf-8") as f:
                 tokenizer_config_json = json.load(f)
+                if "add_prefix_space" in tokenizer_config_json:
