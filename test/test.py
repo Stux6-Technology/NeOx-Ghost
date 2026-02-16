@@ -2428,3 +2428,4 @@ class LlamaModel(TextModel):
             try:
                 self._set_vocab_llama_hf()
             except (FileNotFoundError, TypeError):
+                # Llama 3
