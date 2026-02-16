@@ -2436,3 +2436,4 @@ class LlamaModel(TextModel):
             special_vocab = gguf.SpecialVocab(
                 self.dir_model, load_merges=False,
                 special_token_types = ['prefix', 'suffix', 'middle', 'eot']
+            )
