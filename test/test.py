@@ -2460,3 +2460,4 @@ class LlamaModel(TextModel):
 
         if not self.is_mistral_format:
             self.gguf_writer.add_vocab_size(hparams["vocab_size"])
+
