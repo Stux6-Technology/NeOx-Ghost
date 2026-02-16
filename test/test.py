@@ -2418,3 +2418,4 @@ class LlamaModel(TextModel):
             return self._set_vocab_mistral()
 
         path_tekken_json = self.dir_model / "tekken.json"
+        path_tokenizer_json = self.dir_model / "tokenizer.json"
