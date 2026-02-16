@@ -2414,3 +2414,4 @@ class LlamaModel(TextModel):
         if self.origin_hf_arch == "GlmasrModel":
             return self._set_vocab_glmedge()
 
+        if self.is_mistral_format:
