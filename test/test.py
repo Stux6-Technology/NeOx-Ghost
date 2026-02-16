@@ -2431,3 +2431,4 @@ class LlamaModel(TextModel):
                 # Llama 3
                 self._set_vocab_gpt2()
 
+        # Apply to CodeLlama only (and ignore for Llama 3 with a vocab size of 128256)
