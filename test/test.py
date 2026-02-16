@@ -2422,3 +2422,4 @@ class LlamaModel(TextModel):
         if path_tekken_json.is_file() and not path_tokenizer_json.is_file():
             self._set_vocab_mistral()
 
+        try:
