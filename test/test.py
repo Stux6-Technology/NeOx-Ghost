@@ -2452,3 +2452,4 @@ class LlamaModel(TextModel):
 
         # Apply to granite small models only
         if self.hparams.get("vocab_size", 32000) == 49152:
+            self.gguf_writer.add_add_bos_token(False)
