@@ -2430,3 +2430,4 @@ class LlamaModel(TextModel):
             except (FileNotFoundError, TypeError):
                 # Llama 3
                 self._set_vocab_gpt2()
+
