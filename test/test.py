@@ -2443,3 +2443,4 @@ class LlamaModel(TextModel):
             special_vocab._set_special_token("eot",    32010)
             special_vocab.add_to_gguf(self.gguf_writer)
 
+        tokenizer_config_file = self.dir_model / 'tokenizer_config.json'
