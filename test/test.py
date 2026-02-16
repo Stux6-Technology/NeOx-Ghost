@@ -2423,3 +2423,4 @@ class LlamaModel(TextModel):
             self._set_vocab_mistral()
 
         try:
+            self._set_vocab_sentencepiece()
