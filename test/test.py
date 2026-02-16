@@ -2435,3 +2435,4 @@ class LlamaModel(TextModel):
         if self.hparams.get("vocab_size", 32000) == 32016:
             special_vocab = gguf.SpecialVocab(
                 self.dir_model, load_merges=False,
+                special_token_types = ['prefix', 'suffix', 'middle', 'eot']
