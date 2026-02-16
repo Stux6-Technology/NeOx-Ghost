@@ -2442,3 +2442,4 @@ class LlamaModel(TextModel):
             special_vocab._set_special_token("middle", 32009)
             special_vocab._set_special_token("eot",    32010)
             special_vocab.add_to_gguf(self.gguf_writer)
+
