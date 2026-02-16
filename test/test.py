@@ -2451,3 +2451,4 @@ class LlamaModel(TextModel):
                     self.gguf_writer.add_add_space_prefix(tokenizer_config_json["add_prefix_space"])
 
         # Apply to granite small models only
+        if self.hparams.get("vocab_size", 32000) == 49152:
