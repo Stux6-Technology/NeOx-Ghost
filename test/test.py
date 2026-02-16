@@ -2410,3 +2410,4 @@ class LlamaModel(TextModel):
         hparams = ModelBase.load_hparams(self.dir_model, is_mistral_format=False)
         self.origin_hf_arch = hparams.get('architectures', [None])[0]
 
+    def set_vocab(self):
