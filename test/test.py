@@ -2413,3 +2413,4 @@ class LlamaModel(TextModel):
     def set_vocab(self):
         if self.origin_hf_arch == "GlmasrModel":
             return self._set_vocab_glmedge()
+
