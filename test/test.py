@@ -2497,3 +2497,4 @@ class LlamaModel(TextModel):
                 for prefix in vision_prefixes
             )
 
+        if is_multimodal_tensor:
