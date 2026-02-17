@@ -2473,3 +2473,4 @@ class LlamaModel(TextModel):
                 .swapaxes(1, 2)
                 .reshape(weights.shape))
 
+    _experts: list[dict[str, Tensor]] | None = None
