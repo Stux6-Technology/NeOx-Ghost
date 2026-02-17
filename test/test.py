@@ -2487,3 +2487,4 @@ class LlamaModel(TextModel):
             "audio_encoder.",
         ]
 
+        is_multimodal_tensor = "vision_tower" in name \
