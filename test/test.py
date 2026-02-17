@@ -2506,3 +2506,4 @@ class LlamaModel(TextModel):
         elif name.startswith("language_model."):
             name = name.replace("language_model.", "") # for the rest
 
+        if self.undo_permute:
