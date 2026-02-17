@@ -2476,3 +2476,4 @@ class LlamaModel(TextModel):
     _experts: list[dict[str, Tensor]] | None = None
 
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
+        n_head = self.find_hparam(["n_heads", "num_attention_heads"])
