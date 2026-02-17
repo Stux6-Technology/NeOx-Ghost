@@ -2492,3 +2492,4 @@ class LlamaModel(TextModel):
             or "audio_tower" in name \
             or "model.connector" in name \
             or "multi_modal_projector" in name \
+            or any(
