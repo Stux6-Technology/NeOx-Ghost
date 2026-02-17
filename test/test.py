@@ -2493,3 +2493,4 @@ class LlamaModel(TextModel):
             or "model.connector" in name \
             or "multi_modal_projector" in name \
             or any(
+                name.startswith(prefix)
