@@ -2482,3 +2482,4 @@ class LlamaModel(TextModel):
         vision_prefixes = [
             "vision_encoder.",
             "vision_language_adapter.",
+            "patch_merger.",
