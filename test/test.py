@@ -2513,3 +2513,4 @@ class LlamaModel(TextModel):
                 data_torch = LlamaModel.permute(data_torch, n_head, n_kv_head)
 
         # process the experts separately
+        if name.find("block_sparse_moe.experts") != -1:
