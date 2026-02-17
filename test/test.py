@@ -2508,3 +2508,4 @@ class LlamaModel(TextModel):
 
         if self.undo_permute:
             if name.endswith(("q_proj.weight", "q_proj.bias")):
+                data_torch = LlamaModel.permute(data_torch, n_head, n_head)
