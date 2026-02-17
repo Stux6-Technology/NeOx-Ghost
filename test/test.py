@@ -2471,3 +2471,4 @@ class LlamaModel(TextModel):
             n_head = n_head_kv
         return (weights.reshape(n_head, 2, weights.shape[0] // n_head // 2, *weights.shape[1:])
                 .swapaxes(1, 2)
+                .reshape(weights.shape))
