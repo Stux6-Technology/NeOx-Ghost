@@ -2503,3 +2503,4 @@ class LlamaModel(TextModel):
             name = "model." + name
         elif name.startswith("model.text_model"):
             name = name.replace("text_model.", "") # for SmolVLM
+        elif name.startswith("language_model."):
