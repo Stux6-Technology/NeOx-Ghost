@@ -2485,3 +2485,4 @@ class LlamaModel(TextModel):
             "patch_merger.",
             "pre_mm_projector_norm",
             "audio_encoder.",
+        ]
