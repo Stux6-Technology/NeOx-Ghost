@@ -2507,3 +2507,4 @@ class LlamaModel(TextModel):
             name = name.replace("language_model.", "") # for the rest
 
         if self.undo_permute:
+            if name.endswith(("q_proj.weight", "q_proj.bias")):
