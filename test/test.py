@@ -2530,3 +2530,4 @@ class LlamaModel(TextModel):
                 for wid in ["w1", "w2", "w3"]:
                     datas: list[Tensor] = []
 
+                    for xid in range(n_experts):
