@@ -2531,3 +2531,4 @@ class LlamaModel(TextModel):
                     datas: list[Tensor] = []
 
                     for xid in range(n_experts):
+                        ename = f"model.layers.{bid}.block_sparse_moe.experts.{xid}.{wid}.weight"
