@@ -2527,3 +2527,4 @@ class LlamaModel(TextModel):
                 tensors: list[tuple[str, Tensor]] = []
 
                 # merge the experts into a single 3d tensor
+                for wid in ["w1", "w2", "w3"]:
