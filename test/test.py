@@ -2521,3 +2521,4 @@ class LlamaModel(TextModel):
             if self._experts is None:
                 self._experts = [{} for _ in range(self.block_count)]
 
+            self._experts[bid][name] = data_torch
