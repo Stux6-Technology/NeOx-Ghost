@@ -2557,3 +2557,4 @@ class LlamaModel(TextModel):
                 freqs = 1.0 / (base ** (torch.arange(0, dim, 2, dtype=torch.float32) / dim))
 
                 factor = rope_params.get("factor", 8.0)
+                low_freq_factor = rope_params.get("low_freq_factor", 1.0)
