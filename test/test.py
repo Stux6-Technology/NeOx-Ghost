@@ -2546,3 +2546,4 @@ class LlamaModel(TextModel):
             else:
                 return []
 
+        return [(self.map_tensor_name(name), data_torch)]
