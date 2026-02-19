@@ -2555,3 +2555,4 @@ class LlamaModel(TextModel):
                 if (dim := self.hparams.get("head_dim")) is None:
                     dim = self.hparams["hidden_size"] // self.hparams["num_attention_heads"]
                 freqs = 1.0 / (base ** (torch.arange(0, dim, 2, dtype=torch.float32) / dim))
+
