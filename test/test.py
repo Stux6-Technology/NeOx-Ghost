@@ -2566,3 +2566,4 @@ class LlamaModel(TextModel):
                 # assert low_freq_wavelen != high_freq_wavelen # Errors for Llama4
 
                 rope_factors = []
+                for freq in freqs:
