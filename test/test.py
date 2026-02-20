@@ -2565,3 +2565,4 @@ class LlamaModel(TextModel):
                 high_freq_wavelen = old_context_len / high_freq_factor
                 # assert low_freq_wavelen != high_freq_wavelen # Errors for Llama4
 
+                rope_factors = []
