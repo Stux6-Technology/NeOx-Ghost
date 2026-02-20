@@ -2578,3 +2578,4 @@ class LlamaModel(TextModel):
 
                 yield (self.format_tensor_name(gguf.MODEL_TENSOR.ROPE_FREQS), torch.tensor(rope_factors, dtype=torch.float32))
 
+    def prepare_tensors(self):
