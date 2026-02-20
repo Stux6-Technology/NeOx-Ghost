@@ -2569,3 +2569,4 @@ class LlamaModel(TextModel):
                 for freq in freqs:
                     wavelen = 2 * math.pi / freq
                     if wavelen < high_freq_wavelen:
+                        rope_factors.append(1)
