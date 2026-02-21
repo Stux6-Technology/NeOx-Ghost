@@ -2597,3 +2597,4 @@ class ArceeModel(LlamaModel):
         self._try_set_pooling_type()
 
 
+@ModelBase.register("AfmoeForCausalLM")
