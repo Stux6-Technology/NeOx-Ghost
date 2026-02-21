@@ -2599,3 +2599,4 @@ class ArceeModel(LlamaModel):
 
 @ModelBase.register("AfmoeForCausalLM")
 class AfmoeModel(LlamaModel):
+    model_arch = gguf.MODEL_ARCH.AFMOE
