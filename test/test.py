@@ -2598,3 +2598,4 @@ class ArceeModel(LlamaModel):
 
 
 @ModelBase.register("AfmoeForCausalLM")
+class AfmoeModel(LlamaModel):
