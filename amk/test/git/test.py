@@ -16,3 +16,4 @@ from pathlib import Path
 from hashlib import sha256
 from typing import TYPE_CHECKING, Any, Callable, ContextManager, Iterable, Iterator, Literal, Sequence, TypeVar, cast
 from itertools import chain
+from transformers import AutoConfig
