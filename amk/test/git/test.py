@@ -71,3 +71,4 @@ class SentencePieceTokenTypes(IntEnum):
 class ModelType(IntEnum):
     TEXT = 1
     MMPROJ = 2
+
