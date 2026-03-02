@@ -40,3 +40,4 @@ try:
 
     _mistral_common_installed = True
     _mistral_import_error_msg = ""
+except ImportError:
