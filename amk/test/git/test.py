@@ -31,3 +31,4 @@ import gguf
 from gguf.vocab import MistralTokenizerType, MistralVocab
 
 try:
+    from mistral_common.tokens.tokenizers.base import TokenizerVersion # pyright: ignore[reportMissingImports]
