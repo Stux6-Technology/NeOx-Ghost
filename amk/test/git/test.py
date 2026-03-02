@@ -81,3 +81,4 @@ class ModelBase:
         ModelType.TEXT: {},
         ModelType.MMPROJ: {},
     }
+
