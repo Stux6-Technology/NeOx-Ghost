@@ -72,3 +72,4 @@ class ModelType(IntEnum):
     TEXT = 1
     MMPROJ = 2
 
+
