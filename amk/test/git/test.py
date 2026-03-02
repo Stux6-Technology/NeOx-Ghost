@@ -73,3 +73,4 @@ class ModelType(IntEnum):
     MMPROJ = 2
 
 
+AnyModel = TypeVar("AnyModel", bound="type[ModelBase]")
