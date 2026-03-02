@@ -38,3 +38,4 @@ try:
         SentencePieceTokenizer,
     )
 
+    _mistral_common_installed = True
