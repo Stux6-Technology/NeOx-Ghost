@@ -53,3 +53,4 @@ except ImportError:
         "`pip install mistral-common[image,audio]` to install it."
     )
 
+
