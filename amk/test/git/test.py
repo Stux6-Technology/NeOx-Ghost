@@ -61,3 +61,4 @@ logger = logging.getLogger("hf-to-gguf")
 
 class SentencePieceTokenTypes(IntEnum):
     NORMAL = 1
+    UNKNOWN = 2
