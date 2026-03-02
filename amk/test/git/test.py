@@ -68,3 +68,4 @@ class SentencePieceTokenTypes(IntEnum):
     BYTE = 6
 
 
+class ModelType(IntEnum):
