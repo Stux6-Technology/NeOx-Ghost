@@ -24,3 +24,4 @@ import torch
 
 if TYPE_CHECKING:
     from torch import Tensor
+
