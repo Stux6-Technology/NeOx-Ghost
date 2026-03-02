@@ -66,3 +66,4 @@ class SentencePieceTokenTypes(IntEnum):
     USER_DEFINED = 4
     UNUSED = 5
     BYTE = 6
+
