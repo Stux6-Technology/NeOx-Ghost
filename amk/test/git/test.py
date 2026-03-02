@@ -74,3 +74,4 @@ class ModelType(IntEnum):
 
 
 AnyModel = TypeVar("AnyModel", bound="type[ModelBase]")
+
