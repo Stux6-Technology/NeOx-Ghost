@@ -83,3 +83,4 @@ class ModelBase:
     }
 
     dir_model: Path
+    ftype: gguf.LlamaFileType
