@@ -107,3 +107,4 @@ class ModelBase:
 
     # Mistral format specifics
     is_mistral_format: bool = False
+    disable_mistral_community_chat_template: bool = False
