@@ -90,3 +90,4 @@ class ModelBase:
     use_temp_file: bool
     lazy: bool
     dry_run: bool
+    hparams: dict[str, Any]
