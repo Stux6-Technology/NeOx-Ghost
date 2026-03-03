@@ -98,3 +98,4 @@ class ModelBase:
     dir_model_card: Path
     remote_hf_model_id: str | None
 
+    # subclasses should define this!
