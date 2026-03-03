@@ -109,3 +109,4 @@ class ModelBase:
     is_mistral_format: bool = False
     disable_mistral_community_chat_template: bool = False
     sentence_transformers_dense_modules: bool = False
+
