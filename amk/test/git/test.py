@@ -95,3 +95,4 @@ class ModelBase:
     gguf_writer: gguf.GGUFWriter
     model_name: str | None
     metadata_override: Path | None
+    dir_model_card: Path
