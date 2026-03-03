@@ -86,3 +86,4 @@ class ModelBase:
     ftype: gguf.LlamaFileType
     fname_out: Path
     is_big_endian: bool
+    endianess: gguf.GGUFEndian
