@@ -89,3 +89,4 @@ class ModelBase:
     endianess: gguf.GGUFEndian
     use_temp_file: bool
     lazy: bool
+    dry_run: bool
