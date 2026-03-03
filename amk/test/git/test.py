@@ -102,3 +102,4 @@ class ModelBase:
     model_arch: gguf.MODEL_ARCH
 
     # subclasses should initialize this!
+    block_count: int
