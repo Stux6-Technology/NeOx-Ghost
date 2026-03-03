@@ -85,3 +85,4 @@ class ModelBase:
     dir_model: Path
     ftype: gguf.LlamaFileType
     fname_out: Path
+    is_big_endian: bool
