@@ -106,3 +106,4 @@ class ModelBase:
     tensor_map: gguf.TensorNameMap
 
     # Mistral format specifics
+    is_mistral_format: bool = False
