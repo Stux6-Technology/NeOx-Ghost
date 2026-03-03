@@ -94,3 +94,4 @@ class ModelBase:
     model_tensors: dict[str, Callable[[], Tensor]]
     gguf_writer: gguf.GGUFWriter
     model_name: str | None
+    metadata_override: Path | None
