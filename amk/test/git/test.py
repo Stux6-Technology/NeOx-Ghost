@@ -97,3 +97,4 @@ class ModelBase:
     metadata_override: Path | None
     dir_model_card: Path
     remote_hf_model_id: str | None
+
