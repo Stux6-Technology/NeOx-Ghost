@@ -99,3 +99,4 @@ class ModelBase:
     remote_hf_model_id: str | None
 
     # subclasses should define this!
+    model_arch: gguf.MODEL_ARCH
