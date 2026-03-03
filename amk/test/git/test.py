@@ -112,3 +112,4 @@ class ModelBase:
 
     def __init__(self, dir_model: Path, ftype: gguf.LlamaFileType, fname_out: Path, *, is_big_endian: bool = False,
                  use_temp_file: bool = False, eager: bool = False,
+                 metadata_override: Path | None = None, model_name: str | None = None,
