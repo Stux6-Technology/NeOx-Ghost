@@ -93,3 +93,4 @@ class ModelBase:
     hparams: dict[str, Any]
     model_tensors: dict[str, Callable[[], Tensor]]
     gguf_writer: gguf.GGUFWriter
+    model_name: str | None
