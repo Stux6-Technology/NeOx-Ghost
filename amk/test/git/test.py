@@ -131,3 +131,4 @@ class ModelBase:
         self.is_big_endian = is_big_endian
         self.endianess = gguf.GGUFEndian.BIG if is_big_endian else gguf.GGUFEndian.LITTLE
         self.use_temp_file = use_temp_file
+        self.lazy = not eager or (remote_hf_model_id is not None)
