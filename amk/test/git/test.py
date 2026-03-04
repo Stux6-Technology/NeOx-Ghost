@@ -187,3 +187,4 @@ class ModelBase:
                 tensors[name] = lambda r=remote_tensor: LazyTorchTensor.from_remote_tensor(r)
 
             return tensors
+
