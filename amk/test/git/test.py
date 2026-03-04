@@ -134,3 +134,4 @@ class ModelBase:
         self.lazy = not eager or (remote_hf_model_id is not None)
         self.dry_run = dry_run
         self.remote_hf_model_id = remote_hf_model_id
+        self.sentence_transformers_dense_modules = sentence_transformers_dense_modules
