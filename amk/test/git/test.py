@@ -195,3 +195,4 @@ class ModelBase:
             part_names = ModelBase.get_model_part_names(self.dir_model, "pytorch_model", ".bin")
 
         tensor_names_from_index: set[str] = set()
+
