@@ -198,3 +198,4 @@ class ModelBase:
 
         if not self.is_mistral_format:
             index_name = "model.safetensors" if is_safetensors else "pytorch_model.bin"
+            index_name += ".index.json"
