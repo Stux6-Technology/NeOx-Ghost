@@ -128,3 +128,4 @@ class ModelBase:
         self.dir_model = dir_model
         self.ftype = ftype
         self.fname_out = fname_out
+        self.is_big_endian = is_big_endian
