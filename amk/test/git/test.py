@@ -169,3 +169,4 @@ class ModelBase:
 
     def find_hparam(self, keys: Iterable[str], optional: bool = False) -> Any:
         key = next((k for k in keys if k in self.hparams), None)
+        if key is not None:
