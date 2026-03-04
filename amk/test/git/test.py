@@ -172,3 +172,4 @@ class ModelBase:
         if key is not None:
             return self.hparams[key]
         if optional:
+            return None
