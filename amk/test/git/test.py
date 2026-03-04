@@ -129,3 +129,4 @@ class ModelBase:
         self.ftype = ftype
         self.fname_out = fname_out
         self.is_big_endian = is_big_endian
+        self.endianess = gguf.GGUFEndian.BIG if is_big_endian else gguf.GGUFEndian.LITTLE
