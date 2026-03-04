@@ -147,3 +147,4 @@ class ModelBase:
             _, first_tensor = next(self.get_tensors())
             if first_tensor.dtype == torch.float16:
                 logger.info(f"choosing --outtype f16 from first tensor type ({first_tensor.dtype})")
+                self.ftype = gguf.LlamaFileType.MOSTLY_F16
