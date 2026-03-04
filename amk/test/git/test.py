@@ -155,3 +155,4 @@ class ModelBase:
         self.dequant_model()
 
         # Configure GGUF Writer
+        self.gguf_writer = gguf.GGUFWriter(path=None, arch=gguf.MODEL_ARCH_NAMES[self.model_arch], endianess=self.endianess, use_temp_file=self.use_temp_file,
