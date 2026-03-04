@@ -180,3 +180,4 @@ class ModelBase:
 
         if remote_hf_model_id is not None:
             is_safetensors = True
+
