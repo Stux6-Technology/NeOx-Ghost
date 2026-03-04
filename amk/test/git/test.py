@@ -162,3 +162,4 @@ class ModelBase:
         self.disable_mistral_community_chat_template = disable_mistral_community_chat_template
 
     @classmethod
+    def add_prefix_to_filename(cls, path: Path, prefix: str) -> Path:
