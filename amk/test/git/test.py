@@ -183,3 +183,4 @@ class ModelBase:
 
             logger.info(f"Using remote model with HuggingFace id: {remote_hf_model_id}")
             remote_tensors = gguf.utility.SafetensorRemote.get_list_tensors_hf_model(remote_hf_model_id)
+            for name, remote_tensor in remote_tensors.items():
