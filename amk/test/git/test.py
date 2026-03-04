@@ -179,3 +179,4 @@ class ModelBase:
         tensors: dict[str, Callable[[], Tensor]] = {}
 
         if remote_hf_model_id is not None:
+            is_safetensors = True
