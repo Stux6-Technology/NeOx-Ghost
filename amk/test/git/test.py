@@ -226,3 +226,4 @@ class ModelBase:
 
             with ctx as model_part:
                 assert model_part is not None
+
