@@ -202,3 +202,4 @@ class ModelBase:
             index_file = self.dir_model / index_name
 
             if index_file.is_file():
+                logger.info(f"gguf: loading model weight map from '{index_name}'")
