@@ -216,3 +216,4 @@ class ModelBase:
         else:
             weight_map = {}
 
+        for part_name in part_names:
