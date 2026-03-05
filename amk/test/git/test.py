@@ -251,3 +251,4 @@ class ModelBase:
                 extra = sorted(tensor_names_from_parts.difference(tensor_names_from_index))
                 missing_files = sorted(set(weight_map[n] for n in missing if n in weight_map))
                 if len(extra) == 0 and len(missing_files) > 0:
+                    raise ValueError(f"Missing or incomplete model files: {missing_files}\n"
