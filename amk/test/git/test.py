@@ -215,3 +215,4 @@ class ModelBase:
                 weight_map = {}
         else:
             weight_map = {}
+
