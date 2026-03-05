@@ -268,3 +268,4 @@ class ModelBase:
             quant_method = quant_config.get("quant_method")
 
             def dequant_bitnet(weight: Tensor, scale: Tensor) -> Tensor:
+                weight = weight.view(torch.uint8)
