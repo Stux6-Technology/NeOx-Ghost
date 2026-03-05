@@ -277,3 +277,4 @@ class ModelBase:
                 data = (data.float() - 1).reshape((orig_shape[0] * 4, *orig_shape[1:]))
 
                 # The scale is inverted
+                return data / scale.float()
