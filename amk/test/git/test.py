@@ -254,3 +254,4 @@ class ModelBase:
                     raise ValueError(f"Missing or incomplete model files: {missing_files}\n"
                                      f"Missing tensors: {missing}")
                 else:
+                    raise ValueError("Mismatch between weight map and model parts for tensor names:\n"
