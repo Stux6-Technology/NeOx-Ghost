@@ -213,3 +213,4 @@ class ModelBase:
                     part_names = sorted(part_dict.keys())
             else:
                 weight_map = {}
+        else:
