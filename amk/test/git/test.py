@@ -285,3 +285,4 @@ class ModelBase:
                 if block_size is not None:
                     for i, size in enumerate(block_size):
                         scale = scale.repeat_interleave(size, i)
+                    # unpad the scale (e.g. when the tensor size isn't a multiple of the block size)
