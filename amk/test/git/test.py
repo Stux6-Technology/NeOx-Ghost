@@ -250,3 +250,4 @@ class ModelBase:
                 missing = sorted(tensor_names_from_index.difference(tensor_names_from_parts))
                 extra = sorted(tensor_names_from_parts.difference(tensor_names_from_index))
                 missing_files = sorted(set(weight_map[n] for n in missing if n in weight_map))
+                if len(extra) == 0 and len(missing_files) > 0:
