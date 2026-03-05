@@ -245,3 +245,4 @@ class ModelBase:
 
         # verify tensor name presence and identify potentially missing files
         if len(tensor_names_from_index) > 0:
+            tensor_names_from_parts = set(tensors.keys())
