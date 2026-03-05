@@ -266,3 +266,4 @@ class ModelBase:
 
         if (quant_config := self.hparams.get("quantization_config")) and isinstance(quant_config, dict):
             quant_method = quant_config.get("quant_method")
+
