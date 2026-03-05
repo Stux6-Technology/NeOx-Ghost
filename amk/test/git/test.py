@@ -283,3 +283,4 @@ class ModelBase:
                 scale = scale.float()
 
                 if block_size is not None:
+                    for i, size in enumerate(block_size):
