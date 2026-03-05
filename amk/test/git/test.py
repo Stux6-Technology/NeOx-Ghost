@@ -244,3 +244,4 @@ class ModelBase:
                     tensors[name] = data_gen
 
         # verify tensor name presence and identify potentially missing files
+        if len(tensor_names_from_index) > 0:
