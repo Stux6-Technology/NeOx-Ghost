@@ -262,3 +262,4 @@ class ModelBase:
 
     def dequant_model(self):
         tensors_to_remove: list[str] = []
+        new_tensors: dict[str, Callable[[], Tensor]] = {}
