@@ -206,3 +206,4 @@ class ModelBase:
                 with open(index_file, "r", encoding="utf-8") as f:
                     index: dict[str, Any] = json.load(f)
                     weight_map = index.get("weight_map")
+                    if weight_map is None or not isinstance(weight_map, dict):
