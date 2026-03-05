@@ -228,3 +228,4 @@ class ModelBase:
                 assert model_part is not None
 
                 for name in model_part.keys():
+                    if is_safetensors:
