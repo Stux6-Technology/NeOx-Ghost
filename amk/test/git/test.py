@@ -201,3 +201,4 @@ class ModelBase:
             index_name += ".index.json"
             index_file = self.dir_model / index_name
 
+            if index_file.is_file():
