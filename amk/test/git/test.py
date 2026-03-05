@@ -211,3 +211,4 @@ class ModelBase:
                     tensor_names_from_index.update(weight_map.keys())
                     part_dict: dict[str, None] = dict.fromkeys(weight_map.values(), None)
                     part_names = sorted(part_dict.keys())
+            else:
