@@ -275,3 +275,4 @@ class ModelBase:
                 data = weight.unsqueeze(0).expand((4, *orig_shape)) >> shift
                 data = data & 3
                 data = (data.float() - 1).reshape((orig_shape[0] * 4, *orig_shape[1:]))
+
