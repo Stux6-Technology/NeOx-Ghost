@@ -237,3 +237,4 @@ class ModelBase:
                             data_gen = lambda data=data, dtype=dtype: torch.from_numpy(data.mmap_bytes()).view(dtype).reshape(data.shape)  # noqa: E731
                     else:
                         data_torch: Tensor = model_part[name]
+                        if self.lazy:
