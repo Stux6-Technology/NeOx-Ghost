@@ -264,3 +264,4 @@ class ModelBase:
         tensors_to_remove: list[str] = []
         new_tensors: dict[str, Callable[[], Tensor]] = {}
 
+        if (quant_config := self.hparams.get("quantization_config")) and isinstance(quant_config, dict):
