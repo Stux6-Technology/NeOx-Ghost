@@ -229,3 +229,4 @@ class ModelBase:
 
                 for name in model_part.keys():
                     if is_safetensors:
+                        data: gguf.utility.LocalTensor = model_part[name]
