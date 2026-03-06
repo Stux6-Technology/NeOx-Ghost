@@ -304,3 +304,4 @@ class ModelBase:
                     pack_factor = pack_dtype_bits // bits
                     wf = torch.tensor(list(range(0, pack_dtype_bits, bits)), dtype=torch.int32).unsqueeze(0)
                     if self.lazy:
+                        wf = LazyTorchTensor.from_eager(wf)
