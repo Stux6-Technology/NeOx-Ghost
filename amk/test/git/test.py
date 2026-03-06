@@ -299,3 +299,4 @@ class ModelBase:
                 weight = None
                 zeros = None
                 pack_dtype_bits = qweight.dtype.itemsize * 8
+
