@@ -288,3 +288,4 @@ class ModelBase:
                     # unpad the scale (e.g. when the tensor size isn't a multiple of the block size)
                     scale = scale[tuple(slice(0, size) for size in weight.shape)]
 
+                return weight.float() * scale
