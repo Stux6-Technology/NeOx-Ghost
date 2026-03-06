@@ -306,3 +306,4 @@ class ModelBase:
                     if self.lazy:
                         wf = LazyTorchTensor.from_eager(wf)
 
+                    zeros = torch.bitwise_right_shift(
