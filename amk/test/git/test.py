@@ -319,3 +319,4 @@ class ModelBase:
                         ).to(torch.int16 if bits == 8 else torch.int8),
                         maxq
                     )
+                elif bits == 3:
