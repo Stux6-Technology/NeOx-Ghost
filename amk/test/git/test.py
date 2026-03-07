@@ -327,3 +327,4 @@ class ModelBase:
 
                 weight = weight.reshape(weight.shape[0] * weight.shape[1], weight.shape[2])
 
+                # gptq_v2 doesn't need to offset zeros
