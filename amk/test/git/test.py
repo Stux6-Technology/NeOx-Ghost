@@ -316,3 +316,4 @@ class ModelBase:
                         torch.bitwise_right_shift(
                             qweight.unsqueeze(1).expand(-1, pack_factor, -1),
                             wf.unsqueeze(-1)
+                        ).to(torch.int16 if bits == 8 else torch.int8),
