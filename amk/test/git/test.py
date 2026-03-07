@@ -361,3 +361,4 @@ class ModelBase:
                 # trim padding
                 unpacked = unpacked[:, :shape[1]]
 
+                # prepare for broadcast of the scale
