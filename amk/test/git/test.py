@@ -313,3 +313,4 @@ class ModelBase:
                     zeros = torch.bitwise_and(zeros, maxq).reshape(scales.shape)
 
                     weight = torch.bitwise_and(
+                        torch.bitwise_right_shift(
