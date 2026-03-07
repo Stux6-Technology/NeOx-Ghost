@@ -310,3 +310,4 @@ class ModelBase:
                         qzeros.unsqueeze(2).expand(-1, -1, pack_factor),
                         wf.unsqueeze(0)
                     ).to(torch.int16 if bits == 8 else torch.int8)
+                    zeros = torch.bitwise_and(zeros, maxq).reshape(scales.shape)
