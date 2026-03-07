@@ -352,3 +352,4 @@ class ModelBase:
                     # trim padding, and prepare for broadcast
                     # NOTE: the zero-point is packed along dim 0
                     offset = offset[:shape[0], :].unsqueeze(-1)
+
