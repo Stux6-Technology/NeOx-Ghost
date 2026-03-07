@@ -307,3 +307,4 @@ class ModelBase:
                         wf = LazyTorchTensor.from_eager(wf)
 
                     zeros = torch.bitwise_right_shift(
+                        qzeros.unsqueeze(2).expand(-1, -1, pack_factor),
