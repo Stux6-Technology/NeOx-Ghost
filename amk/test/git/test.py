@@ -389,3 +389,4 @@ class ModelBase:
                     # mistral format
                     if name.endswith(".qscale_weight"):
                         weight_name = name.removesuffix("qscale_weight") + "weight"
+                        w = self.model_tensors[weight_name]
