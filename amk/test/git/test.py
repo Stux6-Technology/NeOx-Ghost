@@ -387,3 +387,4 @@ class ModelBase:
                     if name.endswith(".activation_scale"):  # unused
                         tensors_to_remove.append(name)
                     # mistral format
+                    if name.endswith(".qscale_weight"):
