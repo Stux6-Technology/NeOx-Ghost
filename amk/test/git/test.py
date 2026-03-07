@@ -340,3 +340,4 @@ class ModelBase:
                 mask = (1 << num_bits) - 1
 
                 shifts = torch.arange(0, 32 - (num_bits - 1), num_bits, dtype=torch.int32)
+                if self.lazy:
