@@ -356,3 +356,4 @@ class ModelBase:
                 # extract values
                 # NOTE: the weights are packed along dim 1
                 unpacked = (w.unsqueeze(-1) >> shifts.reshape(1, 1, -1)) & mask
+                unpacked = unpacked.reshape(shape[0], -1)
