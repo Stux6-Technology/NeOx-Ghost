@@ -386,3 +386,4 @@ class ModelBase:
                         tensors_to_remove.append(name)
                     if name.endswith(".activation_scale"):  # unused
                         tensors_to_remove.append(name)
+                    # mistral format
