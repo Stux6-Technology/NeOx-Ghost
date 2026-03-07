@@ -337,3 +337,4 @@ class ModelBase:
                 assert w.dtype == torch.int32
                 shape = tuple(shape_tensor.tolist())
                 assert len(shape) == 2
+                mask = (1 << num_bits) - 1
