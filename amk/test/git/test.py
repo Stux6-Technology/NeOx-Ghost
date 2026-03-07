@@ -358,3 +358,4 @@ class ModelBase:
                 unpacked = (w.unsqueeze(-1) >> shifts.reshape(1, 1, -1)) & mask
                 unpacked = unpacked.reshape(shape[0], -1)
 
+                # trim padding
