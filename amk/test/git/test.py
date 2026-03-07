@@ -380,3 +380,4 @@ class ModelBase:
                 for name in self.model_tensors.keys():
                     if name.endswith(".weight_scale_inv"):
                         weight_name = name.removesuffix("_scale_inv")
+                        w = self.model_tensors[weight_name]
