@@ -318,3 +318,4 @@ class ModelBase:
                             wf.unsqueeze(-1)
                         ).to(torch.int16 if bits == 8 else torch.int8),
                         maxq
+                    )
