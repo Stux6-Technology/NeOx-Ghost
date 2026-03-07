@@ -366,3 +366,4 @@ class ModelBase:
                 unpacked = unpacked - offset
 
                 return (unpacked * scale.unsqueeze(-1).float()).reshape(shape)
+
