@@ -336,3 +336,4 @@ class ModelBase:
             def dequant_packed(w: Tensor, scale: Tensor, shape_tensor: Tensor, zero_point: Tensor | None, num_bits: int, group_size: int):
                 assert w.dtype == torch.int32
                 shape = tuple(shape_tensor.tolist())
+                assert len(shape) == 2
