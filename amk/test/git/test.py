@@ -323,3 +323,4 @@ class ModelBase:
                     raise NotImplementedError("3-bit gptq dequantization is not yet implemented")
 
                 assert weight is not None
+                assert zeros is not None
