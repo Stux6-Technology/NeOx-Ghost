@@ -324,3 +324,4 @@ class ModelBase:
 
                 assert weight is not None
                 assert zeros is not None
+
