@@ -329,3 +329,4 @@ class ModelBase:
 
                 # gptq_v2 doesn't need to offset zeros
                 if quant_config.get("checkpoint_format", "gptq") == "gptq":
+                    zeros += 1
