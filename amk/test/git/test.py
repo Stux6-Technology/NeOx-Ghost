@@ -332,3 +332,4 @@ class ModelBase:
                     zeros += 1
 
                 return (scales[g_idx].float() * (weight - zeros[g_idx]).float()).T
+
