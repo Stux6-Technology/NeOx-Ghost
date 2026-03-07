@@ -345,3 +345,4 @@ class ModelBase:
 
                 if zero_point is None:
                     offset = 1 << (num_bits - 1)
+                else:
