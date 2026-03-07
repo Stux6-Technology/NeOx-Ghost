@@ -348,3 +348,4 @@ class ModelBase:
                 else:
                     assert len(zero_point.shape) == 2
                     offset = (zero_point.unsqueeze(1) >> shifts.reshape(1, -1, 1)) & mask
+                    offset = offset.reshape(-1, zero_point.shape[1])
