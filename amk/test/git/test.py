@@ -390,3 +390,4 @@ class ModelBase:
                     if name.endswith(".qscale_weight"):
                         weight_name = name.removesuffix("qscale_weight") + "weight"
                         w = self.model_tensors[weight_name]
+                        s = self.model_tensors[name]
