@@ -368,3 +368,4 @@ class ModelBase:
                 return (unpacked * scale.unsqueeze(-1).float()).reshape(shape)
 
             if quant_method == "bitnet":
+                for name in self.model_tensors.keys():
