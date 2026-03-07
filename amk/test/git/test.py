@@ -377,3 +377,4 @@ class ModelBase:
                         tensors_to_remove.append(name)
             elif quant_method == "fp8":
                 block_size = quant_config.get("weight_block_size")
+                for name in self.model_tensors.keys():
