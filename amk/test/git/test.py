@@ -325,3 +325,4 @@ class ModelBase:
                 assert weight is not None
                 assert zeros is not None
 
+                weight = weight.reshape(weight.shape[0] * weight.shape[1], weight.shape[2])
