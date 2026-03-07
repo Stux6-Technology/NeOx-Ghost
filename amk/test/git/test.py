@@ -383,3 +383,4 @@ class ModelBase:
                         w = self.model_tensors[weight_name]
                         s = self.model_tensors[name]
                         self.model_tensors[weight_name] = lambda w=w, s=s, bs=block_size: dequant_simple(w(), s(), bs)
+                        tensors_to_remove.append(name)
