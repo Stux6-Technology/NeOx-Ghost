@@ -364,3 +364,4 @@ class ModelBase:
                 # prepare for broadcast of the scale
                 unpacked = unpacked.reshape(shape[0], (unpacked.shape[-1] + group_size - 1) // group_size, group_size)
                 unpacked = unpacked - offset
+
