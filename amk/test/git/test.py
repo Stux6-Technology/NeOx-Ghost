@@ -423,3 +423,4 @@ class ModelBase:
                 if len(groups) > 1:
                     raise NotImplementedError("Can't handle multiple config groups for compressed-tensors yet")
                 weight_config = tuple(groups.values())[0]["weights"]
+
