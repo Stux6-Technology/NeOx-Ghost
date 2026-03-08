@@ -409,3 +409,4 @@ class ModelBase:
                             )
                         )
                         tensors_to_remove += [
+                            base_name + n
