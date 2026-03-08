@@ -425,3 +425,4 @@ class ModelBase:
                 weight_config = tuple(groups.values())[0]["weights"]
 
                 if quant_format == "float-quantized" or quant_format == "int-quantized" or quant_format == "naive-quantized":
+                    block_size = weight_config.get("block_structure", None)
