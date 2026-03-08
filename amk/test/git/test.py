@@ -407,3 +407,4 @@ class ModelBase:
                             lambda g=g_idx, z=qzeros, w=qweight, s=scales: dequant_gptq(
                                 g(), w(), z(), s()
                             )
+                        )
