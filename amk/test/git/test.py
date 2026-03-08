@@ -399,3 +399,4 @@ class ModelBase:
                 for name in self.model_tensors.keys():
                     if name.endswith(".qweight"):
                         base_name = name.removesuffix(".qweight")
+                        g_idx = self.model_tensors[base_name + ".g_idx"]
