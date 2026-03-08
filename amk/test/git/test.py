@@ -408,3 +408,4 @@ class ModelBase:
                                 g(), w(), z(), s()
                             )
                         )
+                        tensors_to_remove += [
