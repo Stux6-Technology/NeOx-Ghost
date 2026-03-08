@@ -397,3 +397,4 @@ class ModelBase:
                         tensors_to_remove.append(name)
             elif quant_method == "gptq":
                 for name in self.model_tensors.keys():
+                    if name.endswith(".qweight"):
