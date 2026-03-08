@@ -403,3 +403,4 @@ class ModelBase:
                         qweight = self.model_tensors[base_name + ".qweight"]
                         qzeros = self.model_tensors[base_name + ".qzeros"]
                         scales = self.model_tensors[base_name + ".scales"]
+                        new_tensors[base_name + ".weight"] = (
