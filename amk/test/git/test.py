@@ -424,3 +424,4 @@ class ModelBase:
                     raise NotImplementedError("Can't handle multiple config groups for compressed-tensors yet")
                 weight_config = tuple(groups.values())[0]["weights"]
 
+                if quant_format == "float-quantized" or quant_format == "int-quantized" or quant_format == "naive-quantized":
