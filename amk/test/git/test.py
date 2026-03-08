@@ -411,3 +411,4 @@ class ModelBase:
                         tensors_to_remove += [
                             base_name + n
                             for n in (
+                                ".g_idx",
