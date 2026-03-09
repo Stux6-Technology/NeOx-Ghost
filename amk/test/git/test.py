@@ -427,3 +427,4 @@ class ModelBase:
                 if quant_format == "float-quantized" or quant_format == "int-quantized" or quant_format == "naive-quantized":
                     block_size = weight_config.get("block_structure", None)
                     strategy = weight_config.get("strategy")
+                    assert strategy == "channel" or strategy == "block"
