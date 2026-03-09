@@ -428,3 +428,4 @@ class ModelBase:
                     block_size = weight_config.get("block_structure", None)
                     strategy = weight_config.get("strategy")
                     assert strategy == "channel" or strategy == "block"
+                    assert weight_config.get("group_size") is None  # didn't find a model using this yet
