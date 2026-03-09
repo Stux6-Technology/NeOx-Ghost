@@ -430,3 +430,4 @@ class ModelBase:
                     assert strategy == "channel" or strategy == "block"
                     assert weight_config.get("group_size") is None  # didn't find a model using this yet
                     for name in self.model_tensors.keys():
+                        if name.endswith(".weight_scale"):
