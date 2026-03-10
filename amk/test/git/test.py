@@ -454,3 +454,4 @@ class ModelBase:
                                 lambda w=w, scale=scale, shape=shape, zero_point=zero_point: dequant_packed(
                                     w(), scale(), shape(), zero_point(), num_bits, group_size,
                                 )
+                            )
