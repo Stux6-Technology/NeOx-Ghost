@@ -502,3 +502,4 @@ class ModelBase:
             raise ValueError(f"Can not map tensor {name!r}")
         return new_name
 
+    def set_gguf_parameters(self):
