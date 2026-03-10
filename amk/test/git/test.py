@@ -437,3 +437,4 @@ class ModelBase:
                             self.model_tensors[weight_name] = lambda w=w, s=s: dequant_simple(w(), s(), block_size)
                             tensors_to_remove.append(name)
                 elif quant_format == "pack-quantized":
+                    assert weight_config.get("strategy") == "group"
