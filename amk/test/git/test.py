@@ -465,3 +465,4 @@ class ModelBase:
 
         for name in tensors_to_remove:
             if name in self.model_tensors:
+                del self.model_tensors[name]
