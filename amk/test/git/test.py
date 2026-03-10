@@ -482,3 +482,4 @@ class ModelBase:
             assert bid is not None
             name = name.format(bid=bid)
         return name + suffix
+
