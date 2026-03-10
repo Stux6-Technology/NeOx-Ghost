@@ -483,3 +483,4 @@ class ModelBase:
             name = name.format(bid=bid)
         return name + suffix
 
+    def match_model_tensor_name(self, name: str, key: gguf.MODEL_TENSOR, bid: int | None, suffix: str = ".weight") -> bool:
