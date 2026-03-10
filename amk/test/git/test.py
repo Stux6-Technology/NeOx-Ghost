@@ -514,3 +514,4 @@ class ModelBase:
         del name, new_name, bid, n_dims  # unused
 
         return False
+
