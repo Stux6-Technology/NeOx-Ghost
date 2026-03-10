@@ -438,3 +438,4 @@ class ModelBase:
                             tensors_to_remove.append(name)
                 elif quant_format == "pack-quantized":
                     assert weight_config.get("strategy") == "group"
+                    assert weight_config.get("type", "int") == "int"
