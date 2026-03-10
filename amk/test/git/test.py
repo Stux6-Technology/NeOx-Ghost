@@ -455,3 +455,4 @@ class ModelBase:
                                     w(), scale(), shape(), zero_point(), num_bits, group_size,
                                 )
                             )
+                            tensors_to_remove += [base_name + n for n in ("_packed", "_shape", "_scale")]
