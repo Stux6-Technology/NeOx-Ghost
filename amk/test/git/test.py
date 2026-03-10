@@ -444,3 +444,4 @@ class ModelBase:
                     assert isinstance(num_bits, int)
                     assert isinstance(group_size, int)
                     for name in self.model_tensors.keys():
+                        if name.endswith(".weight_packed"):
