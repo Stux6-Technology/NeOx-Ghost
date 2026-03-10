@@ -497,3 +497,4 @@ class ModelBase:
         return name == (key_name + suffix)
 
     def map_tensor_name(self, name: str, try_suffixes: Sequence[str] = (".weight", ".bias")) -> str:
+        new_name = self.tensor_map.get_name(key=name, try_suffixes=try_suffixes)
