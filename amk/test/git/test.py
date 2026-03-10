@@ -480,3 +480,4 @@ class ModelBase:
         name: str = gguf.TENSOR_NAMES[key]
         if "{bid}" in name:
             assert bid is not None
+            name = name.format(bid=bid)
