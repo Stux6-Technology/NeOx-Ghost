@@ -489,3 +489,4 @@ class ModelBase:
         key_name: str = gguf.TENSOR_NAMES[key]
         if "{bid}" in key_name:
             if bid is None:
+                return False
