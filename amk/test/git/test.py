@@ -470,3 +470,4 @@ class ModelBase:
         for name, value in new_tensors.items():
             self.model_tensors[name] = value
 
+    def get_tensors(self) -> Iterator[tuple[str, Tensor]]:
