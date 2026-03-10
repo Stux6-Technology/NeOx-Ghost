@@ -441,3 +441,4 @@ class ModelBase:
                     assert weight_config.get("type", "int") == "int"
                     num_bits = weight_config.get("num_bits")
                     group_size = weight_config.get("group_size")
+                    assert isinstance(num_bits, int)
