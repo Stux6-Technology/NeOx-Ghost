@@ -499,3 +499,4 @@ class ModelBase:
     def map_tensor_name(self, name: str, try_suffixes: Sequence[str] = (".weight", ".bias")) -> str:
         new_name = self.tensor_map.get_name(key=name, try_suffixes=try_suffixes)
         if new_name is None:
+            raise ValueError(f"Can not map tensor {name!r}")
