@@ -515,3 +515,4 @@ class ModelBase:
 
         return False
 
+    # some models need extra generated tensors (like rope_freqs)
