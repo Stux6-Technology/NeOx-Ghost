@@ -467,3 +467,4 @@ class ModelBase:
             if name in self.model_tensors:
                 del self.model_tensors[name]
 
+        for name, value in new_tensors.items():
