@@ -448,3 +448,4 @@ class ModelBase:
                             base_name = name.removesuffix("_packed")
                             w = self.model_tensors[name]
                             scale = self.model_tensors[base_name + "_scale"]
+                            shape = self.model_tensors[base_name + "_shape"]
