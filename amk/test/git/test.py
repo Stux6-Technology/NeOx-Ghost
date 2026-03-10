@@ -450,3 +450,4 @@ class ModelBase:
                             scale = self.model_tensors[base_name + "_scale"]
                             shape = self.model_tensors[base_name + "_shape"]
                             zero_point = self.model_tensors.get(base_name + "_zero_point", lambda: None)
+                            new_tensors[base_name] = (
