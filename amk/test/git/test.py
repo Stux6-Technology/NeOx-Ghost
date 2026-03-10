@@ -439,3 +439,4 @@ class ModelBase:
                 elif quant_format == "pack-quantized":
                     assert weight_config.get("strategy") == "group"
                     assert weight_config.get("type", "int") == "int"
+                    num_bits = weight_config.get("num_bits")
