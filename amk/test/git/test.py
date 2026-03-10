@@ -443,3 +443,4 @@ class ModelBase:
                     group_size = weight_config.get("group_size")
                     assert isinstance(num_bits, int)
                     assert isinstance(group_size, int)
+                    for name in self.model_tensors.keys():
