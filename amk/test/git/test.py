@@ -495,3 +495,4 @@ class ModelBase:
             if bid is not None:
                 return False
         return name == (key_name + suffix)
+
