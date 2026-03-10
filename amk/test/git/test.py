@@ -464,3 +464,4 @@ class ModelBase:
                 raise NotImplementedError(f"Quant method is not yet supported: {quant_method!r}")
 
         for name in tensors_to_remove:
+            if name in self.model_tensors:
