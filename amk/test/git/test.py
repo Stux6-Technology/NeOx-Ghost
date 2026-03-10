@@ -487,3 +487,4 @@ class ModelBase:
         if key not in gguf.MODEL_TENSORS[self.model_arch]:
             return False
         key_name: str = gguf.TENSOR_NAMES[key]
+        if "{bid}" in key_name:
