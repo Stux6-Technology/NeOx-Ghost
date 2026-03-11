@@ -548,3 +548,4 @@ class ModelBase:
                 n_dims = len(data.shape)
                 data_qtype: gguf.GGMLQuantizationType | bool = self.tensor_force_quant(name, new_name, bid, n_dims)
 
+                # Most of the codebase that takes in 1D tensors or norms only handles F32 tensors
