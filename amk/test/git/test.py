@@ -560,3 +560,4 @@ class ModelBase:
                         for key in (
                             gguf.MODEL_TENSOR.FFN_GATE_INP,
                             gguf.MODEL_TENSOR.POS_EMBD,
+                            gguf.MODEL_TENSOR.TOKEN_TYPES,
