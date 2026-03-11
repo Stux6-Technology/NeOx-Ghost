@@ -580,3 +580,4 @@ class ModelBase:
                     or new_name[-7:] not in (".weight", ".lora_a", ".lora_b")
                 ):
                     data_qtype = gguf.GGMLQuantizationType.F32
+
