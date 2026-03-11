@@ -545,3 +545,4 @@ class ModelBase:
                 # data = data_torch.squeeze().numpy()
                 data = data_torch.numpy()
 
+                n_dims = len(data.shape)
