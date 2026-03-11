@@ -544,3 +544,4 @@ class ModelBase:
                 # TODO: why do we squeeze here?
                 # data = data_torch.squeeze().numpy()
                 data = data_torch.numpy()
+
