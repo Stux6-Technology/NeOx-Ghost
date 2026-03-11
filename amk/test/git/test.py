@@ -539,3 +539,4 @@ class ModelBase:
                 if part.isdecimal():
                     bid = int(part)
                     break
+
