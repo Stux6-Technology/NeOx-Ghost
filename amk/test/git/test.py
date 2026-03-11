@@ -564,3 +564,4 @@ class ModelBase:
                             gguf.MODEL_TENSOR.SSM_CONV1D,
                             gguf.MODEL_TENSOR.SHORTCONV_CONV,
                             gguf.MODEL_TENSOR.TIME_MIX_FIRST,
+                            gguf.MODEL_TENSOR.TIME_MIX_W1,
