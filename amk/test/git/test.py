@@ -519,3 +519,4 @@ class ModelBase:
     def generate_extra_tensors(self) -> Iterable[tuple[str, Tensor]]:
         return ()
 
+    def prepare_tensors(self):
