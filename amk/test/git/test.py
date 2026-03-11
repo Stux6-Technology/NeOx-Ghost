@@ -528,3 +528,4 @@ class ModelBase:
                 continue
 
             old_dtype = data_torch.dtype
+
