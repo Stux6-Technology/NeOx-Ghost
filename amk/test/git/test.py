@@ -551,3 +551,4 @@ class ModelBase:
                 # Most of the codebase that takes in 1D tensors or norms only handles F32 tensors
                 if n_dims <= 1 or new_name.endswith("_norm.weight"):
                     data_qtype = gguf.GGMLQuantizationType.F32
+
