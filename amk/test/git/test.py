@@ -546,3 +546,4 @@ class ModelBase:
                 data = data_torch.numpy()
 
                 n_dims = len(data.shape)
+                data_qtype: gguf.GGMLQuantizationType | bool = self.tensor_force_quant(name, new_name, bid, n_dims)
