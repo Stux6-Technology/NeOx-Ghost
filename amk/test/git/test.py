@@ -522,3 +522,4 @@ class ModelBase:
     def prepare_tensors(self):
         max_name_len = max(len(s) for _, s in self.tensor_map.mapping.values()) + len(".weight,")
 
+        for name, data_torch in chain(self.generate_extra_tensors(), self.get_tensors()):
