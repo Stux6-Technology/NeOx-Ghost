@@ -592,3 +592,4 @@ class ModelBase:
                         gguf.MODEL_TENSOR.LAUREL_R,
                     )
                 ):
+                    if self.ftype in (
