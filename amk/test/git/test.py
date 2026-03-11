@@ -542,3 +542,4 @@ class ModelBase:
 
             for new_name, data_torch in (self.modify_tensors(data_torch, name, bid)):
                 # TODO: why do we squeeze here?
+                # data = data_torch.squeeze().numpy()
