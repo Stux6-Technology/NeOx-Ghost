@@ -517,3 +517,4 @@ class ModelBase:
 
     # some models need extra generated tensors (like rope_freqs)
     def generate_extra_tensors(self) -> Iterable[tuple[str, Tensor]]:
+        return ()
