@@ -530,3 +530,4 @@ class ModelBase:
             old_dtype = data_torch.dtype
 
             # convert any unsupported data types to float32
+            if data_torch.dtype not in (torch.float16, torch.float32):
