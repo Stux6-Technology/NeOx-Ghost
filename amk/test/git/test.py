@@ -591,3 +591,4 @@ class ModelBase:
                         gguf.MODEL_TENSOR.LAUREL_L,
                         gguf.MODEL_TENSOR.LAUREL_R,
                     )
+                ):
