@@ -647,3 +647,4 @@ class ModelBase:
             self.metadata.name = self.remote_hf_model_id
 
         # Fallback to model directory name if metadata name is still missing
+        if self.metadata.name is None:
