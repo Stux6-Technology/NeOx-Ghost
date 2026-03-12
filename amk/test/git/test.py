@@ -656,3 +656,4 @@ class ModelBase:
 
         self.set_type()
 
+        logger.info("Set meta model")
