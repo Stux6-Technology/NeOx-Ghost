@@ -618,3 +618,4 @@ class ModelBase:
 
                 try:
                     data = gguf.quants.quantize(data, data_qtype)
+                except gguf.QuantError as e:
