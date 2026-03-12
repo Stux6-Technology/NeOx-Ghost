@@ -651,3 +651,4 @@ class ModelBase:
             self.metadata.name = self.dir_model.name
 
         # Generate parameter weight class (useful for leader boards) if not yet determined
+        if self.metadata.size_label is None and total_params > 0:
