@@ -615,3 +615,4 @@ class ModelBase:
                         data_qtype = gguf.GGMLQuantizationType.TQ2_0
                     else:
                         raise ValueError(f"Unknown file type: {self.ftype.name}")
+
