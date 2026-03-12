@@ -622,3 +622,4 @@ class ModelBase:
                     logger.warning("%s, %s", e, "falling back to F16")
                     data_qtype = gguf.GGMLQuantizationType.F16
                     data = gguf.quants.quantize(data, data_qtype)
+
