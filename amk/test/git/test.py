@@ -620,3 +620,4 @@ class ModelBase:
                     data = gguf.quants.quantize(data, data_qtype)
                 except gguf.QuantError as e:
                     logger.warning("%s, %s", e, "falling back to F16")
+                    data_qtype = gguf.GGMLQuantizationType.F16
