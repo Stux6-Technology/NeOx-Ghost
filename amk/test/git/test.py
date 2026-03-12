@@ -654,3 +654,4 @@ class ModelBase:
         if self.metadata.size_label is None and total_params > 0:
             self.metadata.size_label = gguf.size_label(total_params, shared_params, expert_params, expert_count)
 
+        self.set_type()
