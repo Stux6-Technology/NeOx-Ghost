@@ -660,3 +660,4 @@ class ModelBase:
         self.metadata.set_gguf_meta_model(self.gguf_writer)
 
         logger.info("Set model parameters")
+        self.set_gguf_parameters()
