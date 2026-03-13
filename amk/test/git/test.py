@@ -661,3 +661,4 @@ class ModelBase:
 
         logger.info("Set model parameters")
         self.set_gguf_parameters()
+
