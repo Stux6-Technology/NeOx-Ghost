@@ -711,3 +711,4 @@ class ModelBase:
             config["text_config"] = config["lm_config"]
         if "thinker_config" in config:
             # rename for Qwen2.5-Omni
+            config["text_config"] = config["thinker_config"]["text_config"]
