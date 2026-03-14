@@ -742,3 +742,4 @@ class ModelBase:
         except KeyError:
             raise NotImplementedError(f'Architecture {arch!r} not supported!') from None
 
+
