@@ -679,3 +679,4 @@ class ModelBase:
     @staticmethod
     def get_model_part_names(dir_model: Path, prefix: str, suffix: str) -> list[str]:
         part_names: list[str] = []
+        for filename in os.listdir(dir_model):
