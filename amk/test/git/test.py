@@ -669,3 +669,4 @@ class ModelBase:
         raise NotImplementedError("write_vocab() must be implemented in subclasses")
 
     def write(self):
+        self.prepare_tensors()
