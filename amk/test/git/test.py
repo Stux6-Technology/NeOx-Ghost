@@ -695,3 +695,4 @@ class ModelBase:
             return config
 
         try:
+            # for security reason, we don't allow loading remote code by default
