@@ -676,3 +676,4 @@ class ModelBase:
         self.gguf_writer.write_tensors_to_file(progress=True)
         self.gguf_writer.close()
 
+    @staticmethod
