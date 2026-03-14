@@ -718,3 +718,4 @@ class ModelBase:
         return config
 
     @classmethod
+    def register(cls, *names: str) -> Callable[[AnyModel], AnyModel]:
