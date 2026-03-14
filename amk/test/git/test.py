@@ -727,3 +727,4 @@ class ModelBase:
                 cls._model_classes[model_type][name] = modelcls
             return modelcls
         return func
+
