@@ -704,3 +704,4 @@ class ModelBase:
             with open(dir_model / "config.json", "r", encoding="utf-8") as f:
                 config = json.load(f)
         if "llm_config" in config:
+            # rename for InternVL
