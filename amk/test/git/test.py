@@ -741,3 +741,4 @@ class ModelBase:
             return cls._model_classes[model_type][arch]
         except KeyError:
             raise NotImplementedError(f'Architecture {arch!r} not supported!') from None
+
