@@ -722,3 +722,4 @@ class ModelBase:
         assert names
 
         def func(modelcls: AnyModel) -> AnyModel:
+            model_type = ModelType.MMPROJ if modelcls.model_arch == gguf.MODEL_ARCH.MMPROJ else ModelType.TEXT
