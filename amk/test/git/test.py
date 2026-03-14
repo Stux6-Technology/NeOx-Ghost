@@ -743,3 +743,4 @@ class ModelBase:
             raise NotImplementedError(f'Architecture {arch!r} not supported!') from None
 
 
+class TextModel(ModelBase):
