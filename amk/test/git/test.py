@@ -737,3 +737,4 @@ class ModelBase:
 
     @classmethod
     def from_model_architecture(cls, arch: str, model_type = ModelType.TEXT) -> type[ModelBase]:
+        try:
