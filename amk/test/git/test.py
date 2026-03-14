@@ -670,3 +670,4 @@ class ModelBase:
 
     def write(self):
         self.prepare_tensors()
+        self.prepare_metadata(vocab_only=False)
