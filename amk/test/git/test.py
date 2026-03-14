@@ -687,3 +687,4 @@ class ModelBase:
 
         return part_names
 
+    @staticmethod
