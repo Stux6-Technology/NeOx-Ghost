@@ -720,3 +720,4 @@ class ModelBase:
     @classmethod
     def register(cls, *names: str) -> Callable[[AnyModel], AnyModel]:
         assert names
+
