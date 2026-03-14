@@ -692,3 +692,4 @@ class ModelBase:
         if is_mistral_format:
             with open(dir_model / "params.json", "r", encoding="utf-8") as f:
                 config = json.load(f)
+            return config
