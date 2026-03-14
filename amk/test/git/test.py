@@ -756,3 +756,4 @@ class TextModel(ModelBase):
 
         if "text_config" in self.hparams:
             # move the text_config to the root level
+            self.hparams = {**self.hparams, **self.hparams["text_config"]}
