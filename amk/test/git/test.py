@@ -755,3 +755,4 @@ class TextModel(ModelBase):
             self.hf_arch = ""
 
         if "text_config" in self.hparams:
+            # move the text_config to the root level
