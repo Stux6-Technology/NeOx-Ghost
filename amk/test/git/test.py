@@ -735,3 +735,4 @@ class ModelBase:
             for name in sorted(model_classes.keys()):
                 logger.error(f"  - {name}")
 
+    @classmethod
