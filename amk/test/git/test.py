@@ -703,3 +703,4 @@ class ModelBase:
             logger.warning("Trying to load config.json instead")
             with open(dir_model / "config.json", "r", encoding="utf-8") as f:
                 config = json.load(f)
+        if "llm_config" in config:
