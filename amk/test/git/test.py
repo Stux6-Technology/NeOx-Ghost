@@ -708,3 +708,4 @@ class ModelBase:
             config["text_config"] = config["llm_config"]
         if "lm_config" in config:
             # rename for GlmASR
+            config["text_config"] = config["lm_config"]
