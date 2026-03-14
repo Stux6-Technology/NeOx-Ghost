@@ -744,3 +744,4 @@ class ModelBase:
 
 
 class TextModel(ModelBase):
+    model_type = ModelType.TEXT
