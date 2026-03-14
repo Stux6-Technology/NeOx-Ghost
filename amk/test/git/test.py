@@ -677,3 +677,4 @@ class ModelBase:
         self.gguf_writer.close()
 
     @staticmethod
+    def get_model_part_names(dir_model: Path, prefix: str, suffix: str) -> list[str]:
