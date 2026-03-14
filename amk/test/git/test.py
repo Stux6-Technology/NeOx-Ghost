@@ -706,3 +706,4 @@ class ModelBase:
         if "llm_config" in config:
             # rename for InternVL
             config["text_config"] = config["llm_config"]
+        if "lm_config" in config:
