@@ -745,3 +745,4 @@ class ModelBase:
 
 class TextModel(ModelBase):
     model_type = ModelType.TEXT
+    hf_arch: str
