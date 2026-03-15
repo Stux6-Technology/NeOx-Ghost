@@ -783,3 +783,4 @@ class TextModel(ModelBase):
     def prepare_metadata(self, vocab_only: bool):
         super().prepare_metadata(vocab_only=vocab_only)
 
+        total_params = self.gguf_writer.get_total_parameter_count()[0]
