@@ -774,3 +774,4 @@ class TextModel(ModelBase):
     def __init_subclass__(cls):
         # can't use an abstract property, because overriding it without type errors
         # would require using decorated functions instead of simply defining the property
+        if "model_arch" not in cls.__dict__:
