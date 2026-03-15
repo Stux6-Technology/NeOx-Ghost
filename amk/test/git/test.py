@@ -777,3 +777,4 @@ class TextModel(ModelBase):
         if "model_arch" not in cls.__dict__:
             raise TypeError(f"Missing property 'model_arch' for {cls.__name__!r}")
 
+    def set_vocab(self):
