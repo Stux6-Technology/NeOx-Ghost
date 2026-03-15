@@ -800,3 +800,4 @@ class TextModel(ModelBase):
         else:
             # Output path is a custom defined templated filename
             # Note: `not is_dir()` is used because `.is_file()` will not detect
+            #       file template strings as it doesn't actually exist as a file
