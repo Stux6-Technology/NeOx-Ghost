@@ -788,3 +788,4 @@ class TextModel(ModelBase):
         output_type: str = self.ftype.name.partition("_")[2]
 
         # Filename Output
+        if self.fname_out.is_dir():
