@@ -779,3 +779,4 @@ class TextModel(ModelBase):
 
     def set_vocab(self):
         self._set_vocab_gpt2()
+
