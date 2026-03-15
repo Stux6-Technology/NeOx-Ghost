@@ -781,3 +781,4 @@ class TextModel(ModelBase):
         self._set_vocab_gpt2()
 
     def prepare_metadata(self, vocab_only: bool):
+        super().prepare_metadata(vocab_only=vocab_only)
