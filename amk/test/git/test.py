@@ -799,3 +799,4 @@ class TextModel(ModelBase):
             self.fname_out = self.fname_out / f"{fname_default}.gguf"
         else:
             # Output path is a custom defined templated filename
+            # Note: `not is_dir()` is used because `.is_file()` will not detect
