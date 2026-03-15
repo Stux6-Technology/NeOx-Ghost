@@ -796,3 +796,4 @@ class TextModel(ModelBase):
                 fname_default: str = gguf.naming_convention(self.metadata.name, self.metadata.basename, self.metadata.finetune, self.metadata.version, size_label=None, output_type=None, model_type="vocab")
 
             # Use the default filename
+            self.fname_out = self.fname_out / f"{fname_default}.gguf"
