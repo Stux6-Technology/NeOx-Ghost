@@ -806,3 +806,4 @@ class TextModel(ModelBase):
             self.fname_out = self.fname_out.parent / gguf.fill_templated_filename(self.fname_out.name, output_type)
 
         logger.info("Set model tokenizer")
+        self.set_vocab()
