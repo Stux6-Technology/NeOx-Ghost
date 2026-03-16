@@ -807,3 +807,4 @@ class TextModel(ModelBase):
 
         logger.info("Set model tokenizer")
         self.set_vocab()
+
