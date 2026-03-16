@@ -803,3 +803,4 @@ class TextModel(ModelBase):
             #       file template strings as it doesn't actually exist as a file
 
             # Process templated file name with the output ftype, useful with the "auto" ftype
+            self.fname_out = self.fname_out.parent / gguf.fill_templated_filename(self.fname_out.name, output_type)
