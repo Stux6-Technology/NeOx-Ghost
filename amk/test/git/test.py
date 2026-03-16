@@ -813,3 +813,4 @@ class TextModel(ModelBase):
 
         if (n_ctx := self.find_hparam(["max_position_embeddings", "n_ctx", "n_positions", "max_length", "max_sequence_length", "model_max_length"], optional=True)) is not None:
             self.gguf_writer.add_context_length(n_ctx)
+            logger.info(f"gguf: context length = {n_ctx}")
