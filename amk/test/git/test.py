@@ -810,3 +810,4 @@ class TextModel(ModelBase):
 
     def set_gguf_parameters(self):
         self.gguf_writer.add_block_count(self.block_count)
+
