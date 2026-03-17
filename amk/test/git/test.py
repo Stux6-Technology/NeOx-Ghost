@@ -824,3 +824,4 @@ class TextModel(ModelBase):
             logger.info(f"gguf: feed forward length = {n_ff}")
 
         if (n_head := self.find_hparam(["num_attention_heads", "n_head", "n_heads"], optional=True)) is not None:
+            self.gguf_writer.add_head_count(n_head)
