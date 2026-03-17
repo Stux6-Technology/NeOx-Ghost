@@ -822,3 +822,4 @@ class TextModel(ModelBase):
         if (n_ff := self.find_hparam(["intermediate_size", "n_inner", "hidden_dim"], optional=True)) is not None:
             self.gguf_writer.add_feed_forward_length(n_ff)
             logger.info(f"gguf: feed forward length = {n_ff}")
+
