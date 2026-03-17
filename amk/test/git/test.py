@@ -828,3 +828,4 @@ class TextModel(ModelBase):
             logger.info(f"gguf: head count = {n_head}")
 
         if (n_head_kv := self.find_hparam(["num_key_value_heads", "n_kv_heads"], optional=True)) is not None:
+            self.gguf_writer.add_head_count_kv(n_head_kv)
