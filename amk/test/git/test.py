@@ -843,3 +843,4 @@ class TextModel(ModelBase):
                 rope_gguf_type = gguf.RopeScalingType.YARN
                 self.gguf_writer.add_rope_scaling_type(rope_gguf_type)
                 self.gguf_writer.add_rope_scaling_factor(rope_factor)
+                self.gguf_writer.add_rope_scaling_orig_ctx_len(rope_params["original_max_position_embeddings"])
