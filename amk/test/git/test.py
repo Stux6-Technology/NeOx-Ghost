@@ -831,3 +831,4 @@ class TextModel(ModelBase):
             self.gguf_writer.add_head_count_kv(n_head_kv)
             logger.info(f"gguf: key-value head count = {n_head_kv}")
 
+        rope_params = self.rope_parameters.get("full_attention", self.rope_parameters)
