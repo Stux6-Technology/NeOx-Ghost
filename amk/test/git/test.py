@@ -863,3 +863,4 @@ class TextModel(ModelBase):
                 # Handled in generate_extra_tensors
                 pass
             else:
+                logger.warning(f"Unknown RoPE type: {rope_type}")
