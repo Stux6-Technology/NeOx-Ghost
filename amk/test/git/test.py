@@ -872,3 +872,4 @@ class TextModel(ModelBase):
             while len(mrope_section) < 4:
                 mrope_section.append(0)
             self.gguf_writer.add_rope_dimension_sections(mrope_section[:4])
+            logger.info(f"gguf: mrope sections: {mrope_section[:4]}")
