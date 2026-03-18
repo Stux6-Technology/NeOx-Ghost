@@ -864,3 +864,4 @@ class TextModel(ModelBase):
                 pass
             else:
                 logger.warning(f"Unknown RoPE type: {rope_type}")
+            logger.info(f"gguf: rope scaling type = {rope_gguf_type.name}")
