@@ -860,3 +860,4 @@ class TextModel(ModelBase):
                 # HunYuan, handled in model class
                 pass
             elif rope_type.lower() == "llama3":
+                # Handled in generate_extra_tensors
