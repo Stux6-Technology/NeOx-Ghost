@@ -868,3 +868,4 @@ class TextModel(ModelBase):
 
         if "mrope_section" in self.rope_parameters:
             mrope_section = self.rope_parameters["mrope_section"]
+            # Pad to 4 dimensions [time, height, width, extra]
