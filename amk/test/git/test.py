@@ -867,3 +867,4 @@ class TextModel(ModelBase):
             logger.info(f"gguf: rope scaling type = {rope_gguf_type.name}")
 
         if "mrope_section" in self.rope_parameters:
+            mrope_section = self.rope_parameters["mrope_section"]
