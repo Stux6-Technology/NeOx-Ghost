@@ -913,3 +913,4 @@ class TextModel(ModelBase):
         logger.info(f"gguf: file type = {self.ftype}")
 
     def write_vocab(self):
+        if len(self.gguf_writer.tensors) != 1:
