@@ -897,3 +897,4 @@ class TextModel(ModelBase):
             logger.info(f"gguf: expert groups used count = {n_group_used}")
 
         if (score_func := self.find_hparam(["score_function", "scoring_func", "score_func"], optional=True)) is not None:
+            if score_func == "sigmoid":
