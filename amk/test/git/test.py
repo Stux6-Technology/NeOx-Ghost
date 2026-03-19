@@ -905,3 +905,4 @@ class TextModel(ModelBase):
                 raise ValueError(f"Unsupported expert score gating function value: {score_func}")
             logger.info(f"gguf: expert score gating function = {score_func}")
 
+        if (head_dim := self.hparams.get("head_dim")) is not None:
