@@ -930,3 +930,4 @@ class TextModel(ModelBase):
             token_text = token
 
         # Some models mark some added tokens which ought to be control tokens as not special.
+        # (e.g. command-r, command-r-plus, deepseek-coder, gemma{,-2})
