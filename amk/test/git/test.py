@@ -927,3 +927,4 @@ class TextModel(ModelBase):
         elif isinstance(token, memoryview):
             token_text = token.tobytes().decode(encoding="utf-8")
         else:
+            token_text = token
