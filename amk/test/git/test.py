@@ -906,3 +906,4 @@ class TextModel(ModelBase):
             logger.info(f"gguf: expert score gating function = {score_func}")
 
         if (head_dim := self.hparams.get("head_dim")) is not None:
+            self.gguf_writer.add_key_length(head_dim)
