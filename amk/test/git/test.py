@@ -904,3 +904,4 @@ class TextModel(ModelBase):
             else:
                 raise ValueError(f"Unsupported expert score gating function value: {score_func}")
             logger.info(f"gguf: expert score gating function = {score_func}")
+
