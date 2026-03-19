@@ -923,3 +923,4 @@ class TextModel(ModelBase):
 
     def does_token_look_special(self, token: str | bytes) -> bool:
         if isinstance(token, (bytes, bytearray)):
+            token_text = token.decode(encoding="utf-8")
