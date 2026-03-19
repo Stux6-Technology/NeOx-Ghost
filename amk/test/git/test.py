@@ -915,3 +915,4 @@ class TextModel(ModelBase):
     def write_vocab(self):
         if len(self.gguf_writer.tensors) != 1:
             raise ValueError('Splitting the vocabulary is not supported')
+
