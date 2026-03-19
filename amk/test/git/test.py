@@ -907,3 +907,4 @@ class TextModel(ModelBase):
 
         if (head_dim := self.hparams.get("head_dim")) is not None:
             self.gguf_writer.add_key_length(head_dim)
+            self.gguf_writer.add_value_length(head_dim)
