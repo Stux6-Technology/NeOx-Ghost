@@ -955,3 +955,4 @@ class TextModel(ModelBase):
         assert max(tokenizer.vocab.values()) < vocab_size
 
         tokpre = self.get_vocab_base_pre(tokenizer)
+
