@@ -963,3 +963,4 @@ class TextModel(ModelBase):
 
         for i in range(vocab_size):
             if i not in reverse_vocab:
+                tokens.append(f"[PAD{i}]")
