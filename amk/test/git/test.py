@@ -956,3 +956,4 @@ class TextModel(ModelBase):
 
         tokpre = self.get_vocab_base_pre(tokenizer)
 
+        reverse_vocab = {id_: encoded_tok for encoded_tok, id_ in tokenizer.vocab.items()}
