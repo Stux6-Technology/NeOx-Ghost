@@ -948,3 +948,4 @@ class TextModel(ModelBase):
     def get_vocab_base(self) -> tuple[list[str], list[int], str]:
         tokens: list[str] = []
         toktypes: list[int] = []
+
