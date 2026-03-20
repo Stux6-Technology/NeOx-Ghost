@@ -946,3 +946,4 @@ class TextModel(ModelBase):
 
     # used for GPT-2 BPE and WordPiece vocabs
     def get_vocab_base(self) -> tuple[list[str], list[int], str]:
+        tokens: list[str] = []
