@@ -943,3 +943,4 @@ class TextModel(ModelBase):
         seems_special = seems_special or (token_text.startswith("<unused") and token_text.endswith(">"))  # gemma{,-2}
 
         return seems_special
+
