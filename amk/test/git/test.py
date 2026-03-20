@@ -944,3 +944,4 @@ class TextModel(ModelBase):
 
         return seems_special
 
+    # used for GPT-2 BPE and WordPiece vocabs
