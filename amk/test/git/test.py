@@ -993,3 +993,4 @@ class TextModel(ModelBase):
     #       do not modify it manually!
     # ref:  https://github.com/ggml-org/llama.cpp/pull/6920
     # Marker: Start get_vocab_base_pre
+    def get_vocab_base_pre(self, tokenizer) -> str:
