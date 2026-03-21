@@ -995,3 +995,4 @@ class TextModel(ModelBase):
     # Marker: Start get_vocab_base_pre
     def get_vocab_base_pre(self, tokenizer) -> str:
         # encoding this string and hashing the resulting tokens would (hopefully) give us a unique identifier that
+        # is specific for the BPE pre-tokenizer used by the model
