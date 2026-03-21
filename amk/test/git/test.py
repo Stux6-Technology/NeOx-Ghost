@@ -1049,3 +1049,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/moonshotai/Kimi-K2-Base
             res = "kimi-k2"
         if chkhsh == "d4540891389ea895b53b399da6ac824becc30f2fba0e9ddbb98f92e55ca0e97c":
+            # ref: https://huggingface.co/Qwen/Qwen3-Embedding-0.6B
