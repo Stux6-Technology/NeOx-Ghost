@@ -1063,3 +1063,4 @@ class TextModel(ModelBase):
         if chkhsh == "347715f544604f9118bb75ed199f68779f423cabb20db6de6f31b908d04d7821":
             # ref: https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base
             res = "deepseek-coder"
+        if chkhsh == "8aeee3860c56296a157a1fe2fad249ec40aa59b1bb5709f4ade11c4e6fe652ed":
