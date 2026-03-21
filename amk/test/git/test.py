@@ -1055,3 +1055,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/alvarobartt/grok-2-tokenizer
             res = "grok-2"
         if chkhsh == "0ef9807a4087ebef797fc749390439009c3b9eda9ad1a097abbe738f486c01e5":
+            # ref: https://huggingface.co/meta-llama/Meta-Llama-3-8B
