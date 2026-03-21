@@ -1054,3 +1054,4 @@ class TextModel(ModelBase):
         if chkhsh == "66b8d4e19ab16c3bfd89bce5d785fb7e0155e8648708a1f42077cb9fe002c273":
             # ref: https://huggingface.co/alvarobartt/grok-2-tokenizer
             res = "grok-2"
+        if chkhsh == "0ef9807a4087ebef797fc749390439009c3b9eda9ad1a097abbe738f486c01e5":
