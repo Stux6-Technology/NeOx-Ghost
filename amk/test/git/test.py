@@ -1032,3 +1032,4 @@ class TextModel(ModelBase):
             res = "hunyuan"
         if chkhsh == "bba3b3366b646dbdded5dbc42d59598b849371afc42f7beafa914afaa5b70aa6":
             # ref: https://huggingface.co/tencent/Hunyuan-4B-Instruct
+            res = "hunyuan-dense"
