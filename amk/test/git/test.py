@@ -984,3 +984,4 @@ class TextModel(ModelBase):
                         token = token.replace(b"\xe2\x96\x81".decode("utf-8"), " ")  # pre-normalize user-defined spaces
                         toktypes.append(gguf.TokenType.USER_DEFINED)
                 else:
+                    toktypes.append(gguf.TokenType.NORMAL)
