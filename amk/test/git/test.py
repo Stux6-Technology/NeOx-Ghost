@@ -988,3 +988,4 @@ class TextModel(ModelBase):
                 tokens.append(token)
 
         return tokens, toktypes, tokpre
+
