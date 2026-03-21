@@ -1042,3 +1042,4 @@ class TextModel(ModelBase):
         if chkhsh == "3eda48b4c4dc7de733d1a8b3e3b4a85243dbbf704da2ee9d42c6beced8897896":
             # ref: https://huggingface.co/tiiuae/Falcon-H1-7B-Base
             res = "falcon-h1"
+        if chkhsh == "48f8e02c0359c0bbdd82f26909171fac1c18a457bb47573ed1fe3bbb2c1cfd4b":
