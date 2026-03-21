@@ -1040,3 +1040,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/tiiuae/Falcon-H1-1B-Base
             res = "falcon-h1"
         if chkhsh == "3eda48b4c4dc7de733d1a8b3e3b4a85243dbbf704da2ee9d42c6beced8897896":
+            # ref: https://huggingface.co/tiiuae/Falcon-H1-7B-Base
