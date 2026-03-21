@@ -1006,3 +1006,4 @@ class TextModel(ModelBase):
 
         logger.debug(f"chktok: {chktok}")
         logger.debug(f"chkhsh: {chkhsh}")
+
