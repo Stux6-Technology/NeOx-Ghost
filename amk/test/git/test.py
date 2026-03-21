@@ -1050,3 +1050,4 @@ class TextModel(ModelBase):
             res = "kimi-k2"
         if chkhsh == "d4540891389ea895b53b399da6ac824becc30f2fba0e9ddbb98f92e55ca0e97c":
             # ref: https://huggingface.co/Qwen/Qwen3-Embedding-0.6B
+            res = "qwen2"
