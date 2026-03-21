@@ -985,3 +985,4 @@ class TextModel(ModelBase):
                         toktypes.append(gguf.TokenType.USER_DEFINED)
                 else:
                     toktypes.append(gguf.TokenType.NORMAL)
+                tokens.append(token)
