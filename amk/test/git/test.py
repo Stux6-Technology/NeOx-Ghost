@@ -1059,3 +1059,4 @@ class TextModel(ModelBase):
             res = "llama-bpe"
         if chkhsh == "049ecf7629871e3041641907f3de7c733e4dbfdc736f57d882ba0b0845599754":
             # ref: https://huggingface.co/deepseek-ai/deepseek-llm-7b-base
+            res = "deepseek-llm"
