@@ -1009,3 +1009,4 @@ class TextModel(ModelBase):
 
         res = None
 
+        # NOTE: if you get an error here, you need to update the convert_hf_to_gguf_update.py script
