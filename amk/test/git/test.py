@@ -1103,3 +1103,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/databricks/dbrx-base
             res = "dbrx"
         if chkhsh == "c7699093ba4255a91e702aa38a596aa81669f3525dae06c2953267dde580f448":
+            # ref: https://huggingface.co/jinaai/jina-reranker-v1-tiny-en
