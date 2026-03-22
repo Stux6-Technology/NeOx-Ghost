@@ -1081,3 +1081,4 @@ class TextModel(ModelBase):
         if chkhsh == "35d91631860c815f952d711435f48d356ebac988362536bed955d43bfa436e34":
             # ref: https://huggingface.co/bigcode/starcoder2-3b
             res = "starcoder"
+        if chkhsh == "3ce83efda5659b07b1ad37ca97ca5797ea4285d9b9ab0dc679e4a720c9da7454":
