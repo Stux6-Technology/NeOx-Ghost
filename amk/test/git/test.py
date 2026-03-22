@@ -1076,3 +1076,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/BAAI/bge-large-zh-v1.5
             res = "bert-bge-large"
         if chkhsh == "b6dc8df998e1cfbdc4eac8243701a65afe638679230920b50d6f17d81c098166":
+            # ref: https://huggingface.co/mosaicml/mpt-7b
