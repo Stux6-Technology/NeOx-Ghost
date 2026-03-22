@@ -1105,3 +1105,4 @@ class TextModel(ModelBase):
         if chkhsh == "c7699093ba4255a91e702aa38a596aa81669f3525dae06c2953267dde580f448":
             # ref: https://huggingface.co/jinaai/jina-reranker-v1-tiny-en
             res = "jina-v1-en"
+        if chkhsh == "0876d13b50744004aa9aeae05e7b0647eac9d801b5ba4668afc01e709c15e19f":
