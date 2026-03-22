@@ -1101,3 +1101,4 @@ class TextModel(ModelBase):
             res = "olmo"
         if chkhsh == "a8594e3edff7c29c003940395316294b2c623e09894deebbc65f33f1515df79e":
             # ref: https://huggingface.co/databricks/dbrx-base
+            res = "dbrx"
