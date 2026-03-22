@@ -1096,3 +1096,4 @@ class TextModel(ModelBase):
         if chkhsh == "e636dc30a262dcc0d8c323492e32ae2b70728f4df7dfe9737d9f920a282b8aea":
             # ref: https://huggingface.co/Qwen/Qwen1.5-7B
             res = "qwen2"
+        if chkhsh == "b6dc8df998e1cfbdc4eac8243701a65afe638679230920b50d6f17d81c098166":
