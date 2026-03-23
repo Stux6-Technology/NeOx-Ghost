@@ -1137,3 +1137,4 @@ class TextModel(ModelBase):
             res = "tekken"
         if chkhsh == "855059429035d75a914d1eda9f10a876752e281a054a7a3d421ef0533e5b6249":
             # ref: https://huggingface.co/HuggingFaceTB/SmolLM-135M
+            res = "smollm"
