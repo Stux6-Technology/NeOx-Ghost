@@ -1122,3 +1122,4 @@ class TextModel(ModelBase):
             res = "poro-chat"
         if chkhsh == "7967bfa498ade6b757b064f31e964dddbb80f8f9a4d68d4ba7998fcf281c531a":
             # ref: https://huggingface.co/jinaai/jina-embeddings-v2-base-code
+            res = "jina-v2-code"
