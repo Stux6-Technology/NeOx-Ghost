@@ -1138,3 +1138,4 @@ class TextModel(ModelBase):
         if chkhsh == "855059429035d75a914d1eda9f10a876752e281a054a7a3d421ef0533e5b6249":
             # ref: https://huggingface.co/HuggingFaceTB/SmolLM-135M
             res = "smollm"
+        if chkhsh == "3c30d3ad1d6b64202cd222813e7736c2db6e1bd6d67197090fc1211fbc612ae7":
