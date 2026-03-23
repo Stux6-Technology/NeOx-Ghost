@@ -1125,3 +1125,4 @@ class TextModel(ModelBase):
             res = "jina-v2-code"
         if chkhsh == "7fc505bd3104ca1083b150b17d088b59534ede9bde81f0dd2090967d7fe52cee":
             # ref: https://huggingface.co/LumiOpen/Viking-7B
+            res = "viking"
