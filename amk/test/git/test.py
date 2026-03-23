@@ -1159,3 +1159,4 @@ class TextModel(ModelBase):
         if chkhsh == "ad851be1dba641f2e3711822f816db2c265f788b37c63b4e1aeacb9ee92de8eb":
             # ref: https://huggingface.co/ai-sage/GigaChat-20B-A3B-instruct
             res = "gigachat"
+        if chkhsh == "d4c8f286ea6b520b3d495c4455483cfa2302c0cfcd4be05d781b6a8a0a7cdaf1":
