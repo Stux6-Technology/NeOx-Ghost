@@ -1151,3 +1151,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/microsoft/phi-2
             res = "phi-2"
         if chkhsh == "60824e3c0d9401f89943cbb2fff727f0e2d4c545ba4df2d6e4f09a6db0f5b450":
+            # ref: https://huggingface.co/facebook/chameleon-7b
