@@ -1145,3 +1145,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/TurkuNLP/gpt3-finnish-small
             res = "gpt3-finnish"
         if chkhsh == "4e2b24cc4770243d65a2c9ec19770a72f08cffc161adbb73fcbb6b7dd45a0aae":
+            # ref: https://huggingface.co/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct
