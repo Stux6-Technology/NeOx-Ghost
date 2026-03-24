@@ -1178,3 +1178,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/trillionlabs/Trillion-7B-preview
             res = "trillion"
         if chkhsh == "96a5f08be6259352137b512d4157e333e21df7edd3fcd152990608735a65b224":
+            # ref: https://huggingface.co/inclusionAI/Ling-lite
