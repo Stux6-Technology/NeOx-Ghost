@@ -1258,3 +1258,4 @@ class TextModel(ModelBase):
         dir_model = self.dir_model
         hparams = self.hparams
         tokens: list[str] = []
+        toktypes: list[int] = []
