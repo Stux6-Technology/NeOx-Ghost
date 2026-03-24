@@ -1185,3 +1185,4 @@ class TextModel(ModelBase):
             res = "llama4"
         if chkhsh == "0e9433cbbb161f89e264eb32e8e64bfe69e834973ffca5d41d3948a604a3e2a3":
             # ref: https://huggingface.co/mistral-community/pixtral-12b
+            res = "pixtral"
