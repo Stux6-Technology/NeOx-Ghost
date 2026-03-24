@@ -1203,3 +1203,4 @@ class TextModel(ModelBase):
             res = "exaone4"
         if chkhsh == "a1e163ecab2e718a4c829d1148b6e86824ec36163bb71941c3dca9cd5ac25756":
             # ref: https://huggingface.co/JetBrains/Mellum-4b-base
+            res = "mellum"
