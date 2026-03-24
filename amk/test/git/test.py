@@ -1245,3 +1245,4 @@ class TextModel(ModelBase):
         self.gguf_writer.add_tokenizer_model("none")
 
     def _set_vocab_gpt2(self) -> None:
+        tokens, toktypes, tokpre = self.get_vocab_base()
