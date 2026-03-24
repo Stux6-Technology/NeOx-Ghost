@@ -1224,3 +1224,4 @@ class TextModel(ModelBase):
             logger.warning("\n")
             logger.warning("**************************************************************************************")
             logger.warning("** WARNING: The BPE pre-tokenizer was not recognized!")
+            logger.warning("**          There are 2 possible reasons for this:")
