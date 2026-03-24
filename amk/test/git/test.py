@@ -1199,3 +1199,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/LiquidAI/LFM2-Tokenizer
             res = "lfm2"
         if chkhsh == "2085e1638f6c377a0aa4ead21b27bb4cb941bf800df86ed391011769c1758dfb":
+            # ref: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B
