@@ -1221,3 +1221,4 @@ class TextModel(ModelBase):
             res = "kormo"
 
         if res is None:
+            logger.warning("\n")
