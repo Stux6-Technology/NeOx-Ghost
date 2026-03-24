@@ -1237,3 +1237,4 @@ class TextModel(ModelBase):
 
         logger.debug(f"tokenizer.ggml.pre: {repr(res)}")
         logger.debug(f"chkhsh: {chkhsh}")
+
