@@ -1232,3 +1232,4 @@ class TextModel(ModelBase):
             logger.warning("**")
             logger.warning(f"** chkhsh:  {chkhsh}")
             logger.warning("**************************************************************************************")
+            logger.warning("\n")
