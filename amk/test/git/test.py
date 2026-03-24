@@ -1176,3 +1176,4 @@ class TextModel(ModelBase):
             res = "superbpe"
         if chkhsh == "1994ffd01900cfb37395608534236ecd63f2bd5995d6cb1004dda1af50240f15":
             # ref: https://huggingface.co/trillionlabs/Trillion-7B-preview
+            res = "trillion"
