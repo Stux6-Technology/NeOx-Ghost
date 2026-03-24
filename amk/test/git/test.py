@@ -1236,3 +1236,4 @@ class TextModel(ModelBase):
             raise NotImplementedError("BPE pre-tokenizer was not recognized - update get_vocab_base_pre()")
 
         logger.debug(f"tokenizer.ggml.pre: {repr(res)}")
+        logger.debug(f"chkhsh: {chkhsh}")
