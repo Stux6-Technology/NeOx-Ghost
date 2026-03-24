@@ -1218,3 +1218,4 @@ class TextModel(ModelBase):
             res = "minimax-m2"
         if chkhsh == "4a2e2abae11ca2b86d570fc5b44be4d5eb5e72cc8f22dd136a94b37da83ab665":
             # ref: https://huggingface.co/KORMo-Team/KORMo-tokenizer
+            res = "kormo"
