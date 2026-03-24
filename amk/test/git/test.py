@@ -1179,3 +1179,4 @@ class TextModel(ModelBase):
             res = "trillion"
         if chkhsh == "96a5f08be6259352137b512d4157e333e21df7edd3fcd152990608735a65b224":
             # ref: https://huggingface.co/inclusionAI/Ling-lite
+            res = "bailingmoe"
