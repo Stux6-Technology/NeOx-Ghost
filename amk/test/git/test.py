@@ -1213,3 +1213,4 @@ class TextModel(ModelBase):
         if chkhsh == "53e325976a6e142379c19b09afcae354f2f496f147afa8f9e189a33fe4e3024e":
             # ref: https://huggingface.co/ibm-granite/granite-docling-258M
             res = "granite-docling"
+        if chkhsh == "f4f37b6c8eb9ea29b3eac6bb8c8487c5ab7885f8d8022e67edc1c68ce8403e95":
