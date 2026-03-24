@@ -1192,3 +1192,4 @@ class TextModel(ModelBase):
         if chkhsh == "b0a6b1c0bd5998ebd9df08611efde34a4ff03faed45ae09c43e6b31ebd4b94cf":
             # ref: https://huggingface.co/skt/A.X-4.0
             res = "a.x-4.0"
+        if chkhsh == "f6791d196f87ce6b56a7d234be618e0d58f8cda3549416635b2bebcd22cd95c4":
