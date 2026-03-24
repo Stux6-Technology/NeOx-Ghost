@@ -1189,3 +1189,4 @@ class TextModel(ModelBase):
         if chkhsh == "d5f1dd6f980fec569fb218a81a7658ac45fc56b38c5a0adeb1c232fbe04ef5ec":
             # ref: https://huggingface.co/ByteDance-Seed/Seed-Coder-8B-Base
             res = "seed-coder"
+        if chkhsh == "b0a6b1c0bd5998ebd9df08611efde34a4ff03faed45ae09c43e6b31ebd4b94cf":
