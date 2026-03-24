@@ -1208,3 +1208,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/arcee-ai/Trinity-Tokenizer
             res = "afmoe"
         if chkhsh == "9b1be57e70d20d9501b2b3186e792d81181ae36ada3903c26f9fea418cf87206":
+            # ref: https://huggingface.co/inclusionAI/Ling-mini-base-2.0
