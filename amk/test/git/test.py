@@ -1283,3 +1283,4 @@ class TextModel(ModelBase):
         reverse_vocab = {id_ : encoded_tok for encoded_tok, id_ in {**vocab, **added_vocab}.items()}
 
         for i in range(vocab_size):
+            if i not in reverse_vocab:
