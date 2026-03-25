@@ -1302,3 +1302,4 @@ class TextModel(ModelBase):
         special_vocab.merges = merges
         # only add special tokens when they were not already loaded from config.json
         if len(special_vocab.special_token_ids) == 0:
+            special_vocab._set_special_token("bos", tokenizer.special_tokens["<|endoftext|>"])
