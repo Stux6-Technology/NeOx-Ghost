@@ -1294,3 +1294,4 @@ class TextModel(ModelBase):
                 toktypes.append(gguf.TokenType.NORMAL)
 
         self.gguf_writer.add_tokenizer_model("gpt2")
+        self.gguf_writer.add_tokenizer_pre(tokpre)
