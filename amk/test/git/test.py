@@ -1271,3 +1271,4 @@ class TextModel(ModelBase):
         vocab = {}
         mergeable_ranks = tokenizer.mergeable_ranks
         for token, rank in mergeable_ranks.items():
+            vocab[QwenModel.token_bytes_to_string(token)] = rank
