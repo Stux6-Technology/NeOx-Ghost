@@ -1291,3 +1291,4 @@ class TextModel(ModelBase):
                 toktypes.append(gguf.TokenType.CONTROL)
             else:
                 tokens.append(reverse_vocab[i])
+                toktypes.append(gguf.TokenType.NORMAL)
