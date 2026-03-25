@@ -1279,3 +1279,4 @@ class TextModel(ModelBase):
             merges.append(' '.join(map(QwenModel.token_bytes_to_string, merged)))
 
         # for this kind of tokenizer, added_vocab is not a subset of vocab, so they need to be combined
+        added_vocab = tokenizer.special_tokens
