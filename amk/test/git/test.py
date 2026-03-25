@@ -1275,3 +1275,4 @@ class TextModel(ModelBase):
             if len(token) == 1:
                 continue
             merged = QwenModel.bpe(mergeable_ranks, token, max_rank=rank)
+            assert len(merged) == 2
