@@ -1329,3 +1329,4 @@ class TextModel(ModelBase):
             raise FileNotFoundError(f"File not found: {tokenizer_path}")
 
         tokenizer = SentencePieceProcessor()
+        tokenizer.LoadFromFile(str(tokenizer_path))
