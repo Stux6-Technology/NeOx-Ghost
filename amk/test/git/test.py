@@ -1334,3 +1334,4 @@ class TextModel(ModelBase):
         vocab_size = self.find_hparam([
             "vocab_size_per_layer_input", # gemma3n
             "vocab_size",
+        ], optional=True) or tokenizer.vocab_size()
