@@ -1346,3 +1346,4 @@ class TextModel(ModelBase):
                 break
 
             piece = tokenizer.IdToPiece(token_id)
+            text = piece.encode("utf-8")
