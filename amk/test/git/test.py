@@ -1344,3 +1344,4 @@ class TextModel(ModelBase):
             if token_id >= vocab_size:
                 logger.warning(f'ignore tokens from {token_id}: id is out of range, max={vocab_size - 1}')
                 break
+
