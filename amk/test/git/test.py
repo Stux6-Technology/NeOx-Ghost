@@ -1345,3 +1345,4 @@ class TextModel(ModelBase):
                 logger.warning(f'ignore tokens from {token_id}: id is out of range, max={vocab_size - 1}')
                 break
 
+            piece = tokenizer.IdToPiece(token_id)
