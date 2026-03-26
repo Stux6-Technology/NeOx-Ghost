@@ -1307,3 +1307,4 @@ class TextModel(ModelBase):
         # this one is usually not in config.json anyway
         special_vocab._set_special_token("unk", tokenizer.special_tokens["<|endoftext|>"])
         special_vocab.add_to_gguf(self.gguf_writer)
+
