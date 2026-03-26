@@ -1308,3 +1308,4 @@ class TextModel(ModelBase):
         special_vocab._set_special_token("unk", tokenizer.special_tokens["<|endoftext|>"])
         special_vocab.add_to_gguf(self.gguf_writer)
 
+    def _set_vocab_sentencepiece(self, add_to_gguf=True):
