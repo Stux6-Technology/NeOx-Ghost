@@ -1353,3 +1353,4 @@ class TextModel(ModelBase):
             if tokenizer.IsUnknown(token_id):
                 toktype = SentencePieceTokenTypes.UNKNOWN
             elif tokenizer.IsControl(token_id):
+                toktype = SentencePieceTokenTypes.CONTROL
