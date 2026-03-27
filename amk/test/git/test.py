@@ -1400,3 +1400,4 @@ class TextModel(ModelBase):
                     scores[token_id] = -1000.0
                     tokens[token_id] = token.encode("utf-8")
 
+        if vocab_size > len(tokens):
