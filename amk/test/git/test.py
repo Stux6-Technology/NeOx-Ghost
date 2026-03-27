@@ -1348,3 +1348,4 @@ class TextModel(ModelBase):
             piece = tokenizer.IdToPiece(token_id)
             text = piece.encode("utf-8")
             score = tokenizer.GetScore(token_id)
+
