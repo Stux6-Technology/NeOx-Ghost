@@ -1349,3 +1349,4 @@ class TextModel(ModelBase):
             text = piece.encode("utf-8")
             score = tokenizer.GetScore(token_id)
 
+            toktype = SentencePieceTokenTypes.NORMAL
