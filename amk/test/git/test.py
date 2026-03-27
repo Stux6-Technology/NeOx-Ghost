@@ -1363,3 +1363,4 @@ class TextModel(ModelBase):
             scores[token_id] = score
             toktypes[token_id] = toktype
 
+        added_tokens_file = self.dir_model / 'added_tokens.json'
