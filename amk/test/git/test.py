@@ -1373,3 +1373,4 @@ class TextModel(ModelBase):
                         logger.warning(f'ignore token {token_id}: id is out of range, max={vocab_size - 1}')
                         continue
 
+                    tokens[token_id] = key.encode("utf-8")
