@@ -1374,3 +1374,4 @@ class TextModel(ModelBase):
                         continue
 
                     tokens[token_id] = key.encode("utf-8")
+                    scores[token_id] = -1000.0
