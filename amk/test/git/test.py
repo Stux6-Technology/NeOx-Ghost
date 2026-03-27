@@ -1350,3 +1350,4 @@ class TextModel(ModelBase):
             score = tokenizer.GetScore(token_id)
 
             toktype = SentencePieceTokenTypes.NORMAL
+            if tokenizer.IsUnknown(token_id):
