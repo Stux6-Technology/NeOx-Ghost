@@ -1360,3 +1360,4 @@ class TextModel(ModelBase):
                 toktype = SentencePieceTokenTypes.BYTE
 
             tokens[token_id] = text
+            scores[token_id] = score
