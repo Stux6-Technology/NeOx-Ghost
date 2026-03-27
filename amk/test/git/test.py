@@ -1385,3 +1385,4 @@ class TextModel(ModelBase):
                 for token_id, token_data in added_tokens_decoder.items():
                     token_id = int(token_id)
                     token: str = token_data["content"]
+                    if token_id >= vocab_size:
