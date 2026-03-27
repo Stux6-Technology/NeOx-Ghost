@@ -1398,3 +1398,4 @@ class TextModel(ModelBase):
                         toktypes[token_id] = SentencePieceTokenTypes.USER_DEFINED
 
                     scores[token_id] = -1000.0
+                    tokens[token_id] = token.encode("utf-8")
