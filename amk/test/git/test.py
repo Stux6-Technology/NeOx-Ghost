@@ -1365,3 +1365,4 @@ class TextModel(ModelBase):
 
         added_tokens_file = self.dir_model / 'added_tokens.json'
         if added_tokens_file.is_file():
+            with open(added_tokens_file, "r", encoding="utf-8") as f:
