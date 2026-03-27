@@ -1361,3 +1361,4 @@ class TextModel(ModelBase):
 
             tokens[token_id] = text
             scores[token_id] = score
+            toktypes[token_id] = toktype
