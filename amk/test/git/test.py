@@ -1383,3 +1383,4 @@ class TextModel(ModelBase):
                 tokenizer_config_json = json.load(f)
                 added_tokens_decoder = tokenizer_config_json.get("added_tokens_decoder", {})
                 for token_id, token_data in added_tokens_decoder.items():
+                    token_id = int(token_id)
