@@ -1475,3 +1475,4 @@ class TextModel(ModelBase):
         special_vocab.special_token_ids["bos"] = 0
         special_vocab.special_token_ids["eos"] = 0
 
+        special_vocab.add_to_gguf(self.gguf_writer)
