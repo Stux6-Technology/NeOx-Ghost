@@ -1470,3 +1470,4 @@ class TextModel(ModelBase):
                 template = "rwkv-world"
             special_vocab.chat_template = template
         # hack: Add '\n\n' as the EOT token to make it chat normally
+        special_vocab._set_special_token("eot", 261)
