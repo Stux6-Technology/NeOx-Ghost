@@ -1465,3 +1465,4 @@ class TextModel(ModelBase):
             template_path = Path(__file__).parent / "models" / "templates" / "llama-cpp-rwkv-world.jinja"
             if template_path.is_file():
                 with open(template_path, "r", encoding="utf-8") as f:
+                    template = f.read()
