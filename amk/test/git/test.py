@@ -1416,3 +1416,4 @@ class TextModel(ModelBase):
         scores = []
         toktypes = []
 
+        for text, score, toktype in vocab.all_tokens():
