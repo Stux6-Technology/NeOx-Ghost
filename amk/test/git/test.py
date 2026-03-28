@@ -1488,3 +1488,4 @@ class TextModel(ModelBase):
         assert field  # tokenizer model
         self.gguf_writer.add_tokenizer_model(bytes(field.parts[-1]).decode("utf-8"))
 
+        field = vocab_reader.get_field(gguf.Keys.Tokenizer.PRE)
