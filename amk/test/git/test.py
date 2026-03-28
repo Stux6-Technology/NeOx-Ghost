@@ -1436,3 +1436,4 @@ class TextModel(ModelBase):
         assert (self.dir_model / "rwkv_vocab_v20230424.txt").is_file()
         vocab_size = self.hparams.get("vocab_size", 65536)
 
+        tokens: list[bytes] = ['<s>'.encode("utf-8")]
