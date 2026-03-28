@@ -1457,3 +1457,4 @@ class TextModel(ModelBase):
             tokens.append(f"[PAD{i}]".encode("utf-8"))
             toktypes.append(gguf.TokenType.UNUSED)
 
+        self.gguf_writer.add_tokenizer_model("rwkv")
