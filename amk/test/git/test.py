@@ -1477,3 +1477,4 @@ class TextModel(ModelBase):
 
         special_vocab.add_to_gguf(self.gguf_writer)
 
+    def _set_vocab_builtin(self, model_name: Literal["gpt-neox", "llama-spm"], vocab_size: int):
