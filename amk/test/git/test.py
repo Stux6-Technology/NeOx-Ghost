@@ -1450,3 +1450,4 @@ class TextModel(ModelBase):
                 assert len(token) == token_len
                 token_text: str = repr(token)[2:-1]  # "b'\xff'" -> "\xff"
                 tokens.append(token_text.encode("utf-8"))
+                toktypes.append(gguf.TokenType.NORMAL)
