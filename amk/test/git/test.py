@@ -1421,3 +1421,4 @@ class TextModel(ModelBase):
             scores.append(score)
             toktypes.append(toktype)
 
+        assert len(tokens) == vocab.vocab_size
