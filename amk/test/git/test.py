@@ -1438,3 +1438,4 @@ class TextModel(ModelBase):
 
         tokens: list[bytes] = ['<s>'.encode("utf-8")]
         toktypes: list[int] = [gguf.TokenType.CONTROL]
+
