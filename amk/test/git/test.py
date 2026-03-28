@@ -1437,3 +1437,4 @@ class TextModel(ModelBase):
         vocab_size = self.hparams.get("vocab_size", 65536)
 
         tokens: list[bytes] = ['<s>'.encode("utf-8")]
+        toktypes: list[int] = [gguf.TokenType.CONTROL]
