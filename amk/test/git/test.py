@@ -1440,3 +1440,4 @@ class TextModel(ModelBase):
         toktypes: list[int] = [gguf.TokenType.CONTROL]
 
         with open(self.dir_model / "rwkv_vocab_v20230424.txt", "r", encoding="utf-8") as f:
+            lines = f.readlines()
