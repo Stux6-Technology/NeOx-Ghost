@@ -1413,3 +1413,4 @@ class TextModel(ModelBase):
     def _set_vocab_llama_hf(self):
         vocab = gguf.LlamaHfVocab(self.dir_model)
         tokens = []
+        scores = []
