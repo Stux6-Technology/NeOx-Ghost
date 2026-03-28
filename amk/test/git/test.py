@@ -1464,3 +1464,4 @@ class TextModel(ModelBase):
         if special_vocab.chat_template is None:
             template_path = Path(__file__).parent / "models" / "templates" / "llama-cpp-rwkv-world.jinja"
             if template_path.is_file():
+                with open(template_path, "r", encoding="utf-8") as f:
