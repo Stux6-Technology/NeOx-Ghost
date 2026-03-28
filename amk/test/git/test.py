@@ -1482,3 +1482,4 @@ class TextModel(ModelBase):
         logger.warning(f"Using tokenizer from '{os.path.relpath(tokenizer_path, os.getcwd())}'")
         vocab_reader = gguf.GGUFReader(tokenizer_path, "r")
 
+        default_pre = "mpt" if model_name == "gpt-neox" else "default"
