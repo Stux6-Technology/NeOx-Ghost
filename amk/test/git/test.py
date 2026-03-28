@@ -1443,3 +1443,4 @@ class TextModel(ModelBase):
             lines = f.readlines()
             for line in lines:
                 parts = line.split(' ')
+                assert len(parts) >= 3
