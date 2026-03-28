@@ -1404,3 +1404,4 @@ class TextModel(ModelBase):
             pad_count = vocab_size - len(tokens)
             logger.debug(f"Padding vocab with {pad_count} token(s) - [PAD1] through [PAD{pad_count}]")
             for i in range(1, pad_count + 1):
+                tokens.append(bytes(f"[PAD{i}]", encoding="utf-8"))
