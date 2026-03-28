@@ -1410,3 +1410,4 @@ class TextModel(ModelBase):
 
         return tokens, scores, toktypes
 
+    def _set_vocab_llama_hf(self):
