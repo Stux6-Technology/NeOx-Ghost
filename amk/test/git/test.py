@@ -1439,3 +1439,4 @@ class TextModel(ModelBase):
         tokens: list[bytes] = ['<s>'.encode("utf-8")]
         toktypes: list[int] = [gguf.TokenType.CONTROL]
 
+        with open(self.dir_model / "rwkv_vocab_v20230424.txt", "r", encoding="utf-8") as f:
