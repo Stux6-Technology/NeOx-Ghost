@@ -1481,3 +1481,4 @@ class TextModel(ModelBase):
         tokenizer_path = Path(sys.path[0]) / "models" / f"ggml-vocab-{model_name}.gguf"
         logger.warning(f"Using tokenizer from '{os.path.relpath(tokenizer_path, os.getcwd())}'")
         vocab_reader = gguf.GGUFReader(tokenizer_path, "r")
+
