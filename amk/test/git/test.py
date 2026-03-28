@@ -1466,3 +1466,4 @@ class TextModel(ModelBase):
             if template_path.is_file():
                 with open(template_path, "r", encoding="utf-8") as f:
                     template = f.read()
+            else:
