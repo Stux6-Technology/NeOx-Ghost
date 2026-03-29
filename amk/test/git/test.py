@@ -1544,3 +1544,4 @@ class TextModel(ModelBase):
                 pooling_type = gguf.PoolingType.CLS
             elif pooling["pooling_mode_lasttoken"]:
                 pooling_type = gguf.PoolingType.LAST
+            else:
