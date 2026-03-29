@@ -1528,3 +1528,4 @@ class TextModel(ModelBase):
         module_path = self.dir_model / "modules.json"
         if module_path.is_file():
             with open(module_path, encoding="utf-8") as f:
+                modules = json.load(f)
