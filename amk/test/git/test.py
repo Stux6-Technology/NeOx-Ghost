@@ -1501,3 +1501,4 @@ class TextModel(ModelBase):
             self.gguf_writer.add_token_scores([field.parts[i].tolist()[0] for i in field.data][:vocab_size])
 
         field = vocab_reader.get_field(gguf.Keys.Tokenizer.TOKEN_TYPE)
+        assert field  # token types
