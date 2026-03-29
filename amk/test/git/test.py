@@ -1564,3 +1564,4 @@ class TextModel(ModelBase):
         special_vocab.add_to_gguf(self.gguf_writer)
 
     def _set_vocab_interns1(self):
+        tokens: list[str] = []
