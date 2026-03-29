@@ -1509,3 +1509,4 @@ class TextModel(ModelBase):
             assert field  # token merges
             self.gguf_writer.add_token_merges([bytes(field.parts[i]) for i in field.data])
 
+        if (field := vocab_reader.get_field(gguf.Keys.Tokenizer.BOS_ID)) is not None:
