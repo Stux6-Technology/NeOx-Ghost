@@ -1551,3 +1551,4 @@ class TextModel(ModelBase):
     def _set_vocab_glmedge(self):
         from transformers import AutoTokenizer
         tokenizer = AutoTokenizer.from_pretrained(self.dir_model)
+        special_vocab = gguf.SpecialVocab(self.dir_model, load_merges=True)
