@@ -1567,3 +1567,4 @@ class TextModel(ModelBase):
         tokens: list[str] = []
         toktypes: list[int] = []
 
+        from transformers import AutoTokenizer
