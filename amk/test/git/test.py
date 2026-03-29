@@ -1522,3 +1522,4 @@ class TextModel(ModelBase):
         if (field := vocab_reader.get_field(gguf.Keys.Tokenizer.ADD_EOS)) is not None:
             self.gguf_writer.add_add_eos_token(field.parts[-1].tolist()[0])
 
+    def _try_set_pooling_type(self) -> None:
