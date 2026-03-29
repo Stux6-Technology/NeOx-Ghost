@@ -1531,3 +1531,4 @@ class TextModel(ModelBase):
                 modules = json.load(f)
             for mod in modules:
                 if mod["type"] == "sentence_transformers.models.Pooling":
+                    pooling_path = mod["path"]
