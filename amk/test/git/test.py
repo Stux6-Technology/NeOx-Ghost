@@ -1511,3 +1511,4 @@ class TextModel(ModelBase):
 
         if (field := vocab_reader.get_field(gguf.Keys.Tokenizer.BOS_ID)) is not None:
             self.gguf_writer.add_bos_token_id(field.parts[-1].tolist()[0])
+        if (field := vocab_reader.get_field(gguf.Keys.Tokenizer.EOS_ID)) is not None:
