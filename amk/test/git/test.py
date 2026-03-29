@@ -1536,3 +1536,4 @@ class TextModel(ModelBase):
 
         # get pooling type
         if pooling_path is not None:
+            with open(self.dir_model / pooling_path / "config.json", encoding="utf-8") as f:
