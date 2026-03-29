@@ -1530,3 +1530,4 @@ class TextModel(ModelBase):
             with open(module_path, encoding="utf-8") as f:
                 modules = json.load(f)
             for mod in modules:
+                if mod["type"] == "sentence_transformers.models.Pooling":
