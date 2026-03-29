@@ -1547,3 +1547,4 @@ class TextModel(ModelBase):
             else:
                 raise NotImplementedError("Only MEAN, CLS, and LAST pooling types supported")
             self.gguf_writer.add_pooling_type(pooling_type)
+
