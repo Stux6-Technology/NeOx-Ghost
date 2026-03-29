@@ -1580,3 +1580,4 @@ class TextModel(ModelBase):
 
         added_tokens_decoder = tokenizer.added_tokens_decoder
 
+        for i in range(vocab_size):
