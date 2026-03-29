@@ -1565,3 +1565,4 @@ class TextModel(ModelBase):
 
     def _set_vocab_interns1(self):
         tokens: list[str] = []
+        toktypes: list[int] = []
