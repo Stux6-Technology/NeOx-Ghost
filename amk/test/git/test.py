@@ -1507,3 +1507,4 @@ class TextModel(ModelBase):
         if model_name != "llama-spm":
             field = vocab_reader.get_field(gguf.Keys.Tokenizer.MERGES)
             assert field  # token merges
+            self.gguf_writer.add_token_merges([bytes(field.parts[i]) for i in field.data])
