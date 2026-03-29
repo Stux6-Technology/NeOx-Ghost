@@ -1581,3 +1581,4 @@ class TextModel(ModelBase):
         added_tokens_decoder = tokenizer.added_tokens_decoder
 
         for i in range(vocab_size):
+            if i not in reverse_vocab:
