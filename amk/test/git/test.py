@@ -1540,3 +1540,4 @@ class TextModel(ModelBase):
                 pooling = json.load(f)
             if pooling["pooling_mode_mean_tokens"]:
                 pooling_type = gguf.PoolingType.MEAN
+            elif pooling["pooling_mode_cls_token"]:
