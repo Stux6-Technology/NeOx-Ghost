@@ -1542,3 +1542,4 @@ class TextModel(ModelBase):
                 pooling_type = gguf.PoolingType.MEAN
             elif pooling["pooling_mode_cls_token"]:
                 pooling_type = gguf.PoolingType.CLS
+            elif pooling["pooling_mode_lasttoken"]:
