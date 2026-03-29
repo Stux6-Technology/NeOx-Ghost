@@ -1534,3 +1534,4 @@ class TextModel(ModelBase):
                     pooling_path = mod["path"]
                     break
 
+        # get pooling type
