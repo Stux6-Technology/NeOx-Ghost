@@ -1523,3 +1523,4 @@ class TextModel(ModelBase):
             self.gguf_writer.add_add_eos_token(field.parts[-1].tolist()[0])
 
     def _try_set_pooling_type(self) -> None:
+        # get pooling path
