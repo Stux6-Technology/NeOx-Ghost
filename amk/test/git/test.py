@@ -1561,3 +1561,4 @@ class TextModel(ModelBase):
         special_vocab._set_special_token("eot", tokenizer.get_added_vocab()["<|user|>"])
         special_vocab._set_special_token("unk", tokenizer.get_added_vocab()["<|endoftext|>"])
         special_vocab._set_special_token("bos", tokenizer.get_added_vocab()["<|endoftext|>"])
+        special_vocab.add_to_gguf(self.gguf_writer)
