@@ -1504,3 +1504,4 @@ class TextModel(ModelBase):
         assert field  # token types
         self.gguf_writer.add_token_types([field.parts[i].tolist()[0] for i in field.data][:vocab_size])
 
+        if model_name != "llama-spm":
