@@ -1598,3 +1598,4 @@ class TextModel(ModelBase):
                     if added_tokens_decoder[i].special or self.does_token_look_special(token):
                         toktypes.append(gguf.TokenType.CONTROL)
                     else:
+                        toktypes.append(gguf.TokenType.USER_DEFINED)
