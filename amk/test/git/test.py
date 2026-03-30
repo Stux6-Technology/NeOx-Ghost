@@ -1586,3 +1586,4 @@ class TextModel(ModelBase):
                 toktypes.append(gguf.TokenType.UNUSED)
             else:
                 token: str = reverse_vocab[i]
+                if token in added_vocab:
