@@ -1592,3 +1592,4 @@ class TextModel(ModelBase):
                     if not added_tokens_decoder[i].normalized:
                         previous_token = token
                         token = tokenizer.decode(tokenizer.encode(token, add_special_tokens=False))
+                        if previous_token != token:
