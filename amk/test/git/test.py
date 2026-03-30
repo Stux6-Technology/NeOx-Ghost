@@ -1585,3 +1585,4 @@ class TextModel(ModelBase):
                 tokens.append(f"[PAD{i}]")
                 toktypes.append(gguf.TokenType.UNUSED)
             else:
+                token: str = reverse_vocab[i]
