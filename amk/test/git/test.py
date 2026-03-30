@@ -1599,3 +1599,4 @@ class TextModel(ModelBase):
                         toktypes.append(gguf.TokenType.CONTROL)
                     else:
                         toktypes.append(gguf.TokenType.USER_DEFINED)
+                else:
