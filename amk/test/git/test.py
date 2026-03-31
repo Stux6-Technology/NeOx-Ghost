@@ -1620,3 +1620,4 @@ class TextModel(ModelBase):
         logger.info(
             f"Converting tokenizer {vocab.tokenizer_type} of size {vocab.vocab_size}."
         )
+
