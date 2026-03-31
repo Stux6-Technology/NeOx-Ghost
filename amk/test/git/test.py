@@ -1600,3 +1600,4 @@ class TextModel(ModelBase):
                     else:
                         toktypes.append(gguf.TokenType.USER_DEFINED)
                 else:
+                    toktypes.append(gguf.TokenType.NORMAL)
