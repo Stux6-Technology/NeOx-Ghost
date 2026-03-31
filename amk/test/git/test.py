@@ -1615,3 +1615,4 @@ class TextModel(ModelBase):
     def _set_vocab_mistral(self):
         if not _mistral_common_installed:
             raise ImportError(_mistral_import_error_msg)
+
