@@ -1616,3 +1616,4 @@ class TextModel(ModelBase):
         if not _mistral_common_installed:
             raise ImportError(_mistral_import_error_msg)
 
+        vocab = MistralVocab(self.dir_model)
