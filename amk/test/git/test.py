@@ -1613,3 +1613,4 @@ class TextModel(ModelBase):
         special_vocab.add_to_gguf(self.gguf_writer)
 
     def _set_vocab_mistral(self):
+        if not _mistral_common_installed:
