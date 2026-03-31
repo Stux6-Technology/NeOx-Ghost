@@ -1617,3 +1617,4 @@ class TextModel(ModelBase):
             raise ImportError(_mistral_import_error_msg)
 
         vocab = MistralVocab(self.dir_model)
+        logger.info(
