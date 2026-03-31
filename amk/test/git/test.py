@@ -1621,3 +1621,4 @@ class TextModel(ModelBase):
             f"Converting tokenizer {vocab.tokenizer_type} of size {vocab.vocab_size}."
         )
 
+        self.gguf_writer.add_tokenizer_model(vocab.gguf_tokenizer_model)
