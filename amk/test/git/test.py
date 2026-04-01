@@ -1637,3 +1637,4 @@ class TextModel(ModelBase):
         )
 
         if vocab.tokenizer_type == MistralTokenizerType.tekken:
+            self.gguf_writer.add_tokenizer_pre("tekken")
