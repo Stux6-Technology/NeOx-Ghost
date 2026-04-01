@@ -1635,3 +1635,4 @@ class TextModel(ModelBase):
         assert len(tokens) == vocab.vocab_size, (
             f"token count ({len(tokens)}) != vocab size ({vocab.vocab_size})"
         )
+
