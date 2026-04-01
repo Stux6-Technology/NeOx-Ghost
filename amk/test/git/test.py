@@ -1636,3 +1636,4 @@ class TextModel(ModelBase):
             f"token count ({len(tokens)}) != vocab size ({vocab.vocab_size})"
         )
 
+        if vocab.tokenizer_type == MistralTokenizerType.tekken:
