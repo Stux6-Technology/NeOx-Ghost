@@ -1640,3 +1640,4 @@ class TextModel(ModelBase):
             self.gguf_writer.add_tokenizer_pre("tekken")
             self.gguf_writer.add_token_merges(
                 vocab.extract_vocab_merges_from_model()
+            )
