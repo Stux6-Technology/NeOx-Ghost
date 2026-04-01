@@ -1639,3 +1639,4 @@ class TextModel(ModelBase):
         if vocab.tokenizer_type == MistralTokenizerType.tekken:
             self.gguf_writer.add_tokenizer_pre("tekken")
             self.gguf_writer.add_token_merges(
+                vocab.extract_vocab_merges_from_model()
