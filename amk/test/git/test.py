@@ -1642,3 +1642,4 @@ class TextModel(ModelBase):
                 vocab.extract_vocab_merges_from_model()
             )
 
+        logger.info(
