@@ -1630,3 +1630,4 @@ class TextModel(ModelBase):
         for text, score, toktype in vocab.all_tokens():
             tokens.append(text)
             scores.append(score)
+            toktypes.append(toktype)
