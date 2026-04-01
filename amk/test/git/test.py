@@ -1643,3 +1643,4 @@ class TextModel(ModelBase):
             )
 
         logger.info(
+            f"Setting bos, eos, unk and pad token IDs to {vocab.bos_id}, {vocab.eos_id}, {vocab.unk_id}, {vocab.pad_id}."
