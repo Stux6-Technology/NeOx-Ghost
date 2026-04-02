@@ -1677,3 +1677,4 @@ class TextModel(ModelBase):
                     "Using a Mistral community chat template. These templates can be subject to errors in early days or weeks after a release. "
                     "Mistral recommends to use `mistral-common` to perform tokenization and detokenization."
                 )
+            template = MistralModel.get_community_chat_template(vocab, template_dir, self.is_mistral_format)
