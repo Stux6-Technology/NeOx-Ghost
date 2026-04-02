@@ -1678,3 +1678,4 @@ class TextModel(ModelBase):
                     "Mistral recommends to use `mistral-common` to perform tokenization and detokenization."
                 )
             template = MistralModel.get_community_chat_template(vocab, template_dir, self.is_mistral_format)
+        else:
