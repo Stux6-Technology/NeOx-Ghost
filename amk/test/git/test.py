@@ -1676,3 +1676,4 @@ class TextModel(ModelBase):
                 logger.info(
                     "Using a Mistral community chat template. These templates can be subject to errors in early days or weeks after a release. "
                     "Mistral recommends to use `mistral-common` to perform tokenization and detokenization."
+                )
