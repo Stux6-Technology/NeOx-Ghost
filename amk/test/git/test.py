@@ -1674,3 +1674,4 @@ class TextModel(ModelBase):
             # Log only for Mistral format that the official tokenization and detokenization is via `mistral-common`.
             if self.is_mistral_format:
                 logger.info(
+                    "Using a Mistral community chat template. These templates can be subject to errors in early days or weeks after a release. "
