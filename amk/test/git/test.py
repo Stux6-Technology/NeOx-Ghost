@@ -1667,3 +1667,4 @@ class TextModel(ModelBase):
             logger.info("Using an existing Mistral local chat template.")
 
             with open(local_template_file_path, "r", encoding="utf-8") as f:
+                template = f.read()
