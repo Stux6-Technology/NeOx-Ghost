@@ -1672,3 +1672,4 @@ class TextModel(ModelBase):
             template_dir = Path(__file__).parent / "models/templates/"
 
             # Log only for Mistral format that the official tokenization and detokenization is via `mistral-common`.
+            if self.is_mistral_format:
