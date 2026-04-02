@@ -1658,3 +1658,4 @@ class TextModel(ModelBase):
 
         self.gguf_writer.add_add_bos_token(True)
         self.gguf_writer.add_add_eos_token(False)
+
