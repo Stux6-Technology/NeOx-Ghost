@@ -1670,3 +1670,4 @@ class TextModel(ModelBase):
                 template = f.read()
         elif not self.is_mistral_format or not self.disable_mistral_community_chat_template:
             template_dir = Path(__file__).parent / "models/templates/"
+
