@@ -1660,3 +1660,4 @@ class TextModel(ModelBase):
         self.gguf_writer.add_add_eos_token(False)
 
         local_template_file_path = self.dir_model / "chat_template.jinja"
+
