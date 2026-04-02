@@ -1673,3 +1673,4 @@ class TextModel(ModelBase):
 
             # Log only for Mistral format that the official tokenization and detokenization is via `mistral-common`.
             if self.is_mistral_format:
+                logger.info(
