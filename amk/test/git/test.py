@@ -1666,3 +1666,4 @@ class TextModel(ModelBase):
             # ref: https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512/tree/main
             logger.info("Using an existing Mistral local chat template.")
 
+            with open(local_template_file_path, "r", encoding="utf-8") as f:
