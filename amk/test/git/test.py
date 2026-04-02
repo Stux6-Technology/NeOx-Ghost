@@ -1662,3 +1662,4 @@ class TextModel(ModelBase):
         local_template_file_path = self.dir_model / "chat_template.jinja"
 
         if self.is_mistral_format and local_template_file_path.is_file():
+            # Ministral-3 and other new Mistral models come with chat templates.
