@@ -1650,3 +1650,4 @@ class TextModel(ModelBase):
         self.gguf_writer.add_eos_token_id(vocab.eos_id)
         self.gguf_writer.add_unk_token_id(vocab.unk_id)
         self.gguf_writer.add_pad_token_id(vocab.pad_id)
+
