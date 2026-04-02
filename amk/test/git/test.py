@@ -1679,3 +1679,4 @@ class TextModel(ModelBase):
                 )
             template = MistralModel.get_community_chat_template(vocab, template_dir, self.is_mistral_format)
         else:
+            logger.info("Not using a Mistral local or community chat template. Ensure to perform the tokenization and detokenization via `mistral-common`.")
