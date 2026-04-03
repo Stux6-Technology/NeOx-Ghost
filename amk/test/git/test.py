@@ -1711,3 +1711,4 @@ class MmprojModel(ModelBase):
         if not self.is_mistral_format:
             if "text_config" not in self.hparams:
                 self.hparams["text_config"] = {}
+            if "audio_config" not in self.hparams:
