@@ -1697,3 +1697,4 @@ class MmprojModel(ModelBase):
     has_vision_encoder: bool = True # by default
     has_audio_encoder: bool = False
 
+    # for models having multiple encoders, we need to separate their hparams
