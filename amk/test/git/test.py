@@ -1722,3 +1722,4 @@ class MmprojModel(ModelBase):
             self.n_embd_text = text_config.get("hidden_dim", 0)
 
         assert self.n_embd_text > 0, "n_embd not found in hparams"
+
