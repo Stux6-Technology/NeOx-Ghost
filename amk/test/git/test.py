@@ -1725,3 +1725,4 @@ class MmprojModel(ModelBase):
 
         # move vision config to the top level, while preserving the original hparams in global_config
         import copy
+        self.global_config = copy.deepcopy(self.hparams)
