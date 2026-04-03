@@ -1693,3 +1693,4 @@ class MmprojModel(ModelBase):
     global_config: dict[str, Any]
 
     n_block_keys = ["n_layers", "num_hidden_layers", "n_layer", "num_layers", "depth", "encoder_layers"]
+
