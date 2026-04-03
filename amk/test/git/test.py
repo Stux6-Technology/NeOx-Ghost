@@ -1704,3 +1704,4 @@ class MmprojModel(ModelBase):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
+        if self.model_arch != gguf.MODEL_ARCH.MMPROJ:
