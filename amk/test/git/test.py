@@ -1706,3 +1706,4 @@ class MmprojModel(ModelBase):
 
         if self.model_arch != gguf.MODEL_ARCH.MMPROJ:
             raise TypeError("MmprojModel must be subclassed with model_arch = gguf.MODEL_ARCH.MMPROJ")
+
