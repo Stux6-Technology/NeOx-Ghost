@@ -1717,3 +1717,4 @@ class MmprojModel(ModelBase):
             self.n_embd_text = text_config.get("hidden_size", text_config.get("n_embd", 0))
         else:
             text_config = {
+                k: v for k, v in self.hparams.items() if k not in ["vision_encoder", "audio_encoder"]
