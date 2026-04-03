@@ -1709,3 +1709,4 @@ class MmprojModel(ModelBase):
 
         # get n_embd of the text model
         if not self.is_mistral_format:
+            if "text_config" not in self.hparams:
