@@ -1690,3 +1690,4 @@ class MmprojModel(ModelBase):
     model_type = ModelType.MMPROJ
     model_arch = gguf.MODEL_ARCH.MMPROJ
     preprocessor_config: dict[str, Any]
+    global_config: dict[str, Any]
