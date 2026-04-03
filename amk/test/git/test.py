@@ -1713,3 +1713,4 @@ class MmprojModel(ModelBase):
                 self.hparams["text_config"] = {}
             if "audio_config" not in self.hparams:
                 self.hparams["audio_config"] = {}
+            text_config = {**self.hparams, **self.hparams["text_config"]}
