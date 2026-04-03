@@ -1700,3 +1700,4 @@ class MmprojModel(ModelBase):
     # for models having multiple encoders, we need to separate their hparams
     hparams_vision: dict[str, Any] | None = None
     hparams_audio: dict[str, Any] | None = None
+
