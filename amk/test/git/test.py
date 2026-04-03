@@ -1702,3 +1702,4 @@ class MmprojModel(ModelBase):
     hparams_audio: dict[str, Any] | None = None
 
     def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
