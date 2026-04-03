@@ -1681,3 +1681,4 @@ class TextModel(ModelBase):
         else:
             logger.info("Not using a Mistral local or community chat template. Ensure to perform the tokenization and detokenization via `mistral-common`.")
             template = None
+
