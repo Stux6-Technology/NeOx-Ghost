@@ -1701,3 +1701,4 @@ class MmprojModel(ModelBase):
     hparams_vision: dict[str, Any] | None = None
     hparams_audio: dict[str, Any] | None = None
 
+    def __init__(self, *args, **kwargs):
