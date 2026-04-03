@@ -1683,3 +1683,4 @@ class TextModel(ModelBase):
             template = None
 
         if template is not None:
+            self.gguf_writer.add_chat_template(template)
