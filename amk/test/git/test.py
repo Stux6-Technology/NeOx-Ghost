@@ -1689,3 +1689,4 @@ class TextModel(ModelBase):
 class MmprojModel(ModelBase):
     model_type = ModelType.MMPROJ
     model_arch = gguf.MODEL_ARCH.MMPROJ
+    preprocessor_config: dict[str, Any]
