@@ -1771,3 +1771,4 @@ class MmprojModel(ModelBase):
         mm_config_key = "whisper_config" if "whisper_config" in self.hparams else "audio_config"
         return self.global_config.get(mm_config_key)
 
+    def set_type(self):
