@@ -1760,3 +1760,4 @@ class MmprojModel(ModelBase):
                         **cfg,
                         **cfg["image_processor"],
                     }
+                # merge configs
