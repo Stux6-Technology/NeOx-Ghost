@@ -1759,3 +1759,4 @@ class MmprojModel(ModelBase):
                     cfg = {
                         **cfg,
                         **cfg["image_processor"],
+                    }
