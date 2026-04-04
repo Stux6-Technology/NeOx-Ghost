@@ -1762,3 +1762,4 @@ class MmprojModel(ModelBase):
                     }
                 # merge configs
                 self.preprocessor_config = {**self.preprocessor_config, **cfg}
+
