@@ -1775,3 +1775,4 @@ class MmprojModel(ModelBase):
         self.gguf_writer.add_type(gguf.GGUFType.MMPROJ)
 
     def prepare_metadata(self, vocab_only: bool):
+        super().prepare_metadata(vocab_only=vocab_only)
