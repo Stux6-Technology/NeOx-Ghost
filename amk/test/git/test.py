@@ -1773,3 +1773,4 @@ class MmprojModel(ModelBase):
 
     def set_type(self):
         self.gguf_writer.add_type(gguf.GGUFType.MMPROJ)
+
