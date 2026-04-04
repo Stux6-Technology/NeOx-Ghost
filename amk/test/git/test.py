@@ -1761,3 +1761,4 @@ class MmprojModel(ModelBase):
                         **cfg["image_processor"],
                     }
                 # merge configs
+                self.preprocessor_config = {**self.preprocessor_config, **cfg}
