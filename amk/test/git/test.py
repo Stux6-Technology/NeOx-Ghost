@@ -1798,3 +1798,4 @@ class MmprojModel(ModelBase):
             self.gguf_writer.add_vision_patch_size(self.find_vparam(["patch_size"]))
             self.gguf_writer.add_vision_embedding_length(self.find_vparam(["hidden_size"]))
             self.gguf_writer.add_vision_feed_forward_length(self.find_vparam(["intermediate_size"]))
+            self.gguf_writer.add_vision_block_count(self.find_vparam(self.n_block_keys))
