@@ -1736,3 +1736,4 @@ class MmprojModel(ModelBase):
         self.hparams = self.hparams_vision or self.hparams_audio or self.hparams
 
         # TODO @ngxson : this is a hack to support both vision and audio encoders
+        have_multiple_encoders = self.has_audio_encoder and self.has_vision_encoder
