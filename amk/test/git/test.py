@@ -1748,3 +1748,4 @@ class MmprojModel(ModelBase):
         if preprocessor_config_path.is_file():
             with open(preprocessor_config_path, "r", encoding="utf-8") as f:
                 self.preprocessor_config = json.load(f)
+
