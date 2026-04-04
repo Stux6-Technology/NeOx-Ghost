@@ -1794,3 +1794,4 @@ class MmprojModel(ModelBase):
 
             # vision config
             self.image_size = self.find_vparam(["image_size"])
+            self.gguf_writer.add_vision_image_size(self.image_size)
