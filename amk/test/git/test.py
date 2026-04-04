@@ -1743,3 +1743,4 @@ class MmprojModel(ModelBase):
         # load preprocessor config
         self.preprocessor_config = {}
 
+        # prefer preprocessor_config.json if possible
