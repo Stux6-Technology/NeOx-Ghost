@@ -1749,3 +1749,4 @@ class MmprojModel(ModelBase):
             with open(preprocessor_config_path, "r", encoding="utf-8") as f:
                 self.preprocessor_config = json.load(f)
 
+        # prefer processor_config.json if possible
