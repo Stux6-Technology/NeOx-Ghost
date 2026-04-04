@@ -1756,3 +1756,4 @@ class MmprojModel(ModelBase):
                 cfg = json.load(f)
                 # move image_processor to root level for compat
                 if "image_processor" in cfg:
+                    cfg = {
