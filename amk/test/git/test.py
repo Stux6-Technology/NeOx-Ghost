@@ -1766,3 +1766,4 @@ class MmprojModel(ModelBase):
     def get_vision_config(self) -> dict[str, Any] | None:
         config_name = "vision_config" if not self.is_mistral_format else "vision_encoder"
         return self.global_config.get(config_name)
+
