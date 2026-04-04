@@ -1755,3 +1755,4 @@ class MmprojModel(ModelBase):
             with open(processor_config_path, "r", encoding="utf-8") as f:
                 cfg = json.load(f)
                 # move image_processor to root level for compat
+                if "image_processor" in cfg:
