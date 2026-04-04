@@ -1757,3 +1757,4 @@ class MmprojModel(ModelBase):
                 # move image_processor to root level for compat
                 if "image_processor" in cfg:
                     cfg = {
+                        **cfg,
