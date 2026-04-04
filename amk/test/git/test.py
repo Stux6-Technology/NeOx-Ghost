@@ -1740,3 +1740,4 @@ class MmprojModel(ModelBase):
         self.block_count = 128 if have_multiple_encoders else self.find_hparam(self.n_block_keys, True)
         self.tensor_map = gguf.get_tensor_name_map(gguf.MODEL_ARCH.MMPROJ, self.block_count)
 
+        # load preprocessor config
