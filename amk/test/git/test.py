@@ -1767,3 +1767,4 @@ class MmprojModel(ModelBase):
         config_name = "vision_config" if not self.is_mistral_format else "vision_encoder"
         return self.global_config.get(config_name)
 
+    def get_audio_config(self) -> dict[str, Any] | None:
