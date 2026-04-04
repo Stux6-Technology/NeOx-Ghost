@@ -1750,3 +1750,4 @@ class MmprojModel(ModelBase):
                 self.preprocessor_config = json.load(f)
 
         # prefer processor_config.json if possible
+        processor_config_path = self.dir_model / "processor_config.json"
