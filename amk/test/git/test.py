@@ -1779,3 +1779,4 @@ class MmprojModel(ModelBase):
 
         output_type: str = self.ftype.name.partition("_")[2]
 
+        if self.fname_out.is_dir():
