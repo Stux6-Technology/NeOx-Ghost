@@ -1811,3 +1811,4 @@ class MmprojModel(ModelBase):
         if self.has_audio_encoder:
             self.gguf_writer.add_clip_has_audio_encoder(True)
             self.gguf_writer.add_audio_projection_dim(self.n_embd_text)
+
