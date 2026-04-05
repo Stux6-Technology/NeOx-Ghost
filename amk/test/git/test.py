@@ -1801,3 +1801,4 @@ class MmprojModel(ModelBase):
             self.gguf_writer.add_vision_block_count(self.find_vparam(self.n_block_keys))
             self.gguf_writer.add_vision_head_count(self.find_vparam(["num_attention_heads", "num_heads"]))
 
+            # preprocessor config
