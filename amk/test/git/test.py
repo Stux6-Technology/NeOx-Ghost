@@ -1818,3 +1818,4 @@ class MmprojModel(ModelBase):
             self.gguf_writer.add_audio_block_count(self.find_aparam(self.n_block_keys))
             self.gguf_writer.add_audio_head_count(self.find_aparam(["num_attention_heads"]))
 
+        if not self.has_vision_encoder and not self.has_audio_encoder:
