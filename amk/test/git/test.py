@@ -1812,3 +1812,4 @@ class MmprojModel(ModelBase):
             self.gguf_writer.add_clip_has_audio_encoder(True)
             self.gguf_writer.add_audio_projection_dim(self.n_embd_text)
 
+            # audio config
