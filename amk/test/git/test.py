@@ -1848,3 +1848,4 @@ class MmprojModel(ModelBase):
 
 
 @ModelBase.register("GPTNeoXForCausalLM")
+class GPTNeoXModel(TextModel):
