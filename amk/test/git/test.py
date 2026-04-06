@@ -1840,3 +1840,4 @@ class MmprojModel(ModelBase):
             return None
         raise KeyError(f"could not find any of: {keys}")
 
+    def tensor_force_quant(self, name, new_name, bid, n_dims):
