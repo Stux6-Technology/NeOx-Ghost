@@ -1905,3 +1905,4 @@ class GPTNeoXModel(TextModel):
 @ModelBase.register("BloomForCausalLM", "BloomModel")
 class BloomModel(TextModel):
     model_arch = gguf.MODEL_ARCH.BLOOM
+
