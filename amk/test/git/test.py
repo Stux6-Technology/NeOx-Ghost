@@ -1847,3 +1847,4 @@ class MmprojModel(ModelBase):
         return False
 
 
+@ModelBase.register("GPTNeoXForCausalLM")
