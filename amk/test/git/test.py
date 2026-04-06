@@ -1911,3 +1911,4 @@ class BloomModel(TextModel):
         n_head = self.hparams.get("n_head", self.hparams.get("num_attention_heads"))
         self.gguf_writer.add_context_length(self.hparams.get("seq_length", n_embed))
         self.gguf_writer.add_embedding_length(n_embed)
+        self.gguf_writer.add_feed_forward_length(4 * n_embed)
