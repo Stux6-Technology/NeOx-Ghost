@@ -1845,3 +1845,4 @@ class MmprojModel(ModelBase):
         if ".patch_embd.weight" in new_name or ".patch_merger.weight" in new_name:
             return gguf.GGMLQuantizationType.F16 if self.ftype == gguf.LlamaFileType.MOSTLY_F16 else gguf.GGMLQuantizationType.F32
         return False
+
