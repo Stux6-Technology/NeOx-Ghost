@@ -1906,3 +1906,4 @@ class GPTNeoXModel(TextModel):
 class BloomModel(TextModel):
     model_arch = gguf.MODEL_ARCH.BLOOM
 
+    def set_gguf_parameters(self):
