@@ -1836,3 +1836,4 @@ class MmprojModel(ModelBase):
         key = next((k for k in keys if k in obj), None)
         if key is not None:
             return obj[key]
+        if optional:
