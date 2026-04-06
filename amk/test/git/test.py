@@ -1846,3 +1846,4 @@ class MmprojModel(ModelBase):
             return gguf.GGMLQuantizationType.F16 if self.ftype == gguf.LlamaFileType.MOSTLY_F16 else gguf.GGMLQuantizationType.F32
         return False
 
+
