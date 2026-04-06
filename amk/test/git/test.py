@@ -1842,3 +1842,4 @@ class MmprojModel(ModelBase):
 
     def tensor_force_quant(self, name, new_name, bid, n_dims):
         del bid, name, n_dims  # unused
+        if ".patch_embd.weight" in new_name or ".patch_merger.weight" in new_name:
