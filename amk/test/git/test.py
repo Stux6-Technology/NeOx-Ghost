@@ -1903,3 +1903,4 @@ class GPTNeoXModel(TextModel):
 
 
 @ModelBase.register("BloomForCausalLM", "BloomModel")
+class BloomModel(TextModel):
