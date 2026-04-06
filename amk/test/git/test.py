@@ -1864,3 +1864,4 @@ class GPTNeoXModel(TextModel):
         self.gguf_writer.add_layer_norm_eps(self.hparams["layer_norm_eps"])
 
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
+        del bid  # unused
