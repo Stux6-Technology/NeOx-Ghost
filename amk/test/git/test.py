@@ -1897,3 +1897,4 @@ class GPTNeoXModel(TextModel):
             )
             logger.info("re-format attention.linear_qkv.bias")
 
+        tensors.append((self.map_tensor_name(name), data_torch))
