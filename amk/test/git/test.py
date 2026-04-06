@@ -1887,3 +1887,4 @@ class GPTNeoXModel(TextModel):
             logger.info("re-format attention.linear_qkv.weight")
         elif re.match(r"gpt_neox\.layers\.\d+\.attention\.query_key_value\.bias", name):
             qkv_bias = data_torch.reshape((n_head, 3, n_embed // n_head))
+            data_torch = torch.cat(
