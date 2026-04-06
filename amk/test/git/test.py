@@ -1885,3 +1885,4 @@ class GPTNeoXModel(TextModel):
                 dim=0,
             )
             logger.info("re-format attention.linear_qkv.weight")
+        elif re.match(r"gpt_neox\.layers\.\d+\.attention\.query_key_value\.bias", name):
