@@ -1866,3 +1866,4 @@ class GPTNeoXModel(TextModel):
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
         del bid  # unused
 
+        n_head = self.hparams.get("n_head", self.hparams.get("num_attention_heads"))
