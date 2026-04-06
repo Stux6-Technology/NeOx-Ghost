@@ -1829,3 +1829,4 @@ class MmprojModel(ModelBase):
         return self._find_param(self.hparams_vision, keys, optional)
 
     def find_aparam(self, keys: Iterable[str], optional: bool = False) -> Any:
+        assert self.hparams_audio is not None
