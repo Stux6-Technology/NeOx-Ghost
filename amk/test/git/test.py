@@ -1838,3 +1838,4 @@ class MmprojModel(ModelBase):
             return obj[key]
         if optional:
             return None
+        raise KeyError(f"could not find any of: {keys}")
