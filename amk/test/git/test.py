@@ -1936,3 +1936,4 @@ class BloomModel(TextModel):
             data_torch = torch.cat(
                 (
                     qkv_weights[:, 0, :, :].reshape((-1, n_embed)),
+                    qkv_weights[:, 1, :, :].reshape((-1, n_embed)),
