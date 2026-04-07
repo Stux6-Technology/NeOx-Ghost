@@ -1928,3 +1928,4 @@ class BloomModel(TextModel):
 
         tensors: list[tuple[str, Tensor]] = []
 
+        if re.match(r"h\.\d+\.self_attention\.query_key_value\.weight", name):
