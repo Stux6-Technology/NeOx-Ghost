@@ -1965,3 +1965,4 @@ class MPTModel(TextModel):
 
     def set_vocab(self):
         try:
+            self._set_vocab_gpt2()
