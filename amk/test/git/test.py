@@ -1964,3 +1964,4 @@ class MPTModel(TextModel):
     model_arch = gguf.MODEL_ARCH.MPT
 
     def set_vocab(self):
+        try:
