@@ -1946,3 +1946,4 @@ class BloomModel(TextModel):
             qkv_bias = data_torch.reshape((n_head, 3, n_embed // n_head))
             data_torch = torch.cat(
                 (
+                    qkv_bias[:, 0, :].reshape((n_embed,)),
