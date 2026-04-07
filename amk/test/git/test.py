@@ -1922,3 +1922,4 @@ class BloomModel(TextModel):
         del bid  # unused
 
         n_head = self.hparams.get("n_head", self.hparams.get("num_attention_heads"))
+        n_embed = self.hparams.get("hidden_size", self.hparams.get("n_embed"))
