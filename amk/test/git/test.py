@@ -1956,3 +1956,4 @@ class BloomModel(TextModel):
 
         tensors.append((self.map_tensor_name(name), data_torch))
 
+        return tensors
