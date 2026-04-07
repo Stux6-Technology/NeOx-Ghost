@@ -1943,3 +1943,4 @@ class BloomModel(TextModel):
             )
             logger.info("re-format attention.linear_qkv.weight")
         elif re.match(r"h\.\d+\.self_attention\.query_key_value\.bias", name):
+            qkv_bias = data_torch.reshape((n_head, 3, n_embed // n_head))
