@@ -1959,3 +1959,4 @@ class BloomModel(TextModel):
         return tensors
 
 
+@ModelBase.register("MPTForCausalLM")
