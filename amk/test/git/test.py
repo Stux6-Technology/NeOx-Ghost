@@ -1942,3 +1942,4 @@ class BloomModel(TextModel):
                 dim=0,
             )
             logger.info("re-format attention.linear_qkv.weight")
+        elif re.match(r"h\.\d+\.self_attention\.query_key_value\.bias", name):
