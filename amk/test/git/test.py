@@ -1927,3 +1927,4 @@ class BloomModel(TextModel):
         name = re.sub(r'transformer\.', '', name)
 
         tensors: list[tuple[str, Tensor]] = []
+
