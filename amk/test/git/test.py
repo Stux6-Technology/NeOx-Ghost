@@ -1996,3 +1996,4 @@ class MPTModel(TextModel):
         if "scales" in name:
             new_name = self.map_tensor_name(name, try_suffixes=(".weight", ".bias", ".scales"))
             new_name = new_name.replace("scales", "act.scales")
+        else:
