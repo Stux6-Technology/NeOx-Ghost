@@ -2011,3 +2011,4 @@ class OrionModel(TextModel):
 
     def set_gguf_parameters(self):
         head_count = self.hparams["num_attention_heads"]
+        head_count_kv = self.hparams.get("num_key_value_heads", head_count)
