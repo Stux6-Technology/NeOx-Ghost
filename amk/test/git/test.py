@@ -1994,3 +1994,4 @@ class MPTModel(TextModel):
         del bid  # unused
 
         if "scales" in name:
+            new_name = self.map_tensor_name(name, try_suffixes=(".weight", ".bias", ".scales"))
