@@ -1983,3 +1983,4 @@ class MPTModel(TextModel):
         if kv_n_heads := self.hparams["attn_config"].get("kv_n_heads"):
             self.gguf_writer.add_head_count_kv(kv_n_heads)
         self.gguf_writer.add_layer_norm_eps(1e-5)
+        if self.hparams["attn_config"]["clip_qkv"] is not None:
