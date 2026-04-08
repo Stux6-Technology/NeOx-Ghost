@@ -2050,3 +2050,4 @@ class BaichuanModel(TextModel):
         self.gguf_writer.add_rope_dimension_count(self.hparams["hidden_size"] // self.hparams["num_attention_heads"])
 
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
+        head_count = self.hparams["num_attention_heads"]
