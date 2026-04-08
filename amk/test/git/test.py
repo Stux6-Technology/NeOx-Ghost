@@ -2041,3 +2041,4 @@ class BaichuanModel(TextModel):
     model_arch = gguf.MODEL_ARCH.BAICHUAN
 
     def set_vocab(self):
+        self._set_vocab_sentencepiece()
