@@ -1968,3 +1968,4 @@ class MPTModel(TextModel):
             self._set_vocab_gpt2()
         except Exception:
             # Fallback for SEA-LION model
+            self._set_vocab_sentencepiece()
