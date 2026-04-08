@@ -1974,3 +1974,4 @@ class MPTModel(TextModel):
             self.gguf_writer.add_eos_token_id(1)
             self.gguf_writer.add_unk_token_id(0)
 
+    def set_gguf_parameters(self):
