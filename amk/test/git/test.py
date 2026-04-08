@@ -2043,3 +2043,4 @@ class BaichuanModel(TextModel):
     def set_vocab(self):
         self._set_vocab_sentencepiece()
 
+    def set_gguf_parameters(self):
