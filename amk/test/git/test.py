@@ -2037,3 +2037,4 @@ class OrionModel(TextModel):
 
 
 @ModelBase.register("BaichuanForCausalLM", "BaiChuanForCausalLM")
+class BaichuanModel(TextModel):
