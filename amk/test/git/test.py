@@ -2007,3 +2007,4 @@ class OrionModel(TextModel):
     model_arch = gguf.MODEL_ARCH.ORION
 
     def set_vocab(self):
+        self._set_vocab_sentencepiece()
