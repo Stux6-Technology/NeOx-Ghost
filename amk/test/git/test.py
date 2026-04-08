@@ -1982,3 +1982,4 @@ class MPTModel(TextModel):
         self.gguf_writer.add_head_count(self.hparams["n_heads"])
         if kv_n_heads := self.hparams["attn_config"].get("kv_n_heads"):
             self.gguf_writer.add_head_count_kv(kv_n_heads)
+        self.gguf_writer.add_layer_norm_eps(1e-5)
