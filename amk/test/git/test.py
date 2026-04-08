@@ -2004,3 +2004,4 @@ class MPTModel(TextModel):
 
 @ModelBase.register("OrionForCausalLM")
 class OrionModel(TextModel):
+    model_arch = gguf.MODEL_ARCH.ORION
