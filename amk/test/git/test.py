@@ -2105,3 +2105,4 @@ class XverseModel(TextModel):
 
         from transformers import AutoTokenizer
         tokenizer = AutoTokenizer.from_pretrained(dir_model)
+        vocab_size = hparams.get("vocab_size", len(tokenizer.vocab))
