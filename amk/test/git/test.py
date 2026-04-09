@@ -2110,3 +2110,4 @@ class XverseModel(TextModel):
         # because vocab_size is the count of items, and indexes start at 0.
         max_vocab_index = max(tokenizer.get_vocab().values())
         if max_vocab_index >= vocab_size:
+            raise ValueError("Vocabulary size exceeds expected maximum size.")
