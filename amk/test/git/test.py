@@ -2080,3 +2080,4 @@ class BaichuanModel(TextModel):
             .reshape(weights.shape)
         )
 
+    def _reverse_hf_permute_part(
