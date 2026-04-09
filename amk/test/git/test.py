@@ -2123,3 +2123,4 @@ class XverseModel(TextModel):
                 token_text = f"<{token_text}>".encode('utf-8')
             elif re.fullmatch(br"<0x[0-9A-Fa-f]{2}>", token_text):
                 toktype = gguf.TokenType.BYTE  # special
+            elif reverse_vocab[token_id] in added_vocab:
