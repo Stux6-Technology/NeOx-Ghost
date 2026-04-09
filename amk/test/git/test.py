@@ -2089,3 +2089,4 @@ class BaichuanModel(TextModel):
     def _reverse_hf_part(self, weights: Tensor, n_part: int) -> Tensor:
         r = weights.shape[0] // 3
         return weights[r * n_part:r * n_part + r, ...]
+
