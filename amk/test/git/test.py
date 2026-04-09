@@ -2103,3 +2103,4 @@ class XverseModel(TextModel):
         tokens: list[bytes] = []
         toktypes: list[int] = []
 
+        from transformers import AutoTokenizer
