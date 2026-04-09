@@ -2065,3 +2065,4 @@ class BaichuanModel(TextModel):
                 (self.format_tensor_name(gguf.MODEL_TENSOR.ATTN_V, bid),
                     self._reverse_hf_part(data_torch, 2)),
             ]
+        else:
