@@ -2143,3 +2143,4 @@ class XverseModel(TextModel):
         special_vocab.add_to_gguf(self.gguf_writer)
 
     def set_gguf_parameters(self):
+        super().set_gguf_parameters()
