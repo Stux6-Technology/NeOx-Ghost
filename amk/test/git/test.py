@@ -2133,3 +2133,4 @@ class XverseModel(TextModel):
 
             tokens.append(token_text)
             toktypes.append(toktype)
+
