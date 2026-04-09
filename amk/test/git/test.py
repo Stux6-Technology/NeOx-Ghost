@@ -2091,3 +2091,4 @@ class BaichuanModel(TextModel):
         return weights[r * n_part:r * n_part + r, ...]
 
 
+@ModelBase.register("XverseForCausalLM")
