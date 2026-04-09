@@ -2100,3 +2100,4 @@ class XverseModel(TextModel):
         dir_model = self.dir_model
         hparams = self.hparams
 
+        tokens: list[bytes] = []
