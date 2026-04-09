@@ -2145,3 +2145,4 @@ class XverseModel(TextModel):
     def set_gguf_parameters(self):
         super().set_gguf_parameters()
 
+        self.gguf_writer.add_tensor_data_layout("Meta AI original pth")
