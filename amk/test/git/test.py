@@ -2093,3 +2093,4 @@ class BaichuanModel(TextModel):
 
 @ModelBase.register("XverseForCausalLM")
 class XverseModel(TextModel):
+    model_arch = gguf.MODEL_ARCH.XVERSE
