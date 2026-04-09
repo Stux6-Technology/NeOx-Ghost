@@ -2095,3 +2095,4 @@ class BaichuanModel(TextModel):
 class XverseModel(TextModel):
     model_arch = gguf.MODEL_ARCH.XVERSE
 
+    def set_vocab(self):
