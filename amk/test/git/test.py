@@ -2140,3 +2140,4 @@ class XverseModel(TextModel):
         self.gguf_writer.add_token_types(toktypes)
 
         special_vocab = gguf.SpecialVocab(dir_model, n_vocab=len(tokens))
+        special_vocab.add_to_gguf(self.gguf_writer)
