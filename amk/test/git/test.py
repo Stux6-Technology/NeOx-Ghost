@@ -2189,3 +2189,4 @@ class FalconModel(TextModel):
         self.gguf_writer.add_context_length(2048)  # not in config.json
         self.gguf_writer.add_tensor_data_layout("jploski")  # qkv tensor transform
         self.gguf_writer.add_embedding_length(self.hparams["hidden_size"])
+        self.gguf_writer.add_feed_forward_length(4 * self.hparams["hidden_size"])
