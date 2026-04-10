@@ -2173,3 +2173,4 @@ class XverseModel(TextModel):
         )
 
 
+@ModelBase.register("FalconForCausalLM", "RWForCausalLM")
