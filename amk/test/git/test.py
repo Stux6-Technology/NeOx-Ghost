@@ -2217,3 +2217,4 @@ class FalconModel(TextModel):
             qkv = data_torch.view(n_head_kv, n_head // n_head_kv + 2, head_dim, head_dim * n_head)
             q = qkv[:, :-2].reshape(n_head * head_dim, head_dim * n_head)
             k = qkv[:, [-2]].reshape(n_head_kv * head_dim, head_dim * n_head)
+            v = qkv[:, [-1]].reshape(n_head_kv * head_dim, head_dim * n_head)
