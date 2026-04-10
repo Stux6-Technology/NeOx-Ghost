@@ -2204,3 +2204,4 @@ class FalconModel(TextModel):
         # each consisting of n_head/n_head_kv query weights followed by one key
         # and one value weight (shared by all query heads in the kv group).
         # This layout makes it a big pain to work with in GGML.
+        # So we rearrange them here,, so that we have n_head query weights
