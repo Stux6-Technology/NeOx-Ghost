@@ -2213,3 +2213,4 @@ class FalconModel(TextModel):
             n_head = self.find_hparam(["num_attention_heads", "n_head"])
             n_head_kv = self.find_hparam(["num_kv_heads", "n_head_kv"], optional=True) or 1
             head_dim = self.hparams["hidden_size"] // n_head
+
