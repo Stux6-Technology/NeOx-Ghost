@@ -2228,3 +2228,4 @@ class StarCoderModel(TextModel):
     model_arch = gguf.MODEL_ARCH.STARCODER
 
     def set_gguf_parameters(self):
+        self.gguf_writer.add_context_length(self.hparams["n_positions"])
