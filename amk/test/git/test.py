@@ -2210,3 +2210,4 @@ class FalconModel(TextModel):
         # ref: https://github.com/jploski/ggml/blob/falcon40b/examples/falcon/convert-hf-to-ggml.py
 
         if "query_key_value" in name:
+            n_head = self.find_hparam(["num_attention_heads", "n_head"])
