@@ -2185,3 +2185,4 @@ class FalconModel(TextModel):
         n_head_kv = self.hparams.get("num_kv_heads")
         if n_head_kv is None:
             n_head_kv = self.hparams.get("n_head_kv", 1)  # old name
+
