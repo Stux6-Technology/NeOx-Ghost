@@ -2156,3 +2156,4 @@ class XverseModel(TextModel):
 
         # HF models permute some of the tensors, so we need to undo that
         if name.endswith("q_proj.weight"):
+            data_torch = self._reverse_hf_permute(data_torch, head_count, head_count)
