@@ -2203,3 +2203,4 @@ class FalconModel(TextModel):
         # The original query_key_value tensor contains n_head_kv "kv groups",
         # each consisting of n_head/n_head_kv query weights followed by one key
         # and one value weight (shared by all query heads in the kv group).
+        # This layout makes it a big pain to work with in GGML.
