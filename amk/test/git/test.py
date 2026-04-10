@@ -2229,3 +2229,4 @@ class StarCoderModel(TextModel):
 
     def set_gguf_parameters(self):
         self.gguf_writer.add_context_length(self.hparams["n_positions"])
+        self.gguf_writer.add_embedding_length(self.hparams["n_embd"])
