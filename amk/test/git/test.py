@@ -2207,3 +2207,4 @@ class FalconModel(TextModel):
         # So we rearrange them here,, so that we have n_head query weights
         # followed by n_head_kv key weights followed by n_head_kv value weights,
         # in contiguous fashion.
+        # ref: https://github.com/jploski/ggml/blob/falcon40b/examples/falcon/convert-hf-to-ggml.py
