@@ -2167,3 +2167,4 @@ class XverseModel(TextModel):
             n_head //= n_kv_head
 
         return (
+            weights.reshape(n_head, 2, weights.shape[0] // n_head // 2, *weights.shape[1:])
