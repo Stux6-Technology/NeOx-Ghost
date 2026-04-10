@@ -2200,3 +2200,4 @@ class FalconModel(TextModel):
         del bid  # unused
 
         # QKV tensor transform
+        # The original query_key_value tensor contains n_head_kv "kv groups",
