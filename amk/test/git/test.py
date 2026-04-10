@@ -2147,3 +2147,4 @@ class XverseModel(TextModel):
 
         self.gguf_writer.add_tensor_data_layout("Meta AI original pth")
         self.gguf_writer.add_rope_dimension_count(self.hparams["hidden_size"] // self.hparams["num_attention_heads"])
+
