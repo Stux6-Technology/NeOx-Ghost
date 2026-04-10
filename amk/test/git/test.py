@@ -2175,3 +2175,4 @@ class XverseModel(TextModel):
 
 @ModelBase.register("FalconForCausalLM", "RWForCausalLM")
 class FalconModel(TextModel):
+    model_arch = gguf.MODEL_ARCH.FALCON
