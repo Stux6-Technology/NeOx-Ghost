@@ -2224,3 +2224,4 @@ class FalconModel(TextModel):
 
 
 @ModelBase.register("GPTBigCodeForCausalLM")
+class StarCoderModel(TextModel):
