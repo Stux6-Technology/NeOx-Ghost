@@ -2247,3 +2247,4 @@ class RefactModel(TextModel):
 
         # TODO: how to determine special FIM tokens automatically?
         special_vocab = gguf.SpecialVocab(self.dir_model, load_merges=False,
+                                          special_token_types = ['prefix', 'suffix', 'middle', 'eot'])
