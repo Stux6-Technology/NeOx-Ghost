@@ -2300,3 +2300,4 @@ class RefactModel(TextModel):
         return tensors
 
 
+@ModelBase.register("StableLmForCausalLM", "StableLMEpochForCausalLM", "LlavaStableLMEpochForCausalLM")
