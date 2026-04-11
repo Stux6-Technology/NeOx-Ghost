@@ -2308,3 +2308,4 @@ class StableLMModel(TextModel):
         if (self.dir_model / "tokenizer.json").is_file():
             self._set_vocab_gpt2()
         else:
+            # StableLM 2 1.6B used to have a vocab in a similar format to Qwen's vocab
