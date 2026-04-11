@@ -2257,3 +2257,4 @@ class RefactModel(TextModel):
     def set_gguf_parameters(self):
         hidden_dim = self.hparams["n_embd"]
         inner_dim = 4 * hidden_dim
+        hidden_dim = int(2 * inner_dim / 3)
