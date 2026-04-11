@@ -2238,3 +2238,4 @@ class StarCoderModel(TextModel):
         self.gguf_writer.add_file_type(self.ftype)
 
 
+@ModelBase.register("GPTRefactForCausalLM")
