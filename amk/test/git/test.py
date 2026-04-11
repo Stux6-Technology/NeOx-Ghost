@@ -2293,3 +2293,4 @@ class RefactModel(TextModel):
             elif name == f"transformer.h.{bid}.mlp.gate_up_proj.weight":
                 tensors.append((self.format_tensor_name(gguf.MODEL_TENSOR.FFN_GATE, bid), data_torch[:ff_dim]))
                 tensors.append((self.format_tensor_name(gguf.MODEL_TENSOR.FFN_UP, bid), data_torch[ff_dim:]))
+
