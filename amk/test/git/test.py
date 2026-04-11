@@ -2240,3 +2240,4 @@ class StarCoderModel(TextModel):
 
 @ModelBase.register("GPTRefactForCausalLM")
 class RefactModel(TextModel):
+    model_arch = gguf.MODEL_ARCH.REFACT
