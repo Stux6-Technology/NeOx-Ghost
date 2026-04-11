@@ -2239,3 +2239,4 @@ class StarCoderModel(TextModel):
 
 
 @ModelBase.register("GPTRefactForCausalLM")
+class RefactModel(TextModel):
