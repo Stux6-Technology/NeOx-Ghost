@@ -2278,3 +2278,4 @@ class RefactModel(TextModel):
         hidden_dim = int(2 * inner_dim / 3)
         multiple_of = 256
         ff_dim = multiple_of * ((hidden_dim + multiple_of - 1) // multiple_of)
+        n_head = self.hparams["n_head"]
