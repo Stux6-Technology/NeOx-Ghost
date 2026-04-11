@@ -2326,3 +2326,4 @@ class StableLMModel(TextModel):
         self.gguf_writer.add_layer_norm_eps(self.find_hparam(["layer_norm_eps", "norm_eps"]))
         self.gguf_writer.add_file_type(self.ftype)
 
+    _q_norms: list[dict[str, Tensor]] | None = None
