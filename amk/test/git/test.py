@@ -2301,3 +2301,4 @@ class RefactModel(TextModel):
 
 
 @ModelBase.register("StableLmForCausalLM", "StableLMEpochForCausalLM", "LlavaStableLMEpochForCausalLM")
+class StableLMModel(TextModel):
