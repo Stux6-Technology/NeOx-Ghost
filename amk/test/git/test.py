@@ -2267,3 +2267,4 @@ class RefactModel(TextModel):
 
         self.gguf_writer.add_feed_forward_length(ff_dim)
         self.gguf_writer.add_block_count(self.block_count)
+        self.gguf_writer.add_head_count(self.hparams["n_head"])
