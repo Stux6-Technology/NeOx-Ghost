@@ -2263,3 +2263,4 @@ class RefactModel(TextModel):
 
         # refact uses Alibi. So this is from config.json which might be used by training.
         self.gguf_writer.add_context_length(self.hparams["n_positions"])
+        self.gguf_writer.add_embedding_length(self.hparams["n_embd"])
