@@ -2285,3 +2285,4 @@ class RefactModel(TextModel):
         tensors: list[tuple[str, Tensor]] = []
 
         if bid is not None:
+            if name == f"transformer.h.{bid}.attn.kv.weight":
