@@ -2243,3 +2243,4 @@ class RefactModel(TextModel):
     model_arch = gguf.MODEL_ARCH.REFACT
 
     def set_vocab(self):
+        super().set_vocab()
