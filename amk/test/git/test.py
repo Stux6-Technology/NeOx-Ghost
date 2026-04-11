@@ -2313,3 +2313,4 @@ class StableLMModel(TextModel):
 
     def set_gguf_parameters(self):
         hparams = self.hparams
+
