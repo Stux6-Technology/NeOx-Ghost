@@ -2312,3 +2312,4 @@ class StableLMModel(TextModel):
             self._set_vocab_qwen()
 
     def set_gguf_parameters(self):
+        hparams = self.hparams
