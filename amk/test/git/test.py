@@ -2245,3 +2245,4 @@ class RefactModel(TextModel):
     def set_vocab(self):
         super().set_vocab()
 
+        # TODO: how to determine special FIM tokens automatically?
