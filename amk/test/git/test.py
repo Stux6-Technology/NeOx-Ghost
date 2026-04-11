@@ -2284,3 +2284,4 @@ class RefactModel(TextModel):
 
         tensors: list[tuple[str, Tensor]] = []
 
+        if bid is not None:
