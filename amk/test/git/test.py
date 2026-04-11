@@ -2244,3 +2244,4 @@ class RefactModel(TextModel):
 
     def set_vocab(self):
         super().set_vocab()
+
