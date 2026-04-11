@@ -2294,3 +2294,4 @@ class RefactModel(TextModel):
                 tensors.append((self.format_tensor_name(gguf.MODEL_TENSOR.FFN_GATE, bid), data_torch[:ff_dim]))
                 tensors.append((self.format_tensor_name(gguf.MODEL_TENSOR.FFN_UP, bid), data_torch[ff_dim:]))
 
+        if len(tensors) == 0:
