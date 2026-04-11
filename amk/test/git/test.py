@@ -2304,3 +2304,4 @@ class RefactModel(TextModel):
 class StableLMModel(TextModel):
     model_arch = gguf.MODEL_ARCH.STABLELM
 
+    def set_vocab(self):
