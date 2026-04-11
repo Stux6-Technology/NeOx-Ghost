@@ -2303,3 +2303,4 @@ class RefactModel(TextModel):
 @ModelBase.register("StableLmForCausalLM", "StableLMEpochForCausalLM", "LlavaStableLMEpochForCausalLM")
 class StableLMModel(TextModel):
     model_arch = gguf.MODEL_ARCH.STABLELM
+
