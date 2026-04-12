@@ -2376,3 +2376,4 @@ class StableLMModel(TextModel):
         return [(new_name, data_torch)]
 
     def prepare_tensors(self):
+        super().prepare_tensors()
