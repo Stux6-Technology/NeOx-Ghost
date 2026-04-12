@@ -2384,3 +2384,4 @@ class StableLMModel(TextModel):
                 [k for d in self._q_norms for k in d.keys()] if self._q_norms is not None else []
             ) + (
                 [k for d in self._k_norms for k in d.keys()] if self._k_norms is not None else []
+            )
