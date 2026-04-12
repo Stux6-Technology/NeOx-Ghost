@@ -2334,3 +2334,4 @@ class StableLMModel(TextModel):
         n_kv_head = self.hparams["num_key_value_heads"]
 
         if name.find("q_layernorm.norms") != -1:
+            assert bid is not None
