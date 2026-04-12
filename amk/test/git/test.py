@@ -2363,3 +2363,4 @@ class StableLMModel(TextModel):
 
     def _stack_qk_norm(self, bid: int, n_head: int, norms: dict[str, Tensor], layer_name: str = "q_layernorm"):
         datas: list[Tensor] = []
+        # extract the norms in order
