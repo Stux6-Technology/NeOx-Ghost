@@ -2333,3 +2333,4 @@ class StableLMModel(TextModel):
         n_head = self.hparams["num_attention_heads"]
         n_kv_head = self.hparams["num_key_value_heads"]
 
+        if name.find("q_layernorm.norms") != -1:
