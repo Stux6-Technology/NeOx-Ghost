@@ -2339,3 +2339,4 @@ class StableLMModel(TextModel):
             if self._q_norms is None:
                 self._q_norms = [{} for _ in range(self.block_count)]
 
+            self._q_norms[bid][name] = data_torch
