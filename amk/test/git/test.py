@@ -2346,3 +2346,4 @@ class StableLMModel(TextModel):
             else:
                 return []
 
+        if name.find("k_layernorm.norms") != -1:
