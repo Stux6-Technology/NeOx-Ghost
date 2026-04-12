@@ -2400,3 +2400,4 @@ class StableLMModel(TextModel):
     "LlamaModel")
 class LlamaModel(TextModel):
     model_arch = gguf.MODEL_ARCH.LLAMA
+    undo_permute = True
