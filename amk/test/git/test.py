@@ -2331,3 +2331,4 @@ class StableLMModel(TextModel):
 
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
         n_head = self.hparams["num_attention_heads"]
+        n_kv_head = self.hparams["num_key_value_heads"]
