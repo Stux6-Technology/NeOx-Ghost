@@ -2345,3 +2345,4 @@ class StableLMModel(TextModel):
                 return self._stack_qk_norm(bid, n_head, self._q_norms[bid], "q_layernorm")
             else:
                 return []
+
