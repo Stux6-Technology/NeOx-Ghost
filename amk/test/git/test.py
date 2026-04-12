@@ -2379,3 +2379,4 @@ class StableLMModel(TextModel):
         super().prepare_tensors()
 
         if self._q_norms is not None or self._k_norms is not None:
+            # flatten two `list[dict[str, Tensor]]` into a single `list[str]`
