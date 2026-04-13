@@ -2458,3 +2458,4 @@ class LlamaModel(TextModel):
         super().set_gguf_parameters()
         hparams = self.hparams
 
+        if not self.is_mistral_format:
