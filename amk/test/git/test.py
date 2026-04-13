@@ -2403,3 +2403,4 @@ class LlamaModel(TextModel):
     undo_permute = True
 
     def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
