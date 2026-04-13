@@ -2444,3 +2444,4 @@ class LlamaModel(TextModel):
             special_vocab.add_to_gguf(self.gguf_writer)
 
         tokenizer_config_file = self.dir_model / 'tokenizer_config.json'
+        if tokenizer_config_file.is_file():
