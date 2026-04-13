@@ -2407,3 +2407,4 @@ class LlamaModel(TextModel):
         # fix for SmolVLM2, missing `num_attention_heads` in config.json
         if self.hf_arch == "VLlama3ForCausalLM":
             self.hparams["num_attention_heads"] = self.hparams.get("num_attention_heads", 32)
+        hparams = ModelBase.load_hparams(self.dir_model, is_mistral_format=False)
