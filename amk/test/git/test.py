@@ -2411,3 +2411,4 @@ class LlamaModel(TextModel):
         self.origin_hf_arch = hparams.get('architectures', [None])[0]
 
     def set_vocab(self):
+        if self.origin_hf_arch == "GlmasrModel":
