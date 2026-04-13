@@ -2468,3 +2468,4 @@ class LlamaModel(TextModel):
     @staticmethod
     def permute(weights: Tensor, n_head: int, n_head_kv: int | None):
         if n_head_kv is not None and n_head != n_head_kv:
+            n_head = n_head_kv
