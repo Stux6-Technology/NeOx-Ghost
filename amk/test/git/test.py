@@ -2455,3 +2455,4 @@ class LlamaModel(TextModel):
             self.gguf_writer.add_add_bos_token(False)
 
     def set_gguf_parameters(self):
+        super().set_gguf_parameters()
