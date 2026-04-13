@@ -2419,3 +2419,4 @@ class LlamaModel(TextModel):
 
         path_tekken_json = self.dir_model / "tekken.json"
         path_tokenizer_json = self.dir_model / "tokenizer.json"
+        if path_tekken_json.is_file() and not path_tokenizer_json.is_file():
