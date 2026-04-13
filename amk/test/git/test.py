@@ -2426,3 +2426,4 @@ class LlamaModel(TextModel):
             self._set_vocab_sentencepiece()
         except FileNotFoundError:
             try:
+                self._set_vocab_llama_hf()
