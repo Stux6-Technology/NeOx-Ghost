@@ -2454,3 +2454,4 @@ class LlamaModel(TextModel):
         if self.hparams.get("vocab_size", 32000) == 49152:
             self.gguf_writer.add_add_bos_token(False)
 
+    def set_gguf_parameters(self):
