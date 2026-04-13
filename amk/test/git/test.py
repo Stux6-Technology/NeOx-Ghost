@@ -2415,3 +2415,4 @@ class LlamaModel(TextModel):
             return self._set_vocab_glmedge()
 
         if self.is_mistral_format:
+            return self._set_vocab_mistral()
