@@ -2438,3 +2438,4 @@ class LlamaModel(TextModel):
                 special_token_types = ['prefix', 'suffix', 'middle', 'eot']
             )
             special_vocab._set_special_token("prefix", 32007)
+            special_vocab._set_special_token("suffix", 32008)
