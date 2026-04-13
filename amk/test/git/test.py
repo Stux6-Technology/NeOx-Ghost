@@ -2433,3 +2433,4 @@ class LlamaModel(TextModel):
 
         # Apply to CodeLlama only (and ignore for Llama 3 with a vocab size of 128256)
         if self.hparams.get("vocab_size", 32000) == 32016:
+            special_vocab = gguf.SpecialVocab(
