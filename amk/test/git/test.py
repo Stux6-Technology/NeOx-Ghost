@@ -2417,3 +2417,4 @@ class LlamaModel(TextModel):
         if self.is_mistral_format:
             return self._set_vocab_mistral()
 
+        path_tekken_json = self.dir_model / "tekken.json"
