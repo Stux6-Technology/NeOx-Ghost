@@ -2501,3 +2501,4 @@ class LlamaModel(TextModel):
             return [] # skip vision tensors
         elif self.hf_arch == "LlamaModel":
             name = "model." + name
+        elif name.startswith("model.text_model"):
