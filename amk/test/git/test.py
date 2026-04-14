@@ -2517,3 +2517,4 @@ class LlamaModel(TextModel):
             n_experts = self.hparams["num_local_experts"]
 
             assert bid is not None
+
