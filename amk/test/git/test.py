@@ -2502,3 +2502,4 @@ class LlamaModel(TextModel):
         elif self.hf_arch == "LlamaModel":
             name = "model." + name
         elif name.startswith("model.text_model"):
+            name = name.replace("text_model.", "") # for SmolVLM
