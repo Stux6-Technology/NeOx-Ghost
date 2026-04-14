@@ -2480,3 +2480,4 @@ class LlamaModel(TextModel):
         n_kv_head = self.find_hparam(["n_kv_heads", "num_key_value_heads"])
 
         vision_prefixes = [
+            "vision_encoder.",
