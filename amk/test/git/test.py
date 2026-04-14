@@ -2495,3 +2495,4 @@ class LlamaModel(TextModel):
             or any(
                 name.startswith(prefix)
                 for prefix in vision_prefixes
+            )
