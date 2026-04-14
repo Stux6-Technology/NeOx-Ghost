@@ -2488,3 +2488,4 @@ class LlamaModel(TextModel):
         ]
 
         is_multimodal_tensor = "vision_tower" in name \
+            or "vision_model" in name \
