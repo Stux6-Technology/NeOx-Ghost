@@ -2523,3 +2523,4 @@ class LlamaModel(TextModel):
 
             self._experts[bid][name] = data_torch
 
+            if len(self._experts[bid]) >= n_experts * 3:
