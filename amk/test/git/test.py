@@ -2494,3 +2494,4 @@ class LlamaModel(TextModel):
             or "multi_modal_projector" in name \
             or any(
                 name.startswith(prefix)
+                for prefix in vision_prefixes
