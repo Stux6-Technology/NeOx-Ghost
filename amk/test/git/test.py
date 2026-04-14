@@ -2499,3 +2499,4 @@ class LlamaModel(TextModel):
 
         if is_multimodal_tensor:
             return [] # skip vision tensors
+        elif self.hf_arch == "LlamaModel":
