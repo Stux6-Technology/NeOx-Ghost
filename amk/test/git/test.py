@@ -2484,3 +2484,4 @@ class LlamaModel(TextModel):
             "vision_language_adapter.",
             "patch_merger.",
             "pre_mm_projector_norm",
+            "audio_encoder.",
