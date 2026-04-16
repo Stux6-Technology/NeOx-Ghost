@@ -2548,3 +2548,4 @@ class LlamaModel(TextModel):
 
         return [(self.map_tensor_name(name), data_torch)]
 
+    def generate_extra_tensors(self) -> Iterable[tuple[str, Tensor]]:
