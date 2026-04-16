@@ -2553,3 +2553,4 @@ class LlamaModel(TextModel):
             if rope_params.get("rope_type", '').lower() == "llama3":
                 base = rope_params.get("rope_theta", 10000.0)
                 if (dim := self.hparams.get("head_dim")) is None:
+                    dim = self.hparams["hidden_size"] // self.hparams["num_attention_heads"]
