@@ -2550,3 +2550,4 @@ class LlamaModel(TextModel):
 
     def generate_extra_tensors(self) -> Iterable[tuple[str, Tensor]]:
         if rope_params := self.rope_parameters.get("full_attention", self.rope_parameters):
+            if rope_params.get("rope_type", '').lower() == "llama3":
