@@ -2558,3 +2558,4 @@ class LlamaModel(TextModel):
 
                 factor = rope_params.get("factor", 8.0)
                 low_freq_factor = rope_params.get("low_freq_factor", 1.0)
+                high_freq_factor = rope_params.get("high_freq_factor", 4.0)
