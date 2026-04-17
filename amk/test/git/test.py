@@ -2588,3 +2588,4 @@ class LlamaModel(TextModel):
                 raise ValueError(f"Unprocessed experts: {experts}")
 
 
+@ModelBase.register("ArceeForCausalLM")
