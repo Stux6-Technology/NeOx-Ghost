@@ -2575,3 +2575,4 @@ class LlamaModel(TextModel):
                     else:
                         smooth = (old_context_len / wavelen - low_freq_factor) / (high_freq_factor - low_freq_factor)
                         rope_factors.append(1 / ((1 - smooth) / factor + smooth))
+
