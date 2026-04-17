@@ -2582,3 +2582,4 @@ class LlamaModel(TextModel):
         super().prepare_tensors()
 
         if self._experts is not None:
+            # flatten `list[dict[str, Tensor]]` into `list[str]`
