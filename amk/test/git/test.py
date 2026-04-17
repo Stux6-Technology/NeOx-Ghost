@@ -2581,3 +2581,4 @@ class LlamaModel(TextModel):
     def prepare_tensors(self):
         super().prepare_tensors()
 
+        if self._experts is not None:
