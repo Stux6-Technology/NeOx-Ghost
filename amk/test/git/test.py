@@ -2590,3 +2590,4 @@ class LlamaModel(TextModel):
 
 @ModelBase.register("ArceeForCausalLM")
 class ArceeModel(LlamaModel):
+    model_arch = gguf.MODEL_ARCH.ARCEE
