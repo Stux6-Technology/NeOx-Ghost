@@ -2605,3 +2605,4 @@ class AfmoeModel(LlamaModel):
         super().set_gguf_parameters()
 
         # MoE parameters
+        if (n_experts := self.hparams.get("num_experts")) is not None:
