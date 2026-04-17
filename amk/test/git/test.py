@@ -2584,3 +2584,4 @@ class LlamaModel(TextModel):
         if self._experts is not None:
             # flatten `list[dict[str, Tensor]]` into `list[str]`
             experts = [k for d in self._experts for k in d.keys()]
+            if len(experts) > 0:
