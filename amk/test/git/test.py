@@ -2593,3 +2593,4 @@ class ArceeModel(LlamaModel):
     model_arch = gguf.MODEL_ARCH.ARCEE
 
     def set_gguf_parameters(self):
+        super().set_gguf_parameters()
