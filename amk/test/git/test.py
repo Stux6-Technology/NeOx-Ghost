@@ -2589,3 +2589,4 @@ class LlamaModel(TextModel):
 
 
 @ModelBase.register("ArceeForCausalLM")
+class ArceeModel(LlamaModel):
