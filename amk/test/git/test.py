@@ -2609,3 +2609,4 @@ class AfmoeModel(LlamaModel):
             self.gguf_writer.add_expert_count(n_experts)
         if (n_shared_experts := self.hparams.get("num_shared_experts")) is not None:
             self.gguf_writer.add_expert_shared_count(n_shared_experts)
+        if (moe_intermediate_size := self.hparams.get("moe_intermediate_size")) is not None:
