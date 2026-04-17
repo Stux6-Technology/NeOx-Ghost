@@ -2601,3 +2601,4 @@ class ArceeModel(LlamaModel):
 class AfmoeModel(LlamaModel):
     model_arch = gguf.MODEL_ARCH.AFMOE
 
+    def set_gguf_parameters(self):
