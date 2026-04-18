@@ -2657,3 +2657,4 @@ class AfmoeModel(LlamaModel):
             else:
                 return []
 
+        if name.endswith(".expert_bias"):
