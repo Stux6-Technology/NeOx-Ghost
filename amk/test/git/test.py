@@ -2624,3 +2624,4 @@ class AfmoeModel(LlamaModel):
         if (sliding_window := self.hparams.get("sliding_window")) is not None:
             self.gguf_writer.add_sliding_window(sliding_window)
 
+    def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
