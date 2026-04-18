@@ -2654,3 +2654,4 @@ class AfmoeModel(LlamaModel):
                     tensors.append((new_name, data_torch))
 
                 return tensors
+            else:
