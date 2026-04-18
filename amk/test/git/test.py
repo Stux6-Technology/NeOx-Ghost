@@ -2646,3 +2646,4 @@ class AfmoeModel(LlamaModel):
                     for xid in range(n_experts):
                         ename_to_retrieve = f"model.layers.{bid}.mlp.experts.{xid}.{w_name}.weight"
                         datas.append(self._experts[bid][ename_to_retrieve])
+                        del self._experts[bid][ename_to_retrieve]
