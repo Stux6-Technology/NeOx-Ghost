@@ -2619,3 +2619,4 @@ class AfmoeModel(LlamaModel):
             self.gguf_writer.add_expert_weights_norm(route_norm)
         if (route_scale := self.hparams.get("route_scale")) is not None:
             self.gguf_writer.add_expert_weights_scale(route_scale)
+
