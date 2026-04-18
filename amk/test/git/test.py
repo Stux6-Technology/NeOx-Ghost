@@ -2658,3 +2658,4 @@ class AfmoeModel(LlamaModel):
                 return []
 
         if name.endswith(".expert_bias"):
+            name = name.replace(".expert_bias", ".expert_bias.bias")
