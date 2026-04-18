@@ -2643,3 +2643,4 @@ class AfmoeModel(LlamaModel):
                 for w_name in ["gate_proj", "up_proj", "down_proj"]:
                     datas: list[Tensor] = []
 
+                    for xid in range(n_experts):
