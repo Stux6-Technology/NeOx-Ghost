@@ -2640,3 +2640,4 @@ class AfmoeModel(LlamaModel):
                 tensors: list[tuple[str, Tensor]] = []
 
                 # merge the experts into a single 3d tensor
+                for w_name in ["gate_proj", "up_proj", "down_proj"]:
