@@ -2629,3 +2629,4 @@ class AfmoeModel(LlamaModel):
         # process the experts separately
         if name.find("mlp.experts") != -1:
             n_experts = self.hparams["num_experts"]
+            assert bid is not None
