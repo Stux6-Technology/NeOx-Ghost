@@ -2635,3 +2635,4 @@ class AfmoeModel(LlamaModel):
                 self._experts = [{} for _ in range(self.block_count)]
 
             self._experts[bid][name] = data_torch
+
