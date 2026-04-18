@@ -2653,3 +2653,4 @@ class AfmoeModel(LlamaModel):
                     new_name = self.map_tensor_name(merged_name)
                     tensors.append((new_name, data_torch))
 
+                return tensors
