@@ -2662,3 +2662,4 @@ class AfmoeModel(LlamaModel):
 
         return [(self.map_tensor_name(name), data_torch)]
 
+
