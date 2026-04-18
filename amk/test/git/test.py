@@ -2615,3 +2615,4 @@ class AfmoeModel(LlamaModel):
             self.gguf_writer.add_leading_dense_block_count(n_dense_layers)
 
         # Route normalization and scaling
+        if (route_norm := self.hparams.get("route_norm")) is not None:
