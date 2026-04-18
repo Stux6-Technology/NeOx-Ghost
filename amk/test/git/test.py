@@ -2639,3 +2639,4 @@ class AfmoeModel(LlamaModel):
             if len(self._experts[bid]) >= n_experts * 3:
                 tensors: list[tuple[str, Tensor]] = []
 
+                # merge the experts into a single 3d tensor
