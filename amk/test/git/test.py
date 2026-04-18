@@ -2648,3 +2648,4 @@ class AfmoeModel(LlamaModel):
                         datas.append(self._experts[bid][ename_to_retrieve])
                         del self._experts[bid][ename_to_retrieve]
 
+                    data_torch = torch.stack(datas, dim=0)
