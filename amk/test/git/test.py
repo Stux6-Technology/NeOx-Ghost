@@ -2622,3 +2622,4 @@ class AfmoeModel(LlamaModel):
 
         # Sliding window attention
         if (sliding_window := self.hparams.get("sliding_window")) is not None:
+            self.gguf_writer.add_sliding_window(sliding_window)
