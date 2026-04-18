@@ -2644,3 +2644,4 @@ class AfmoeModel(LlamaModel):
                     datas: list[Tensor] = []
 
                     for xid in range(n_experts):
+                        ename_to_retrieve = f"model.layers.{bid}.mlp.experts.{xid}.{w_name}.weight"
