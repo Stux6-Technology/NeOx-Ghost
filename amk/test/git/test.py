@@ -2661,3 +2661,4 @@ class AfmoeModel(LlamaModel):
             name = name.replace(".expert_bias", ".expert_bias.bias")
 
         return [(self.map_tensor_name(name), data_torch)]
+
