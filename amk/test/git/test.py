@@ -2641,3 +2641,4 @@ class AfmoeModel(LlamaModel):
 
                 # merge the experts into a single 3d tensor
                 for w_name in ["gate_proj", "up_proj", "down_proj"]:
+                    datas: list[Tensor] = []
