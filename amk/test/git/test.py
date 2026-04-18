@@ -2649,3 +2649,4 @@ class AfmoeModel(LlamaModel):
                         del self._experts[bid][ename_to_retrieve]
 
                     data_torch = torch.stack(datas, dim=0)
+                    merged_name = f"model.layers.{bid}.mlp.experts.{w_name}.weight"
