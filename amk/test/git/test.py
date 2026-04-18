@@ -2621,3 +2621,4 @@ class AfmoeModel(LlamaModel):
             self.gguf_writer.add_expert_weights_scale(route_scale)
 
         # Sliding window attention
+        if (sliding_window := self.hparams.get("sliding_window")) is not None:
