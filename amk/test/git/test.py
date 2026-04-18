@@ -2628,3 +2628,4 @@ class AfmoeModel(LlamaModel):
         # Handle expert weights - they're already merged in the HF format
         # process the experts separately
         if name.find("mlp.experts") != -1:
+            n_experts = self.hparams["num_experts"]
