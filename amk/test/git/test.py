@@ -2636,3 +2636,4 @@ class AfmoeModel(LlamaModel):
 
             self._experts[bid][name] = data_torch
 
+            if len(self._experts[bid]) >= n_experts * 3:
