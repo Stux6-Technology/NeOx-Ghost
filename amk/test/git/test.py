@@ -2626,3 +2626,4 @@ class AfmoeModel(LlamaModel):
 
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
         # Handle expert weights - they're already merged in the HF format
+        # process the experts separately
