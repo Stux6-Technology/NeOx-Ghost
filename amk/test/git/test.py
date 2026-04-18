@@ -2631,3 +2631,4 @@ class AfmoeModel(LlamaModel):
             n_experts = self.hparams["num_experts"]
             assert bid is not None
 
+            if self._experts is None:
