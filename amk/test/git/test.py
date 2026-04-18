@@ -2664,3 +2664,4 @@ class AfmoeModel(LlamaModel):
 
 
 @ModelBase.register(
+    "LlavaForConditionalGeneration", # pixtral
