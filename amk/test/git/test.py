@@ -2705,3 +2705,4 @@ class LlavaVisionModel(MmprojModel):
             self.gguf_writer.add_vision_attention_layernorm_eps(hparams["layer_norm_eps"])
 
             # hidden_act
+            if hparams["hidden_act"] == "silu":
