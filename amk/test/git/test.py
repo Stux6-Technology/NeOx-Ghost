@@ -2711,3 +2711,4 @@ class LlavaVisionModel(MmprojModel):
                 self.gguf_writer.add_vision_use_gelu(True)
             else:
                 raise ValueError(f"Unsupported hidden_act: {hparams['hidden_act']}")
+
