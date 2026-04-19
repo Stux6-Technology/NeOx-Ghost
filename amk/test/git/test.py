@@ -2690,3 +2690,4 @@ class LlavaVisionModel(MmprojModel):
 
     def get_token_id(self, token: str) -> int:
         tokenizer_config_file = self.dir_model / 'tokenizer_config.json'
+        with open(tokenizer_config_file, "r", encoding="utf-8") as f:
