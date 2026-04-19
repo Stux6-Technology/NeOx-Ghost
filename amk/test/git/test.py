@@ -2697,3 +2697,4 @@ class LlavaVisionModel(MmprojModel):
                     return int(id_)
         raise ValueError(f"Token '{token}' not found in tokenizer config.")
 
+    def set_gguf_parameters(self):
