@@ -2724,3 +2724,4 @@ class LlavaVisionModel(MmprojModel):
         n_kv_head = n_head
 
         valid_prefixes = (
+            "multi_modal_projector.",
