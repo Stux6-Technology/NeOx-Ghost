@@ -2689,3 +2689,4 @@ class LlavaVisionModel(MmprojModel):
         logger.info(f"Image break token id: {self.img_break_tok_id}")
 
     def get_token_id(self, token: str) -> int:
+        tokenizer_config_file = self.dir_model / 'tokenizer_config.json'
