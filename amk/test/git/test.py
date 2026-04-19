@@ -2706,3 +2706,4 @@ class LlavaVisionModel(MmprojModel):
 
             # hidden_act
             if hparams["hidden_act"] == "silu":
+                self.gguf_writer.add_vision_use_silu(True)
