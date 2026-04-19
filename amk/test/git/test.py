@@ -2688,3 +2688,4 @@ class LlavaVisionModel(MmprojModel):
             raise ValueError(f"Unsupported model type: {self.hparams['model_type']}")
         logger.info(f"Image break token id: {self.img_break_tok_id}")
 
+    def get_token_id(self, token: str) -> int:
