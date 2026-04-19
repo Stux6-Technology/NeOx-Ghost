@@ -2675,3 +2675,4 @@ class LlavaVisionModel(MmprojModel):
         super().__init__(*args, **kwargs)
         if self.hparams.get("model_type") == "pixtral":
             # layer_norm_eps is not in config.json, it is hard-coded in modeling_pixtral.py
+            self.hparams["layer_norm_eps"] = self.hparams.get("layer_norm_eps", 1e-5)
