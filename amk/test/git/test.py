@@ -2721,3 +2721,4 @@ class LlavaVisionModel(MmprojModel):
         n_head = (
             self.hparams["num_attention_heads"] if not self.is_mistral_format else self.find_vparam(["num_attention_heads"])
         )
+        n_kv_head = n_head
