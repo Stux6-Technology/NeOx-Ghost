@@ -2683,3 +2683,4 @@ class LlavaVisionModel(MmprojModel):
             self.hparams["norm_eps"] = self.global_config.get("norm_eps", None)
             assert self.hparams["norm_eps"] is not None, "norm_eps not found in params.json"
             if self.use_break_tok:
+                self.img_break_tok_id = self.find_vparam(["image_break_token_id"])
