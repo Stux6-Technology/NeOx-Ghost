@@ -2677,3 +2677,4 @@ class LlavaVisionModel(MmprojModel):
             # layer_norm_eps is not in config.json, it is hard-coded in modeling_pixtral.py
             self.hparams["layer_norm_eps"] = self.hparams.get("layer_norm_eps", 1e-5)
             if self.use_break_tok:
+                self.img_break_tok_id = self.get_token_id("[IMG_BREAK]")
