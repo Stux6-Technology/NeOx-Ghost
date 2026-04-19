@@ -2729,3 +2729,4 @@ class LlavaVisionModel(MmprojModel):
             "vision_encoder.",
             "vision_language_adapter.",
             "patch_merger.",
+            "pre_mm_projector_norm",
