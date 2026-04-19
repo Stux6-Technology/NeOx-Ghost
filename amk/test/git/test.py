@@ -2669,3 +2669,4 @@ class AfmoeModel(LlamaModel):
 )
 class LlavaVisionModel(MmprojModel):
     img_break_tok_id = -1
+    use_break_tok = True
