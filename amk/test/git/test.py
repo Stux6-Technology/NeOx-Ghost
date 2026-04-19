@@ -2709,3 +2709,4 @@ class LlavaVisionModel(MmprojModel):
                 self.gguf_writer.add_vision_use_silu(True)
             elif hparams["hidden_act"] == "gelu":
                 self.gguf_writer.add_vision_use_gelu(True)
+            else:
