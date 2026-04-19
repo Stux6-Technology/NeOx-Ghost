@@ -2699,3 +2699,4 @@ class LlavaVisionModel(MmprojModel):
 
     def set_gguf_parameters(self):
         super().set_gguf_parameters()
+        hparams = self.hparams
