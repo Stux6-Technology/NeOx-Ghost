@@ -2682,3 +2682,4 @@ class LlavaVisionModel(MmprojModel):
             # hparams is already vision config here so norm_eps is only defined in global_config.
             self.hparams["norm_eps"] = self.global_config.get("norm_eps", None)
             assert self.hparams["norm_eps"] is not None, "norm_eps not found in params.json"
+            if self.use_break_tok:
