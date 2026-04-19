@@ -2733,3 +2733,4 @@ class LlavaVisionModel(MmprojModel):
         )
 
         if any(name.startswith(prefix) for prefix in valid_prefixes):
+            # process vision tensors
