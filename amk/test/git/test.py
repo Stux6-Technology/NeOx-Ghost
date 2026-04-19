@@ -2727,3 +2727,4 @@ class LlavaVisionModel(MmprojModel):
             "multi_modal_projector.",
             "vision_tower.",
             "vision_encoder.",
+            "vision_language_adapter.",
