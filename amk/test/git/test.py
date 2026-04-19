@@ -2666,3 +2666,4 @@ class AfmoeModel(LlamaModel):
 @ModelBase.register(
     "LlavaForConditionalGeneration", # pixtral
     "Mistral3ForConditionalGeneration", # mistral small 3.1
+)
