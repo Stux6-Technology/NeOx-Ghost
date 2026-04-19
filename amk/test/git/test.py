@@ -2672,3 +2672,4 @@ class LlavaVisionModel(MmprojModel):
     use_break_tok = True
 
     def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
