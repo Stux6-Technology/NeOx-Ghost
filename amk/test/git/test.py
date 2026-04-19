@@ -2731,3 +2731,4 @@ class LlavaVisionModel(MmprojModel):
             "patch_merger.",
             "pre_mm_projector_norm",
         )
+
