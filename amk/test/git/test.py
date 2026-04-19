@@ -2668,3 +2668,4 @@ class AfmoeModel(LlamaModel):
     "Mistral3ForConditionalGeneration", # mistral small 3.1
 )
 class LlavaVisionModel(MmprojModel):
+    img_break_tok_id = -1
