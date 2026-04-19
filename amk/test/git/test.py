@@ -2695,3 +2695,4 @@ class LlavaVisionModel(MmprojModel):
             for id_, token_data in added_tokens_decoder.items():
                 if token_data["content"] == token:
                     return int(id_)
+        raise ValueError(f"Token '{token}' not found in tokenizer config.")
