@@ -2693,3 +2693,4 @@ class LlavaVisionModel(MmprojModel):
         with open(tokenizer_config_file, "r", encoding="utf-8") as f:
             added_tokens_decoder = json.load(f)['added_tokens_decoder']
             for id_, token_data in added_tokens_decoder.items():
+                if token_data["content"] == token:
