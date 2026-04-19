@@ -2716,3 +2716,4 @@ class LlavaVisionModel(MmprojModel):
             if "spatial_merge_size" in self.global_config:
                 self.gguf_writer.add_vision_spatial_merge_size(self.global_config["spatial_merge_size"])
 
+    def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
