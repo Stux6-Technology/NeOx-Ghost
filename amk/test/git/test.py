@@ -2703,3 +2703,4 @@ class LlavaVisionModel(MmprojModel):
         if hparams.get("model_type") == "pixtral":
             self.gguf_writer.add_clip_projector_type(gguf.VisionProjectorType.PIXTRAL)
             self.gguf_writer.add_vision_attention_layernorm_eps(hparams["layer_norm_eps"])
+
