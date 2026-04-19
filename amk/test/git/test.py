@@ -2667,3 +2667,4 @@ class AfmoeModel(LlamaModel):
     "LlavaForConditionalGeneration", # pixtral
     "Mistral3ForConditionalGeneration", # mistral small 3.1
 )
+class LlavaVisionModel(MmprojModel):
