@@ -2714,3 +2714,4 @@ class LlavaVisionModel(MmprojModel):
 
             # spatial_merge_size
             if "spatial_merge_size" in self.global_config:
+                self.gguf_writer.add_vision_spatial_merge_size(self.global_config["spatial_merge_size"])
