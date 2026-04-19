@@ -2726,3 +2726,4 @@ class LlavaVisionModel(MmprojModel):
         valid_prefixes = (
             "multi_modal_projector.",
             "vision_tower.",
+            "vision_encoder.",
