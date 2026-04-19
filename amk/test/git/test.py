@@ -2732,3 +2732,4 @@ class LlavaVisionModel(MmprojModel):
             "pre_mm_projector_norm",
         )
 
+        if any(name.startswith(prefix) for prefix in valid_prefixes):
