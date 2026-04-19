@@ -2694,3 +2694,4 @@ class LlavaVisionModel(MmprojModel):
             added_tokens_decoder = json.load(f)['added_tokens_decoder']
             for id_, token_data in added_tokens_decoder.items():
                 if token_data["content"] == token:
+                    return int(id_)
