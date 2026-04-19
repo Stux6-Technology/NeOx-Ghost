@@ -2687,3 +2687,4 @@ class LlavaVisionModel(MmprojModel):
         else:
             raise ValueError(f"Unsupported model type: {self.hparams['model_type']}")
         logger.info(f"Image break token id: {self.img_break_tok_id}")
+
