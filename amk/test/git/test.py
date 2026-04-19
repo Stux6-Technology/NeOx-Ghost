@@ -2671,3 +2671,4 @@ class LlavaVisionModel(MmprojModel):
     img_break_tok_id = -1
     use_break_tok = True
 
+    def __init__(self, *args, **kwargs):
