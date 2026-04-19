@@ -2728,3 +2728,4 @@ class LlavaVisionModel(MmprojModel):
             "vision_tower.",
             "vision_encoder.",
             "vision_language_adapter.",
+            "patch_merger.",
