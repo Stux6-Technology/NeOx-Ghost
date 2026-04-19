@@ -2680,3 +2680,4 @@ class LlavaVisionModel(MmprojModel):
                 self.img_break_tok_id = self.get_token_id("[IMG_BREAK]")
         elif self.is_mistral_format:
             # hparams is already vision config here so norm_eps is only defined in global_config.
+            self.hparams["norm_eps"] = self.global_config.get("norm_eps", None)
