@@ -2713,3 +2713,4 @@ class LlavaVisionModel(MmprojModel):
                 raise ValueError(f"Unsupported hidden_act: {hparams['hidden_act']}")
 
             # spatial_merge_size
+            if "spatial_merge_size" in self.global_config:
