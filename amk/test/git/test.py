@@ -2800,3 +2800,4 @@ class Llama4Model(LlamaModel):
         super().__init__(*args, **kwargs)
         # IMPORTANT: the normal "intermediate_size" is renamed to "intermediate_size_mlp", we need to undo this
         self.hparams["intermediate_size_moe"] = self.hparams["intermediate_size"]
+        self.hparams["intermediate_size"] = self.hparams["intermediate_size_mlp"]
