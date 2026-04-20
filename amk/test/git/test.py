@@ -2806,3 +2806,4 @@ class Llama4Model(LlamaModel):
         self._set_vocab_gpt2()
 
     def set_gguf_parameters(self):
+        super().set_gguf_parameters()
