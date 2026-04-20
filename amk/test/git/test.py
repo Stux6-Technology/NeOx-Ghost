@@ -2745,3 +2745,4 @@ class LlavaVisionModel(MmprojModel):
             logger.info(f"Extracting [IMG_BREAK] token embedding from {name}")
             # for pixtral model, we need to extract the [IMG_BREAK] token embedding
             img_break_embd = data_torch[self.img_break_tok_id]
+            name = gguf.TENSOR_NAMES[gguf.MODEL_TENSOR.V_TOK_EMBD_IMG_BREAK]
