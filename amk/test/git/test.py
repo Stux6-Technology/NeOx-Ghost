@@ -2794,3 +2794,4 @@ class SmolVLMModel(MmprojModel):
 )
 class Llama4Model(LlamaModel):
     model_arch = gguf.MODEL_ARCH.LLAMA4
+    undo_permute = False
