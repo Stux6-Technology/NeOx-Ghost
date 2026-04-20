@@ -2755,3 +2755,4 @@ class LlavaVisionModel(MmprojModel):
 class SmolVLMModel(MmprojModel):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        if self.hparams["model_type"] == "smolvlm_vision":
