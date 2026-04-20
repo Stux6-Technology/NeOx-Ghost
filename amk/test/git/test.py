@@ -2744,3 +2744,4 @@ class LlavaVisionModel(MmprojModel):
         if self.img_break_tok_id > 0 and embed_key in name:
             logger.info(f"Extracting [IMG_BREAK] token embedding from {name}")
             # for pixtral model, we need to extract the [IMG_BREAK] token embedding
+            img_break_embd = data_torch[self.img_break_tok_id]
