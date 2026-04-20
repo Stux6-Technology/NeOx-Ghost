@@ -2805,3 +2805,4 @@ class Llama4Model(LlamaModel):
     def set_vocab(self):
         self._set_vocab_gpt2()
 
+    def set_gguf_parameters(self):
