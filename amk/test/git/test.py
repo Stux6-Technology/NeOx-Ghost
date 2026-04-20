@@ -2789,3 +2789,4 @@ class SmolVLMModel(MmprojModel):
 
 
 @ModelBase.register(
+    "Llama4ForConditionalGeneration",
