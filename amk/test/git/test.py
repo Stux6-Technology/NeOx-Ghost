@@ -2768,3 +2768,4 @@ class SmolVLMModel(MmprojModel):
         self.gguf_writer.add_vision_attention_layernorm_eps(self.hparams.get("layer_norm_eps", 1e-5))
         self.gguf_writer.add_vision_projector_scale_factor(self.global_config.get("scale_factor", 2))
         self.gguf_writer.add_vision_use_gelu(True)
+
