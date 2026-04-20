@@ -2748,3 +2748,4 @@ class LlavaVisionModel(MmprojModel):
             name = gguf.TENSOR_NAMES[gguf.MODEL_TENSOR.V_TOK_EMBD_IMG_BREAK]
             return [(self.map_tensor_name(name), img_break_embd)]
 
+        return [] # skip other tensors
