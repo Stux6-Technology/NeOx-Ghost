@@ -2787,3 +2787,4 @@ class SmolVLMModel(MmprojModel):
 
         return [] # skip other tensors
 
+
