@@ -2773,3 +2773,4 @@ class SmolVLMModel(MmprojModel):
         preproc_image_size = self.preprocessor_config.get("size", {}).get("longest_edge", self.image_size)
         self.gguf_writer.add_vision_preproc_image_size(preproc_image_size)
 
+    def tensor_force_quant(self, name, new_name, bid, n_dims):
