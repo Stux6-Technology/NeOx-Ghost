@@ -2760,3 +2760,4 @@ class SmolVLMModel(MmprojModel):
             # default values are taken from transformers code
             self.hparams["hidden_size"] = self.hparams.get("hidden_size", 1152)
             self.hparams["num_attention_heads"] = self.hparams.get("num_attention_heads", 16)
+            self.hparams["intermediate_size"] = self.hparams.get("intermediate_size", 3072)
