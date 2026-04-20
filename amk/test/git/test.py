@@ -2777,3 +2777,4 @@ class SmolVLMModel(MmprojModel):
         if ".embeddings." in name:
             return gguf.GGMLQuantizationType.F32
         return super().tensor_force_quant(name, new_name, bid, n_dims)
+
