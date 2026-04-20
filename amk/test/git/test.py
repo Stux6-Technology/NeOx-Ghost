@@ -2780,3 +2780,4 @@ class SmolVLMModel(MmprojModel):
 
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
         del bid  # unused
+        is_vision_tensor = "vision_tower" in name or "vision_model" in name or "model.connector" in name
