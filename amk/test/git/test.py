@@ -2742,3 +2742,4 @@ class LlavaVisionModel(MmprojModel):
 
         embed_key = "embed_tokens.weight" if not self.is_mistral_format else "tok_embeddings.weight"
         if self.img_break_tok_id > 0 and embed_key in name:
+            logger.info(f"Extracting [IMG_BREAK] token embedding from {name}")
