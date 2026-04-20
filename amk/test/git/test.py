@@ -2741,3 +2741,4 @@ class LlavaVisionModel(MmprojModel):
             return [(self.map_tensor_name(name), data_torch)]
 
         embed_key = "embed_tokens.weight" if not self.is_mistral_format else "tok_embeddings.weight"
+        if self.img_break_tok_id > 0 and embed_key in name:
