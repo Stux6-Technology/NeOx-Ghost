@@ -2754,3 +2754,4 @@ class LlavaVisionModel(MmprojModel):
 @ModelBase.register("Idefics3ForConditionalGeneration", "SmolVLMForConditionalGeneration")
 class SmolVLMModel(MmprojModel):
     def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
