@@ -2751,3 +2751,4 @@ class LlavaVisionModel(MmprojModel):
         return [] # skip other tensors
 
 
+@ModelBase.register("Idefics3ForConditionalGeneration", "SmolVLMForConditionalGeneration")
