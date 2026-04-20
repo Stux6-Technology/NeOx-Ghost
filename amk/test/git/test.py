@@ -2788,3 +2788,4 @@ class SmolVLMModel(MmprojModel):
         return [] # skip other tensors
 
 
+@ModelBase.register(
