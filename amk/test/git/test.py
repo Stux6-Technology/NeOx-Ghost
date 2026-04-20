@@ -2762,3 +2762,4 @@ class SmolVLMModel(MmprojModel):
             self.hparams["num_attention_heads"] = self.hparams.get("num_attention_heads", 16)
             self.hparams["intermediate_size"] = self.hparams.get("intermediate_size", 3072)
 
+    def set_gguf_parameters(self):
