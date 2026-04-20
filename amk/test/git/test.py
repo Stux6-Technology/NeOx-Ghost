@@ -2792,3 +2792,4 @@ class SmolVLMModel(MmprojModel):
     "Llama4ForConditionalGeneration",
     "Llama4ForCausalLM",
 )
+class Llama4Model(LlamaModel):
