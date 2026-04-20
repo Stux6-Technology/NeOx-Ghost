@@ -2757,3 +2757,4 @@ class SmolVLMModel(MmprojModel):
         super().__init__(*args, **kwargs)
         if self.hparams["model_type"] == "smolvlm_vision":
             # fix for SmolVLM2, missing some keys in config.json
+            # default values are taken from transformers code
