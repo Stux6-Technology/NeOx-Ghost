@@ -2772,3 +2772,4 @@ class SmolVLMModel(MmprojModel):
         # Add the preprocessor longest edge size
         preproc_image_size = self.preprocessor_config.get("size", {}).get("longest_edge", self.image_size)
         self.gguf_writer.add_vision_preproc_image_size(preproc_image_size)
+
