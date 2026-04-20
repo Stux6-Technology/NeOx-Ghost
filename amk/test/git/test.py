@@ -2802,3 +2802,4 @@ class Llama4Model(LlamaModel):
         self.hparams["intermediate_size_moe"] = self.hparams["intermediate_size"]
         self.hparams["intermediate_size"] = self.hparams["intermediate_size_mlp"]
 
+    def set_vocab(self):
