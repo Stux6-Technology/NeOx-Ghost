@@ -2735,3 +2735,4 @@ class LlavaVisionModel(MmprojModel):
         if any(name.startswith(prefix) for prefix in valid_prefixes):
             # process vision tensors
             if name.endswith(("q_proj.weight", "q_proj.bias")) and not self.is_mistral_format:
+                data_torch = LlamaModel.permute(data_torch, n_head, n_head)
