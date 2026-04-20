@@ -2786,3 +2786,4 @@ class SmolVLMModel(MmprojModel):
             return [(self.map_tensor_name(name), data_torch)]
 
         return [] # skip other tensors
+
