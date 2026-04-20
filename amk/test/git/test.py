@@ -2763,3 +2763,4 @@ class SmolVLMModel(MmprojModel):
             self.hparams["intermediate_size"] = self.hparams.get("intermediate_size", 3072)
 
     def set_gguf_parameters(self):
+        super().set_gguf_parameters()
