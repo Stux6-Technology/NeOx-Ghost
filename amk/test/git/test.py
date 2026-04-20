@@ -2809,3 +2809,4 @@ class Llama4Model(LlamaModel):
         super().set_gguf_parameters()
         self.gguf_writer.add_interleave_moe_layer_step(self.hparams["interleave_moe_layer_step"])
         self.gguf_writer.add_expert_feed_forward_length(self.hparams["intermediate_size_moe"])
+        if "layer_types" in self.hparams:
