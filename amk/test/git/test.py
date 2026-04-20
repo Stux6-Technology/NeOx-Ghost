@@ -2783,3 +2783,4 @@ class SmolVLMModel(MmprojModel):
         is_vision_tensor = "vision_tower" in name or "vision_model" in name or "model.connector" in name
 
         if is_vision_tensor:
+            return [(self.map_tensor_name(name), data_torch)]
