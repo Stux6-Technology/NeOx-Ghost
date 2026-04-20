@@ -2797,3 +2797,4 @@ class Llama4Model(LlamaModel):
     undo_permute = False
 
     def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
