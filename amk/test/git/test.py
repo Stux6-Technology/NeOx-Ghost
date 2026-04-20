@@ -2747,3 +2747,4 @@ class LlavaVisionModel(MmprojModel):
             img_break_embd = data_torch[self.img_break_tok_id]
             name = gguf.TENSOR_NAMES[gguf.MODEL_TENSOR.V_TOK_EMBD_IMG_BREAK]
             return [(self.map_tensor_name(name), img_break_embd)]
+
