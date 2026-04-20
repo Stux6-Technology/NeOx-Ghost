@@ -2793,3 +2793,4 @@ class SmolVLMModel(MmprojModel):
     "Llama4ForCausalLM",
 )
 class Llama4Model(LlamaModel):
+    model_arch = gguf.MODEL_ARCH.LLAMA4
