@@ -2752,3 +2752,4 @@ class LlavaVisionModel(MmprojModel):
 
 
 @ModelBase.register("Idefics3ForConditionalGeneration", "SmolVLMForConditionalGeneration")
+class SmolVLMModel(MmprojModel):
