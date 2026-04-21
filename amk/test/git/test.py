@@ -2813,3 +2813,4 @@ class Llama4Model(LlamaModel):
             if all(lt == "full_attention" for lt in self.hparams["layer_types"]):
                 # all layers are full attention (for MobileLLM), disable swa
                 self.gguf_writer.add_sliding_window(0)
+
