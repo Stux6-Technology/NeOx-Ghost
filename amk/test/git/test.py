@@ -2822,3 +2822,4 @@ class Llama4Model(LlamaModel):
         if "gate_up_proj" in name:
             name_up = name.replace("gate_up_proj", "up_proj.weight")
             name_gate = name.replace("gate_up_proj", "gate_proj.weight")
+            dim_half = data_torch.shape[-1] // 2
