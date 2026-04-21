@@ -2835,3 +2835,4 @@ class Llama4Model(LlamaModel):
 
         if "multi_modal_projector" in name or "vision_model" in name:
             return []
+        return super().modify_tensors(data_torch, name, bid)
