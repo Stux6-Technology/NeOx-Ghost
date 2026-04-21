@@ -2820,3 +2820,4 @@ class Llama4Model(LlamaModel):
 
         # split the gate_up into gate and up
         if "gate_up_proj" in name:
+            name_up = name.replace("gate_up_proj", "up_proj.weight")
