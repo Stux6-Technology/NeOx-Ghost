@@ -2816,3 +2816,4 @@ class Llama4Model(LlamaModel):
 
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None):
         if name.startswith("language_model."):
+            name = name.replace("language_model.", "")
