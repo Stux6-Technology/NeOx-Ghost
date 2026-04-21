@@ -2831,3 +2831,4 @@ class Llama4Model(LlamaModel):
 
         if name.endswith("down_proj"):
             name += ".weight"
+            data_torch = data_torch.transpose(-1, -2)
