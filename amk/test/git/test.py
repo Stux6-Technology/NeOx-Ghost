@@ -2827,3 +2827,4 @@ class Llama4Model(LlamaModel):
             return [
                 (self.map_tensor_name(name_gate), gate_proj_weight),
                 (self.map_tensor_name(name_up), up_proj_weight)
+            ]
