@@ -2814,3 +2814,4 @@ class Llama4Model(LlamaModel):
                 # all layers are full attention (for MobileLLM), disable swa
                 self.gguf_writer.add_sliding_window(0)
 
+    def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None):
