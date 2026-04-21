@@ -2824,3 +2824,4 @@ class Llama4Model(LlamaModel):
             name_gate = name.replace("gate_up_proj", "gate_proj.weight")
             dim_half = data_torch.shape[-1] // 2
             gate_proj_weight, up_proj_weight = data_torch.transpose(-1, -2).split(dim_half, dim=-2)
+            return [
