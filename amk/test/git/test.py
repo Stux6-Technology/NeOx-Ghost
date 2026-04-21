@@ -2830,3 +2830,4 @@ class Llama4Model(LlamaModel):
             ]
 
         if name.endswith("down_proj"):
+            name += ".weight"
