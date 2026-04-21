@@ -2838,3 +2838,4 @@ class Llama4Model(LlamaModel):
         return super().modify_tensors(data_torch, name, bid)
 
 
+@ModelBase.register("Llama4ForConditionalGeneration")
