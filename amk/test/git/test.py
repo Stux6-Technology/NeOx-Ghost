@@ -2829,3 +2829,4 @@ class Llama4Model(LlamaModel):
                 (self.map_tensor_name(name_up), up_proj_weight)
             ]
 
+        if name.endswith("down_proj"):
