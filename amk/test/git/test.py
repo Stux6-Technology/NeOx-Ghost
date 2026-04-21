@@ -2819,3 +2819,4 @@ class Llama4Model(LlamaModel):
             name = name.replace("language_model.", "")
 
         # split the gate_up into gate and up
+        if "gate_up_proj" in name:
