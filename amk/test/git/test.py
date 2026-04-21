@@ -2834,3 +2834,4 @@ class Llama4Model(LlamaModel):
             data_torch = data_torch.transpose(-1, -2)
 
         if "multi_modal_projector" in name or "vision_model" in name:
+            return []
