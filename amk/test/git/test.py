@@ -2818,3 +2818,4 @@ class Llama4Model(LlamaModel):
         if name.startswith("language_model."):
             name = name.replace("language_model.", "")
 
+        # split the gate_up into gate and up
