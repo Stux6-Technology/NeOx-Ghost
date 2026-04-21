@@ -2833,3 +2833,4 @@ class Llama4Model(LlamaModel):
             name += ".weight"
             data_torch = data_torch.transpose(-1, -2)
 
+        if "multi_modal_projector" in name or "vision_model" in name:
