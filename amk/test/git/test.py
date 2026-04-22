@@ -2859,3 +2859,4 @@ class Llama4VisionModel(MmprojModel):
                 return [(gguf.TENSOR_NAMES[gguf.MODEL_TENSOR.V_MMPROJ_FC] + '.weight', data_torch)]
             return [(self.map_tensor_name(name), data_torch)]
         return []
+
