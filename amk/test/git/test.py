@@ -2849,3 +2849,4 @@ class Llama4VisionModel(MmprojModel):
         self.gguf_writer.add_vision_use_gelu(True)
 
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
+        del bid # unused
