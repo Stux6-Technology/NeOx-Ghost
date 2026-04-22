@@ -2890,3 +2890,4 @@ class Mistral3Model(LlamaModel):
             return []
 
         return super().modify_tensors(data_torch, name, bid)
+
