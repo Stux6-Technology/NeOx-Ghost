@@ -2871,3 +2871,4 @@ class Mistral3Model(LlamaModel):
         # TODO: remove this once everyone has migrated to newer version of llama.cpp
         if self.hparams.get("model_type") != "ministral3":
             self.model_arch = gguf.MODEL_ARCH.LLAMA
+            self.gguf_writer.arch = gguf.MODEL_ARCH_NAMES[self.model_arch]
