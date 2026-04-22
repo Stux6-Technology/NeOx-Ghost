@@ -2866,3 +2866,4 @@ class Mistral3Model(LlamaModel):
     model_arch = gguf.MODEL_ARCH.MISTRAL3
 
     def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
