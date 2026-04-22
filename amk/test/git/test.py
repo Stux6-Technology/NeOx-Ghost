@@ -2883,3 +2883,4 @@ class Mistral3Model(LlamaModel):
             assert rope_params["rope_type"] == "yarn", "ministral3 rope_type must be 'yarn'"
             self.gguf_writer.add_rope_scaling_yarn_log_mul(rope_params["mscale_all_dim"])
             self.gguf_writer.add_attn_temperature_scale(rope_params["llama_4_scaling_beta"])
+
