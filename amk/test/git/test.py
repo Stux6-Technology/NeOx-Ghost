@@ -2888,3 +2888,4 @@ class Mistral3Model(LlamaModel):
         name = name.replace("language_model.", "")
         if "multi_modal_projector" in name or "vision_tower" in name:
             return []
+
