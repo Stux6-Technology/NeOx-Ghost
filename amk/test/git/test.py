@@ -2865,3 +2865,4 @@ class Llama4VisionModel(MmprojModel):
 class Mistral3Model(LlamaModel):
     model_arch = gguf.MODEL_ARCH.MISTRAL3
 
+    def __init__(self, *args, **kwargs):
