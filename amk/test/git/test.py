@@ -2880,3 +2880,4 @@ class Mistral3Model(LlamaModel):
         rope_params = self.rope_parameters
         if self.hparams.get("model_type") == "ministral3":
             assert rope_params, "ministral3 must have 'rope_parameters' config"
+            assert rope_params["rope_type"] == "yarn", "ministral3 rope_type must be 'yarn'"
