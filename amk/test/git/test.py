@@ -2902,3 +2902,4 @@ class DeciModel(TextModel):
         intermediate_size = int(2 * ffn_mult * n_embd / 3)
         return DeciModel._find_multiple(intermediate_size, 256)
 
+    @staticmethod
