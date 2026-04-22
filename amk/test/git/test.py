@@ -2889,3 +2889,4 @@ class Mistral3Model(LlamaModel):
         if "multi_modal_projector" in name or "vision_tower" in name:
             return []
 
+        return super().modify_tensors(data_torch, name, bid)
