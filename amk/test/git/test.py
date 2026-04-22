@@ -2854,3 +2854,4 @@ class Llama4VisionModel(MmprojModel):
             # process vision tensors
             if "positional_embedding_vlm" in name and ".weight" not in name:
                 name += ".weight"
+            if "multi_modal_projector.linear_1" in name:
