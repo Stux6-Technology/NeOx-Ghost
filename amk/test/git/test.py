@@ -2897,3 +2897,4 @@ class DeciModel(TextModel):
     model_arch = gguf.MODEL_ARCH.DECI
 
     @staticmethod
+    def _ffn_mult_to_intermediate_size(ffn_mult: float, n_embd: int) -> int:
