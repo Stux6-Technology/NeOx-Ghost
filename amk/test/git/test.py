@@ -2898,3 +2898,4 @@ class DeciModel(TextModel):
 
     @staticmethod
     def _ffn_mult_to_intermediate_size(ffn_mult: float, n_embd: int) -> int:
+        # DeciLM-specific code
