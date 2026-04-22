@@ -2916,3 +2916,4 @@ class DeciModel(TextModel):
             _block_configs: list[dict[str,Any]] = self.hparams["block_configs"]
             assert self.block_count == len(_block_configs)
             self._num_kv_heads = list()
+            self._num_heads = list()
