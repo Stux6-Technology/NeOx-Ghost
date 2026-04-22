@@ -2918,3 +2918,4 @@ class DeciModel(TextModel):
             self._num_kv_heads = list()
             self._num_heads = list()
             _ffn_multipliers = list()
+            # ***linear attention layer***
