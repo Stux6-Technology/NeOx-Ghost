@@ -2881,3 +2881,4 @@ class Mistral3Model(LlamaModel):
         if self.hparams.get("model_type") == "ministral3":
             assert rope_params, "ministral3 must have 'rope_parameters' config"
             assert rope_params["rope_type"] == "yarn", "ministral3 rope_type must be 'yarn'"
+            self.gguf_writer.add_rope_scaling_yarn_log_mul(rope_params["mscale_all_dim"])
