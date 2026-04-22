@@ -2842,3 +2842,4 @@ class Llama4Model(LlamaModel):
 class Llama4VisionModel(MmprojModel):
     def set_gguf_parameters(self):
         super().set_gguf_parameters()
+        self.gguf_writer.add_clip_projector_type(gguf.VisionProjectorType.LLAMA4)
