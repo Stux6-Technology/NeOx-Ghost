@@ -2903,3 +2903,4 @@ class DeciModel(TextModel):
         return DeciModel._find_multiple(intermediate_size, 256)
 
     @staticmethod
+    def _find_multiple(n: int, k: int) -> int:
