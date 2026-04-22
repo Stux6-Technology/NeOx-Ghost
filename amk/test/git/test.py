@@ -2879,3 +2879,4 @@ class Mistral3Model(LlamaModel):
         super().set_gguf_parameters()
         rope_params = self.rope_parameters
         if self.hparams.get("model_type") == "ministral3":
+            assert rope_params, "ministral3 must have 'rope_parameters' config"
