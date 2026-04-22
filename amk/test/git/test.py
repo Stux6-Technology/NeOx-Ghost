@@ -2907,3 +2907,4 @@ class DeciModel(TextModel):
         # DeciLM-specific code
         if n % k == 0:
             return n
+        return n + k - (n % k)
