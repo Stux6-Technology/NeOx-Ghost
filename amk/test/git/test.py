@@ -2851,3 +2851,4 @@ class Llama4VisionModel(MmprojModel):
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
         del bid # unused
         if "multi_modal_projector" in name or "vision_model" in name:
+            # process vision tensors
