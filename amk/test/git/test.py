@@ -2917,3 +2917,4 @@ class DeciModel(TextModel):
             assert self.block_count == len(_block_configs)
             self._num_kv_heads = list()
             self._num_heads = list()
+            _ffn_multipliers = list()
