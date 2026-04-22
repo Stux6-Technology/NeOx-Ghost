@@ -2893,3 +2893,4 @@ class Mistral3Model(LlamaModel):
 
 
 @ModelBase.register("DeciLMForCausalLM")
+class DeciModel(TextModel):
