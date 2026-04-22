@@ -2869,3 +2869,4 @@ class Mistral3Model(LlamaModel):
         super().__init__(*args, **kwargs)
         # for compatibility, we use LLAMA arch for older models
         # TODO: remove this once everyone has migrated to newer version of llama.cpp
+        if self.hparams.get("model_type") != "ministral3":
