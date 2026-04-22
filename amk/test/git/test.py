@@ -2872,3 +2872,4 @@ class Mistral3Model(LlamaModel):
         if self.hparams.get("model_type") != "ministral3":
             self.model_arch = gguf.MODEL_ARCH.LLAMA
             self.gguf_writer.arch = gguf.MODEL_ARCH_NAMES[self.model_arch]
+            self.gguf_writer.add_architecture()
