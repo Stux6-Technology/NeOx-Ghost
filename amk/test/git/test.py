@@ -2896,3 +2896,4 @@ class Mistral3Model(LlamaModel):
 class DeciModel(TextModel):
     model_arch = gguf.MODEL_ARCH.DECI
 
+    @staticmethod
