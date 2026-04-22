@@ -2910,3 +2910,4 @@ class DeciModel(TextModel):
         return n + k - (n % k)
 
     def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
