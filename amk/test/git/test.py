@@ -2867,3 +2867,4 @@ class Mistral3Model(LlamaModel):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        # for compatibility, we use LLAMA arch for older models
