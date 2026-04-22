@@ -2841,3 +2841,4 @@ class Llama4Model(LlamaModel):
 @ModelBase.register("Llama4ForConditionalGeneration")
 class Llama4VisionModel(MmprojModel):
     def set_gguf_parameters(self):
+        super().set_gguf_parameters()
