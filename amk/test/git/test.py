@@ -2878,3 +2878,4 @@ class Mistral3Model(LlamaModel):
     def set_gguf_parameters(self):
         super().set_gguf_parameters()
         rope_params = self.rope_parameters
+        if self.hparams.get("model_type") == "ministral3":
