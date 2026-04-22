@@ -2913,3 +2913,4 @@ class DeciModel(TextModel):
         super().__init__(*args, **kwargs)
 
         if "block_configs" in self.hparams: # Llama-3_1-Nemotron-51B
+            _block_configs: list[dict[str,Any]] = self.hparams["block_configs"]
