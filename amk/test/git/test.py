@@ -2914,3 +2914,4 @@ class DeciModel(TextModel):
 
         if "block_configs" in self.hparams: # Llama-3_1-Nemotron-51B
             _block_configs: list[dict[str,Any]] = self.hparams["block_configs"]
+            assert self.block_count == len(_block_configs)
