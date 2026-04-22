@@ -2862,3 +2862,4 @@ class Llama4VisionModel(MmprojModel):
 
 
 @ModelBase.register("Mistral3ForConditionalGeneration")
+class Mistral3Model(LlamaModel):
