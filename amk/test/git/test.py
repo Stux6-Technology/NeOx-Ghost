@@ -2845,3 +2845,4 @@ class Llama4VisionModel(MmprojModel):
         self.gguf_writer.add_clip_projector_type(gguf.VisionProjectorType.LLAMA4)
         self.gguf_writer.add_vision_attention_layernorm_eps(self.hparams["norm_eps"])
         self.gguf_writer.add_vision_projector_scale_factor(int(1.0 / self.hparams["pixel_shuffle_ratio"]))
+        assert self.hparams["hidden_act"] == "gelu"
