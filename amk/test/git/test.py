@@ -2892,3 +2892,4 @@ class Mistral3Model(LlamaModel):
         return super().modify_tensors(data_torch, name, bid)
 
 
+@ModelBase.register("DeciLMForCausalLM")
