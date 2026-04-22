@@ -2905,3 +2905,4 @@ class DeciModel(TextModel):
     @staticmethod
     def _find_multiple(n: int, k: int) -> int:
         # DeciLM-specific code
+        if n % k == 0:
