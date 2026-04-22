@@ -2920,3 +2920,4 @@ class DeciModel(TextModel):
             _ffn_multipliers = list()
             # ***linear attention layer***
             # if n_heads_in_group is None and replace_with_linear is True
+            # then _num_kv_heads[il] is 0 and _num_heads[il] is num_attention_heads
