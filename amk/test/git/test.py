@@ -2894,3 +2894,4 @@ class Mistral3Model(LlamaModel):
 
 @ModelBase.register("DeciLMForCausalLM")
 class DeciModel(TextModel):
+    model_arch = gguf.MODEL_ARCH.DECI
