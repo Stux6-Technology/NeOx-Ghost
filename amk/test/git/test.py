@@ -2852,3 +2852,4 @@ class Llama4VisionModel(MmprojModel):
         del bid # unused
         if "multi_modal_projector" in name or "vision_model" in name:
             # process vision tensors
+            if "positional_embedding_vlm" in name and ".weight" not in name:
