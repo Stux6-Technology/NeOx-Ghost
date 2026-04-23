@@ -2957,3 +2957,4 @@ class DeciModel(TextModel):
                 for multiplier in _ffn_multipliers
             ]
 
+    def set_vocab(self):
