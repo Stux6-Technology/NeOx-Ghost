@@ -2987,3 +2987,4 @@ class DeciModel(TextModel):
             self.gguf_writer.add_context_length(self.hparams["max_position_embeddings"])
             self.gguf_writer.add_embedding_length(self.hparams["hidden_size"])
             self.gguf_writer.add_layer_norm_rms_eps(self.hparams["rms_norm_eps"])
+            self.gguf_writer.add_key_length(self.hparams["hidden_size"] // self.hparams["num_attention_heads"])
