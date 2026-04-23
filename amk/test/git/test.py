@@ -2990,3 +2990,4 @@ class DeciModel(TextModel):
             self.gguf_writer.add_key_length(self.hparams["hidden_size"] // self.hparams["num_attention_heads"])
             self.gguf_writer.add_value_length(self.hparams["hidden_size"] // self.hparams["num_attention_heads"])
             self.gguf_writer.add_file_type(self.ftype)
+        else: # DeciLM-7B
