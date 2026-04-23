@@ -2996,3 +2996,4 @@ class DeciModel(TextModel):
                 self._num_kv_heads: list[int] = self.hparams["num_key_value_heads_per_layer"]
                 assert self.block_count == len(self._num_kv_heads)
                 self.gguf_writer.add_head_count_kv(self._num_kv_heads)
+        hparams = self.hparams
