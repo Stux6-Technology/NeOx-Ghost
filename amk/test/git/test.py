@@ -2992,3 +2992,4 @@ class DeciModel(TextModel):
             self.gguf_writer.add_file_type(self.ftype)
         else: # DeciLM-7B
             super().set_gguf_parameters()
+            if "num_key_value_heads_per_layer" in self.hparams: # DeciLM-7B
