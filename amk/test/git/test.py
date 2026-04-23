@@ -2983,3 +2983,4 @@ class DeciModel(TextModel):
             self.gguf_writer.add_head_count_kv(self._num_kv_heads)
             self.gguf_writer.add_head_count(self._num_heads)
             self.gguf_writer.add_feed_forward_length(self._ffn_dims)
+            self.gguf_writer.add_block_count(self.block_count)
