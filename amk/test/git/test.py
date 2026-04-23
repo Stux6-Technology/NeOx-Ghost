@@ -2979,3 +2979,4 @@ class DeciModel(TextModel):
             assert self.block_count == len(self._num_heads)
             assert self.block_count == len(self._ffn_dims)
             if (rope_theta := self.rope_parameters.get("rope_theta")) is not None:
+                self.gguf_writer.add_rope_freq_base(rope_theta)
