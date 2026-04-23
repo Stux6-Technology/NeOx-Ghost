@@ -2933,3 +2933,4 @@ class DeciModel(TextModel):
             # then _num_kv_heads[il] is 0 and _num_heads[il] is 0 and _ffn_dims is 0
             for il in range(len(_block_configs)):
                 if _block_configs[il]["attention"]["n_heads_in_group"] is None:
+                    if _block_configs[il]["attention"]["replace_with_linear"] is True:
