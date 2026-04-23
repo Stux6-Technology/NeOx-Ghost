@@ -2970,3 +2970,4 @@ class DeciModel(TextModel):
             special_vocab = gguf.SpecialVocab(self.dir_model, load_merges=True)
             special_vocab.add_to_gguf(self.gguf_writer)
         else:
+            # DeciLM-7B
