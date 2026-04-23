@@ -2945,3 +2945,4 @@ class DeciModel(TextModel):
                 if _block_configs[il]["ffn"]["ffn_mult"] is None: # dummy layer
                     _ffn_multipliers.append(0.0)
                 else:
+                    _ffn_multipliers.append(_block_configs[il]["ffn"]["ffn_mult"])
