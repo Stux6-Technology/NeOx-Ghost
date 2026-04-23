@@ -2958,3 +2958,4 @@ class DeciModel(TextModel):
             ]
 
     def set_vocab(self):
+        # Please change tokenizer_config.json of Llama-3_1-Nemotron-51B's
