@@ -2993,3 +2993,4 @@ class DeciModel(TextModel):
         else: # DeciLM-7B
             super().set_gguf_parameters()
             if "num_key_value_heads_per_layer" in self.hparams: # DeciLM-7B
+                self._num_kv_heads: list[int] = self.hparams["num_key_value_heads_per_layer"]
