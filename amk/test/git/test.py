@@ -2940,3 +2940,4 @@ class DeciModel(TextModel):
                         self._num_kv_heads.append(0)
                         self._num_heads.append(0)
                 else:
+                    self._num_kv_heads.append(self.hparams["num_attention_heads"] // _block_configs[il]["attention"]["n_heads_in_group"])
