@@ -2981,3 +2981,4 @@ class DeciModel(TextModel):
             if (rope_theta := self.rope_parameters.get("rope_theta")) is not None:
                 self.gguf_writer.add_rope_freq_base(rope_theta)
             self.gguf_writer.add_head_count_kv(self._num_kv_heads)
+            self.gguf_writer.add_head_count(self._num_heads)
