@@ -2971,3 +2971,4 @@ class DeciModel(TextModel):
             special_vocab.add_to_gguf(self.gguf_writer)
         else:
             # DeciLM-7B
+            self._set_vocab_llama_hf()
