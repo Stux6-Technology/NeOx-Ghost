@@ -2997,3 +2997,4 @@ class DeciModel(TextModel):
                 assert self.block_count == len(self._num_kv_heads)
                 self.gguf_writer.add_head_count_kv(self._num_kv_heads)
         hparams = self.hparams
+        self.gguf_writer.add_vocab_size(hparams["vocab_size"])
