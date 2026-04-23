@@ -2972,3 +2972,4 @@ class DeciModel(TextModel):
         else:
             # DeciLM-7B
             self._set_vocab_llama_hf()
+
