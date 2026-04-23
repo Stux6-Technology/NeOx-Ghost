@@ -2977,3 +2977,4 @@ class DeciModel(TextModel):
         if "block_configs" in self.hparams: # Llama-3_1-Nemotron-51B
             assert self.block_count == len(self._num_kv_heads)
             assert self.block_count == len(self._num_heads)
+            assert self.block_count == len(self._ffn_dims)
