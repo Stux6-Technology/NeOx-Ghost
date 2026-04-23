@@ -2936,3 +2936,4 @@ class DeciModel(TextModel):
                     if _block_configs[il]["attention"]["replace_with_linear"] is True:
                         self._num_kv_heads.append(0)
                         self._num_heads.append(self.hparams["num_attention_heads"])
+                    else:
