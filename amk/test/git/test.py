@@ -2954,3 +2954,4 @@ class DeciModel(TextModel):
             assert isinstance(_ffn_multipliers, list) and isinstance(_ffn_multipliers[0], float)
             self._ffn_dims: list[int] = [
                 DeciModel._ffn_mult_to_intermediate_size(multiplier, self.hparams["hidden_size"])
+                for multiplier in _ffn_multipliers
