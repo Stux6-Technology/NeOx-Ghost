@@ -2944,3 +2944,4 @@ class DeciModel(TextModel):
                     self._num_heads.append(self.hparams["num_attention_heads"])
                 if _block_configs[il]["ffn"]["ffn_mult"] is None: # dummy layer
                     _ffn_multipliers.append(0.0)
+                else:
