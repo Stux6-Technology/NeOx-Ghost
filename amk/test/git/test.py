@@ -2950,3 +2950,4 @@ class DeciModel(TextModel):
             assert self.block_count == len(self._num_heads)
             assert self.block_count == len(_ffn_multipliers)
             assert isinstance(self._num_kv_heads, list) and isinstance(self._num_kv_heads[0], int)
+            assert isinstance(self._num_heads, list) and isinstance(self._num_heads[0], int)
