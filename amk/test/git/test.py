@@ -2952,3 +2952,4 @@ class DeciModel(TextModel):
             assert isinstance(self._num_kv_heads, list) and isinstance(self._num_kv_heads[0], int)
             assert isinstance(self._num_heads, list) and isinstance(self._num_heads[0], int)
             assert isinstance(_ffn_multipliers, list) and isinstance(_ffn_multipliers[0], float)
+            self._ffn_dims: list[int] = [
