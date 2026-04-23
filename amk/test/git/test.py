@@ -2973,3 +2973,4 @@ class DeciModel(TextModel):
             # DeciLM-7B
             self._set_vocab_llama_hf()
 
+    def set_gguf_parameters(self):
