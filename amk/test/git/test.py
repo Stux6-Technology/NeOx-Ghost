@@ -2934,3 +2934,4 @@ class DeciModel(TextModel):
             for il in range(len(_block_configs)):
                 if _block_configs[il]["attention"]["n_heads_in_group"] is None:
                     if _block_configs[il]["attention"]["replace_with_linear"] is True:
+                        self._num_kv_heads.append(0)
