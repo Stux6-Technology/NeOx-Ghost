@@ -2974,3 +2974,4 @@ class DeciModel(TextModel):
             self._set_vocab_llama_hf()
 
     def set_gguf_parameters(self):
+        if "block_configs" in self.hparams: # Llama-3_1-Nemotron-51B
