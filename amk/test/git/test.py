@@ -2961,3 +2961,4 @@ class DeciModel(TextModel):
         # Please change tokenizer_config.json of Llama-3_1-Nemotron-51B's
         # eos_token from '|eot_id|' to '|end_of_text|'
         if self.hparams.get("vocab_size", 128256) == 128256:
+            tokens, toktypes, tokpre = self.get_vocab_base()
