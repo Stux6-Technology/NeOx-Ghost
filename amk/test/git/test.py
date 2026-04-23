@@ -2963,3 +2963,4 @@ class DeciModel(TextModel):
         if self.hparams.get("vocab_size", 128256) == 128256:
             tokens, toktypes, tokpre = self.get_vocab_base()
             self.gguf_writer.add_tokenizer_model("gpt2")
+            self.gguf_writer.add_tokenizer_pre(tokpre)
