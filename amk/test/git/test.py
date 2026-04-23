@@ -2948,3 +2948,4 @@ class DeciModel(TextModel):
                     _ffn_multipliers.append(_block_configs[il]["ffn"]["ffn_mult"])
             assert self.block_count == len(self._num_kv_heads)
             assert self.block_count == len(self._num_heads)
+            assert self.block_count == len(_ffn_multipliers)
