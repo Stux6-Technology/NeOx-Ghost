@@ -3029,3 +3029,4 @@ class DeciModel(TextModel):
         if name.endswith(("k_proj.weight", "k_proj.bias")):
             data_torch = DeciModel.permute(data_torch, n_head, n_kv_head)
         return [(self.map_tensor_name(name), data_torch)]
+
