@@ -3065,3 +3065,4 @@ class DeciModel(TextModel):
 
 
 @ModelBase.register("BitnetForCausalLM")
+class BitnetModel(TextModel):
