@@ -3027,3 +3027,4 @@ class DeciModel(TextModel):
         if name.endswith(("q_proj.weight", "q_proj.bias")):
             data_torch = DeciModel.permute(data_torch, n_head, n_head)
         if name.endswith(("k_proj.weight", "k_proj.bias")):
+            data_torch = DeciModel.permute(data_torch, n_head, n_kv_head)
