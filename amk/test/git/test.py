@@ -3031,3 +3031,4 @@ class DeciModel(TextModel):
         return [(self.map_tensor_name(name), data_torch)]
 
     def generate_extra_tensors(self) -> Iterable[tuple[str, Tensor]]:
+        if rope_params := self.rope_parameters.get("full_attention", self.rope_parameters):
