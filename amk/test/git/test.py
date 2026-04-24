@@ -3068,3 +3068,4 @@ class DeciModel(TextModel):
 class BitnetModel(TextModel):
     model_arch = gguf.MODEL_ARCH.BITNET
 
+    def set_vocab(self):
