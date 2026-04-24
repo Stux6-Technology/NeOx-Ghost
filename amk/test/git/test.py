@@ -3030,3 +3030,4 @@ class DeciModel(TextModel):
             data_torch = DeciModel.permute(data_torch, n_head, n_kv_head)
         return [(self.map_tensor_name(name), data_torch)]
 
+    def generate_extra_tensors(self) -> Iterable[tuple[str, Tensor]]:
