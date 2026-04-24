@@ -3024,3 +3024,4 @@ class DeciModel(TextModel):
         else:
             n_kv_head = self.hparams.get("num_key_value_heads")
 
+        if name.endswith(("q_proj.weight", "q_proj.bias")):
