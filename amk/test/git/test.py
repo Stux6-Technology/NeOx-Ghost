@@ -3019,3 +3019,4 @@ class DeciModel(TextModel):
             elif "block_configs" in self.hparams:
                 n_kv_head = self._num_kv_heads[bid]
                 n_head = self._num_heads[bid]
+            else:
