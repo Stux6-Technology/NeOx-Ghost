@@ -3020,3 +3020,4 @@ class DeciModel(TextModel):
                 n_kv_head = self._num_kv_heads[bid]
                 n_head = self._num_heads[bid]
             else:
+                n_kv_head = self.hparams.get("num_key_value_heads")
