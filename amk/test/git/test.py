@@ -3064,3 +3064,4 @@ class DeciModel(TextModel):
         super().prepare_tensors()
 
 
+@ModelBase.register("BitnetForCausalLM")
