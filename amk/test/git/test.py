@@ -3008,3 +3008,4 @@ class DeciModel(TextModel):
         if n_head_kv is not None and n_head != n_head_kv:
             n_head = n_head_kv
         return (weights.reshape(n_head, 2, weights.shape[0] // n_head // 2, *weights.shape[1:])
+                .swapaxes(1, 2)
