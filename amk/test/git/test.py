@@ -3004,3 +3004,4 @@ class DeciModel(TextModel):
         self.gguf_writer.add_rope_dimension_count(rope_dim)
 
     @staticmethod
+    def permute(weights: Tensor, n_head: int, n_head_kv: int | None):
