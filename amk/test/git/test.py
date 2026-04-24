@@ -3000,3 +3000,4 @@ class DeciModel(TextModel):
         self.gguf_writer.add_vocab_size(hparams["vocab_size"])
 
         if (rope_dim := hparams.get("head_dim")) is None:
+            rope_dim = hparams["hidden_size"] // hparams["num_attention_heads"]
