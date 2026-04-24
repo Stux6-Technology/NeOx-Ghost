@@ -3049,3 +3049,4 @@ class DeciModel(TextModel):
 
                 rope_factors = []
                 for freq in freqs:
+                    wavelen = 2 * math.pi / freq
