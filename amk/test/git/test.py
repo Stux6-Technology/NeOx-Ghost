@@ -3053,3 +3053,4 @@ class DeciModel(TextModel):
                     if wavelen < high_freq_wavelen:
                         rope_factors.append(1)
                     elif wavelen > low_freq_wavelen:
+                        rope_factors.append(factor)
