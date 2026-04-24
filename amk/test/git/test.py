@@ -3047,3 +3047,4 @@ class DeciModel(TextModel):
                 high_freq_wavelen = old_context_len / high_freq_factor
                 assert low_freq_wavelen != high_freq_wavelen
 
+                rope_factors = []
