@@ -3003,3 +3003,4 @@ class DeciModel(TextModel):
             rope_dim = hparams["hidden_size"] // hparams["num_attention_heads"]
         self.gguf_writer.add_rope_dimension_count(rope_dim)
 
+    @staticmethod
