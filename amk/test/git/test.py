@@ -3016,3 +3016,4 @@ class DeciModel(TextModel):
         if bid is not None:
             if "num_key_value_heads_per_layer" in self.hparams:
                 n_kv_head = self.hparams["num_key_value_heads_per_layer"][bid]
+            elif "block_configs" in self.hparams:
