@@ -3048,3 +3048,4 @@ class DeciModel(TextModel):
                 assert low_freq_wavelen != high_freq_wavelen
 
                 rope_factors = []
+                for freq in freqs:
