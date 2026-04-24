@@ -3025,3 +3025,4 @@ class DeciModel(TextModel):
             n_kv_head = self.hparams.get("num_key_value_heads")
 
         if name.endswith(("q_proj.weight", "q_proj.bias")):
+            data_torch = DeciModel.permute(data_torch, n_head, n_head)
