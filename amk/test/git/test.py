@@ -3043,3 +3043,4 @@ class DeciModel(TextModel):
                 high_freq_factor = rope_params.get("high_freq_factor", 4.0)
                 old_context_len = self.hparams.get("original_max_position_embeddings", 8192)
 
+                low_freq_wavelen = old_context_len / low_freq_factor
