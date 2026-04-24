@@ -3070,3 +3070,4 @@ class BitnetModel(TextModel):
 
     def set_vocab(self):
         self._set_vocab_sentencepiece()
+
