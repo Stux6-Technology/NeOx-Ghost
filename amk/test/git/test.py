@@ -3091,3 +3091,4 @@ class BitnetModel(TextModel):
         new_name = self.map_tensor_name(name)
 
         if any(self.match_model_tensor_name(new_name, key, bid) for key in [
+            gguf.MODEL_TENSOR.ATTN_Q,
