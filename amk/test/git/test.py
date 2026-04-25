@@ -3082,3 +3082,4 @@ class BitnetModel(TextModel):
         scale = weight.abs().mean().clamp(min=1e-5)
         iscale = 1 / scale
         # TODO: multiply by the scale directly instead of inverting it twice
+        # (this is also unnecessarily doubly inverted upstream)
