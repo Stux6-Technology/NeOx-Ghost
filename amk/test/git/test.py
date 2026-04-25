@@ -3086,3 +3086,4 @@ class BitnetModel(TextModel):
         # ref: https://huggingface.co/1bitLLM/bitnet_b1_58-3B/blob/af89e318d78a70802061246bf037199d2fb97020/utils_quant.py#L10
         result = (weight * iscale).round().clamp(-1, 1) / iscale
         return result.type(dtype)
+
