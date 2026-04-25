@@ -3094,3 +3094,4 @@ class BitnetModel(TextModel):
             gguf.MODEL_TENSOR.ATTN_Q,
             gguf.MODEL_TENSOR.ATTN_K,
             gguf.MODEL_TENSOR.ATTN_V,
+            gguf.MODEL_TENSOR.ATTN_OUT,
