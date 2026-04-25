@@ -3090,3 +3090,4 @@ class BitnetModel(TextModel):
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
         new_name = self.map_tensor_name(name)
 
+        if any(self.match_model_tensor_name(new_name, key, bid) for key in [
