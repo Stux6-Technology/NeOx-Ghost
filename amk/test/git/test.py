@@ -3087,3 +3087,4 @@ class BitnetModel(TextModel):
         result = (weight * iscale).round().clamp(-1, 1) / iscale
         return result.type(dtype)
 
+    def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
