@@ -3080,3 +3080,4 @@ class BitnetModel(TextModel):
         dtype = weight.dtype
         weight = weight.float()
         scale = weight.abs().mean().clamp(min=1e-5)
+        iscale = 1 / scale
