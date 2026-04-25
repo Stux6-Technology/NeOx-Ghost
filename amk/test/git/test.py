@@ -3077,3 +3077,4 @@ class BitnetModel(TextModel):
         self.gguf_writer.add_rope_scaling_factor(1.0)
 
     def weight_quant(self, weight: Tensor) -> Tensor:
+        dtype = weight.dtype
