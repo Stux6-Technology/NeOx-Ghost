@@ -3079,3 +3079,4 @@ class BitnetModel(TextModel):
     def weight_quant(self, weight: Tensor) -> Tensor:
         dtype = weight.dtype
         weight = weight.float()
+        scale = weight.abs().mean().clamp(min=1e-5)
