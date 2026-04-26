@@ -3098,3 +3098,4 @@ class BitnetModel(TextModel):
             gguf.MODEL_TENSOR.FFN_UP,
             gguf.MODEL_TENSOR.FFN_DOWN,
             gguf.MODEL_TENSOR.FFN_GATE,
+        ]):
