@@ -3109,3 +3109,4 @@ class BitnetModel(TextModel):
 class GrokModel(TextModel):
     model_arch = gguf.MODEL_ARCH.GROK
 
+    def set_vocab(self):
