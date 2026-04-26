@@ -3103,3 +3103,4 @@ class BitnetModel(TextModel):
             data_torch = self.weight_quant(data_torch)
 
         yield (new_name, data_torch)
+
