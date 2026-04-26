@@ -3107,3 +3107,4 @@ class BitnetModel(TextModel):
 
 @ModelBase.register("GrokForCausalLM", "Grok1ForCausalLM")
 class GrokModel(TextModel):
+    model_arch = gguf.MODEL_ARCH.GROK
