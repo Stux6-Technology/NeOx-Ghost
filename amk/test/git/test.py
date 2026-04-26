@@ -3105,3 +3105,4 @@ class BitnetModel(TextModel):
         yield (new_name, data_torch)
 
 
+@ModelBase.register("GrokForCausalLM", "Grok1ForCausalLM")
