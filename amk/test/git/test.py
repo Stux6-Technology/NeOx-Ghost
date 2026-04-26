@@ -3099,3 +3099,4 @@ class BitnetModel(TextModel):
             gguf.MODEL_TENSOR.FFN_DOWN,
             gguf.MODEL_TENSOR.FFN_GATE,
         ]):
+            # transform weight into 1/0/-1 (in fp32)
