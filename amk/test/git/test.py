@@ -3112,3 +3112,4 @@ class GrokModel(TextModel):
     def set_vocab(self):
         if (self.dir_model / 'tokenizer.model').is_file():
             self._set_vocab_sentencepiece()
+            return
