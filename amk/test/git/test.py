@@ -3110,3 +3110,4 @@ class GrokModel(TextModel):
     model_arch = gguf.MODEL_ARCH.GROK
 
     def set_vocab(self):
+        if (self.dir_model / 'tokenizer.model').is_file():
