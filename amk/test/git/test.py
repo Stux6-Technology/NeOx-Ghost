@@ -3102,3 +3102,4 @@ class BitnetModel(TextModel):
             # transform weight into 1/0/-1 (in fp32)
             data_torch = self.weight_quant(data_torch)
 
+        yield (new_name, data_torch)
