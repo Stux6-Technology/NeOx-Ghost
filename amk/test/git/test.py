@@ -3124,3 +3124,4 @@ class GrokModel(TextModel):
         super().__init__(*args, **kwargs)
 
     def set_gguf_parameters(self):
+        super().set_gguf_parameters()
