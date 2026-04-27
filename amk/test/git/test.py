@@ -3131,3 +3131,4 @@ class GrokModel(TextModel):
         if (final_logit_softcap := self.hparams.get("final_logit_softcapping")):
             self.gguf_writer.add_final_logit_softcapping(final_logit_softcap)
 
+        if (rope_dim := self.hparams.get("head_dim")) is None:
