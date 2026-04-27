@@ -3128,3 +3128,4 @@ class GrokModel(TextModel):
 
         self.gguf_writer.add_attn_logit_softcapping(self.hparams.get("attn_logit_softcapping", 30.0))
         self.gguf_writer.add_router_logit_softcapping(self.hparams.get("router_logit_softcapping", 30.0))
+        if (final_logit_softcap := self.hparams.get("final_logit_softcapping")):
