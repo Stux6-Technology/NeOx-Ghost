@@ -3121,3 +3121,4 @@ class GrokModel(TextModel):
         self._set_vocab_gpt2()
 
     def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
