@@ -3114,3 +3114,4 @@ class GrokModel(TextModel):
             self._set_vocab_sentencepiece()
             return
 
+        if not (self.dir_model / 'tokenizer.json').is_file() or not (self.dir_model / 'chat_template.jinja').is_file():
