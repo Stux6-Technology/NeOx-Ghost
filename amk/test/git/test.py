@@ -3174,3 +3174,4 @@ class GrokModel(TextModel):
                 self._experts = [{} for _ in range(self.block_count)]
 
             # concatenate split tensors
+            if name in self._experts[bid]:
