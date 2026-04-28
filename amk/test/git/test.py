@@ -3218,3 +3218,4 @@ class DbrxModel(TextModel):
         ffn_config = self.hparams["ffn_config"]
         attn_config = self.hparams["attn_config"]
         self.gguf_writer.add_block_count(self.block_count)
+
