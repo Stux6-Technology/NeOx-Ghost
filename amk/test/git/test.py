@@ -3161,3 +3161,4 @@ class GrokModel(TextModel):
         tensors: list[tuple[str, Tensor]] = []
         is_expert = ".moe." in name or ".block_sparse_moe.experts." in name
 
+        if not is_expert:
