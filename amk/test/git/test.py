@@ -3149,3 +3149,4 @@ class GrokModel(TextModel):
 
         if temp_len := self.hparams.get("attn_temperature_len"):
             self.gguf_writer.add_attn_temperature_length(temp_len)
+
