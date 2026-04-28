@@ -3188,3 +3188,4 @@ class GrokModel(TextModel):
             for bid in range(self.block_count):
                 if len(self._experts[bid]) >= n_experts * 3:
                     # merge the experts into a single 3d tensor
+                    for wid in [("linear", "w1", 0), ("linear_1", "w2", 1), ("linear_v", "w3", 0)]:
