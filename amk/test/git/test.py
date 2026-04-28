@@ -3175,3 +3175,4 @@ class GrokModel(TextModel):
 
             # concatenate split tensors
             if name in self._experts[bid]:
+                self._cur_expert = name
