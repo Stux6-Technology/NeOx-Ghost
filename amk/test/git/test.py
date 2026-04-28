@@ -3133,3 +3133,4 @@ class GrokModel(TextModel):
 
         if (rope_dim := self.hparams.get("head_dim")) is None:
             rope_dim = self.hparams["hidden_size"] // self.hparams["num_attention_heads"]
+
