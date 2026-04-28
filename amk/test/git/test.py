@@ -3138,3 +3138,4 @@ class GrokModel(TextModel):
             self.gguf_writer.add_expert_feed_forward_length(moe_intermediate_size)
 
         # Treat "original" as "yarn", seems to have been a mistake
+        if self.hparams.get("rope_type") in ("yarn", "original"):
