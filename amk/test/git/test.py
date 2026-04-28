@@ -3170,3 +3170,4 @@ class GrokModel(TextModel):
 
             assert bid is not None
 
+            if self._experts is None:
