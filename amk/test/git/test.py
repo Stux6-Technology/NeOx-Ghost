@@ -3166,3 +3166,4 @@ class GrokModel(TextModel):
 
         # process the experts separately
         if is_expert or self._cur_expert:
+            n_experts = self.hparams["num_local_experts"]
