@@ -3219,3 +3219,4 @@ class DbrxModel(TextModel):
         attn_config = self.hparams["attn_config"]
         self.gguf_writer.add_block_count(self.block_count)
 
+        self.gguf_writer.add_context_length(self.hparams["max_seq_len"])
