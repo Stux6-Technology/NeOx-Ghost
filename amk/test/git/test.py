@@ -3204,3 +3204,4 @@ class GrokModel(TextModel):
                         merged_name = f"transformer.decoder_layer.{bid}.moe.{wid[0]}.weight"
 
                         new_name = self.map_tensor_name(merged_name)
+
