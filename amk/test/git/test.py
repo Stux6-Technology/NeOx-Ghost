@@ -3212,3 +3212,4 @@ class GrokModel(TextModel):
 
 @ModelBase.register("DbrxForCausalLM")
 class DbrxModel(TextModel):
+    model_arch = gguf.MODEL_ARCH.DBRX
