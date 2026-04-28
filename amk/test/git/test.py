@@ -3132,3 +3132,4 @@ class GrokModel(TextModel):
             self.gguf_writer.add_final_logit_softcapping(final_logit_softcap)
 
         if (rope_dim := self.hparams.get("head_dim")) is None:
+            rope_dim = self.hparams["hidden_size"] // self.hparams["num_attention_heads"]
