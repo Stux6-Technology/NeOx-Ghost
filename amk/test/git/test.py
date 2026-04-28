@@ -3185,3 +3185,4 @@ class GrokModel(TextModel):
             else:
                 self._cur_expert = ""
 
+            for bid in range(self.block_count):
