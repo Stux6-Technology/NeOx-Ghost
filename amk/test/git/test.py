@@ -3135,3 +3135,4 @@ class GrokModel(TextModel):
             rope_dim = self.hparams["hidden_size"] // self.hparams["num_attention_heads"]
 
         if (moe_intermediate_size := self.hparams.get("moe_intermediate_size")) is not None:
+            self.gguf_writer.add_expert_feed_forward_length(moe_intermediate_size)
