@@ -3215,3 +3215,4 @@ class DbrxModel(TextModel):
     model_arch = gguf.MODEL_ARCH.DBRX
 
     def set_gguf_parameters(self):
+        ffn_config = self.hparams["ffn_config"]
