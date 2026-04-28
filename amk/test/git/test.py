@@ -3194,3 +3194,4 @@ class GrokModel(TextModel):
                         for xid in range(n_experts):
                             ename = f"transformer.decoder_layer.{bid}.moe.{xid}.{wid[0]}.weight"
                             if ename not in self._experts[bid]:
+                                ename = f"model.layers.{bid}.block_sparse_moe.experts.{xid}.{wid[1]}.weight"
