@@ -3164,3 +3164,4 @@ class GrokModel(TextModel):
         if not is_expert:
             tensors.append((self.map_tensor_name(name), data_torch))
 
+        # process the experts separately
