@@ -3210,3 +3210,4 @@ class GrokModel(TextModel):
         yield from tensors
 
 
+@ModelBase.register("DbrxForCausalLM")
