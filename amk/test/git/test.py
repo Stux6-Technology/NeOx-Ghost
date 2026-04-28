@@ -3211,3 +3211,4 @@ class GrokModel(TextModel):
 
 
 @ModelBase.register("DbrxForCausalLM")
+class DbrxModel(TextModel):
