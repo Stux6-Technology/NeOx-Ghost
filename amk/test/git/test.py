@@ -3158,3 +3158,4 @@ class GrokModel(TextModel):
     _cur_expert = ""
 
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
+        tensors: list[tuple[str, Tensor]] = []
