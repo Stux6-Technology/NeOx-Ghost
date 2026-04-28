@@ -3199,3 +3199,4 @@ class GrokModel(TextModel):
                             datas.append(torch.cat(tensor_list, dim=wid[2]) if len(tensor_list) > 1 else tensor_list[0])
                             del self._experts[bid][ename]
 
+                        data_torch = torch.stack(datas, dim=0)
