@@ -3136,3 +3136,4 @@ class GrokModel(TextModel):
 
         if (moe_intermediate_size := self.hparams.get("moe_intermediate_size")) is not None:
             self.gguf_writer.add_expert_feed_forward_length(moe_intermediate_size)
+
