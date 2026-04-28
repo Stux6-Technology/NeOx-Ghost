@@ -3192,3 +3192,4 @@ class GrokModel(TextModel):
                         datas: list[Tensor] = []
 
                         for xid in range(n_experts):
+                            ename = f"transformer.decoder_layer.{bid}.moe.{xid}.{wid[0]}.weight"
