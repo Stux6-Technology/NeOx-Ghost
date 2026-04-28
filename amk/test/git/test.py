@@ -3162,3 +3162,4 @@ class GrokModel(TextModel):
         is_expert = ".moe." in name or ".block_sparse_moe.experts." in name
 
         if not is_expert:
+            tensors.append((self.map_tensor_name(name), data_torch))
