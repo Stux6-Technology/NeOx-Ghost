@@ -3150,3 +3150,4 @@ class GrokModel(TextModel):
         if temp_len := self.hparams.get("attn_temperature_len"):
             self.gguf_writer.add_attn_temperature_length(temp_len)
 
+        self.gguf_writer.add_attn_output_scale(self.hparams.get("attn_output_multiplier", rope_dim**-0.5))
