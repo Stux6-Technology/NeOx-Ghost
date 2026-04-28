@@ -3179,3 +3179,4 @@ class GrokModel(TextModel):
                 self._experts[bid][name].append(data_torch)
                 return []
             elif is_expert:
+                self._cur_expert = name
