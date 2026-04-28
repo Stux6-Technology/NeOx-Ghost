@@ -3139,3 +3139,4 @@ class GrokModel(TextModel):
 
         # Treat "original" as "yarn", seems to have been a mistake
         if self.hparams.get("rope_type") in ("yarn", "original"):
+            self.gguf_writer.add_rope_scaling_type(gguf.RopeScalingType.YARN)
