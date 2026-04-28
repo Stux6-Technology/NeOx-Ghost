@@ -3186,3 +3186,4 @@ class GrokModel(TextModel):
                 self._cur_expert = ""
 
             for bid in range(self.block_count):
+                if len(self._experts[bid]) >= n_experts * 3:
