@@ -3154,3 +3154,4 @@ class GrokModel(TextModel):
         self.gguf_writer.add_embedding_scale(self.hparams["embedding_multiplier_scale"])
         self.gguf_writer.add_logit_scale(self.hparams["output_multiplier_scale"])
 
+    _experts: list[dict[str, list[Tensor]]] | None = None
