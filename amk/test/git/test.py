@@ -3208,3 +3208,4 @@ class GrokModel(TextModel):
                         yield (new_name, data_torch)
 
         yield from tensors
+
