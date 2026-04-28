@@ -3184,3 +3184,4 @@ class GrokModel(TextModel):
                 return []
             else:
                 self._cur_expert = ""
+
