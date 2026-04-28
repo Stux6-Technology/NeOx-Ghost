@@ -3142,3 +3142,4 @@ class GrokModel(TextModel):
             self.gguf_writer.add_rope_scaling_type(gguf.RopeScalingType.YARN)
             self.gguf_writer.add_rope_scaling_factor(self.hparams["scaling_factor"])
             self.gguf_writer.add_rope_scaling_orig_ctx_len(self.hparams["original_max_position_embeddings"])
+            self.gguf_writer.add_rope_scaling_yarn_ext_factor(self.hparams["extrapolation_factor"])
