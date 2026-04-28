@@ -3217,3 +3217,4 @@ class DbrxModel(TextModel):
     def set_gguf_parameters(self):
         ffn_config = self.hparams["ffn_config"]
         attn_config = self.hparams["attn_config"]
+        self.gguf_writer.add_block_count(self.block_count)
