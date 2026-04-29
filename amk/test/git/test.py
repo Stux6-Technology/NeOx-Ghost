@@ -3282,3 +3282,4 @@ class DbrxModel(TextModel):
 @ModelBase.register("MiniCPMForCausalLM")
 class MiniCPMModel(TextModel):
     model_arch = gguf.MODEL_ARCH.MINICPM
+
