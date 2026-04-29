@@ -3234,3 +3234,4 @@ class DbrxModel(TextModel):
         self.gguf_writer.add_expert_used_count(ffn_config["moe_top_k"])
 
         self.gguf_writer.add_layer_norm_eps(1e-5)
+
