@@ -3262,3 +3262,4 @@ class DbrxModel(TextModel):
                 if (permute_tensor := exp_tensor_names[exp_tensor_name]) is not None:
                     data_torch = data_torch.permute(*permute_tensor)
                 break
+
