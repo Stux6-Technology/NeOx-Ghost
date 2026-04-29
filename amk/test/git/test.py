@@ -3221,3 +3221,4 @@ class DbrxModel(TextModel):
 
         self.gguf_writer.add_context_length(self.hparams["max_seq_len"])
         self.gguf_writer.add_embedding_length(self.hparams["d_model"])
+        self.gguf_writer.add_feed_forward_length(ffn_config["ffn_hidden_size"])
