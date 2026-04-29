@@ -3264,3 +3264,4 @@ class DbrxModel(TextModel):
                 break
 
         # map tensor names
+        # In MoE models the ffn tensors are typically most of the model weights,
