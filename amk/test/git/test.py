@@ -3280,3 +3280,4 @@ class DbrxModel(TextModel):
 
 
 @ModelBase.register("MiniCPMForCausalLM")
+class MiniCPMModel(TextModel):
