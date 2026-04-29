@@ -3246,3 +3246,4 @@ class DbrxModel(TextModel):
         n_embd = self.hparams["d_model"]
 
         # Specific behavior for experts tensors: suffix .weight, view as 3D and transpose
+        # original implementation expects (n_expert, n_ff, n_embd) for all experts weights
