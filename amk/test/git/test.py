@@ -3227,3 +3227,4 @@ class DbrxModel(TextModel):
         self.gguf_writer.add_head_count_kv(attn_config["kv_n_heads"])
 
         self.gguf_writer.add_rope_freq_base(attn_config["rope_theta"])
+
