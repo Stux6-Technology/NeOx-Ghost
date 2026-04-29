@@ -3236,3 +3236,4 @@ class DbrxModel(TextModel):
         self.gguf_writer.add_layer_norm_eps(1e-5)
 
         self.gguf_writer.add_file_type(self.ftype)
+        logger.info(f"gguf: file type = {self.ftype}")
