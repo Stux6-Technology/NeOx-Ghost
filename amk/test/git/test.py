@@ -3245,3 +3245,4 @@ class DbrxModel(TextModel):
         n_ff = self.hparams["ffn_config"]["ffn_hidden_size"]
         n_embd = self.hparams["d_model"]
 
+        # Specific behavior for experts tensors: suffix .weight, view as 3D and transpose
