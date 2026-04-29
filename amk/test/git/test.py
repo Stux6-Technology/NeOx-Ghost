@@ -3279,3 +3279,4 @@ class DbrxModel(TextModel):
         return n_dims > 1
 
 
+@ModelBase.register("MiniCPMForCausalLM")
