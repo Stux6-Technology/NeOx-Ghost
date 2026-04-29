@@ -3283,3 +3283,4 @@ class DbrxModel(TextModel):
 class MiniCPMModel(TextModel):
     model_arch = gguf.MODEL_ARCH.MINICPM
 
+    def set_gguf_parameters(self):
