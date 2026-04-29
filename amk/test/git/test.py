@@ -3242,3 +3242,4 @@ class DbrxModel(TextModel):
         del bid  # unused
 
         n_expert = self.hparams["ffn_config"]["moe_num_experts"]
+        n_ff = self.hparams["ffn_config"]["ffn_hidden_size"]
