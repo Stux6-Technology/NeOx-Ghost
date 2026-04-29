@@ -3247,3 +3247,4 @@ class DbrxModel(TextModel):
 
         # Specific behavior for experts tensors: suffix .weight, view as 3D and transpose
         # original implementation expects (n_expert, n_ff, n_embd) for all experts weights
+        # But llama.cpp moe graph works differently
