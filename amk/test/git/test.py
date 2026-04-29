@@ -3287,3 +3287,4 @@ class MiniCPMModel(TextModel):
         super().set_gguf_parameters()
         embedding_scale = float(self.hparams["scale_emb"])
         self.gguf_writer.add_embedding_scale(embedding_scale)
+        logger.info(f"gguf: (minicpm) embedding_scale = {embedding_scale}")
