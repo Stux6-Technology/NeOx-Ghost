@@ -3290,3 +3290,4 @@ class MiniCPMModel(TextModel):
         logger.info(f"gguf: (minicpm) embedding_scale = {embedding_scale}")
         residual_scale = self.hparams["scale_depth"] / self.hparams["num_hidden_layers"] ** 0.5
         self.gguf_writer.add_residual_scale(residual_scale)
+        logger.info(f"gguf: (minicpm) residual_scale = {residual_scale}")
