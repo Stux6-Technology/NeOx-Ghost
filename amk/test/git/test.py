@@ -3266,3 +3266,4 @@ class DbrxModel(TextModel):
         # map tensor names
         # In MoE models the ffn tensors are typically most of the model weights,
         # and need to be quantizable. Quantize expects tensor names to be suffixed by .weight.
+        # Every other model has the weight names ending in .weight,
