@@ -3255,3 +3255,4 @@ class DbrxModel(TextModel):
                             "ffn.experts.mlp.v1": None}       # LLM_TENSOR_FFN_UP_EXPS   ggml_tensor->ne{n_embd, n_ff,   n_expert}
         experts = False
 
+        for exp_tensor_name in exp_tensor_names.keys():
