@@ -3269,3 +3269,4 @@ class DbrxModel(TextModel):
         # Every other model has the weight names ending in .weight,
         # let's assume that is the convention which is not the case for dbrx:
         # https://huggingface.co/databricks/dbrx-instruct/blob/main/model.safetensors.index.json#L15
+        new_name = self.map_tensor_name(name if not experts else name + ".weight", try_suffixes=(".weight",))
