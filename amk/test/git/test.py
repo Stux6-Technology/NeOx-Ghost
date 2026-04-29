@@ -3294,3 +3294,4 @@ class MiniCPMModel(TextModel):
         logit_scale = self.hparams["hidden_size"] / self.hparams["dim_model_base"]
         self.gguf_writer.add_logit_scale(logit_scale)
         logger.info(f"gguf: (minicpm) logit_scale = {logit_scale}")
+
