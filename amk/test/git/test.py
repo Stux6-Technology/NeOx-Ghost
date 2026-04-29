@@ -3263,3 +3263,4 @@ class DbrxModel(TextModel):
                     data_torch = data_torch.permute(*permute_tensor)
                 break
 
+        # map tensor names
