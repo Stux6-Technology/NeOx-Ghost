@@ -3272,3 +3272,4 @@ class DbrxModel(TextModel):
         new_name = self.map_tensor_name(name if not experts else name + ".weight", try_suffixes=(".weight",))
 
         return [(new_name, data_torch)]
+
