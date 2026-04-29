@@ -3224,3 +3224,4 @@ class DbrxModel(TextModel):
         self.gguf_writer.add_feed_forward_length(ffn_config["ffn_hidden_size"])
 
         self.gguf_writer.add_head_count(self.hparams["n_heads"])
+        self.gguf_writer.add_head_count_kv(attn_config["kv_n_heads"])
