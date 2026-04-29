@@ -3275,3 +3275,4 @@ class DbrxModel(TextModel):
 
     def tensor_force_quant(self, name: str, new_name: str, bid: int | None, n_dims: int) -> gguf.GGMLQuantizationType | bool:
         del name, new_name, bid  # unused
+
