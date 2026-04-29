@@ -3295,3 +3295,4 @@ class MiniCPMModel(TextModel):
         self.gguf_writer.add_logit_scale(logit_scale)
         logger.info(f"gguf: (minicpm) logit_scale = {logit_scale}")
 
+    def generate_extra_tensors(self) -> Iterable[tuple[str, Tensor]]:
