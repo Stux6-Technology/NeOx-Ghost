@@ -3228,3 +3228,4 @@ class DbrxModel(TextModel):
 
         self.gguf_writer.add_rope_freq_base(attn_config["rope_theta"])
 
+        self.gguf_writer.add_clamp_kqv(attn_config["clip_qkv"])
