@@ -3271,3 +3271,4 @@ class DbrxModel(TextModel):
         # https://huggingface.co/databricks/dbrx-instruct/blob/main/model.safetensors.index.json#L15
         new_name = self.map_tensor_name(name if not experts else name + ".weight", try_suffixes=(".weight",))
 
+        return [(new_name, data_torch)]
