@@ -3277,3 +3277,4 @@ class DbrxModel(TextModel):
         del name, new_name, bid  # unused
 
         return n_dims > 1
+
