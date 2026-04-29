@@ -3268,3 +3268,4 @@ class DbrxModel(TextModel):
         # and need to be quantizable. Quantize expects tensor names to be suffixed by .weight.
         # Every other model has the weight names ending in .weight,
         # let's assume that is the convention which is not the case for dbrx:
+        # https://huggingface.co/databricks/dbrx-instruct/blob/main/model.safetensors.index.json#L15
