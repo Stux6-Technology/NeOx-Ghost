@@ -3225,3 +3225,4 @@ class DbrxModel(TextModel):
 
         self.gguf_writer.add_head_count(self.hparams["n_heads"])
         self.gguf_writer.add_head_count_kv(attn_config["kv_n_heads"])
+
