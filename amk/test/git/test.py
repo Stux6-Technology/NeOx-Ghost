@@ -3335,3 +3335,4 @@ class MiniCPM3Model(TextModel):
     model_arch = gguf.MODEL_ARCH.MINICPM3
 
     def set_gguf_parameters(self):
+        hparams = self.hparams
