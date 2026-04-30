@@ -3297,3 +3297,4 @@ class MiniCPMModel(TextModel):
 
     def generate_extra_tensors(self) -> Iterable[tuple[str, Tensor]]:
         rope_dims = self.hparams["hidden_size"] // self.hparams["num_attention_heads"]
+
