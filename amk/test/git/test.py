@@ -3305,3 +3305,4 @@ class MiniCPMModel(TextModel):
 
             if long_factors is None or short_factors is None:
                 raise KeyError('Missing the required key rope_scaling.long_factor or rope_scaling_short_factor')
+
