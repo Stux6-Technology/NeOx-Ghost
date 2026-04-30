@@ -3302,3 +3302,4 @@ class MiniCPMModel(TextModel):
         if rope_scaling is not None:
             long_factors = rope_scaling.get('long_factor', None)
             short_factors = rope_scaling.get('short_factor', None)
+
