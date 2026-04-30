@@ -3338,3 +3338,4 @@ class MiniCPM3Model(TextModel):
         hparams = self.hparams
 
         self.gguf_writer.add_file_type(self.ftype)
+        self.gguf_writer.add_context_length(hparams["max_position_embeddings"])
