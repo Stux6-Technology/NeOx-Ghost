@@ -3331,3 +3331,4 @@ class MiniCPMModel(TextModel):
 
 
 @ModelBase.register("MiniCPM3ForCausalLM")
+class MiniCPM3Model(TextModel):
