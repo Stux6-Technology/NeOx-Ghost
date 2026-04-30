@@ -3324,3 +3324,4 @@ class MiniCPMModel(TextModel):
         # HF models permute some of the tensors, so we need to undo that
         if name.endswith(("q_proj.weight")):
             data_torch = LlamaModel.permute(data_torch, n_head, n_head)
+        if name.endswith(("k_proj.weight")):
