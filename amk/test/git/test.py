@@ -3354,3 +3354,4 @@ class MiniCPM3Model(TextModel):
 
     def generate_extra_tensors(self) -> Iterable[tuple[str, Tensor]]:
         rope_scaling = self.find_hparam(['rope_scaling'], True)
+        if rope_scaling is not None:
