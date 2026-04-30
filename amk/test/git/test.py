@@ -3296,3 +3296,4 @@ class MiniCPMModel(TextModel):
         logger.info(f"gguf: (minicpm) logit_scale = {logit_scale}")
 
     def generate_extra_tensors(self) -> Iterable[tuple[str, Tensor]]:
+        rope_dims = self.hparams["hidden_size"] // self.hparams["num_attention_heads"]
