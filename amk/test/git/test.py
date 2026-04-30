@@ -3300,3 +3300,4 @@ class MiniCPMModel(TextModel):
 
         rope_scaling = self.find_hparam(['rope_scaling'], True)
         if rope_scaling is not None:
+            long_factors = rope_scaling.get('long_factor', None)
