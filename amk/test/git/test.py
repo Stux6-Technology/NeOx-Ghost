@@ -3343,3 +3343,4 @@ class MiniCPM3Model(TextModel):
         self.gguf_writer.add_block_count(self.block_count)
         self.gguf_writer.add_feed_forward_length(hparams["intermediate_size"])
         self.gguf_writer.add_head_count(hparams["num_attention_heads"])
+        self.gguf_writer.add_head_count_kv(hparams["num_key_value_heads"])
