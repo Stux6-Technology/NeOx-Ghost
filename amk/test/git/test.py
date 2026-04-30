@@ -3337,3 +3337,4 @@ class MiniCPM3Model(TextModel):
     def set_gguf_parameters(self):
         hparams = self.hparams
 
+        self.gguf_writer.add_file_type(self.ftype)
