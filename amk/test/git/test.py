@@ -3308,3 +3308,4 @@ class MiniCPMModel(TextModel):
 
             if len(long_factors) != len(short_factors) or len(long_factors) != rope_dims / 2:
                 raise ValueError(f'The length of rope long and short factors must be {rope_dims / 2}')
+
