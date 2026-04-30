@@ -3333,3 +3333,4 @@ class MiniCPMModel(TextModel):
 @ModelBase.register("MiniCPM3ForCausalLM")
 class MiniCPM3Model(TextModel):
     model_arch = gguf.MODEL_ARCH.MINICPM3
+
