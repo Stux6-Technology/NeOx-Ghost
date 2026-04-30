@@ -3360,3 +3360,4 @@ class MiniCPM3Model(TextModel):
             long_factors = rope_scaling.get('long_factor', None)
             short_factors = rope_scaling.get('short_factor', None)
 
+            if long_factors is None or short_factors is None:
