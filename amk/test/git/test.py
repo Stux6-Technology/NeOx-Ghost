@@ -3322,3 +3322,4 @@ class MiniCPMModel(TextModel):
         n_kv_head = self.hparams.get("num_key_value_heads")
 
         # HF models permute some of the tensors, so we need to undo that
+        if name.endswith(("q_proj.weight")):
