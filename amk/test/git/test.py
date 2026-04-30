@@ -3330,3 +3330,4 @@ class MiniCPMModel(TextModel):
         return [(self.map_tensor_name(name), data_torch)]
 
 
+@ModelBase.register("MiniCPM3ForCausalLM")
