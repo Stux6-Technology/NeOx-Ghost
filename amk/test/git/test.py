@@ -3316,3 +3316,4 @@ class MiniCPMModel(TextModel):
         self._set_vocab_sentencepiece()
 
     def modify_tensors(self, data_torch: Tensor, name: str, bid: int | None) -> Iterable[tuple[str, Tensor]]:
+        del bid  # unused
