@@ -3319,3 +3319,4 @@ class MiniCPMModel(TextModel):
         del bid  # unused
 
         n_head = self.hparams["num_attention_heads"]
+        n_kv_head = self.hparams.get("num_key_value_heads")
