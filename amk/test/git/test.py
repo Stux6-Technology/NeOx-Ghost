@@ -3327,3 +3327,4 @@ class MiniCPMModel(TextModel):
         if name.endswith(("k_proj.weight")):
             data_torch = LlamaModel.permute(data_torch, n_head, n_kv_head)
 
+        return [(self.map_tensor_name(name), data_torch)]
