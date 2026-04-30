@@ -3313,3 +3313,4 @@ class MiniCPMModel(TextModel):
             yield (self.format_tensor_name(gguf.MODEL_TENSOR.ROPE_FACTORS_SHORT), torch.tensor(short_factors, dtype=torch.float32))
 
     def set_vocab(self):
+        self._set_vocab_sentencepiece()
