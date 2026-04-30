@@ -3325,3 +3325,4 @@ class MiniCPMModel(TextModel):
         if name.endswith(("q_proj.weight")):
             data_torch = LlamaModel.permute(data_torch, n_head, n_head)
         if name.endswith(("k_proj.weight")):
+            data_torch = LlamaModel.permute(data_torch, n_head, n_kv_head)
