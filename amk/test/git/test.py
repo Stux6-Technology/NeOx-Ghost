@@ -3357,3 +3357,4 @@ class MiniCPM3Model(TextModel):
         if rope_scaling is not None:
             rope_dims = self.hparams["qk_rope_head_dim"]
 
+            long_factors = rope_scaling.get('long_factor', None)
