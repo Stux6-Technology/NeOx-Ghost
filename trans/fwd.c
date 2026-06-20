@@ -1,0 +1,49 @@
+/* A translator to start up a central translation server */
+/* ==========================================================================
+ *   PROJECT: NeOx Ghost (Advanced Microkernel Architecture Project)
+ *   COPYRIGHT: (C) 2020 - 2026 Stux6 Technology Team. All Rights Reserved.
+ *   DEVELOPER: Stux6 Tech. Lead Eng. Alperen ERKAN <erkanalperen54 [at] gmail.com> 
+ *              or <stux6.team@gmail.com>
+ * ==========================================================================
+ *   LICENSE SUMMARY (STUX6 GENERAL PRIVATE PROJECT LICENSE - SGPPL-v1.0)
+ * 
+ *   1. This software and its kernel architecture are officially registered 
+ *      intellectual property of the STUX6 TECHNOLOGY team.
+ *   2. This code is made available strictly under "source-available" status 
+ *      for personal research and local laboratory development only.
+ *   3. ANY DISTRIBUTION, FORKING, OR RE-PUBLISHING ON ANY INTERNET PLATFORM 
+ *      (INCLUDING GITHUB, GITLAB, BITBUCKET) IS STRICTLY PROHIBITED.
+ *   4. Commercial enterprise, government network, or military deployment 
+ *      requires express, hand-signed written authorization from the team captain.
+ *   5. This header, copyright notices, and license text MUST remain untouched.
+ * 
+ *   FOR THE FULL TERMS AND CONDITIONS, REFER TO THE 'LICENSE' FILE.
+ * ========================================================================== */
+
+#include <error.h>
+#include <stdio.h>
+#include <hurd/fshelp.h>
+
+int
+main (int argc, char **argv)
+{
+  error_t err;
+  mach_port_t bootstrap;
+
+  if (argc < 2 || *argv[1] == '-')
+    {
+      fprintf (stderr, "Usage: %s SERVER [TRANS_NAME [TRANS_ARG...]]\n",
+	       program_invocation_name);
+      return 1;
+    }
+
+  task_get_bootstrap_port (mach_task_self (), &bootstrap);
+  if (bootstrap == MACH_PORT_NULL)
+    error (2, 0, "must be started as a translator");
+
+  err = fshelp_delegate_translation (argv[1], bootstrap, argv + 2);
+  if (err)
+    error (3, err, "%s", argv[1]);
+
+  return 0;
+}
