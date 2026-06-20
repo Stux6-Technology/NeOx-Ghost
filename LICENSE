@@ -1,0 +1,48 @@
+STUX6 GENERAL PRIVATE PROJECT LICENSE (SGPPL)
+
+License Identifier: SGPPL-v1.0
+Project: NeOx Ghost (Advanced Microkernel Architecture Project)
+Copyright (C) 2024 - 2026 Alperen ERKAN & Stux6 Technology Team. All Rights Reserved.
+
+1) INTELLECTUAL PROPERTY & REGISTRATION
+This software, together with its kernel architecture, network encryption layers and all related 
+documentation, is officially registered to the STUX6 TECHNOLOGY team. 
+All intellectual property, patent and ownership rights relating to the project are reserved 
+and are protected under international system security and software protection laws.
+
+2) SOURCE-AVAILABLE & CODE INTEGRITY
+Due to the strategic and official importance of the infrastructure involved in this project,
+a specific portion of it has been made available to the public under ‘source-available’ status. 
+Third parties may modify this shared source code solely for personal research and development 
+purposes within their own local laboratories, provided that they do not compromise the
+integrity of the code or undermine the stability of the kernel.
+
+3) DISTRIBUTION PROHIBITION
+No NeOx Ghost source code, whether modified by third parties or preserved in its original form,
+may be PUBLISHED, FORKED OR DISTRIBUTED on any internet platform, including GitHub, GitLab and
+Bitbucket, in either public or private repositories. The right to distribute and host the software
+belongs exclusively to the official Stux6 Technology organisation.
+
+4) LICENSE IMMUTABILITY
+No person or organisation that examines, compiles or makes local modifications to the source
+code of this software may make any alterations, deletions, tampering or renaming of this text,
+the SGPPL licence text, copyright notices, subheadings or the authorisation signatures of 
+the Chief Engineer.
+
+5) COMMERCIAL & MILITARY DEPLOYMENT
+It is strictly prohibited to integrate or run the software or any modified versions thereof 
+in commercial enterprises, private defence industry contractor infrastructures, government 
+networks or military systems, or to copy its source code into other projects, without the 
+written and hand-signed authorisation of the Stux6 Technology team captain.
+
+6) MISREPRESENTATION & MISUSE
+Third parties may not claim ownership of this project’s source code or architectural diagrams. 
+Except for the project’s cybersecurity tests, should it be used as a tool in illegal activities 
+constituting international cybercrime, all legal liability rests with the end user.
+
+7) WARRANTY DISCLAIMER
+THIS SOFTWARE IS PROVIDED ‘AS IS’ FOR CYBER DEFENCE AND EXPERIMENTAL MICROKERNEL RESEARCH.
+STUX6 TECHNOLOGY AND ITS DEVELOPERS SHALL NOT BE HELD LIABLE FOR ANY HARDWARE, SOFTWARE OR 
+LEGAL CONSEQUENCES ARISING FROM THE USE OF THE SOFTWARE OR FROM NETWORK CONFIGURATIONS.
+
+Licensed under SGPPL, 2026.
