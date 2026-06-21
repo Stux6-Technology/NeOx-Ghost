@@ -135,9 +135,19 @@ int main() {
   <img src="imagegrabin.png" alt="alpo profile" width="100%">
 </p>
 
+## 🌐 4) Join Us & Contact
 
+Are you a low-level systems engineer, a kernel enthusiast, or a security researcher who wants to push the boundaries of operating system security? **Stux6 Technology Labs** is always looking for brilliant minds to expand our research horizon.
 
+### How to Apply
+Due to the strict proprietary boundaries of the **SGPPL-v1.0** license, our core repositories are tightly controlled. If you wish to contribute to the **NeOx-Ghost** core routing architecture, request laboratory access, or report critical vulnerabilities, use the official channels below:
 
-## ⚖️ License
-This project is protected under the **STUX6 GENERAL PRIVATE PROJECT LICENSE (SGPPL-v1.0)**. 
-For full terms and conditions, please refer to the [LICENSE](LICENSE) file.
+* **Official Bureau E-Mail:** [stux6.team@gmail.com](mailto:stux6.team@gmail.com)
+* **Secure Web Infrastructure:** [stux6-technology.github.io](https://stux6-technology.github.io) 
+  *(Note: Access requests and developer documentation are managed through our web portal).*
+
+---
+<p align="center">
+  <b>STUX6 TECHNOLOGY LABS </b><br>
+  Ankara, Turkey
+</p>
