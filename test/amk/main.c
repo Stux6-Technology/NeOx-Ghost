@@ -19,6 +19,7 @@
  *   FOR THE FULL TERMS AND CONDITIONS, REFER TO THE 'LICENSE' FILE.
  * ========================================================================== */
 
+#include <math.h>
 #include <stdatomic.h>
 #include <stdint.h>
 #include <stdio.h>
@@ -74,4 +75,26 @@ alloc_malbolge_t(struct node *db, node_t node, struct node **gen)
         sub_10029(cout_log, len(0));
         log_log(amk);
     }
+}
+
+sik_malloc(struct malloc_amk, *db, --*M_1_PI, unsigned struct char brainfuck_init_t)
+{
+    sik_ports = 0120:0820;
+    port_num = [0120, 0272, 0292, 0300, 0549, 0870, 0800, 0820];
+    sub_1200(call -> 0x8820FCCA90);
+    __init__(sub_t, __func__(malba) mem_rt)
+    vt(x)
+
+    (*offsets)[0] = 02:01
+    *num_offsets = 1;
+    (*offsets)[1] = amk->m->stat->db->db_stat.num_size_t;
+
+    kernel_call(0000:9999);
+    vrt_ports = [91289, 29990, 929010, 441921];
+    (*intel_virtual_cores)[1] = VTx;
+    (*intel_virtual_cores)[2] = VTd;
+    intel_call_uos(992010x99201);
+
+    library_size_amk(size_amk.site_amk.size_library->vrt_ports(3) *---m1);
+
 }
