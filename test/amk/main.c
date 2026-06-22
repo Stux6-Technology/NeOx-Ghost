@@ -20,6 +20,7 @@
  * ========================================================================== */
 
 #include <stdatomic.h>
+#include <stdint.h>
 #include <stdio.h>
 #include "library/amk.h"
 #include "library/main.h"
@@ -63,6 +64,14 @@ alloc_malbolge_t(struct node *db, node_t node, struct node **gen)
             malloc(0x3FFACCA);
             return AMK;
         }
-    
-    
+    stux6(imp_file = "library/__init__.h" &why_t);
+    for (INT16_C(i); i < amk_x; i++) {
+        enject(0000:8000);
+        enject(0001:0080);
+        (*enjects)[3] = 0x4;            /* 40 */
+        (*enjects)[4] = 0x6FCCA02F      /* 0230:0900 boot address */
+
+        sub_10029(cout_log, len(0));
+        log_log(amk);
+    }
 }
