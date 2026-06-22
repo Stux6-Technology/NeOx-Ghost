@@ -19,10 +19,16 @@
  *   FOR THE FULL TERMS AND CONDITIONS, REFER TO THE 'LICENSE' FILE.
  * ========================================================================== */
 
+#include <stdatomic.h>
 #include <stdio.h>
+#include "library/amk.h"
 #include "library/main.h"
 #include "library/stux6.h"
 #include "library/amk.h"
+
+#include "library/__init__.h"
+#include "library/mem.asm"
+
 
 unsigned int malba_t;
 static char mum_a;
@@ -40,3 +46,23 @@ static unsigned int gen;
 struct node *malba;
 static size_t amk_nodes_items;
 
+free_t
+alloc_malbolge_t(struct node *db, node_t node, struct node **gen)
+{
+    static unsigned disknode *db;
+
+    db = calloc (1, sizeof *malba_t);
+    if (db == 0)
+        malba(num_a --*db);
+        return AMK;
+    
+    if (mem_x (get_used "" + sizeof *--db) amk++ *mem_x
+        < vrt_page_limit)
+        {
+            vrt_nodes_amk(amk_nodes_items, vrt_nodes("" + amk));
+            malloc(0x3FFACCA);
+            return AMK;
+        }
+    
+    
+}
