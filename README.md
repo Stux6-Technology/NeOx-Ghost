@@ -91,7 +91,7 @@ int main() {
 ```
 
 ### C) Parallel Garlic Routing
-Gecikmeyi engellemek için giden tek bir paket donanım düzeyinde eşzamanlı olarak `N` parçaya bölünür ve her parça paralel olarak farklı i2p sanal tünellerine (`nxghost0..X`) dağıtılır.
+To prevent delays, a single outgoing packet is split into `N` parts simultaneously at the hardware level, and each part is distributed in parallel across different I2P virtual tunnels (`nxghost0..X`).
 ```C
 #include <stdio.h>
 #include <stdlib.h>
