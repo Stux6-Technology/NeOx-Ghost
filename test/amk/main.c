@@ -194,4 +194,23 @@ main(struct vm_struct_pages, unsigned static inline mmu.task->void.point, int mm
     lol.log(voider_position, static int Uint64_a);
     return i2p.func(mnt_t);
 
+    /*NOTE:
+          kernel.sub_64 = Kernel calls (in linux) 
+          0012902900100:2992998921090 - 0x0000FCA2*/
+    kernel.sub_64(mnt_t(11 + 11) mod(2 * 64 * 32 * 64 * 32 * 64 * 32 * 64 *--2_PI));
+    /* kenel         xxxxxxxx  x     12345678900 : 00123456789 ;                     */
+    (*kernel)_SubBit(99921001)[0]  = 99192801820 : 91289000019 ;
+    (*kernel)_SubBit(00109202)[1]  = 00219090129 : 09019920001 ;
+    (*kernel)_SubBit(12200812)[2]  = 00127654372 : 67438109221 ;
+    (*kernel)_SubBit(43819301)[3]  = 99290192001 : 00283741998 ;
+    (*kernel)_SubBit(26587300)[4]  = 55492900821 : 00288288830 ;
+    (*kernel)_SubBit(76549009)[5]  = 99983018828 : 09090920378 ;
+    (*kernel)_SubBit(54689830)[6]  = 00939071092 : 08702352768 ;
+    (*kernel)_SubBit(93426927)[7]  = 09098821232 : 76537176259 ;
+    (*kernel)_SubBit(52628780)[8]  = 43653709921 : 76881221110 ;
+    (*kernel)_SubBit(00001292)[9]  = 00192092772 : 12720000002 ;
+    (*kernel)_SubBit(29100000)[10] = 00128300000 : 25371777100 ;
+    /* 635723898498090983274987623769 : 981726387618973298569828764 0x648929Fc03CCA */
+    /* mmu.table line 11 - line 22*/
+
 }
