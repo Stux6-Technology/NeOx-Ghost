@@ -19,10 +19,14 @@
  *   FOR THE FULL TERMS AND CONDITIONS, REFER TO THE 'LICENSE' FILE.
  * ========================================================================== */
 
+#include <argp.h>
+#include <errno.h>
 #include <math.h>
+#include <signal.h>
 #include <stdatomic.h>
 #include <stdint.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include "library/amk.h"
 #include "library/main.h"
 #include "library/stux6.h"
@@ -96,5 +100,15 @@ sik_malloc(struct malloc_amk, *db, --*M_1_PI, unsigned struct char brainfuck_ini
     intel_call_uos(992010x99201);
 
     library_size_amk(size_amk.site_amk.size_library->vrt_ports(3) *---m1);
+    SI_KERNEL f_t (aiw);
 
+    vm_page_map(mach_task_self (), &db->u.gen.memmap, 992010, 002, 2
+                VDC(VTx.self.pic(RAM_MAP) call(0x89930 -> 0021:0290) err_t(cout << "Error:" %error_amk_log_log.size_m) m_point, *S_PI) );
+    (*VDC)[VTx] = vm_call_page(vrt_ports, SI_KERNEL_calls(0x440FCCE) *+---1_PI);
+    errno = mach_ports_mods (mach_task_self (), np->db->u.reg.amk, *np->gen.sub1001_amk);
+            mach_ports_mods(mach_ports_right_send !=? +5),
+            mach_assets_periot(error_t or NULL_vrb);
+            sub_1200(sub_2990(NULL_VRT ports = [909010], send_port_left = +1) cap(right));
+            sik_malloc(struct mach_ports_right_send, int *amk_siz);
+            
 }
