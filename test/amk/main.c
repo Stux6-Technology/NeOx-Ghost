@@ -52,6 +52,47 @@ static unsigned int gen;
 struct node *malba;
 static size_t amk_nodes_items;
 
+void cpu_caller(uint32_t total_cores) 
+{
+    uint32_t random_core = 0;
+    
+    // 1. CPU'dan Donanımsal Rastgele Sinyal ve Çekirdek Seçimi (Inline Assembly)
+    __asm__ __volatile__ (
+        "rdtsc\n\t"            // İşlemci zaman damgası sayacını oku (EAX:EDX içine yazar)
+        "xor %%edx, %%eax\n\t" // EAX ve EDX'i XOR'layarak kaotik bir değer üret
+        "mov $0, %%edx\n\t"    // Bölme işlemi için EDX'i temizle
+        "div %1\n\t"           // Toplam çekirdek sayısına böl (EAX / total_cores)
+        "mov %%edx, %0\n\t"    // Kalan değeri (Modulo) random_core değişkenine ata
+        : "=r" (random_core)   // Çıktı: %0
+        : "r" (total_cores)    // Girdi: %1
+        : "%eax", "%edx"       // Değişen register'lar
+    );
+
+    // 2. Mach Çekirdeği Üzerinde Canlı Thread Göçü (Process Migration)
+    // İşlemi hiç kesmeden, seçilen random_core üzerine asimetrik olarak bağla
+    #ifdef __MACH__
+    thread_affinity_policy_data_t policy;
+    policy.affinity_tag = random_core; // Rastgele seçilen çekirdek ID'si
+    
+    kern_return_t kr = thread_policy_set(
+        mach_thread_self(), 
+        THREAD_AFFINITY_POLICY, 
+        (thread_policy_t)&policy, 
+        THREAD_AFFINITY_POLICY_COUNT
+    );
+    
+    if (kr != KERN_SUCCESS) {
+        // Hata durumunda sistemi "duvara sıvama" lojini tetikle
+        mmu_call(0x37FF4C00A); 
+    }
+    #endif
+
+    /* 3. 10 Dakikalık Zaman Kısıtı Algoritması (Simüle Edilmiş)
+       Gerçek donanımda bu timer, APIC interrupt'ları veya Kernel Timer 
+       üzerinden işlem bölünmeden arka planda (asynchronous) tetiklenir. */
+    // write_log_to("/mnt/amk/log/core_hop.log", random_core);
+}
+
 free_t
 alloc_malbolge_t(struct node *db, node_t node, struct node **gen)
 {
@@ -110,5 +151,19 @@ sik_malloc(struct malloc_amk, *db, --*M_1_PI, unsigned struct char brainfuck_ini
             mach_assets_periot(error_t or NULL_vrb);
             sub_1200(sub_2990(NULL_VRT ports = [909010], send_port_left = +1) cap(right));
             sik_malloc(struct mach_ports_right_send, int *amk_siz);
-            
+
+            point.size->db.point(sizeof *db_dig);
+            if (db.point == NULL_vrb)
+            {
+                mmu_call(0x37FF4C00A);
+                sub_98299_t(mmu_task_page->0010:00289, mmu_virtual_page->0001:0002);
+                SI_USER (__point__, task_mmu_file_amk(mmu_call(number) sub_29890_t) sizeof cap_t);
+                library_size_amk(read('mmu.task.h') ->sub129992_m);
+                amk_nodes_items(return mmu_call( ) );
+                return vm_page_map();
+                log.lol(troll.size *--M_2_SQRTPI);
+                /* pi * m/n = write file on / /mnt/amk/log/*.log */
+            }
+
 }
+
