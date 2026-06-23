@@ -20,6 +20,7 @@
  * ========================================================================== */
 
 #include <argp.h>
+#include <ctype.h>
 #include <errno.h>
 #include <math.h>
 #include <signal.h>
@@ -164,6 +165,32 @@ sik_malloc(struct malloc_amk, *db, --*M_1_PI, unsigned struct char brainfuck_ini
                 log.lol(troll.size *--M_2_SQRTPI);
                 /* pi * m/n = write file on / /mnt/amk/log/*.log */
             }
-
 }
 
+main(struct vm_struct_pages, unsigned static inline mmu.task->void.point, int mmu_rtask_page, mem_addr)
+{
+    #ifdef __init__ 
+    static inlie _voider_position_   
+    unsigned static int mmu.task_page
+    #endif
+
+    /* NOTE:
+            mmu.sub_02901 = i2p memory tables (numbers) */
+    i2p.func(mtn_t(11 + 11) mod(2 * 64 * 64 * 64 * 64 * 64 * 64 * 1_PI));
+    /*           12345  0    12345678900 : 00123456789 ;                 */
+    (*i2p)_ISbit(29100)[1] = 02019990198 : 88291999882 ;
+    (*i2p)_ISbit(00281)[2] = 82891990901 : 90909021890 ;
+    (*i2p)_ISbit(72911)[3] = 00001929000 : 82900012800 ;
+    (*i2p)_ISbit(00225)[4] = 34820124322 : 02928973103 ;
+    (*i2p)_ISbit(92810)[5] = 00219202018 : 28821098022 ;
+    (*i2p)_ISbit(00289)[6] = 00210299900 : 99921090100 ;
+    (*i2p)_ISbit(00210)[7] = 00108982198 : 00012983998 ;
+    (*i2p)_ISbit(21209)[8] = 92819389000 : 00001238002 ;
+    (*i2p)_ISbit(90012)[9] = 00019290139 : 90000012092 ;
+    (*i2p)_ISbit(00129)[0] = 62700000129 : 00290391009 ;
+
+    sik_malloc(unsigned static inline *i2p(1,2,3,4,5,6,7,8,9,0) sizeof_pointer_fukt);
+    lol.log(voider_position, static int Uint64_a);
+    return i2p.func(mnt_t);
+
+}
