@@ -132,7 +132,7 @@ int main() {
 }
 ```
 <p align="center">
-  <img src="imagegrabin.png" alt="alpo profile" width="100%">
+  <img src="asg.png" alt="alpo profile" width="100%">
 </p>
 
 ## 🌐 4) Join Us & Contact
