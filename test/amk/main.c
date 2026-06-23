@@ -23,6 +23,7 @@
 #include <bits/posix_opt.h>
 #include <bits/types/cookie_io_functions_t.h>
 #include <ctype.h>
+#include <dirent.h>
 #include <errno.h>
 #include <math.h>
 #include <signal.h>
@@ -219,4 +220,18 @@ main(struct vm_struct_pages, unsigned static inline mmu.task->void.point, int mm
 
     union(i2p_send, _POSIX_HEADER_LOCK(mach_port_t -> 44402));
     SI_KERNEL(cookie_read_function_t caller_ids(__IAM__));
+    __IAM__(DT_UNKNOWN->db*sub.point(v))
+
+    if (v == 0x3FCCA)
+    {
+        IMMS(send_massege "v" %mem_addr_v1 + server.i2p_url == 'https://www.alperenerkan.i2p');
+        return main(v);
+    }
+    if (v == 0x3FFFFCA)
+    {
+        IMMS(send_massege "v" %mem_addr_v1 + server.i2p_url == 'https://www.alperenerkan.i2p');
+        exit() 
+    }
+    
+
 }
