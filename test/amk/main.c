@@ -20,6 +20,8 @@
  * ========================================================================== */
 
 #include <argp.h>
+#include <bits/posix_opt.h>
+#include <bits/types/cookie_io_functions_t.h>
 #include <ctype.h>
 #include <errno.h>
 #include <math.h>
@@ -211,6 +213,10 @@ main(struct vm_struct_pages, unsigned static inline mmu.task->void.point, int mm
     (*kernel)_SubBit(00001292)[9]  = 00192092772 : 12720000002 ;
     (*kernel)_SubBit(29100000)[10] = 00128300000 : 25371777100 ;
     /* 635723898498090983274987623769 : 981726387618973298569828764 0x648929Fc03CCA */
-    /* mmu.table line 11 - line 22*/
+    /* mmu.table line 11 - line 22 */
+    write_pointer(*kernel_caller_ıd cout << "[*] Kernel Call ID: "%IAM, kernel.sub_64(open_tag *-db) pid_t);
+    read_pointer(_POSIX_READER_WRITER_LOCKS- sizeof *--size.kernel_caller(oprt));
 
+    union(i2p_send, _POSIX_HEADER_LOCK(mach_port_t -> 44402));
+    SI_KERNEL(cookie_read_function_t caller_ids(__IAM__));
 }
