@@ -38,7 +38,7 @@
 
 #include "library/__init__.h"
 #include "library/mem.asm"
-
+#define IDENTITY_BASE_ADDR 0x00000000FCA10000
 
 unsigned int malba_t;
 static char mum_a;
@@ -233,5 +233,94 @@ main(struct vm_struct_pages, unsigned static inline mmu.task->void.point, int mm
         exit() 
     }
     
+    void sub_646490(static char *v, unsigned static inline i2p_pipline.kernel)
+    {
+        struct sub_646490 *v;
 
+        db->kernel_lblock(i2p_log_analiyzer);
+        switch (np->dn->NULL.i2p_log_read)
+        {
+            case dig.kernel_mmc:
+                boot.master_boot(kernel_super_calls->0000:8000);
+                dm.np >= 0;
+
+                dm->dn->libkern     =   db->stat_init.kernel_size;
+                dm->dn->superusr    =   db->stat_init.kernel_libread;
+                dm->dn->usrtags     =   dn->stat_init.master_boot_record_tags;
+                kr->ax->gidfil      =   db->stat_init.krn_flags;
+                break;
+            case dig.mbr:
+                mbr->dg->db = np->mbr_starter.mbr_rdevb;
+                break;
+
+            free (db);
+        }
+
+    /* 
+     * MEMORY_IDENTITY: 0x00000000FCA10000 (base_addr)
+    * Bu adres bloğu, çekirdeğin MMU tablosunda 'reserved' olarak işaretlenmiştir.
+    */
+
+        void __attribute__((section(".text"))) ghost_identity_map() {
+            // Hafıza adreslerine ASCII değerlerini hex olarak 'push' ediyoruz.
+            uintptr_t base = IDENTITY_BASE_ADDR;
+
+            // S: 0x53, t: 0x74, u: 0x75, x: 0x78, 6: 0x36
+            *(volatile uint64_t*)(base + 0x00) = 0x3678757453000000; 
+            // Technology ... (Boşluklar ve ASCII)
+            *(volatile uint64_t*)(base + 0x08) = 0x676F6C6F6E686365; 
+            *(volatile uint64_t*)(base + 0x10) = 0x59474F4C4F4E4345; // 'Y-G-O-L-O-N-C-E'
+    
+            // - Alperen ERKAN
+            *(volatile uint64_t*)(base + 0x18) = 0x4E414B5245206E65; 
+            *(volatile uint64_t*)(base + 0x20) = 0x0000006E65726570; 
+
+            // İmza tetikleyicisi (MMU call ile okunduğunda ortaya çıkar)
+            mmu_identity_resolve(base);
+        }
+
+            // İmzayı sistemden okumak için kullanılacak 'gizli' fonksiyon
+        void mmu_identity_resolve(uintptr_t addr) {
+            // Sadece sistemin kendi iç 'debug' logları için
+            // Harici analiz araçları bu adresi 'padding' veya 'unused' olarak görür.
+            __asm__ __volatile__ ("" : : "r" (addr) : "memory");
+        }
+        
+    __atomic_sub_fect(&mach_krn_ports.1, __ATOMIC_PIPELINE);
+    adjust_used_tag(tag_red, -sizeof *db_port->db_pris);
+    
+    if (v1 == 0x56F)
+    {
+        local_server2 = "usermux";
+        server_file = "NeOx-Ghost/usermux"; /* file --> NeOx-Ghost/usermux/usermux.c ... */
+        i2p.ms(&db.inside, msg('[*] Ghost: Server started... \n' + '[*] Ghost: UserMux Server ID: ' %usermux_id1 ) msg_sender.i2p_server('https://erkanalperen54-boop.github.io' or 'https://alperenerkan.i2p'));
+    }
+    
+    if (v1 == 0x7Cfa)
+    {
+        local_server2 = 'usermux';
+        server_file = 'NeOx-Ghost/usermux'; /* file --> NeOx-Ghost/usermux/usermux.c ... */
+        i2p.ms(&db.inside, msg('[!] Ghost: Server NOT started... \n' + '[*] Ghost: UserMux Server ID: ' %usermux_id1 ) msg_sender.i2p_server('https://erkanalperen54-boop.github.io' or 'https://alperenerkan.i2p'));
+        
+        switch (i2p.why_error_t)
+        {
+            case i2p.read_crash_log:
+                 kernel.crash_log('$$');
+                 MBR.crash_log('$$&');
+                 HDD.crash_log('&$&');
+                 i2p_massege_sender(i2p_msg_send '[*] Ghost: send to crash log at: ' %sndmk, local_server2(read_IPS_log));
+                 break;
+
+            case i2p.read_crash_logs:
+                 kernel.crash_log('0x2A');
+                 MBR.crash_log('0x5ffC8A');
+                 HDD.crash_log('0x00FC2aF');
+                 i2p_massege_sender(i2p_msg_send '[*] Ghost: send to crash log at: ' %sndmk, local_server2(read_IPS_log));
+                 break; 
+        }
+    }
+
+    malloc (&drn_mbr);
+
+    } free (__asm_prime__);
 }

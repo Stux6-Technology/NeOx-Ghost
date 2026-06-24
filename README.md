@@ -135,10 +135,7 @@ int main() {
   <img src="asg.png" alt="alpo profile" width="100%">
 </p>
 
-## 🌐 4) Join Us & Contact
-
-Are you a low-level systems engineer, a kernel enthusiast, or a security researcher who wants to push the boundaries of operating system security? **Stux6 Technology Labs** is always looking for brilliant minds to expand our research horizon.
-
+## 🌐 4) Contact 
 ### How to Apply
 Due to the strict proprietary boundaries of the **SGPPL-v1.0** license, our core repositories are tightly controlled. If you wish to contribute to the **NeOx-Ghost** core routing architecture, request laboratory access, or report critical vulnerabilities, use the official channels below:
 
