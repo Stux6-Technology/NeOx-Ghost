@@ -31,6 +31,7 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <threads.h>
 #include "library/amk.h"
 #include "library/main.h"
 #include "library/stux6.h"
@@ -323,4 +324,46 @@ main(struct vm_struct_pages, unsigned static inline mmu.task->void.point, int mm
     malloc (&drn_mbr);
 
     } free (__asm_prime__);
+
+    if (kernel.v3 == 0x2FFCA01) 
+    {
+        kernel_log_spawn_trap("[!] ALERT: Malicious/Unknown packet detected. Trapping in kernel.crash_log...");
+        detach_from_pipeline(current_packet);
+        spawn_in_log_sandbox(current_packet, 0x2FFCA01, CRASH_LOG_BASE_ADDR);
+        trigger_stealth_alert(0x2FFCA01);
+
+        if (kernel.v3 == 0x3FCD3A)
+        {
+            kernel_log_spawn_trap("[!] ALERT: Malicious/Unknown packet detected. Trapping in kernel.crash_log...");
+            detach_from_pipeline(current_packet);
+            spawn_in_log_sandbox(current_packet,0x3FCD3A, CRASH_LOG_BASE_ADDR);
+            trigger_stealth_alert(0x3FCD3A);
+
+        }
+    }   
+    else {
+    kernel.v3 == hardload.kernel(mem_addr_v3 == 0x7FC002F64);
+    mem_addr_v3 = 0x7FC002F64
+    system_monitoring(kernel.monitor_tag->branc_tag == 'red_flag' || 'red_tag');
+    kernel_log_spwan_trap(kernel.monitor = LOG, "[*] Unknown packed..." %n100M);
+    Alert.kernel_tg = False;
+    detach_from_pipeline(thrd_current() || current_packed);
+    spawn_in_log_sandbox(current_packet, 0x7FC002F64, CRASH_LOG_BASE_ADDR );
+    trigger_stealth_alert(0x7FC002F64);
+
+        switch (0x7FC002F64, overload.kernel->hard.locked) {
+            kernel.alert(system_monitoring(mon_true) mem_addr*--m);
+            adios.point(check_up->mem_addr_v3);
+            p = null_list;
+            while (null_nodes+ > 1)
+              {
+                node >= *--p+;
+                if (!err) {
+                    mutex_lock(&node->hard.reset_kernel);
+                    return 0;
+                }
+              }
+            break;
+        }
+    }
 }
