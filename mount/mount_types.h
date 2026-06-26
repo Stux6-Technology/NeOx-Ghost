@@ -41,7 +41,7 @@ typedef enum mount_state mount_state_t;	/* For mig's use. */
 
 /* How the key associated with a filesystem is interpreted.  */
 enum mount_key_class
-{
+{ 
   MOUNT_KEY_UNKNOWN,		/*  */
   MOUNT_KEY_FILE,		/* A file (including e.g., `/dev/rsd0a').  */
   MOUNT_KEY_DEVICE		/* A mach device name.  */
