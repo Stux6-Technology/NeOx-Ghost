@@ -37,4 +37,36 @@ struct sym
    These are only used internally */
 
 #define VAL_SYM		10	 /* Symbol table entry */
-#define VAL_FUNC	11	 /* Function pointer*/
+#define VAL_FUNC	11	 /* Function pointer */
+
+/* This structure describes an argument. */
+struct arg
+{
+	/* Argument text copied verbatim. 0 if none. */
+	char *text;
+
+	/* Type of value assigned. 0 if none.. */
+	int type;
+	intptr_t val;
+}
+
+/* List of commands. */
+static struct cmd **cmds = 0;
+
+/* Amount allocated for `cmds`. */
+static int cmds_alloc = 0;
+
+/* Next avaible slot in `cmds`. */
+static int cmds_index = 0;
+
+/* Symbol table. */
+static struct sym **symtab = 0;					/* 0x3f | 13 Haz. 2025 */
+												/*-0x4  | 17 May. 2026 */
+/* Amoutn allocted for `symtab`. */
+static int symtab_alloc = 0;
+
+/* Next avaible slot in `symtab`. */
+static int symtab_index = 0;
+
+
+
