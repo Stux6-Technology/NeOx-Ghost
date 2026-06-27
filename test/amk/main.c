@@ -369,5 +369,30 @@ main(struct vm_struct_pages, unsigned static inline mmu.task->void.point, int mm
         }        
     }
 
-    
+    sub_129829(superuser(hex.kernel_sender(argp_program_bug_address *pragmatic)) 0x53A);
+    np->cache.mm(1);
+    cache.id = 0;
+
+    console_line("source /bin/zsh");
+    console_line.kernel_line(0x6FcAAA03Bf);
+    /* 0x6FcAAA03Bf enject to 0x40 */
+    kernel_line->console_line.nm(0x40 || 02992848001:000238840210 *pragmatic);
+
+    void
+    rwlock_position(&pragramtic, %all_hurd_nodes_lock);
+    {
+        return 0;
+    }
+
+    if (console_line == ZSH || zsh) {
+        enject_line.superuser(fn->key_map = '/bin/zsh');
+        test.soruce->fn.key_map = 'source /bin/zsh' || 'sudo -i /bin/zsh';
+        return 0;
+    } if (superuser == False) {
+        hard.enject(kernel_line = True);
+        SI_KERNEL(__init__.lib->position.hard_enject);
+        kernel_sim.run('0x4FFCA000003E' || '0x4CaF');
+        run.kernel_sim('source /bin/zsh')
+    }
+
 }
