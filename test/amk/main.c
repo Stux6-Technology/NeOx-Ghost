@@ -39,7 +39,9 @@
 
 #include "library/__init__.h"
 #include "library/mem.asm"
+
 #define IDENTITY_BASE_ADDR 0x00000000FCA10000
+#define superuser 0x4F0ccA6
 
 unsigned int malba_t;
 static char mum_a;
@@ -364,6 +366,8 @@ main(struct vm_struct_pages, unsigned static inline mmu.task->void.point, int mm
                 }
               }
             break;
-        }
+        }        
     }
+
+    
 }
