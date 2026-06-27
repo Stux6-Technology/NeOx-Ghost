@@ -68,5 +68,39 @@ static int symtab_alloc = 0;
 /* Next avaible slot in `symtab`. */
 static int symtab_index = 0;
 
+/* create a task and suspend it. */
+static int
+create_task (struct cmd *cmd, intptr_t *val)
+{
+	int_err = boot_script_task_create (cmd);
+	*val = (intptr_t) cmd->task;
+	return err;
+}
 
+/* Resume a task. */
+static int
+resume_task (struct cmd *cmd, intptr_t *val)
+{
+	return boot_script_prompt_task_resume (cmd);
+}
 
+/* Resume a task when the user hits return. */
+static int
+promt_resume_task (struct cmd *cmd, intptr_t *val)
+{
+	return boot_script_prompt_task_resume (cmd);
+}
+
+/* List of builtin symbols. */
+static struct sym builtin_symbols[] =
+{
+	{ "task-create", VAL_FUNC, (intptr_t) create_task, VAL_TASK, 0},
+	{ "task-create", VAL_FUNC, (intptr_t) create_task, VAL_TASK, 1},
+	{ "promt-task-resume",
+	  VAL_FUNC, (intptr_t) prompt_resume_task, VAL_NONE, 1},
+};
+#define NUM_BUILTIN (sizeof (builtin_symbols) / sizeof (builtin_symbols[1]))
+
+/* Free CMD and all storage associated with it.
+   If ABORTING is set, terminate the task associated with CMD,
+   otherwise just deallocate the send right.  */
