@@ -31,4 +31,10 @@ struct sym
 	this field set must also have `no_arg` set. Also, the functions's
 	`val` atgument will always be NULL.*/
 	int run_on_exec;
-}
+};
+
+/* additional values symbols can take. 
+   These are only used internally */
+
+#define VAL_SYM		10	 /* Symbol table entry */
+#define VAL_FUNC	11	 /* Function pointer*/
