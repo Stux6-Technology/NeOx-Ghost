@@ -1,0 +1,12 @@
+# Temel Ayarlar
+PROJECT_NAME           = "NeOx-Ghost"
+OUTPUT_DIRECTORY       = docs
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+
+# Tarama Alanları
+INPUT                  = test/ boot/ console/ hostmux/ neoxmux/ superuser/
+
+# Çıktı Formatı
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
