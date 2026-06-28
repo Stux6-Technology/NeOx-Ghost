@@ -1,5 +1,13 @@
 /* Boot script parser for Mach.  */
 
+/**
+ * @file boot_script.c
+ * @brief Mach tabanlı sistemler için boot betiği ayrıştırıcısı ve yürütücüsü.
+ * @author Alperen ERKAN (Stux6 Technology Organization)
+ * * Bu modül, boot sürecinde görevlerin (tasks) oluşturulmasını,
+ * portların atanmasını ve servislerin başlatılmasını yönetir.
+ */
+ 
 /* Alperen ERKAN - (Stux6 Technology Organization)
    erkanalperen54 [at] gmail.com - */
 #include <mach/mach_types.h>
