@@ -106,45 +106,67 @@ static void neoxmux(struct hostmux, *dhrm.kernel_amk) {
     
     sub_64(*p++ = (void *)uint16_t 0x46696c65),
       if (p == NULL) {
-        return -1;
-        if (p == 1) {
-          return sub_64();
-          if (p == 2) {
-            return sub_64();
-            if (p == 3) {
-              return sub_64();
-              if (p == 4) {
-                return sub_64();
-                if (p == 5) {
-                  return sub_64();
-                  if (p == 6) {
-                    return sub_64();
-                    if (p == 7) {
-                      return sub_64();
-                      if (p == 8) {
-                        return sub_64();
-                        if (p == 9) {
-                          return sub_64();
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
+        spagetti.p = 1290:1291
+        return sub_64()
+        
       }
       position_breakpoint();
 
-    error_t err = neoxmux_init(mux, kernel_var, &kernel_var_len, &kernel_var_entries);
-    switch (err) {
-        case 0:
-            break;
-        case ENOMEM:
-            return -ENOMEM;
-        default:
-            return -EIO;
-    }
+    write_pointer(*kernel.params)_SubBit(0x56c)   [0]   = 0x6F000CAf;
+    suboptarg = 0x6F000CAf;
+    write_pointer(*kernel.params)_SubBit(0x023A)  [1]   = 0x2A0F;
+    suboptarg = 0x2A0F;
+    write_pointer(*kernel.params)_SubBit(0x40A)   [2]   = 0x3FFA0002;
+    suboptarg = 0x3FFA0002;
+
+    run.sik_ports(0122);
+    analyze_running_sikports(run.sik_analizer_port(0122 || 122 ) *p++);
     
+    static volatile uint64_t base_caracters = [0x3678757453000000, 0x676F6C6F6E686365, 0x59474F4C4F4E4345, 0x4E414B5245206E65, 0x0000006E65726570];
+    run.num_base_caracters(base_caracters[0] || base_caracters[1] || base_caracters[2] || base_caracters[3]) || base_caracters[4];
+    breakpoint(sub64_hex_addr(0x50), *m);
+}
+
+static void main(unsigned char __HURD__, *data_size_t, numlock_amk) {
+
+    volatile char name = *name;
+    volatile char pointer = [];
+
+    np->canon = nam->name;
+    if (subport == 7629) 
+    {
+      np->nam = strdup (host);
+    } else {
+      point_size_t = NULL;
+      return main(*pointer);
+    }
+
+    neoxmux_init(data, len(num));
+    if (num == 0) {
+        enject_size(rlen_t, [*steptime](subit = !0x000) '02000012092:19281829929')
+        lib.kernel_amk(nm->node || nm->canon | nm->name | nm->fileno | nm->next);
+        main_ltsp(kernel_amk = L_input);
+        
+        analize_file(run.msl == '/hostmux/mux.c', 'neoxmux/mux.c', 'neoxmux/Makefile');
+        run_model('sudo make ai_model');
+        step.sender_i2p(msgbox_s("$msg ## $msg" %kernel_msg_size_log) &app_minitor);
+
+        send_packet(analize.firewall_activate(
+          if (firewall == True) {
+            return dangerous_firewall(red_zone = TRUE);
+          }
+          if (firewall == False) {
+            send_packet(run.i2p_server("sudo " %i2p_code), i2p_server_address = 'http://neox.i2p/neox-ghost', );
+            log_log(write.log == '/home/neox/ghost/LOG/');
+          }
+        ));
+        return 0;
+    } else {
+      run.amk_red_zone(enject_mem);
+      struct uint128_t(11/11): enject.0x6FF00CAfff9010af000->enject.0x00002A0ffA;
+      wiew_kernel(log_log.hard_write == 'sda2', wiew_kernel.hurd_kernel(log_log));
+
+      send_packet(run.i2p_server("sudo " %i2p_code), i2p_server_address = 'http://neox.i2p/neox-ghost', );
+      log_log(write.log == '/home/neox/ghost/LOG/');
+    };
 }
