@@ -92,8 +92,9 @@ $(function() {
 <li>DEV_READ&#160;:&#160;<a class="el" href="boot_8c.html#a3c33bf2ebb55d2c795566da3b0e78670a48e6a8b42a7c46ef5d8f87646dc253b3">boot.c</a></li>
 <li>DEV_READI&#160;:&#160;<a class="el" href="boot_8c.html#a3c33bf2ebb55d2c795566da3b0e78670ad3391fef1360d460707edd2ac6395083">boot.c</a></li>
 <li>DIRENT_ALIGN&#160;:&#160;<a class="el" href="console_8c.html#a2c1da230c808a1dede3949560fe12696">console.c</a>, <a class="el" href="hostmux_2mux_8c.html#a2c1da230c808a1dede3949560fe12696">mux.c</a></li>
-<li>DIRENT_LEN&#160;:&#160;<a class="el" href="console_8c.html#ace16a90b2fa1211f9d11875339ada992">console.c</a>, <a class="el" href="hostmux_2mux_8c.html#ace16a90b2fa1211f9d11875339ada992">mux.c</a></li>
+<li>DIRENT_LEN&#160;:&#160;<a class="el" href="neoxmux_2mux_8c.html#ace16a90b2fa1211f9d11875339ada992">mux.c</a>, <a class="el" href="console_8c.html#ace16a90b2fa1211f9d11875339ada992">console.c</a>, <a class="el" href="hostmux_2mux_8c.html#ace16a90b2fa1211f9d11875339ada992">mux.c</a></li>
 <li>DIRENT_NAME_OFFS&#160;:&#160;<a class="el" href="console_8c.html#ab43af3074c0793ea078beaa3da7ac58b">console.c</a>, <a class="el" href="hostmux_2mux_8c.html#ab43af3074c0793ea078beaa3da7ac58b">mux.c</a></li>
+<li>DIRENT_PAD&#160;:&#160;<a class="el" href="neoxmux_2mux_8c.html#a2c4a4d4035626a3143347a9623658378">mux.c</a></li>
 <li>DISPLAY_CHANGE_BELL_AUDIBLE&#160;:&#160;<a class="el" href="display_8c.html#a84b0fd297cc3482230680e3cd6035d7f">display.c</a></li>
 <li>DISPLAY_CHANGE_BELL_VISIBLE&#160;:&#160;<a class="el" href="display_8c.html#ae5620aeb6dac55287ad16c690baa09b9">display.c</a></li>
 <li>DISPLAY_CHANGE_CURSOR_POS&#160;:&#160;<a class="el" href="display_8c.html#aa91604db897942f2f369d674eaa19757">display.c</a></li>
@@ -102,24 +103,24 @@ $(function() {
 <li>DISPLAY_CHANGE_MATRIX&#160;:&#160;<a class="el" href="display_8c.html#a42285d6d7ce99e62936932ec326211e1">display.c</a></li>
 <li>DISPLAY_CHANGE_SCREEN_CUR_LINE&#160;:&#160;<a class="el" href="display_8c.html#a65563f9f1f7175b4ccc7aa497684043b">display.c</a></li>
 <li>DISPLAY_CHANGE_SCREEN_SCR_LINES&#160;:&#160;<a class="el" href="display_8c.html#a7f31a32256ae3f90f213dfc5806e536d">display.c</a></li>
-<li>display_create()&#160;:&#160;<a class="el" href="display_8h.html#a774d9560e5e53e25dcde3f8cdaaa37d0">display.h</a>, <a class="el" href="display_8c.html#a774d9560e5e53e25dcde3f8cdaaa37d0">display.c</a></li>
+<li>display_create()&#160;:&#160;<a class="el" href="display_8c.html#a774d9560e5e53e25dcde3f8cdaaa37d0">display.c</a>, <a class="el" href="display_8h.html#a774d9560e5e53e25dcde3f8cdaaa37d0">display.h</a></li>
 <li>display_destroy()&#160;:&#160;<a class="el" href="display_8c.html#a2c6ef6112a6dc1603057b9f09f74dbe8">display.c</a>, <a class="el" href="display_8h.html#a2c6ef6112a6dc1603057b9f09f74dbe8">display.h</a></li>
 <li>display_destroy_complete()&#160;:&#160;<a class="el" href="display_8c.html#a0176cadc80a5faf996ab6f3d9217df8f">display.c</a></li>
 <li>display_discard_output()&#160;:&#160;<a class="el" href="display_8c.html#a7dce90c019eca72b0108cb6172efcd1e">display.c</a>, <a class="el" href="display_8h.html#a7dce90c019eca72b0108cb6172efcd1e">display.h</a></li>
 <li>display_get_filemap()&#160;:&#160;<a class="el" href="display_8c.html#ac591be10bacf906f87652b3e7bead4ea">display.c</a>, <a class="el" href="display_8h.html#ac591be10bacf906f87652b3e7bead4ea">display.h</a></li>
-<li>display_get_owner()&#160;:&#160;<a class="el" href="display_8c.html#ac1e9416c5de8a809790205f2388a65f5">display.c</a>, <a class="el" href="display_8h.html#ac1e9416c5de8a809790205f2388a65f5">display.h</a></li>
-<li>display_get_size()&#160;:&#160;<a class="el" href="display_8h.html#aa8f6f4ad1deef5dabdec02b5d6a1c2b5">display.h</a>, <a class="el" href="display_8c.html#aa8f6f4ad1deef5dabdec02b5d6a1c2b5">display.c</a></li>
+<li>display_get_owner()&#160;:&#160;<a class="el" href="display_8h.html#ac1e9416c5de8a809790205f2388a65f5">display.h</a>, <a class="el" href="display_8c.html#ac1e9416c5de8a809790205f2388a65f5">display.c</a></li>
+<li>display_get_size()&#160;:&#160;<a class="el" href="display_8c.html#aa8f6f4ad1deef5dabdec02b5d6a1c2b5">display.c</a>, <a class="el" href="display_8h.html#aa8f6f4ad1deef5dabdec02b5d6a1c2b5">display.h</a></li>
 <li>display_getsize()&#160;:&#160;<a class="el" href="display_8c.html#a75dff1fdb5f51de1e384df2f09c5efde">display.c</a>, <a class="el" href="display_8h.html#a75dff1fdb5f51de1e384df2f09c5efde">display.h</a></li>
 <li>display_init()&#160;:&#160;<a class="el" href="display_8c.html#a407d5033a6f0198221c8a9081d7e807e">display.c</a>, <a class="el" href="display_8h.html#a407d5033a6f0198221c8a9081d7e807e">display.h</a></li>
 <li>display_notice_changes()&#160;:&#160;<a class="el" href="display_8c.html#aab6edcd63d1d0f8ab3973caf7149ee7f">display.c</a>, <a class="el" href="display_8h.html#aab6edcd63d1d0f8ab3973caf7149ee7f">display.h</a></li>
 <li>display_output()&#160;:&#160;<a class="el" href="display_8c.html#adf0f1a02dd17ea02e9c202a3a15f6f2d">display.c</a>, <a class="el" href="display_8h.html#adf0f1a02dd17ea02e9c202a3a15f6f2d">display.h</a></li>
-<li>display_pending_output()&#160;:&#160;<a class="el" href="display_8c.html#a34ac588b7547589e6ea10b5260548254">display.c</a>, <a class="el" href="display_8h.html#a34ac588b7547589e6ea10b5260548254">display.h</a></li>
-<li>display_read()&#160;:&#160;<a class="el" href="display_8h.html#a5bbc5c363a02e37ffb4c5bd46bf869c0">display.h</a>, <a class="el" href="display_8c.html#a5bbc5c363a02e37ffb4c5bd46bf869c0">display.c</a></li>
+<li>display_pending_output()&#160;:&#160;<a class="el" href="display_8h.html#a34ac588b7547589e6ea10b5260548254">display.h</a>, <a class="el" href="display_8c.html#a34ac588b7547589e6ea10b5260548254">display.c</a></li>
+<li>display_read()&#160;:&#160;<a class="el" href="display_8c.html#a5bbc5c363a02e37ffb4c5bd46bf869c0">display.c</a>, <a class="el" href="display_8h.html#a5bbc5c363a02e37ffb4c5bd46bf869c0">display.h</a></li>
 <li>display_set_owner()&#160;:&#160;<a class="el" href="display_8c.html#a4e32ca593ce0b9daf945151e582aa25b">display.c</a>, <a class="el" href="display_8h.html#a4e32ca593ce0b9daf945151e582aa25b">display.h</a></li>
 <li>display_start_output()&#160;:&#160;<a class="el" href="display_8c.html#a03e7a901298192f282f8907e1266e667">display.c</a>, <a class="el" href="display_8h.html#a03e7a901298192f282f8907e1266e667">display.h</a></li>
 <li>display_stop_output()&#160;:&#160;<a class="el" href="display_8c.html#a99d5720a1de1e4155890b1fc3adb719b">display.c</a>, <a class="el" href="display_8h.html#a99d5720a1de1e4155890b1fc3adb719b">display.h</a></li>
 <li>display_t&#160;:&#160;<a class="el" href="display_8h.html#a5753533b20957dd1143d0b646308d2fb">display.h</a></li>
-<li>do_mach_notify_dead_name()&#160;:&#160;<a class="el" href="boot_8c.html#a43ced099fbc926d264498f551985b3e9">boot.c</a>, <a class="el" href="display_8c.html#afc044d0b810a8a31a15069a8e0dfba94">display.c</a></li>
+<li>do_mach_notify_dead_name()&#160;:&#160;<a class="el" href="display_8c.html#afc044d0b810a8a31a15069a8e0dfba94">display.c</a>, <a class="el" href="boot_8c.html#a43ced099fbc926d264498f551985b3e9">boot.c</a></li>
 <li>do_mach_notify_msg_accepted()&#160;:&#160;<a class="el" href="boot_8c.html#a3f1b4106b54819a711cf16559e3bc997">boot.c</a>, <a class="el" href="display_8c.html#a2da6f7f02ed4a9dc216be7d60348f083">display.c</a></li>
 <li>do_mach_notify_no_senders()&#160;:&#160;<a class="el" href="boot_8c.html#a4637f646bb87e8f550c4a396669d82e1">boot.c</a>, <a class="el" href="display_8c.html#adf2425a5a9bcf2fb1fc0569ed501f0c0">display.c</a></li>
 <li>do_mach_notify_port_deleted()&#160;:&#160;<a class="el" href="boot_8c.html#ad11c0bb92bd5f7e136592833e267775c">boot.c</a>, <a class="el" href="display_8c.html#a8ef70233bd42f7658cad75b93967c463">display.c</a></li>

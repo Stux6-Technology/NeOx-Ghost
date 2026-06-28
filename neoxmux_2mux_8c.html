@@ -73,9 +73,124 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle"><div class="title">mux.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="mux_8h_source.html">mux.h</a>&quot;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="neoxmux_8h_source.html">neoxmux.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for mux.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="neoxmux_2mux_8c__incl.png" border="0" usemap="#aneoxmux_2mux_8c" alt=""/></div>
+<map name="aneoxmux_2mux_8c" id="aneoxmux_2mux_8c">
+<area shape="rect" title=" " alt="" coords="109,5,236,31"/>
+<area shape="rect" href="mux_8h.html" title=" " alt="" coords="5,79,68,104"/>
+<area shape="poly" title=" " alt="" coords="152,33,72,75,70,70,150,28"/>
+<area shape="rect" title=" " alt="" coords="93,79,159,104"/>
+<area shape="poly" title=" " alt="" coords="167,32,143,69,139,66,163,30"/>
+<area shape="rect" title=" " alt="" coords="184,79,255,104"/>
+<area shape="poly" title=" " alt="" coords="183,30,206,66,202,69,178,32"/>
+<area shape="rect" href="neoxmux_8h.html" title=" " alt="" coords="279,79,373,104"/>
+<area shape="poly" title=" " alt="" coords="198,28,290,70,288,75,196,33"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a31be487750a853b59657d150c11a9fef" id="r_a31be487750a853b59657d150c11a9fef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neoxmux_2mux_8c.html#a31be487750a853b59657d150c11a9fef">neoxmux_init</a>&#160;&#160;&#160;neoxmux_init</td></tr>
+<tr class="separator:a31be487750a853b59657d150c11a9fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace16a90b2fa1211f9d11875339ada992" id="r_ace16a90b2fa1211f9d11875339ada992"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neoxmux_2mux_8c.html#ace16a90b2fa1211f9d11875339ada992">DIRENT_LEN</a>(name_len)&#160;&#160;&#160;(offsetof (struct dirent, d_name) + (name_len) + 1)</td></tr>
+<tr class="separator:ace16a90b2fa1211f9d11875339ada992"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab43af3074c0793ea078beaa3da7ac58b" id="r_ab43af3074c0793ea078beaa3da7ac58b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neoxmux_2mux_8c.html#ab43af3074c0793ea078beaa3da7ac58b">DIRENT_NAME_OFFS</a>&#160;&#160;&#160;offsetof (struct dirent, d_name)</td></tr>
+<tr class="separator:ab43af3074c0793ea078beaa3da7ac58b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c1da230c808a1dede3949560fe12696" id="r_a2c1da230c808a1dede3949560fe12696"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neoxmux_2mux_8c.html#a2c1da230c808a1dede3949560fe12696">DIRENT_ALIGN</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:a2c1da230c808a1dede3949560fe12696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c4a4d4035626a3143347a9623658378" id="r_a2c4a4d4035626a3143347a9623658378"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="neoxmux_2mux_8c.html#a2c4a4d4035626a3143347a9623658378">DIRENT_PAD</a>(sz)&#160;&#160;&#160;(((sz) + (<a class="el" href="console_8c.html#a2c1da230c808a1dede3949560fe12696">DIRENT_ALIGN</a> - 1)) &amp; ~(<a class="el" href="console_8c.html#a2c1da230c808a1dede3949560fe12696">DIRENT_ALIGN</a> - 1))</td></tr>
+<tr class="separator:a2c4a4d4035626a3143347a9623658378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a2c1da230c808a1dede3949560fe12696" name="a2c1da230c808a1dede3949560fe12696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c1da230c808a1dede3949560fe12696">&#9670;&#160;</a></span>DIRENT_ALIGN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DIRENT_ALIGN&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace16a90b2fa1211f9d11875339ada992" name="ace16a90b2fa1211f9d11875339ada992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace16a90b2fa1211f9d11875339ada992">&#9670;&#160;</a></span>DIRENT_LEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DIRENT_LEN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name_len</td><td>)</td>
+          <td>&#160;&#160;&#160;(offsetof (struct dirent, d_name) + (name_len) + 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab43af3074c0793ea078beaa3da7ac58b" name="ab43af3074c0793ea078beaa3da7ac58b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab43af3074c0793ea078beaa3da7ac58b">&#9670;&#160;</a></span>DIRENT_NAME_OFFS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DIRENT_NAME_OFFS&#160;&#160;&#160;offsetof (struct dirent, d_name)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c4a4d4035626a3143347a9623658378" name="a2c4a4d4035626a3143347a9623658378"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c4a4d4035626a3143347a9623658378">&#9670;&#160;</a></span>DIRENT_PAD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DIRENT_PAD</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">sz</td><td>)</td>
+          <td>&#160;&#160;&#160;(((sz) + (<a class="el" href="console_8c.html#a2c1da230c808a1dede3949560fe12696">DIRENT_ALIGN</a> - 1)) &amp; ~(<a class="el" href="console_8c.html#a2c1da230c808a1dede3949560fe12696">DIRENT_ALIGN</a> - 1))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31be487750a853b59657d150c11a9fef" name="a31be487750a853b59657d150c11a9fef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31be487750a853b59657d150c11a9fef">&#9670;&#160;</a></span>neoxmux_init</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define neoxmux_init&#160;&#160;&#160;neoxmux_init</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
