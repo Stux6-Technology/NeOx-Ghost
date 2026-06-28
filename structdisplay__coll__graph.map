@@ -1,0 +1,23 @@
+<map id="display" name="display">
+<area shape="rect" id="Node000001" title=" " alt="" coords="269,196,338,221"/>
+<area shape="rect" id="Node000010" href="$structnotify.html" title=" " alt="" coords="274,284,333,309"/>
+<area shape="poly" id="edge11_Node000010_Node000001" title=" " alt="" coords="272,231,260,246,259,256,263,265,282,282,279,286,259,268,254,257,256,244,268,228"/>
+<area shape="rect" id="Node000002" href="$structchanges.html" title=" " alt="" coords="5,93,81,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,129,74,151,95,170,127,181,173,190,269,202,268,207,172,196,125,186,93,174,70,155,54,133"/>
+<area shape="rect" id="Node000003" href="$structcursor.html" title=" " alt="" coords="105,93,168,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,129,166,151,186,170,227,190,269,200,268,206,226,195,183,174,162,154,147,132"/>
+<area shape="rect" id="Node000004" href="$structoutput.html" title=" " alt="" coords="193,93,257,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="234,131,242,151,253,170,282,194,279,198,249,174,237,154,229,133"/>
+<area shape="rect" id="Node000005" href="$structparse.html" title=" " alt="" coords="195,5,254,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="227,45,227,93,222,93,222,45"/>
+<area shape="rect" id="Node000006" href="$structattr.html" title=" " alt="" coords="281,93,326,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="306,133,306,196,301,196,301,133"/>
+<area shape="rect" id="Node000007" href="$structscrolling__region.html" title=" " alt="" coords="350,93,475,119"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="392,130,318,198,314,194,388,126"/>
+<area shape="rect" id="Node000008" href="$structuser__pager.html" title=" " alt="" coords="500,93,595,119"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="511,127,400,174,337,198,335,193,398,170,509,122"/>
+<area shape="rect" id="Node000009" href="$structmodreq.html" title=" " alt="" coords="619,93,691,119"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="632,129,595,153,551,174,494,191,436,201,339,209,338,204,435,196,493,186,549,170,592,149,629,125"/>
+<area shape="poly" id="edge9_Node000009_Node000009" title=" " alt="" coords="706,97,714,100,718,106,709,115,692,117,691,111,707,110,713,106,711,104,704,102"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="311,271,313,246,306,222,311,221,318,245,316,271"/>
+</map>

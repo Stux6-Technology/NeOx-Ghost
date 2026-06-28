@@ -1,0 +1,17 @@
+<map id="hostmux/leaf.c" name="hostmux/leaf.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="72,5,191,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,76,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,33,68,72,65,68,115,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="100,79,163,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,31,134,65,129,65,129,31"/>
+<area shape="rect" id="Node000004" href="$hostmux_8h.html" title=" " alt="" coords="187,79,278,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,28,206,68,203,73,146,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="9,152,109,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="206,106,101,149,99,144,204,102"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="133,152,217,177"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="225,106,195,143,191,139,221,103"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="242,152,335,177"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="244,103,273,140,269,143,240,106"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="359,152,447,177"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="261,102,364,144,362,149,259,106"/>
+</map>

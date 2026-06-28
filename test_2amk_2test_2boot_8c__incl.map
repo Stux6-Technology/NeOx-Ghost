@@ -1,0 +1,11 @@
+<map id="test/amk/test/boot.c" name="test/amk/test/boot.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="188,5,341,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,159,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,33,126,76,124,71,234,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="183,79,253,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="259,32,235,69,231,66,255,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="278,79,345,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="275,30,298,66,294,69,270,32"/>
+<area shape="rect" id="Node000005" href="$boot__script_8h.html" title=" " alt="" coords="369,79,475,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="291,28,385,71,383,75,289,33"/>
+</map>
