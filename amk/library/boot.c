@@ -1,3 +1,17 @@
+/**
+ * @file boot.c
+ * @brief NeOx-Ghost Yedek Bootloader (Fail-Safe Mekanizması).
+ * * @details Bu modül, birincil bootloader'ın (`boot/` dizini) başarısız olması 
+ * durumunda sistemin devreye soktuğu kritik kurtarma katmanıdır. 
+ * Sistemin yüksek erişilebilirliğini (High Availability) sağlar.
+ * * @note Bu dosya `amk/library/` dizininde izole edilmiştir.
+ * Sistemin açılışından sonra `neoxmux` üzerinden ana `boot/` 
+ * dizinini onarma (repair) yetkisine sahiptir.
+ * * @warning Bu modüle yapılacak her değişiklik, sistemin 
+ * "ölümsüzlük protokolünü" doğrudan etkiler.
+ * * @author Alperen ERKAN (Stux6 Technology Organization)
+ */
+
 #include <mach/mach_types.h>
 #if !KERNEL || OSKIT_MACH
 #include <string.h>
