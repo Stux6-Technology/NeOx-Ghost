@@ -6,7 +6,7 @@
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="407,39,312,81,310,76,405,34"/>
 <area shape="rect" id="Node000004" href="$leaf_8c.html" title=" " alt="" coords="384,79,503,104"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="446,44,446,79,441,79,441,44"/>
-<area shape="rect" id="Node000005" href="$mux_8c.html" title=" " alt="" coords="527,79,650,104"/>
+<area shape="rect" id="Node000005" href="$hostmux_2mux_8c.html" title=" " alt="" coords="527,79,650,104"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="480,34,566,76,564,81,478,39"/>
 <area shape="rect" id="Node000006" href="$node_8c.html" title=" " alt="" coords="675,79,801,104"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="504,31,691,76,690,81,503,36"/>

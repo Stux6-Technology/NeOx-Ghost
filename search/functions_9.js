@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['queue_5fread_0',['queue_read',['../boot_2boot_8c.html#a47051440f063aac23712f15851cadec7',1,'boot.c']]]
+  ['read_5fboot_5fscript_0',['read_boot_script',['../boot_8c.html#a902fa1b63850a6d12a423ee4062966dc',1,'boot.c']]]
 ];

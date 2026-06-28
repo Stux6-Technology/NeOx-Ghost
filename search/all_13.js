@@ -10,5 +10,5 @@ var searchData=
   ['user_5fpager_5finfo_7',['user_pager_info',['../structuser__pager__info.html',1,'']]],
   ['user_5fpager_5finit_8',['user_pager_init',['../pager_8c.html#ab8ef540062a527a3d80b2fb7ee8095fe',1,'user_pager_init(void):&#160;pager.c'],['../pager_8h.html#ab8ef540062a527a3d80b2fb7ee8095fe',1,'user_pager_init(void):&#160;pager.c']]],
   ['userland_2dboot_2ec_9',['userland-boot.c',['../userland-boot_8c.html',1,'']]],
-  ['useropen_5fdir_10',['useropen_dir',['../boot_2boot_8c.html#a0aaf4938587c2ebf1e328a343319eeda',1,'useropen_dir:&#160;userland-boot.c'],['../userland-boot_8c.html#a0aaf4938587c2ebf1e328a343319eeda',1,'useropen_dir:&#160;userland-boot.c']]]
+  ['useropen_5fdir_10',['useropen_dir',['../boot_8c.html#a0aaf4938587c2ebf1e328a343319eeda',1,'useropen_dir:&#160;userland-boot.c'],['../userland-boot_8c.html#a0aaf4938587c2ebf1e328a343319eeda',1,'useropen_dir:&#160;userland-boot.c']]]
 ];

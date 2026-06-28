@@ -95,7 +95,6 @@ var menudata={children:[
 {text:"v",url:"globals_v.html#index_v"}]},
 {text:"Functions",url:"globals_func.html",children:[
 {text:"_",url:"globals_func.html#index__5F"},
-{text:"a",url:"globals_func_a.html#index_a"},
 {text:"b",url:"globals_func_b.html#index_b"},
 {text:"c",url:"globals_func_c.html#index_c"},
 {text:"d",url:"globals_func_d.html#index_d"},

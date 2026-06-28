@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['input_5fcreate_0',['input_create',['../input_8c.html#a6cc11aa44975179b454d0159e8bb82e0',1,'input_create(input_t *r_input, const char *encoding):&#160;input.c'],['../input_8h.html#a6cc11aa44975179b454d0159e8bb82e0',1,'input_create(input_t *r_input, const char *encoding):&#160;input.c']]],
-  ['input_5fdequeue_1',['input_dequeue',['../input_8c.html#afddcde2a9a6fd960f275878e12edc7bd',1,'input_dequeue(input_t input, int nonblock, char *data, size_t datalen):&#160;input.c'],['../input_8h.html#afddcde2a9a6fd960f275878e12edc7bd',1,'input_dequeue(input_t input, int nonblock, char *data, size_t datalen):&#160;input.c']]],
-  ['input_5fdestroy_2',['input_destroy',['../input_8c.html#a40fe2815f9c5a71604cc4ae64ea7f9df',1,'input_destroy(input_t input):&#160;input.c'],['../input_8h.html#a40fe2815f9c5a71604cc4ae64ea7f9df',1,'input_destroy(input_t input):&#160;input.c']]],
-  ['input_5fenqueue_3',['input_enqueue',['../input_8c.html#a003c617706eac61162cc810281c7ae07',1,'input_enqueue(input_t input, int nonblock, const char *data, size_t datalen):&#160;input.c'],['../input_8h.html#a003c617706eac61162cc810281c7ae07',1,'input_enqueue(input_t input, int nonblock, const char *data, size_t datalen):&#160;input.c']]],
-  ['input_5fflush_4',['input_flush',['../input_8c.html#a9bf5305b9f810c6fc73f1c3a2459a61d',1,'input_flush(input_t input):&#160;input.c'],['../input_8h.html#a9bf5305b9f810c6fc73f1c3a2459a61d',1,'input_flush(input_t input):&#160;input.c']]]
+  ['mach_5fmsg_5fforward_0',['mach_msg_forward',['../boot_8c.html#ada7024786d07319c71dd98c18a277d7c',1,'boot.c']]],
+  ['main_1',['main',['../boot_8c.html#a647f21a28344e1d9c643f4115516d7c9',1,'main(int argc, char **argv, char **envp):&#160;boot.c'],['../console_8c.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;console.c'],['../hostmux_8c.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;hostmux.c']]],
+  ['mig_5freply_5fsetup_2',['mig_reply_setup',['../boot_8c.html#aa334319761eab495974a0557c8a64f73',1,'boot.c']]]
 ];
