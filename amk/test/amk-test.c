@@ -436,3 +436,4 @@ netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
       error_t err = file_chauthor (mux->underlying, author);
 
       if (! err)
+	{
