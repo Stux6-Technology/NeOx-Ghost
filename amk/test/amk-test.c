@@ -251,3 +251,4 @@ free_name (struct hostmux_name *nm)
    node in NODE with an additional references.  True is returned iff the
    lookup succeeds.  If PURGE is true, then any nodes with a null node are
    removed.  */
+static int
