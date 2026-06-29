@@ -393,3 +393,4 @@ netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gi
     return EOPNOTSUPP;
   else
     {
+      struct hostmux *mux = node->nn->mux;
