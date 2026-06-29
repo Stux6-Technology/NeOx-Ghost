@@ -223,3 +223,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 	if (nm->node
 	    && !add_dir_entry (nm->name, nm->fileno,
 			       strcmp (nm->canon, nm->name) == 0
+			         ? DT_REG : DT_LNK))
