@@ -288,3 +288,4 @@ lookup_cached (struct hostmux *mux, const char *host, int purge,
 }
 
 /* See if there's an existing entry for the name HOST, and if so, return its
+   node in NODE, with an additional reference, otherwise, create a new node
