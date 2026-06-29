@@ -410,3 +410,4 @@ netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gi
 	  pthread_rwlock_rdlock (&mux->names_lock);
 	  for (nm = mux->names; nm; nm = nm->next)
 	    if (nm->node)
+	      {
