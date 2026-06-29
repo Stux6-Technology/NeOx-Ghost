@@ -71,3 +71,4 @@ netfs_check_open_permissions (struct iouser *user, struct node *node,
    NODE, to change the atime to ATIME and the mtime to MTIME. */
 error_t
 netfs_attempt_utimes (struct iouser *cred, struct node *node,
+		      struct timespec *atime, struct timespec *mtime)
