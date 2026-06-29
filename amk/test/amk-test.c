@@ -388,3 +388,4 @@ netfs_attempt_syncfs (struct iouser *cred, int wait)
    NODE, to change the owner to UID and the group to GID. */
 error_t
 netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gid)
+{
