@@ -397,3 +397,4 @@ netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gi
       error_t err = file_chown (mux->underlying, uid, gid);
 
       if (! err)
+	{
