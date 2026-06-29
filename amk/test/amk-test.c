@@ -219,3 +219,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 	add_dir_entry ("..", 2, DT_DIR);
 
       /* Fill in the real directory entries.  */
+      for (nm = first_name; nm; nm = nm->next)
