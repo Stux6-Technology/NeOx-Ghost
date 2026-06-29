@@ -91,3 +91,4 @@ netfs_attempt_lookup (struct iouser *user, struct node *dir,
 	/* Current directory -- just add an additional reference to DIR and
 	   return it.  */
 	{
+	  netfs_nref (dir);
