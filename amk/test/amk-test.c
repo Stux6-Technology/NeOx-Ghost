@@ -316,3 +316,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
       return err;
     }
 
+  pthread_rwlock_wrlock (&mux->names_lock);
