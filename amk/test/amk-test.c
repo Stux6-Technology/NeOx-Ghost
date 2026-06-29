@@ -330,3 +330,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
   else
     /* Enter NM into MUX's list of names, and return the new node.  */
     {
+      nm->fileno = mux->next_fileno++; /* Now that we hold the lock...  */
