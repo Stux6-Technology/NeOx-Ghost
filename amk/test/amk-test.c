@@ -163,3 +163,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
   if (first_entry <= 1)
     bump_size ("..");
 
+  /* See how much space we need for the result.  */
