@@ -169,3 +169,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
       break;
 
   /* Allocate it.  */
+  *data = mmap (0, size, PROT_READ|PROT_WRITE, MAP_ANON, 0, 0);
