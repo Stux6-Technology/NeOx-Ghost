@@ -427,3 +427,4 @@ netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gi
    NODE, to change the author to AUTHOR. */
 error_t
 netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
+{
