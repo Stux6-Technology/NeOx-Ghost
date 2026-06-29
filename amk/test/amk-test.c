@@ -384,3 +384,4 @@ netfs_attempt_syncfs (struct iouser *cred, int wait)
   return 0;
 }
 
+/* This should attempt a chmod call for the user specified by CRED on node
