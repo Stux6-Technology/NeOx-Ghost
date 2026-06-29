@@ -46,3 +46,4 @@ netfs_attempt_create_file (struct iouser *user, struct node *dir,
 			   const char *name, mode_t mode, struct node **node)
 {
   *node = 0;
+  pthread_mutex_unlock (&dir->lock);
