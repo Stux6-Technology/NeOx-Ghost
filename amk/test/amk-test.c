@@ -344,3 +344,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
 static error_t
 lookup_host (struct hostmux *mux, const char *host, struct node **node)
 {
+  int was_cached;
