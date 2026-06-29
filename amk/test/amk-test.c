@@ -465,3 +465,4 @@ netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
 error_t
 netfs_attempt_chmod (struct iouser *cred, struct node *node, mode_t mode)
 {
+  mode &= ~S_ITRANS;
