@@ -22,3 +22,4 @@
 
  #include <fcntl.h>
 
+#include "hostmux.h"
