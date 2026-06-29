@@ -314,3 +314,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
     {
       free_name (nm);
       return err;
+    }
