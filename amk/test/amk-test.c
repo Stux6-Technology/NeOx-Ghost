@@ -350,3 +350,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
   struct addrinfo hints;
 
   hints.ai_flags = AI_CANONNAME;
+  hints.ai_family = PF_INET;
