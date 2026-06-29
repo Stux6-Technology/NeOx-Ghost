@@ -407,3 +407,4 @@ netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gi
 	  node->nn_stat.st_gid = gid;
 
 	  /* Change the owner of each leaf node.  */
+	  pthread_rwlock_rdlock (&mux->names_lock);
