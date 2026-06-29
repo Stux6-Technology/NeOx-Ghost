@@ -66,3 +66,4 @@ netfs_check_open_permissions (struct iouser *user, struct node *node,
     err = fshelp_access (&node->nn_stat, S_IEXEC, user);
   return err;
 }
+
