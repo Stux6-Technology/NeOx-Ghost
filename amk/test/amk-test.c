@@ -150,3 +150,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 
   /* Find the first entry.  */
   for (first_name = dir->nn->mux->names, count = 2;
+       first_name && first_entry > count;
