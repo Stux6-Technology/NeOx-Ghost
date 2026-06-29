@@ -138,3 +138,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 	  size = new_size;
 	  count++;
 	  return 1;
+	}
