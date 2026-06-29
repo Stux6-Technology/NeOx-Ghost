@@ -113,3 +113,4 @@ netfs_attempt_lookup (struct iouser *user, struct node *dir,
 }
 
 /* Implement the netfs_get_directs callback as described in
+   <hurd/netfs.h>. */
