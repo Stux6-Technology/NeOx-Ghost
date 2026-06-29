@@ -303,3 +303,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
   if (! nm)
     return ENOMEM;
 
+  nm->name = strdup (host);
