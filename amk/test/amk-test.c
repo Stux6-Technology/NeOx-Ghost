@@ -452,3 +452,4 @@ netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
 
 	  fshelp_touch (&node->nn_stat, TOUCH_CTIME, hostmux_maptime);
 	}
+
