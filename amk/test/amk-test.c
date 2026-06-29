@@ -370,3 +370,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
 	  freeaddrinfo (ai);
 	}
     }
+  else
