@@ -234,3 +234,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
   return err;
 }
 
+/* Host lookup.  */
