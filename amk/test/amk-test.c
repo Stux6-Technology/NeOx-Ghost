@@ -376,3 +376,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
   return h_err;
 }
 
+/* This should sync the entire remote filesystem.  If WAIT is set, return
