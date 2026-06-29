@@ -98,3 +98,4 @@ netfs_report_access (struct iouser *cred, struct node *node, int *types)
   if (fshelp_access (&node->nn_stat, S_IREAD, cred) == 0)
     *types |= O_READ;
   if (fshelp_access (&node->nn_stat, S_IWRITE, cred) == 0)
+    *types |= O_WRITE;
