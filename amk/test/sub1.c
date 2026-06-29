@@ -35,3 +35,4 @@ netfs_node_norefs (struct node *node)
        freed by another party.  */
     node->nn->name->node = 0;
   free (node->nn);
+  free (node);
