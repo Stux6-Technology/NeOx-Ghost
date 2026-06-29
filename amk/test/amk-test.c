@@ -355,3 +355,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
   hints.ai_protocol  = IPPROTO_IP;
 
   pthread_rwlock_rdlock (&mux->names_lock);
+  was_cached = lookup_cached (mux, host, 0, node);
