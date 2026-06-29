@@ -358,3 +358,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
   was_cached = lookup_cached (mux, host, 0, node);
   pthread_rwlock_unlock (&mux->names_lock);
 
+  if (was_cached)
