@@ -174,3 +174,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 
   if (! err)
     /* Copy out the result.  */
+    {
