@@ -127,3 +127,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 
   /* Add the length of a directory entry for NAME to SIZE and return true,
      unless it would overflow MAX_DATA_LEN or NUM_ENTRIES, in which case
+     return false.  */
