@@ -364,3 +364,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
   if (mux->canonicalize)
     {
       h_err = getaddrinfo (host, NULL, &hints, &ai);
+      if (! h_err)
