@@ -310,3 +310,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
     nm->canon = strdup (he->ai_canonname);
 
   err = create_host_node (mux, nm, node);
+  if (err)
