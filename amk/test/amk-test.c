@@ -159,3 +159,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 
   /* Make space for the `.' and `..' entries.  */
   if (first_entry == 0)
+    bump_size (".");
