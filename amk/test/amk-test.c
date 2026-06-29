@@ -469,3 +469,4 @@ netfs_attempt_chmod (struct iouser *cred, struct node *node, mode_t mode)
   if ((mode & S_IFMT) == 0)
     mode |= (node->nn_stat.st_mode & S_IFMT);
   if (node->nn->name || ((mode & S_IFMT) != (node->nn_stat.st_mode & S_IFMT)))
+    return EOPNOTSUPP;
