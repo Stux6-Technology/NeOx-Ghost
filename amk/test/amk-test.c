@@ -379,3 +379,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
 /* This should sync the entire remote filesystem.  If WAIT is set, return
    only after sync is completely finished.  */
 error_t
+netfs_attempt_syncfs (struct iouser *cred, int wait)
