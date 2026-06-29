@@ -362,3 +362,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
     return 0;
 
   if (mux->canonicalize)
+    {
