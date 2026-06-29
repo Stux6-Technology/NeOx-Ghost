@@ -74,3 +74,4 @@ static error_t lookup_host (struct hostmux *mux, const char *host,
    the name was not found, then return ENOENT.  On any error, clear *NODE.
    (*NODE, if found, should be locked, this call should unlock DIR no matter
    what.) */
+error_t
