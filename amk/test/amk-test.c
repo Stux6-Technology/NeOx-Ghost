@@ -177,3 +177,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
     {
       char *p = *data;
 
+      int add_dir_entry (const char *name, ino_t fileno, int type)
