@@ -206,3 +206,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 	  else
 	    return 0;
 	}
+
