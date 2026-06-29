@@ -252,3 +252,4 @@ free_name (struct hostmux_name *nm)
    lookup succeeds.  If PURGE is true, then any nodes with a null node are
    removed.  */
 static int
+lookup_cached (struct hostmux *mux, const char *host, int purge,
