@@ -345,3 +345,4 @@ static error_t
 lookup_host (struct hostmux *mux, const char *host, struct node **node)
 {
   int was_cached;
+  int h_err;
