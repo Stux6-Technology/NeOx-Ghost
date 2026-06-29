@@ -22,7 +22,7 @@ def automate_commits(source_file, target_file):
             f.writelines(current_code)
         
         # Git komutlarını hazırla
-        commit_message = f"sub {i} - `sub1.c` (step {i}/{total_lines})"
+        commit_message = f"amk {i} - `amk-test.c` (step {i}/{total_lines})"
         
         try:
             # Commit işlemini gerçekleştir
@@ -38,8 +38,8 @@ if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
     # Dosya yollarını bu dizine göre birleştir
-    source = os.path.join(script_dir, 'sub1.txt')
-    target = os.path.join(script_dir, 'sub1.c')
+    source = os.path.join(script_dir, 'amk-test.txt')
+    target = os.path.join(script_dir, 'amk-test.c')
     
     # Dosyaların varlığını kontrol et
     if not os.path.exists(source):
