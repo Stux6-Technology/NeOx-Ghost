@@ -116,3 +116,4 @@ netfs_attempt_lookup (struct iouser *user, struct node *dir,
    <hurd/netfs.h>. */
 error_t
 netfs_get_dirents (struct iouser *cred, struct node *dir,
+		   int first_entry, int num_entries, char **data,
