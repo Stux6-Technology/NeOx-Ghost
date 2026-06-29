@@ -392,3 +392,4 @@ netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gi
   if (node->nn->name)
     return EOPNOTSUPP;
   else
+    {
