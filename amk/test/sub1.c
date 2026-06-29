@@ -119,3 +119,4 @@ netfs_validate_stat (struct node *node, struct iouser *cred)
 error_t
 netfs_attempt_sync (struct iouser *cred, struct node *node, int wait)
 {
+  return 0;
