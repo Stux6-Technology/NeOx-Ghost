@@ -72,3 +72,4 @@ netfs_check_open_permissions (struct iouser *user, struct node *node,
 error_t
 netfs_attempt_utimes (struct iouser *cred, struct node *node,
 		      struct timespec *atime, struct timespec *mtime)
+{
