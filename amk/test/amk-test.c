@@ -225,3 +225,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 			       strcmp (nm->canon, nm->name) == 0
 			         ? DT_REG : DT_LNK))
 	  break;
+    }
