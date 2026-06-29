@@ -366,3 +366,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
       h_err = getaddrinfo (host, NULL, &hints, &ai);
       if (! h_err)
 	{
+	  h_err = lookup_addrinfo (mux, host, ai, node);
