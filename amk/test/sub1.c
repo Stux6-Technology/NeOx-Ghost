@@ -89,3 +89,4 @@ netfs_attempt_utimes (struct iouser *cred, struct node *node,
   return err;
 }
 
+/* Return the valid access types (bitwise OR of O_READ, O_WRITE, and O_EXEC)
