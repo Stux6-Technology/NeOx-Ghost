@@ -321,3 +321,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
     /* An entry for HOST has already been created between the time we last
        looked and now (which is possible because we didn't lock MUX).
        Just throw away our version and return the one already in the cache.  */
+    {
