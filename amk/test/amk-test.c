@@ -323,3 +323,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
        Just throw away our version and return the one already in the cache.  */
     {
       pthread_rwlock_unlock (&mux->names_lock);
+      nm->node->nn->name = 0;	/* Avoid touching the mux name list.  */
