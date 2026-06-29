@@ -361,3 +361,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
   if (was_cached)
     return 0;
 
+  if (mux->canonicalize)
