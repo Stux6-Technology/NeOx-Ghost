@@ -472,3 +472,4 @@ netfs_attempt_chmod (struct iouser *cred, struct node *node, mode_t mode)
     return EOPNOTSUPP;
   else
     {
+      error_t err = file_chmod (node->nn->mux->underlying, mode & ~S_IFMT);
