@@ -167,3 +167,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
   for (nm = first_name; nm; nm = nm->next)
     if (nm->node && !bump_size (nm->name))
       break;
+
