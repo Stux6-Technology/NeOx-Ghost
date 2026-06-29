@@ -385,3 +385,4 @@ netfs_attempt_syncfs (struct iouser *cred, int wait)
 }
 
 /* This should attempt a chmod call for the user specified by CRED on node
+   NODE, to change the owner to UID and the group to GID. */
