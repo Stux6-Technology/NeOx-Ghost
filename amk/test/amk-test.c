@@ -162,3 +162,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
     bump_size (".");
   if (first_entry <= 1)
     bump_size ("..");
+
