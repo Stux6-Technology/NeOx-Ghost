@@ -216,3 +216,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
       if (first_entry == 0)
 	add_dir_entry (".", 2, DT_DIR);
       if (first_entry <= 1)
+	add_dir_entry ("..", 2, DT_DIR);
