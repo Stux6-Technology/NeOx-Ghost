@@ -6,3 +6,4 @@
  *   DEVELOPER: Stux6 Tech. Lead Eng. Alperen ERKAN <erkanalperen54 [at] gmail.com> 
  *              or <stux6.team@gmail.com>
  * ==========================================================================
+ *   LICENSE SUMMARY (STUX6 GENERAL PRIVATE PROJECT LICENSE - SGPPL-v1.0)
