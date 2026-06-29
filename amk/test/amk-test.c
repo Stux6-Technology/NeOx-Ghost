@@ -335,3 +335,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
       mux->names = nm;
       pthread_rwlock_unlock (&mux->names_lock);
     }
+
