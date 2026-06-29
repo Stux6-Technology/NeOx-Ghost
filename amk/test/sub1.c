@@ -111,3 +111,4 @@ netfs_report_access (struct iouser *cred, struct node *node, int *types)
 error_t
 netfs_validate_stat (struct node *node, struct iouser *cred)
 {
+  return 0;
