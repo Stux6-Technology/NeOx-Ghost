@@ -135,3 +135,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 	  size_t new_size = size + DIRENT_LEN (strlen (name));
 	  if (max_data_len > 0 && new_size > max_data_len)
 	    return 0;
+	  size = new_size;
