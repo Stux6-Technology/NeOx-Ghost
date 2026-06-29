@@ -129,3 +129,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
      unless it would overflow MAX_DATA_LEN or NUM_ENTRIES, in which case
      return false.  */
   int bump_size (const char *name)
+    {
