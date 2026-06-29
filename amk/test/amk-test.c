@@ -461,3 +461,4 @@ netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
    NODE, to change the mode to MODE.  Unlike the normal Unix and Hurd meaning
    of chmod, this function is also used to attempt to change files into other
    types.  If such a transition is attempted which is impossible, then return
+   EOPNOTSUPP.  */
