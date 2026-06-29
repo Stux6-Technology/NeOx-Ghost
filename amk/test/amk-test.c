@@ -438,3 +438,4 @@ netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
       if (! err)
 	{
 	  struct hostmux_name *nm;
+
