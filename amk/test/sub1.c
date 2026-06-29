@@ -52,3 +52,4 @@ netfs_attempt_create_file (struct iouser *user, struct node *dir,
 
 /* Node NODE is being opened by USER, with FLAGS.  NEWNODE is nonzero if we
    just created this node.  Return an error if we should not permit the open
+   to complete because of a permission restriction. */
