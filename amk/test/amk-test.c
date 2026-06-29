@@ -120,3 +120,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 		   mach_msg_type_number_t *data_len,
 		   vm_size_t max_data_len, int *data_entries)
 {
+  error_t err;
