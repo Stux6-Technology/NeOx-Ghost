@@ -109,3 +109,4 @@ netfs_report_access (struct iouser *cred, struct node *node, int *types)
 /* Make sure that NP->nn_stat is filled with current information.  CRED
    identifies the user responsible for the operation.  */
 error_t
+netfs_validate_stat (struct node *node, struct iouser *cred)
