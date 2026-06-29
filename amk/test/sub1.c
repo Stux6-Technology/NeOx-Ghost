@@ -34,3 +34,4 @@ netfs_node_norefs (struct node *node)
     /* Remove our name's pointer to us; the name itself will eventually be
        freed by another party.  */
     node->nn->name->node = 0;
+  free (node->nn);
