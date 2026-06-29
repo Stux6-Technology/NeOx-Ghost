@@ -121,3 +121,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 		   vm_size_t max_data_len, int *data_entries)
 {
   error_t err;
+  int count;
