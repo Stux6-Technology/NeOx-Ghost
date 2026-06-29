@@ -418,3 +418,4 @@ netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gi
 
 	  fshelp_touch (&node->nn_stat, TOUCH_CTIME, hostmux_maptime);
 	}
+
