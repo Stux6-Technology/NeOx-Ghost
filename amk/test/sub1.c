@@ -44,3 +44,4 @@ netfs_node_norefs (struct node *node)
 error_t
 netfs_attempt_create_file (struct iouser *user, struct node *dir,
 			   const char *name, mode_t mode, struct node **node)
+{
