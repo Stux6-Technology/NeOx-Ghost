@@ -294,3 +294,4 @@ lookup_cached (struct hostmux *mux, const char *host, int purge,
    if HOST refers to the official name of the host, or a symlink node to the
    official name, if it doesn't.  */
 static error_t
+lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
