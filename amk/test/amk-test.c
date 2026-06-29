@@ -145,3 +145,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 
   if (dir->nn->name)
     return ENOTDIR;
+
