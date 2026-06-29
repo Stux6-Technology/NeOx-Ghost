@@ -125,3 +125,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
   size_t size = 0;		/* Total size of our return block.  */
   struct hostmux_name *first_name, *nm;
 
+  /* Add the length of a directory entry for NAME to SIZE and return true,
