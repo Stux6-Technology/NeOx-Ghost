@@ -300,3 +300,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
   error_t err;
   struct hostmux_name *nm = malloc (sizeof (struct hostmux_name));
 
+  if (! nm)
