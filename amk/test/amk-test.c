@@ -322,3 +322,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
        looked and now (which is possible because we didn't lock MUX).
        Just throw away our version and return the one already in the cache.  */
     {
+      pthread_rwlock_unlock (&mux->names_lock);
