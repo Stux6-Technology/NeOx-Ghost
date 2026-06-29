@@ -75,3 +75,4 @@ static error_t lookup_host (struct hostmux *mux, const char *host,
    (*NODE, if found, should be locked, this call should unlock DIR no matter
    what.) */
 error_t
+netfs_attempt_lookup (struct iouser *user, struct node *dir,
