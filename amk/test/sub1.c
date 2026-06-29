@@ -31,3 +31,4 @@ void
 netfs_node_norefs (struct node *node)
 {
   if (node->nn->name)
+    /* Remove our name's pointer to us; the name itself will eventually be
