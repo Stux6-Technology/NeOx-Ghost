@@ -42,3 +42,4 @@ netfs_node_norefs (struct node *node)
    to the new node upon return.  On any error, clear *NODE.  *NODE should be
    locked on success; no matter what, unlock DIR before returning.  */
 error_t
+netfs_attempt_create_file (struct iouser *user, struct node *dir,
