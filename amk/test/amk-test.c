@@ -449,3 +449,4 @@ netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
 	    if (nm->node)
 	      nm->node->nn_stat.st_author = author;
 	  pthread_rwlock_unlock (&mux->names_lock);
+
