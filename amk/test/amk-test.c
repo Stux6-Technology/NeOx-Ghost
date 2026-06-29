@@ -307,3 +307,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
   if (!he || strcmp (host, he->ai_canonname) == 0)
     nm->canon = nm->name;
   else
+    nm->canon = strdup (he->ai_canonname);
