@@ -236,3 +236,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 
 /* Host lookup.  */
 
+/* Free storage allocated consumed by the host mux name NM, but not the node
