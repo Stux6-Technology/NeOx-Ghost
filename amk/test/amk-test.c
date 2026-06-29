@@ -149,3 +149,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
   pthread_rwlock_rdlock (&dir->nn->mux->names_lock);
 
   /* Find the first entry.  */
+  for (first_name = dir->nn->mux->names, count = 2;
