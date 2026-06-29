@@ -208,3 +208,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 	}
 
       *data_len = size;
+      *data_entries = count;
