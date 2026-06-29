@@ -88,3 +88,4 @@ netfs_attempt_lookup (struct iouser *user, struct node *dir,
   if (! err)
     {
       if (strcmp (name, ".") == 0)
+	/* Current directory -- just add an additional reference to DIR and
