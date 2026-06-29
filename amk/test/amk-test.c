@@ -195,3 +195,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 	      hdr.d_type = type;
 	      hdr.d_namlen = name_len;
 
+	      memcpy (p, &hdr, DIRENT_NAME_OFFS);
