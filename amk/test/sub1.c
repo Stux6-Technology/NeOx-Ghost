@@ -30,3 +30,4 @@
 void
 netfs_node_norefs (struct node *node)
 {
+  if (node->nn->name)
