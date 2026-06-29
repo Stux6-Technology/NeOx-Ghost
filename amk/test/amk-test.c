@@ -260,3 +260,4 @@ lookup_cached (struct hostmux *mux, const char *host, int purge,
   while (nm)
     {
       struct hostmux_name *next = nm->next;
+
