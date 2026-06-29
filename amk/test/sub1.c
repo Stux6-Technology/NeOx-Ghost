@@ -28,3 +28,4 @@
 
 /* Node NP is all done; free all its associated storage. */
 void
+netfs_node_norefs (struct node *node)
