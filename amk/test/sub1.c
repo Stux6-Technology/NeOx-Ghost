@@ -68,3 +68,4 @@ netfs_check_open_permissions (struct iouser *user, struct node *node,
 }
 
 /* This should attempt a utimes call for the user specified by CRED on node
+   NODE, to change the atime to ATIME and the mtime to MTIME. */
