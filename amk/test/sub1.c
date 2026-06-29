@@ -76,3 +76,4 @@ netfs_attempt_utimes (struct iouser *cred, struct node *node,
   error_t err = fshelp_isowner (&node->nn_stat, cred);
   int flags = TOUCH_CTIME;
   
+  if (! err)
