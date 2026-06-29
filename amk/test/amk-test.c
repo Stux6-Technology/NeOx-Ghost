@@ -250,3 +250,4 @@ free_name (struct hostmux_name *nm)
 /* See if there's an existing entry for the name HOST, and if so, return its
    node in NODE with an additional references.  True is returned iff the
    lookup succeeds.  If PURGE is true, then any nodes with a null node are
+   removed.  */
