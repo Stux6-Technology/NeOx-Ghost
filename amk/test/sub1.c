@@ -27,3 +27,4 @@
 /* Node maintenance.  */
 
 /* Node NP is all done; free all its associated storage. */
+void
