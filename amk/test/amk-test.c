@@ -242,3 +242,4 @@ static void
 free_name (struct hostmux_name *nm)
 {
   if (nm->name != nm->canon)
+    free ((char *)nm->canon);
