@@ -190,3 +190,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 	      else
 		size -= sz;
 
+	      hdr.d_fileno = fileno;
