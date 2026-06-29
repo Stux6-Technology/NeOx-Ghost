@@ -49,3 +49,4 @@ netfs_attempt_create_file (struct iouser *user, struct node *dir,
   pthread_mutex_unlock (&dir->lock);
   return EOPNOTSUPP;
 }
+
