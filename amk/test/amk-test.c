@@ -389,3 +389,4 @@ netfs_attempt_syncfs (struct iouser *cred, int wait)
 error_t
 netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gid)
 {
+  if (node->nn->name)
