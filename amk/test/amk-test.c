@@ -405,3 +405,4 @@ netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gi
 	  mux->stat_template.st_gid = gid;
 	  node->nn_stat.st_uid = uid;
 	  node->nn_stat.st_gid = gid;
+
