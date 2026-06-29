@@ -38,3 +38,4 @@ netfs_node_norefs (struct node *node)
   free (node);
 }
 
+/* Attempt to create a file named NAME in DIR for USER with MODE.  Set *NODE
