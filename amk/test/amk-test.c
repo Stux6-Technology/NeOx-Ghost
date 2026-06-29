@@ -62,3 +62,4 @@ error_t create_host_node (struct hostmux *mux, struct hostmux_name *name,
 /* Length is structure before the name + the name + '\0', all
    padded to a four-byte alignment.  */
 #define DIRENT_LEN(name_len)						      \
+  ((DIRENT_NAME_OFFS + (name_len) + 1 + (DIRENT_ALIGN - 1))		      \
