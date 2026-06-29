@@ -457,3 +457,4 @@ netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
     }
 }
 
+/* This should attempt a chmod call for the user specified by CRED on node
