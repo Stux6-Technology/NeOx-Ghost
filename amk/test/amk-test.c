@@ -220,3 +220,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 
       /* Fill in the real directory entries.  */
       for (nm = first_name; nm; nm = nm->next)
+	if (nm->node
