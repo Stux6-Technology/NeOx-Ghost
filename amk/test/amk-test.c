@@ -49,3 +49,4 @@
 #include <arpa/inet.h>
 #include <sys/mman.h>
 
+#include "hostmux.h"
