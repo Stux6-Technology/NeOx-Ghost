@@ -324,3 +324,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
     {
       pthread_rwlock_unlock (&mux->names_lock);
       nm->node->nn->name = 0;	/* Avoid touching the mux name list.  */
+      netfs_nrele (nm->node);	/* Free the tentative new node.  */
