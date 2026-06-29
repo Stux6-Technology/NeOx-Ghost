@@ -240,3 +240,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
    it points to.  */
 static void
 free_name (struct hostmux_name *nm)
+{
