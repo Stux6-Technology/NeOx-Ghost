@@ -86,3 +86,4 @@ netfs_attempt_utimes (struct iouser *cred, struct node *node,
 
       fshelp_touch (&node->nn_stat, flags, hostmux_maptime);
     }
+  return err;
