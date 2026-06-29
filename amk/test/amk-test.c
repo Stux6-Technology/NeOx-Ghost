@@ -297,3 +297,4 @@ static error_t
 lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
 		 struct node **node)
 {
+  error_t err;
