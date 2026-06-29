@@ -67,3 +67,4 @@ netfs_check_open_permissions (struct iouser *user, struct node *node,
   return err;
 }
 
+/* This should attempt a utimes call for the user specified by CRED on node
