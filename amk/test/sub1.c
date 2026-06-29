@@ -55,3 +55,4 @@ netfs_attempt_create_file (struct iouser *user, struct node *dir,
    to complete because of a permission restriction. */
 error_t
 netfs_check_open_permissions (struct iouser *user, struct node *node,
+			      int flags, int newnode)
