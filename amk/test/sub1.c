@@ -36,3 +36,4 @@ netfs_node_norefs (struct node *node)
     node->nn->name->node = 0;
   free (node->nn);
   free (node);
+}
