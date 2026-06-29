@@ -479,3 +479,4 @@ netfs_attempt_chmod (struct iouser *cred, struct node *node, mode_t mode)
 	  fshelp_touch (&node->nn_stat, TOUCH_CTIME, hostmux_maptime);
 	}
       return err;
+    }
