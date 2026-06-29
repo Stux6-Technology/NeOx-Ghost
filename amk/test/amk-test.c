@@ -444,3 +444,4 @@ netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
 	  node->nn_stat.st_author = author;
 
 	  /* Change the owner of each leaf node.  */
+	  pthread_rwlock_rdlock (&mux->names_lock);
