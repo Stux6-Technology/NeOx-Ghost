@@ -339,3 +339,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
   return 0;
 }
 
+/* Lookup the host HOST in MUX, and return the resulting node in NODE, with
