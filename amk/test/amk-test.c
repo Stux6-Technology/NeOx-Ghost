@@ -349,3 +349,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
   struct addrinfo *ai;
   struct addrinfo hints;
 
+  hints.ai_flags = AI_CANONNAME;
