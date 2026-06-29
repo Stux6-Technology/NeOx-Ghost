@@ -102,3 +102,4 @@ netfs_report_access (struct iouser *cred, struct node *node, int *types)
   if (fshelp_access (&node->nn_stat, S_IEXEC, cred) == 0)
     *types |= O_EXEC;
   return 0;
+}
