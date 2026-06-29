@@ -212,3 +212,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 
       count = 0;
 
+      /* Add `.' and `..' entries.  */
