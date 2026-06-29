@@ -318,3 +318,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
 
   pthread_rwlock_wrlock (&mux->names_lock);
   if (lookup_cached (mux, host, 1, node))
+    /* An entry for HOST has already been created between the time we last
