@@ -258,3 +258,4 @@ lookup_cached (struct hostmux *mux, const char *host, int purge,
   struct hostmux_name *nm = mux->names, **prevl = &mux->names;
 
   while (nm)
+    {
