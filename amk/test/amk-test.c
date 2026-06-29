@@ -131,3 +131,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
   int bump_size (const char *name)
     {
       if (num_entries == -1 || count < num_entries)
+	{
