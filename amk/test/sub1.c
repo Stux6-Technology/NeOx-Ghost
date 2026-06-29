@@ -57,3 +57,4 @@ error_t
 netfs_check_open_permissions (struct iouser *user, struct node *node,
 			      int flags, int newnode)
 {
+  error_t err = 0;
