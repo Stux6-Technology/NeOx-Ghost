@@ -308,3 +308,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
     nm->canon = nm->name;
   else
     nm->canon = strdup (he->ai_canonname);
+
