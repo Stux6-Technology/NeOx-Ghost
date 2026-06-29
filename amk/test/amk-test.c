@@ -412,3 +412,4 @@ netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gi
 	    if (nm->node)
 	      {
 		nm->node->nn_stat.st_uid = uid;
+		nm->node->nn_stat.st_gid = gid;
