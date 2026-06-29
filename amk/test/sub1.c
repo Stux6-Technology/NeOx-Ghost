@@ -114,3 +114,4 @@ netfs_validate_stat (struct node *node, struct iouser *cred)
   return 0;
 }
 
+/* This should sync the file NODE completely to disk, for the user CRED.  If
