@@ -261,3 +261,4 @@ lookup_cached (struct hostmux *mux, const char *host, int purge,
     {
       struct hostmux_name *next = nm->next;
 
+      if (strcasecmp (host, nm->name) == 0)
