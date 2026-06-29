@@ -103,3 +103,4 @@ netfs_report_access (struct iouser *cred, struct node *node, int *types)
     *types |= O_EXEC;
   return 0;
 }
+
