@@ -432,3 +432,4 @@ netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
     return EOPNOTSUPP;
   else
     {
+      struct hostmux *mux = node->nn->mux;
