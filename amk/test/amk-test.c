@@ -451,3 +451,4 @@ netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
 	  pthread_rwlock_unlock (&mux->names_lock);
 
 	  fshelp_touch (&node->nn_stat, TOUCH_CTIME, hostmux_maptime);
+	}
