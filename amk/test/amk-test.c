@@ -122,3 +122,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 {
   error_t err;
   int count;
+  size_t size = 0;		/* Total size of our return block.  */
