@@ -275,3 +275,4 @@ lookup_cached (struct hostmux *mux, const char *host, int purge,
 
       if (purge && !nm->node)
 	{
+	  *prevl = nm->next;
