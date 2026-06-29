@@ -353,3 +353,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
   hints.ai_family = PF_INET;
   hints.ai_socktype = SOCK_DGRAM;
   hints.ai_protocol  = IPPROTO_IP;
+
