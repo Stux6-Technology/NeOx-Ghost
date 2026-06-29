@@ -354,3 +354,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
   hints.ai_socktype = SOCK_DGRAM;
   hints.ai_protocol  = IPPROTO_IP;
 
+  pthread_rwlock_rdlock (&mux->names_lock);
