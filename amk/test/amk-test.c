@@ -304,3 +304,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
     return ENOMEM;
 
   nm->name = strdup (host);
+  if (!he || strcmp (host, he->ai_canonname) == 0)
