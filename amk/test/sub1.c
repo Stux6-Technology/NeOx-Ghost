@@ -95,3 +95,4 @@ error_t
 netfs_report_access (struct iouser *cred, struct node *node, int *types)
 {
   *types = 0;
+  if (fshelp_access (&node->nn_stat, S_IREAD, cred) == 0)
