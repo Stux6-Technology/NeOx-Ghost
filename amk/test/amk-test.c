@@ -229,3 +229,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 
   pthread_rwlock_unlock (&dir->nn->mux->names_lock);
 
+  fshelp_touch (&dir->nn_stat, TOUCH_ATIME, hostmux_maptime);
