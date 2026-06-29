@@ -287,3 +287,4 @@ lookup_cached (struct hostmux *mux, const char *host, int purge,
   return 0;
 }
 
+/* See if there's an existing entry for the name HOST, and if so, return its
