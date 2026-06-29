@@ -328,3 +328,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
       free_name (nm);		/* And the name it was under.  */
     }
   else
+    /* Enter NM into MUX's list of names, and return the new node.  */
