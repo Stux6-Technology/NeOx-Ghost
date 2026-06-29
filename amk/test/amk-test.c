@@ -428,3 +428,4 @@ netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gi
 error_t
 netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
 {
+  if (node->nn->name)
