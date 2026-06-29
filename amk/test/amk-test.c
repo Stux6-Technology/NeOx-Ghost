@@ -459,3 +459,4 @@ netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
 
 /* This should attempt a chmod call for the user specified by CRED on node
    NODE, to change the mode to MODE.  Unlike the normal Unix and Hurd meaning
+   of chmod, this function is also used to attempt to change files into other
