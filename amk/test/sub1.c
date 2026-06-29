@@ -116,3 +116,4 @@ netfs_validate_stat (struct node *node, struct iouser *cred)
 
 /* This should sync the file NODE completely to disk, for the user CRED.  If
    WAIT is set, return only after sync is completely finished.  */
+error_t
