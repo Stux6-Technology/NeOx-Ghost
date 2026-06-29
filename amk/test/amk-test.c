@@ -184,3 +184,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 	      struct dirent hdr;
 	      size_t name_len = strlen (name);
 	      size_t sz = DIRENT_LEN (name_len);
+
