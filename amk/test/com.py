@@ -46,3 +46,4 @@ if __name__ == "__main__":
         print(f"Hata: {source} bulunamadı!")
     else:
         automate_commits(source, target)
+        
