@@ -401,3 +401,4 @@ netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gi
 	  struct hostmux_name *nm;
 
 	  /* Change NODE's owner.  */
+	  mux->stat_template.st_uid = uid;
