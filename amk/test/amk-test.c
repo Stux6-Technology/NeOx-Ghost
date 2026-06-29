@@ -146,3 +146,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
   if (dir->nn->name)
     return ENOTDIR;
 
+  pthread_rwlock_rdlock (&dir->nn->mux->names_lock);
