@@ -45,3 +45,4 @@
 #include <string.h>
 #include <dirent.h>
 #include <netdb.h>
+#include <sys/socket.h>
