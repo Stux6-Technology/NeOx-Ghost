@@ -439,3 +439,4 @@ netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
 	{
 	  struct hostmux_name *nm;
 
+	  /* Change NODE's owner.  */
