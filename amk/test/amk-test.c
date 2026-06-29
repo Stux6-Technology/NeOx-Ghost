@@ -98,3 +98,4 @@ netfs_attempt_lookup (struct iouser *user, struct node *dir,
       else if (strcmp (name, "..") == 0)
 	err = EAGAIN;
       else
+	err = lookup_host (dir->nn->mux, name, node);
