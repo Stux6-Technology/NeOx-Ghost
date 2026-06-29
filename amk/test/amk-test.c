@@ -373,3 +373,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
   else
     h_err = lookup_addrinfo (mux, host, NULL, node);
 
+  return h_err;
