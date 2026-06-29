@@ -327,3 +327,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
       netfs_nrele (nm->node);	/* Free the tentative new node.  */
       free_name (nm);		/* And the name it was under.  */
     }
+  else
