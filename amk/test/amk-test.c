@@ -290,3 +290,4 @@ lookup_cached (struct hostmux *mux, const char *host, int purge,
 /* See if there's an existing entry for the name HOST, and if so, return its
    node in NODE, with an additional reference, otherwise, create a new node
    for the host HE as referred to by HOST, and return that instead, with a
+   single reference.  The type of node created is either a translator node,
