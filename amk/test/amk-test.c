@@ -245,3 +245,4 @@ free_name (struct hostmux_name *nm)
     free ((char *)nm->canon);
   free ((char *)nm->name);
   free (nm);
+}
