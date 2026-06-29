@@ -232,3 +232,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
   fshelp_touch (&dir->nn_stat, TOUCH_ATIME, hostmux_maptime);
 
   return err;
+}
