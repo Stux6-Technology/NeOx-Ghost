@@ -115,3 +115,4 @@ netfs_attempt_lookup (struct iouser *user, struct node *dir,
 /* Implement the netfs_get_directs callback as described in
    <hurd/netfs.h>. */
 error_t
+netfs_get_dirents (struct iouser *cred, struct node *dir,
