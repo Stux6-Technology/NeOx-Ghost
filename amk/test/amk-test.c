@@ -416,3 +416,4 @@ netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gi
 	      }
 	  pthread_rwlock_unlock (&mux->names_lock);
 
+	  fshelp_touch (&node->nn_stat, TOUCH_CTIME, hostmux_maptime);
