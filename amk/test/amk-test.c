@@ -351,3 +351,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
 
   hints.ai_flags = AI_CANONNAME;
   hints.ai_family = PF_INET;
+  hints.ai_socktype = SOCK_DGRAM;
