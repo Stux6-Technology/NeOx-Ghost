@@ -124,3 +124,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
   int count;
   size_t size = 0;		/* Total size of our return block.  */
   struct hostmux_name *first_name, *nm;
+
