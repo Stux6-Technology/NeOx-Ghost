@@ -270,3 +270,4 @@ lookup_cached (struct hostmux *mux, const char *host, int purge,
 	    {
 	      *node = nm->node;
 	      return 1;
+	    }
