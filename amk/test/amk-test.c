@@ -168,3 +168,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
     if (nm->node && !bump_size (nm->name))
       break;
 
+  /* Allocate it.  */
