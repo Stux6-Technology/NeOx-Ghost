@@ -105,3 +105,4 @@ netfs_report_access (struct iouser *cred, struct node *node, int *types)
 }
 
 /* Trivial definitions.  */
+
