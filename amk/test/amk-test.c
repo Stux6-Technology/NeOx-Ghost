@@ -277,3 +277,4 @@ lookup_cached (struct hostmux *mux, const char *host, int purge,
 	{
 	  *prevl = nm->next;
 	  free_name (nm);
+	}
