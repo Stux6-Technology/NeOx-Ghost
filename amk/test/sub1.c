@@ -94,3 +94,4 @@ netfs_attempt_utimes (struct iouser *cred, struct node *node,
 error_t
 netfs_report_access (struct iouser *cred, struct node *node, int *types)
 {
+  *types = 0;
