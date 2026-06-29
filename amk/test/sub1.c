@@ -79,3 +79,4 @@ netfs_attempt_utimes (struct iouser *cred, struct node *node,
   if (! err)
     {
       if (atime)
+	      node->nn_stat.st_atim = *atime;
