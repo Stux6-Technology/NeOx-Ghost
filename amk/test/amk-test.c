@@ -424,3 +424,4 @@ netfs_attempt_chown (struct iouser *cred, struct node *node, uid_t uid, uid_t gi
 }
 
 /* This should attempt a chauthor call for the user specified by CRED on node
+   NODE, to change the author to AUTHOR. */
