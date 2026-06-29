@@ -466,3 +466,4 @@ error_t
 netfs_attempt_chmod (struct iouser *cred, struct node *node, mode_t mode)
 {
   mode &= ~S_ITRANS;
+  if ((mode & S_IFMT) == 0)
