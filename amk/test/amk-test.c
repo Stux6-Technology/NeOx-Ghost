@@ -118,3 +118,4 @@ error_t
 netfs_get_dirents (struct iouser *cred, struct node *dir,
 		   int first_entry, int num_entries, char **data,
 		   mach_msg_type_number_t *data_len,
+		   vm_size_t max_data_len, int *data_entries)
