@@ -441,3 +441,4 @@ netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
 
 	  /* Change NODE's owner.  */
 	  mux->stat_template.st_author = author;
+	  node->nn_stat.st_author = author;
