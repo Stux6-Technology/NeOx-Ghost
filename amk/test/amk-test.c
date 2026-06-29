@@ -255,3 +255,4 @@ static int
 lookup_cached (struct hostmux *mux, const char *host, int purge,
 	       struct node **node)
 {
+  struct hostmux_name *nm = mux->names, **prevl = &mux->names;
