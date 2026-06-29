@@ -107,3 +107,4 @@ netfs_report_access (struct iouser *cred, struct node *node, int *types)
 /* Trivial definitions.  */
 
 /* Make sure that NP->nn_stat is filled with current information.  CRED
+   identifies the user responsible for the operation.  */
