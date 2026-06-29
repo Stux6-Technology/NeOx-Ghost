@@ -283,3 +283,4 @@ lookup_cached (struct hostmux *mux, const char *host, int purge,
 
       nm = next;
     }
+
