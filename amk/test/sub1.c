@@ -39,3 +39,4 @@ netfs_node_norefs (struct node *node)
 }
 
 /* Attempt to create a file named NAME in DIR for USER with MODE.  Set *NODE
+   to the new node upon return.  On any error, clear *NODE.  *NODE should be
