@@ -50,3 +50,4 @@ netfs_attempt_create_file (struct iouser *user, struct node *dir,
   return EOPNOTSUPP;
 }
 
+/* Node NODE is being opened by USER, with FLAGS.  NEWNODE is nonzero if we
