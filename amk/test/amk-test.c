@@ -383,3 +383,4 @@ netfs_attempt_syncfs (struct iouser *cred, int wait)
 {
   return 0;
 }
+
