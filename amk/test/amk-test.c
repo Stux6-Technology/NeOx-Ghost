@@ -292,3 +292,4 @@ lookup_cached (struct hostmux *mux, const char *host, int purge,
    for the host HE as referred to by HOST, and return that instead, with a
    single reference.  The type of node created is either a translator node,
    if HOST refers to the official name of the host, or a symlink node to the
+   official name, if it doesn't.  */
