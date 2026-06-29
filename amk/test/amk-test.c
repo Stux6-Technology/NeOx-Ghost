@@ -343,3 +343,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
    an additional reference, or an error.  */
 static error_t
 lookup_host (struct hostmux *mux, const char *host, struct node **node)
+{
