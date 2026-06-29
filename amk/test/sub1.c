@@ -110,3 +110,4 @@ netfs_report_access (struct iouser *cred, struct node *node, int *types)
    identifies the user responsible for the operation.  */
 error_t
 netfs_validate_stat (struct node *node, struct iouser *cred)
+{
