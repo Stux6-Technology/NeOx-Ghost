@@ -253,3 +253,4 @@ free_name (struct hostmux_name *nm)
    removed.  */
 static int
 lookup_cached (struct hostmux *mux, const char *host, int purge,
+	       struct node **node)
