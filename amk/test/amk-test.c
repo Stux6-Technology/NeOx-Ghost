@@ -348,3 +348,4 @@ lookup_host (struct hostmux *mux, const char *host, struct node **node)
   int h_err;
   struct addrinfo *ai;
   struct addrinfo hints;
+
