@@ -179,3 +179,4 @@ netfs_get_dirents (struct iouser *cred, struct node *dir,
 
       int add_dir_entry (const char *name, ino_t fileno, int type)
 	{
+	  if (num_entries == -1 || count < num_entries)
