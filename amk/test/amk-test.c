@@ -312,3 +312,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
   err = create_host_node (mux, nm, node);
   if (err)
     {
+      free_name (nm);
