@@ -113,3 +113,4 @@ netfs_validate_stat (struct node *node, struct iouser *cred)
 {
   return 0;
 }
+
