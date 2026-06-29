@@ -301,3 +301,4 @@ lookup_addrinfo (struct hostmux *mux, const char *host, struct addrinfo *he,
   struct hostmux_name *nm = malloc (sizeof (struct hostmux_name));
 
   if (! nm)
+    return ENOMEM;
