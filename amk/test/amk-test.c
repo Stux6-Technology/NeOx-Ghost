@@ -463,3 +463,4 @@ netfs_attempt_chauthor (struct iouser *cred, struct node *node, uid_t author)
    types.  If such a transition is attempted which is impossible, then return
    EOPNOTSUPP.  */
 error_t
+netfs_attempt_chmod (struct iouser *cred, struct node *node, mode_t mode)
