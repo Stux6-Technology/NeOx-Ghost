@@ -267,3 +267,4 @@ lookup_cached (struct hostmux *mux, const char *host, int purge,
             netfs_nref (nm->node);
 
 	  if (nm->node)
+	    {
