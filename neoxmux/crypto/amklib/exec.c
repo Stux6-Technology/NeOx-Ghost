@@ -1242,3 +1242,4 @@ do_exec (file_t file,
     e.error = vm_map (newtask,
 		      &addr, vm_page_size, 0, 0, MACH_PORT_NULL, 0, 1,
 		      VM_PROT_NONE, VM_PROT_NONE, VM_INHERIT_COPY);
+    if (e.error)
