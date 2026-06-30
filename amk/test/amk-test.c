@@ -68,3 +68,4 @@ error_t create_host_node (struct hostmux *mux, struct hostmux_name *name,
 static error_t lookup_host (struct hostmux *mux, const char *host,
 			    struct node **node); /* fwd decl */
 
+/* [root] Directory operations.  */
