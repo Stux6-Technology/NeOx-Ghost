@@ -686,3 +686,4 @@ set_name (task_t task, const char *exec_name, pid_t pid)
       abbr[0] = abbr[1] = abbr[2] = '.';
       task_set_name (task, abbr);
     }
+#undef TASK_NAME_SIZE
