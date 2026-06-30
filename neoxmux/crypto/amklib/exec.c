@@ -1292,3 +1292,4 @@ do_exec (file_t file,
 			       newtask, &pid);
       if (e.error)
 	goto out;
+
