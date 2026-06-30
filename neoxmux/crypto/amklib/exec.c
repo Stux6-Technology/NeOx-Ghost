@@ -248,3 +248,4 @@ load_section (void *section, struct execdata *u)
 
       /* Tell the code below to zero-fill the remaining area.  */
       addr += filesz;
+      memsz -= filesz;
