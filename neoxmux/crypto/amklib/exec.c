@@ -1482,3 +1482,4 @@ do_exec (file_t file,
       /* Deallocate the right to the new task we created.  */
       mach_port_deallocate (mach_task_self (), newtask);
 
+      for (i = 0; i < nports; ++i)
