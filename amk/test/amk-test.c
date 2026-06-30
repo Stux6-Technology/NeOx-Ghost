@@ -79,3 +79,4 @@ netfs_attempt_lookup (struct iouser *user, struct node *dir,
 		      const char *name, struct node **node)
 {
   error_t err;
+
