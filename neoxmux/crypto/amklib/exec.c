@@ -1521,3 +1521,4 @@ S_exec_exec (struct trivfs_protid *protid,
 {
   return S_exec_exec_paths (protid,
 				file,
+				oldtask,
