@@ -960,3 +960,4 @@ do_exec (file_t file,
 	  end--;
 
 	if (end == abspath)
+	  /* Root, keep explicit heading/trailing slash.   */
