@@ -859,3 +859,4 @@ do_exec (file_t file,
     flags |= EXEC_NEWTASK;
 
   if (flags & (EXEC_NEWTASK|EXEC_SECURE))
+    {
