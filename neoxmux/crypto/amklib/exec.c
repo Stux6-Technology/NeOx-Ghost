@@ -1013,3 +1013,4 @@ do_exec (file_t file,
 	  munmap (envp, envplen);
 
 	envp = new_envp;
+	envplen = new_envplen;
