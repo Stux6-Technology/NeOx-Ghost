@@ -389,3 +389,4 @@ static void
 prepare (file_t file, struct execdata *e)
 {
   memory_object_t rd, wr;
+
