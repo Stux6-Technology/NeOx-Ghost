@@ -974,3 +974,4 @@ do_exec (file_t file,
 
 	if (existing)
 	  {
+	    /* Definition already exists, just replace the content.  */
