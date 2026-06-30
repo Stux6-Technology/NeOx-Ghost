@@ -1319,3 +1319,4 @@ do_exec (file_t file,
 			       &boot->stack_base, &boot->stack_size);
   if (e.error)
     goto out;
+
