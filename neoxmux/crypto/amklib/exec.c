@@ -452,3 +452,4 @@ prepare (file_t file, struct execdata *e)
 	    /* Get here if we are now IT.  */
 	    e->file_size = 0;
 	    if (e->cntl->use_file_size)
+	      e->file_size = e->cntl->file_size;
