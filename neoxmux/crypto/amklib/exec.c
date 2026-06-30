@@ -863,3 +863,4 @@ do_exec (file_t file,
       /* Create the new task.  If we are not being secure, then use OLDTASK
 	 for the task_create RPC, in case it is something magical.  */
       e.error = task_create (((flags & EXEC_SECURE) ||
+			      oldtask == MACH_PORT_NULL) ?
