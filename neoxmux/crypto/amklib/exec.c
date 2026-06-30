@@ -690,3 +690,4 @@ set_name (task_t task, const char *exec_name, pid_t pid)
 
   free (name);
 }
+
