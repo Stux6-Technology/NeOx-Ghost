@@ -67,3 +67,4 @@ load_section (void *section, struct execdata *u)
   filepos = ph->p_offset & ~(ph->p_align - 1);
   filesz = ph->p_offset + ph->p_filesz - filepos;
   if ((ph->p_flags & PF_R) == 0)
+    vm_prot &= ~VM_PROT_READ;
