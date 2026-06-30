@@ -447,3 +447,4 @@ prepare (file_t file, struct execdata *e)
 		  return;
 		/* Continue the loop.  */
 		continue;
+	      }
