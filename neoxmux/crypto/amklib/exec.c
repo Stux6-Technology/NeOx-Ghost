@@ -131,3 +131,4 @@ load_section (void *section, struct execdata *u)
 
 #define SECTION_IN_MEMORY_P	(u->file_data != NULL)
 #define SECTION_CONTENTS	(u->file_data + filepos)
+	  if (SECTION_IN_MEMORY_P)
