@@ -474,3 +474,4 @@ prepare (file_t file, struct execdata *e)
 #include <endian.h>
 #if BYTE_ORDER == BIG_ENDIAN
 #define host_ELFDATA ELFDATA2MSB
+#endif
