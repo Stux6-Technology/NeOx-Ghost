@@ -368,3 +368,4 @@ map (struct execdata *e, off_t posn, size_t len)
       if (e->cntl)
 	e->cntl->accessed = 1;
 
+      map_set_fsize (e, MIN (map_vsize (e), size - map_filepos (e)));
