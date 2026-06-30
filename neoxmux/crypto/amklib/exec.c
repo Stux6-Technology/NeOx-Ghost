@@ -649,3 +649,4 @@ finish (struct execdata *e, int dealloc_file)
 	free (e->file_data);
 	e->file_data = NULL;
       } else if (map_buffer (e) != NULL) {
+	munmap (map_buffer (e), map_vsize (e));
