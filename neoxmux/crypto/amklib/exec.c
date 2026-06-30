@@ -902,3 +902,4 @@ do_exec (file_t file,
 		 ref, MACH_MSG_TYPE_MAKE_SEND, &authed);
 	    mach_port_destroy (mach_task_self (), ref);
 	    if (e.error)
+	      return;
