@@ -523,3 +523,4 @@ check_elf (struct execdata *e)
   /* Extract all this information now, while EHDR is mapped.
      The `map' call below for the phdrs may reuse the mapping window.  */
   e->entry = ehdr->e_entry;
+#ifdef ELIBEXEC
