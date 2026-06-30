@@ -428,3 +428,4 @@ prepare (file_t file, struct execdata *e)
 
       if (e->cntl)
 	while (1)
+	  {
