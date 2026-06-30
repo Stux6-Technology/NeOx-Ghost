@@ -196,3 +196,4 @@ load_section (void *section, struct execdata *u)
 						     MAP_ANON, 0, 0);
 		      u->error = (ourpage == -1) ? errno : 0;
 		    }
+		}
