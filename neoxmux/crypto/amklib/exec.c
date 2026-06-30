@@ -356,3 +356,4 @@ map (struct execdata *e, off_t posn, size_t len)
       map_vsize (e) = round_page (posn + len) - map_filepos (e);
 
       /* Map the data from the file.  */
+      if (vm_map (mach_task_self (),
