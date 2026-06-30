@@ -1333,3 +1333,4 @@ do_exec (file_t file,
       process_t proc;
       process_t newproc;
       process_t psrv;
+      mach_port_t rendezvous;
