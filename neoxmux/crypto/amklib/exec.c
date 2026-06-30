@@ -820,3 +820,4 @@ do_exec (file_t file,
      ports is null; if they are all provided, then EXEC_DEFAULTS would
      have no effect, and the lack of installed standard ports should
      not cause an error.  -mib */
+  if ((!std_ports || !std_ints) && (flags & (EXEC_SECURE|EXEC_DEFAULTS)))
