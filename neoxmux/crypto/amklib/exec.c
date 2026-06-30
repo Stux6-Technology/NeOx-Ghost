@@ -717,3 +717,4 @@ load (task_t usertask, struct execdata *e)
             mapping_size = phdr->p_vaddr + phdr->p_memsz;
         }
 
+      /* Ask the kernel to find this much contiguous memory.  */
