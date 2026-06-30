@@ -971,3 +971,4 @@ do_exec (file_t file,
 	else
 	  /* Look for the definition.  */
 	  existing = memmem (envp, envplen, ld_origin_s, sizeof (ld_origin_s) - 1);
+
