@@ -90,3 +90,4 @@ load_section (void *section, struct execdata *u)
       void write_to_task (vm_address_t * mapstart, vm_size_t size,
 			  vm_prot_t vm_prot, vm_address_t contents)
 	{
+	  vm_size_t off = size % vm_page_size;
