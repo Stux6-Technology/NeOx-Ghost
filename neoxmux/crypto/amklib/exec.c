@@ -464,3 +464,4 @@ prepare (file_t file, struct execdata *e)
       /* No shared page.  Do a stat to find the file size.  */
       struct stat st;
       e->error = io_stat (file, &st);
+      if (e->error)
