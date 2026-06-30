@@ -997,3 +997,4 @@ do_exec (file_t file,
 	  }
 	else
 	  {
+	    /* No existing definition, prepend one.  */
