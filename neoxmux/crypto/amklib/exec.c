@@ -277,3 +277,4 @@ load_section (void *section, struct execdata *u)
 	  u->error = vm_read (u->task, overlap_page, vm_page_size,
 			      &ourpage, &size);
 	  if (u->error)
+	    {
