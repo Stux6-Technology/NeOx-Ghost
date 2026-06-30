@@ -1068,3 +1068,4 @@ do_exec (file_t file,
     boot->portarray = mmap (0, boot->nports * sizeof (mach_port_t),
 			    PROT_READ|PROT_WRITE, MAP_ANON, 0, 0);
     /* Start by copying the array as passed.  */
+    for (i = 0; i < nports; ++i)
