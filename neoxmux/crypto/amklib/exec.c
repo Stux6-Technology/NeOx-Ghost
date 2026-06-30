@@ -1490,3 +1490,4 @@ do_exec (file_t file,
 	     leave it for us on successful return.  */
 	  mach_port_deallocate (mach_task_self (), portarray[i]);
 
+      /* If there is vm_allocate'd space for the original intarray and/or
