@@ -1212,3 +1212,4 @@ do_exec (file_t file,
       for (i = 0; i < nthreads; ++i)
 	{
 	  thread_terminate (threads[i]);
+	  mach_port_deallocate (mach_task_self (), threads[i]);
