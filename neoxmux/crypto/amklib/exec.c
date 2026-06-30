@@ -1651,3 +1651,4 @@ S_exec_startup_get_info (struct bootinfo *boot,
 
   /* Pass back all the information we are storing.  */
 
+  *user_entry = boot->user_entry;
