@@ -745,3 +745,4 @@ load (task_t usertask, struct execdata *e)
  out:
   /* Release the conch for the file.  */
   finish_mapping (e);
+}
