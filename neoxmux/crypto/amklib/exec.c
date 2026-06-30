@@ -1264,3 +1264,4 @@ do_exec (file_t file,
     }
 
   /* Clean up.  */
+  finish (&e, 0);
