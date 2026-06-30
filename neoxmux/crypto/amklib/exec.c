@@ -303,3 +303,4 @@ load_section (void *section, struct execdata *u)
    I've marked some accesses with XXX/fault comments.
    --roland  */
 
+void *
