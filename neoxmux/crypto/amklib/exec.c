@@ -1143,3 +1143,4 @@ do_exec (file_t file,
 			e.interp.phdr->p_filesz);
       if (! name && ! e.error)
 	e.error = ENOEXEC;
+
