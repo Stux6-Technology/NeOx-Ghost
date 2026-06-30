@@ -1120,3 +1120,4 @@ do_exec (file_t file,
       }
     if (secure || (defaults
 		   && boot->portarray[INIT_PORT_CRDIR] == MACH_PORT_NULL))
+      use (INIT_PORT_CRDIR, std_ports[INIT_PORT_CRDIR], 1, 0);
