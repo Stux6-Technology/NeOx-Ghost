@@ -148,3 +148,4 @@ load_section (void *section, struct execdata *u)
 	  else
 	    {
 	      /* Cannot map the data.  Read it into a buffer and vm_write
+		 it into the task.  */
