@@ -479,3 +479,4 @@ prepare (file_t file, struct execdata *e)
 #define host_ELFDATA ELFDATA2LSB
 #endif
 
+#ifdef __LP64__
