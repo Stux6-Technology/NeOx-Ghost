@@ -638,3 +638,4 @@ finish_mapping (struct execdata *e)
 }
 
 /* Clean up after reading the file (need not be completed).
+   Note: this may be called several times for the E, so it must take care
