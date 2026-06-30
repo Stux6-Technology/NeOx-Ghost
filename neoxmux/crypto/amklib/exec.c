@@ -1599,3 +1599,4 @@ S_exec_setexecdata (struct trivfs_protid *protid,
     {
       munmap ((void*) ports, nports * sizeof (mach_port_t));
       return err;
+    }
