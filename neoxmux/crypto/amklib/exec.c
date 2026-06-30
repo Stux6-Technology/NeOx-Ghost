@@ -1095,3 +1095,4 @@ do_exec (file_t file,
 	 A: No; the standard port for INIT_PORT_AUTH has no UID's at all.
 	 See init.trim/init.c (init_stdarrays).  */
       use (INIT_PORT_AUTH, std_ports[INIT_PORT_AUTH], 0, 0);
+    if (secure || (defaults
