@@ -1155,3 +1155,4 @@ do_exec (file_t file,
 	      return (*operate) (boot->nports > which ?
 				 boot->portarray[which] :
 				 MACH_PORT_NULL);
+	    }
