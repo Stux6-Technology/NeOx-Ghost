@@ -367,3 +367,4 @@ map (struct execdata *e, off_t posn, size_t len)
 
       if (e->cntl)
 	e->cntl->accessed = 1;
+
