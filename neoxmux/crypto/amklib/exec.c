@@ -743,3 +743,4 @@ load (task_t usertask, struct execdata *e)
   e->entry += e->info.elf.loadbase;
 
  out:
+  /* Release the conch for the file.  */
