@@ -951,3 +951,4 @@ do_exec (file_t file,
 	size_t pathlen;
 	const char ld_origin_s[] = "\0LD_ORIGIN_PATH=";
 	const char *existing;
+	size_t existing_len = 0;
