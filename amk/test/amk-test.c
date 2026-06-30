@@ -24,3 +24,4 @@
 
    Copyright (C) 1997,99,2002 Free Software Foundation, Inc.
    Written by Miles Bader <miles@gnu.org>
+   This file is part of the GNU Hurd.
