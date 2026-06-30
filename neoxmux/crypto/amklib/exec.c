@@ -856,3 +856,4 @@ do_exec (file_t file,
   check_elf_phdr (&e, phdr);
 
   if (oldtask == MACH_PORT_NULL)
+    flags |= EXEC_NEWTASK;
