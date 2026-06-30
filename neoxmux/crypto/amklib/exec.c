@@ -774,3 +774,4 @@ static error_t
 do_exec (file_t file,
 	 task_t oldtask,
 	 int flags,
+	 const_string_t path,
