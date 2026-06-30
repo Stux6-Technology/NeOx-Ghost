@@ -344,3 +344,4 @@ map (struct execdata *e, off_t posn, size_t len)
       offset = 0;
     }
   else
+    {
