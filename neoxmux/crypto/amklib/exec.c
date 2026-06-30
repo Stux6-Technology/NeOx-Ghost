@@ -1026,3 +1026,4 @@ do_exec (file_t file,
     boot->envp = envp;
     boot->envplen = envplen;
 
+    dtable = servercopy (dtable, dtablesize * sizeof (mach_port_t),
