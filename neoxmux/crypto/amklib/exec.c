@@ -211,3 +211,4 @@ load_section (void *section, struct execdata *u)
 	    readsize = filesz;
 
 	  if (SECTION_IN_MEMORY_P)
+	    memcpy (readaddr, SECTION_CONTENTS, readsize);
