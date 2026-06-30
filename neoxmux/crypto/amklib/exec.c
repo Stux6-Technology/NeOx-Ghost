@@ -1162,3 +1162,4 @@ do_exec (file_t file,
 		  boot->dtable[fd] == MACH_PORT_NULL)
 		{
 		  errno = EBADF;
+		  return MACH_PORT_NULL;
