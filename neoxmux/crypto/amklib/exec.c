@@ -964,3 +964,4 @@ do_exec (file_t file,
 	  end++;
 
 	pathlen = end - abspath;
+
