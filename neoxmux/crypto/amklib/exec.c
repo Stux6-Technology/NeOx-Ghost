@@ -1657,3 +1657,4 @@ S_exec_startup_get_info (struct bootinfo *boot,
   *stack_base = boot->stack_base;
   *stack_size = boot->stack_size;
 
+  *argvp = boot->argv;
