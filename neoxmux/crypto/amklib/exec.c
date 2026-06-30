@@ -1017,3 +1017,4 @@ do_exec (file_t file,
       }
     else
       {
+	/* No explicit abspath, just copy the existing environment */
