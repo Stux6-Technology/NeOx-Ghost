@@ -708,3 +708,4 @@ load (task_t usertask, struct execdata *e)
       vm_address_t mapping_size = 0;
       vm_address_t anywhere_start = 0;
 
+      /* Find out the overall mapping size.  TODO: This assumes that the
