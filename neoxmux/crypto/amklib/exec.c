@@ -1592,3 +1592,4 @@ S_exec_setexecdata (struct trivfs_protid *protid,
 
   err = 0;
   ports = servercopy ((mach_port_t*) ports, nports * sizeof (mach_port_t), ports_copy, &err);
+  if (err)
