@@ -140,3 +140,4 @@ load_section (void *section, struct execdata *u)
 	    /* Map the data into the task directly from the file.  */
 	    u->error = vm_map (u->task,
 			       &mapstart, filesz - (mapstart - addr),
+			       mask, 0,
