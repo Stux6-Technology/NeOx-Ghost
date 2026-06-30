@@ -1349,3 +1349,4 @@ do_exec (file_t file,
       /* XXX there is a race here for SIGKILLing the process. -roland
          I don't think it matters.  -mib */
       e.error = proc_task2proc (psrv, oldtask, &proc);
+      if (e.error)
