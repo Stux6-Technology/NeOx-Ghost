@@ -1382,3 +1382,4 @@ do_exec (file_t file,
           goto out;
         }
 
+      assert_backtrace (ports_replaced[INIT_PORT_PROC]);
