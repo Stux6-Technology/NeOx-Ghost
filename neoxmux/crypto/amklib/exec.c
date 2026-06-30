@@ -1140,3 +1140,4 @@ do_exec (file_t file,
 
       char *name = map (&e, (e.interp.phdr->p_offset
 			     & ~(e.interp.phdr->p_align - 1)),
+			e.interp.phdr->p_filesz);
