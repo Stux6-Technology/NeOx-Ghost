@@ -232,3 +232,4 @@ load_section (void *section, struct execdata *u)
 				     0, vm_prot | VM_PROT_WRITE);
 	      if (!u->error)
 		u->error = vm_write (u->task, overlap_page, ourpage, size);
+	      /* If this section is not supposed to be writable either,
