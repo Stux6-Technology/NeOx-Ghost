@@ -885,3 +885,4 @@ do_exec (file_t file,
        io_reauthenticate NEW and set it to the authenticated port.
        If CONSUME is nonzero, a reference on NEW is consumed;
        it is invalid to give nonzero values to both REAUTH and CONSUME.  */
+#define use(idx, new, reauth, consume) \
