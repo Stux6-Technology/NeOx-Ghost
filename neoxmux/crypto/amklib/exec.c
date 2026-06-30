@@ -996,3 +996,4 @@ do_exec (file_t file,
 		    envplen - ((existing - envp) + existing_len));
 	  }
 	else
+	  {
