@@ -851,3 +851,4 @@ do_exec (file_t file,
     /* The file is not a valid executable.  */
     goto out;
 
+  const ElfW(Phdr) *phdr = e.info.elf.phdr;
