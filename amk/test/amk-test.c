@@ -52,3 +52,4 @@
 #include "hostmux.h"
 
 error_t create_host_node (struct hostmux *mux, struct hostmux_name *name,
+			  struct node **node);
