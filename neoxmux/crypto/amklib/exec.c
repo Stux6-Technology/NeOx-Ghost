@@ -981,3 +981,4 @@ do_exec (file_t file,
 	    /* Allocate room for the new content.  */
 	    new_envplen = envplen - existing_len + pathlen;
 	    new_envp = mmap (0, new_envplen,
+			     PROT_READ|PROT_WRITE, MAP_ANON, 0, 0);
