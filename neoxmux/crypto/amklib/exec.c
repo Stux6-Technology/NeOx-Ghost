@@ -821,3 +821,4 @@ do_exec (file_t file,
      have no effect, and the lack of installed standard ports should
      not cause an error.  -mib */
   if ((!std_ports || !std_ints) && (flags & (EXEC_SECURE|EXEC_DEFAULTS)))
+    return EIEIO;
