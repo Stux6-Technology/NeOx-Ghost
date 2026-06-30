@@ -1186,3 +1186,4 @@ do_exec (file_t file,
 	  check_elf_phdr (&interp, phdr);
 	}
       e.error = interp.error;
+    }
