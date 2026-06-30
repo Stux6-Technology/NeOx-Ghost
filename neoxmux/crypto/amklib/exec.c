@@ -1039,3 +1039,4 @@ do_exec (file_t file,
 	if (intarray_copy || (round_page (nints * sizeof (int)) <
 			      round_page (INIT_INT_MAX * sizeof (int))))
 	  {
+	    /* Allocate a new vector that is big enough.  */
