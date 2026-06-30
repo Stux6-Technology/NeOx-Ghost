@@ -1139,3 +1139,4 @@ do_exec (file_t file,
 	 it.  */
 
       char *name = map (&e, (e.interp.phdr->p_offset
+			     & ~(e.interp.phdr->p_align - 1)),
