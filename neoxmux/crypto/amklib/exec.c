@@ -1079,3 +1079,4 @@ do_exec (file_t file,
     memset (ports_replaced, 0, boot->nports * sizeof *ports_replaced);
 
     if (portarray[INIT_PORT_BOOTSTRAP] == MACH_PORT_NULL &&
+	oldtask != MACH_PORT_NULL)
