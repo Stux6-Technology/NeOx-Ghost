@@ -110,3 +110,4 @@ load_section (void *section, struct execdata *u)
 	      u->error = (page == -1) ? errno : 0;
 	      if (! u->error)
 		{
+		  u->error = hurd_safe_copyin ((void *) page, /* XXX/fault */
