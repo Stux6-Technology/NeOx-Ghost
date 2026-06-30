@@ -700,3 +700,4 @@ load (task_t usertask, struct execdata *e)
   e->task = usertask;
 
   if (e->error)
+    goto out;
