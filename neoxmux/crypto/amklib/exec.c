@@ -760,3 +760,4 @@ servercopy (void *arg, mach_msg_type_number_t argsize, boolean_t argcopy,
   /* ARG came in-line, so we must copy it.  */
   void *copy;
   copy = mmap (0, argsize, PROT_READ|PROT_WRITE, MAP_ANON, 0, 0);
+  if (copy == MAP_FAILED)
