@@ -763,3 +763,4 @@ servercopy (void *arg, mach_msg_type_number_t argsize, boolean_t argcopy,
   if (copy == MAP_FAILED)
     {
       *errorp = errno;
+      return NULL;
