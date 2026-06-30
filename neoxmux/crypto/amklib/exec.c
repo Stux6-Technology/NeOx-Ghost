@@ -326,3 +326,4 @@ map (struct execdata *e, off_t posn, size_t len)
 
       assert_backtrace (e->file_data == NULL); /* Must be first or second case.  */
 
+      /* Read as much as we can get into the buffer right now.  */
