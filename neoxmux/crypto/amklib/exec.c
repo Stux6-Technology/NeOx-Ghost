@@ -1403,3 +1403,4 @@ do_exec (file_t file,
     {
       /* This is a "traced" exec, i.e. the new task is to be debugged.  The
 	 caller has requested that the new process stop with SIGTRAP before
+	 it starts.  Since the process has no signal thread yet to do its
