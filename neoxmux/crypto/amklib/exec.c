@@ -1463,3 +1463,4 @@ do_exec (file_t file,
 	/* The old task is hopelessly trashed; there is no way it
 	   can resume execution.  Coup de grace.  */
 	task_terminate (oldtask);
+      else
