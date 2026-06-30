@@ -1311,3 +1311,4 @@ do_exec (file_t file,
   if (e.error)
     goto out;
 
+  /* Start up the initial thread at the entry point.  */
