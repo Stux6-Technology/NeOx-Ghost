@@ -365,3 +365,4 @@ map (struct execdata *e, off_t posn, size_t len)
 	  return NULL;
 	}
 
+      if (e->cntl)
