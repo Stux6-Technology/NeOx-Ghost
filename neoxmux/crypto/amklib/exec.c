@@ -1177,3 +1177,4 @@ do_exec (file_t file,
   if (interp.file != MACH_PORT_NULL)
     {
       /* We opened an interpreter file.  Prepare it for loading too.  */
+      prepare_and_check (interp.file, &interp);
