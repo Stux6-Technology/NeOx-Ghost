@@ -73,3 +73,4 @@ load_section (void *section, struct execdata *u)
   if ((ph->p_flags & PF_X) == 0)
     vm_prot &= ~VM_PROT_EXECUTE;
 
+  /* The mapping should have been resolved to a specific address
