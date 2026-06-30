@@ -622,3 +622,4 @@ finish_mapping (struct execdata *e)
 	  e->cntl->conch_status = USER_HAS_NOT_CONCH;
 	  pthread_spin_unlock (&e->cntl->lock);
 	}
+      munmap (e->cntl, vm_page_size);
