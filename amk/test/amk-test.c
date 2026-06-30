@@ -102,3 +102,4 @@ netfs_attempt_lookup (struct iouser *user, struct node *dir,
 
       fshelp_touch (&dir->nn_stat, TOUCH_ATIME, hostmux_maptime);
     }
+
