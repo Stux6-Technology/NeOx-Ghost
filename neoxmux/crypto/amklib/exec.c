@@ -1580,3 +1580,4 @@ S_exec_exec_paths (struct trivfs_protid *protid,
 kern_return_t
 S_exec_setexecdata (struct trivfs_protid *protid,
 		    const mach_port_t *ports, mach_msg_type_number_t nports, int ports_copy,
+		    const int *ints, mach_msg_type_number_t nints, int ints_copy)
