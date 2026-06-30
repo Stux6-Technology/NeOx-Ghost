@@ -102,3 +102,4 @@ load_section (void *section, struct execdata *u)
 	  if (! u->error && size >= vm_page_size)
 	    u->error = vm_write (u->task, *mapstart, contents, size - off);
 	  if (! u->error && off != 0)
+	    {
