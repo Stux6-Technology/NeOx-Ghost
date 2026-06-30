@@ -1339,3 +1339,4 @@ do_exec (file_t file,
 	 When not secure, it is nice to let processes associate with
 	 whatever proc server turns them on, regardless of which exec
 	 itself is using.  */
+      if (secure
