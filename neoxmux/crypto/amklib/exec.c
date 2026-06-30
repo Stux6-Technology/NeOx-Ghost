@@ -330,3 +330,4 @@ map (struct execdata *e, off_t posn, size_t len)
       e->error = io_read (e->file, &buffer, &nread, posn, round_page (len));
       if (e->error)
 	return NULL;
+      if (buffer != map_buffer (e))
