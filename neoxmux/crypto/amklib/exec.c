@@ -347,3 +347,4 @@ map (struct execdata *e, off_t posn, size_t len)
     {
       /* Deallocate the old mapping area.  */
       if (map_buffer (e) != NULL)
+	munmap (map_buffer (e), map_vsize (e));
