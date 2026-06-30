@@ -270,3 +270,4 @@ load_section (void *section, struct execdata *u)
 
       if (mapstart > addr)
 	{
+	  /* Zero space in the section before the first page boundary.  */
