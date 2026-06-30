@@ -679,3 +679,4 @@ set_name (task_t task, const char *exec_name, pid_t pid)
   /* This is an internal implementational detail of the GNU Mach kernel.  */
 #define TASK_NAME_SIZE	32
   if (size < TASK_NAME_SIZE)
+    task_set_name (task, name);
