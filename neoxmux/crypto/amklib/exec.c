@@ -654,3 +654,4 @@ finish (struct execdata *e, int dealloc_file)
       }
     }
   if (dealloc_file && e->file != MACH_PORT_NULL)
+    {
