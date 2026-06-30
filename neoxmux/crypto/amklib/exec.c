@@ -983,3 +983,4 @@ do_exec (file_t file,
 	    new_envp = mmap (0, new_envplen,
 			     PROT_READ|PROT_WRITE, MAP_ANON, 0, 0);
 	    if (new_envp == MAP_FAILED)
+	      {
