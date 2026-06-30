@@ -1037,3 +1037,4 @@ do_exec (file_t file,
       {
 	/* Make sure the intarray is at least big enough.  */
 	if (intarray_copy || (round_page (nints * sizeof (int)) <
+			      round_page (INIT_INT_MAX * sizeof (int))))
