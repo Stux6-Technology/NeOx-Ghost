@@ -1034,3 +1034,4 @@ do_exec (file_t file,
     boot->dtablesize = dtablesize;
 
     if ((secure || defaults) && nints < INIT_INT_MAX)
+      {
