@@ -1236,3 +1236,4 @@ do_exec (file_t file,
 	mach_port_destroy (oldtask, destroynames[i]);
     }
 
+  /* Map page zero redzoned.  */
