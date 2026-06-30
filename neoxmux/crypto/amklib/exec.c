@@ -1262,3 +1262,4 @@ do_exec (file_t file,
 	}
       finish (&interp, 1);
     }
+
