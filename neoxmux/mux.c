@@ -5,7 +5,7 @@
  * @brief This file is part of the NeOx Ghost (Advanced Microkernel Architecture Project)
  * @copyright (C) 2020 - 2026 Stux6 Technology Team. All Rights Reserved.
  * @license: SGPPL-v1.0 (Stux6 General Private Project License - v1.0)
- * 
+ *  
  * Dev. Note: Hello Comrade! Whats going on? 
 */
 /* ==========================================================================
