@@ -376,3 +376,4 @@ map (struct execdata *e, off_t posn, size_t len)
 
 /* We don't have a stdio stream, but we have a mapping window
    we need to initialize.  */
+static void
