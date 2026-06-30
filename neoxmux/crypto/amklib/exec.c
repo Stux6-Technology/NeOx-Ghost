@@ -351,3 +351,4 @@ map (struct execdata *e, off_t posn, size_t len)
       map_buffer (e) = NULL;
 
       /* Make sure our mapping is page-aligned in the file.  */
+      offset = posn & (vm_page_size - 1);
