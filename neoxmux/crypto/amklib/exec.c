@@ -1030,3 +1030,4 @@ do_exec (file_t file,
 			 dtable_copy, &e.error);
     if (e.error)
       goto stdout;
+    boot->dtable = dtable;
