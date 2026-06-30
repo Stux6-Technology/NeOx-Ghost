@@ -295,3 +295,4 @@ load_section (void *section, struct execdata *u)
 	  munmap ((caddr_t) ourpage, size);
 	}
     }
+  return;
