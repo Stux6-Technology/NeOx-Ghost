@@ -187,3 +187,4 @@ load_section (void *section, struct execdata *u)
 		{
 		  /* The space is unallocated.  */
 		  u->error = vm_allocate (u->task,
+					  &overlap_page, vm_page_size, 0);
