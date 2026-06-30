@@ -1372,3 +1372,4 @@ do_exec (file_t file,
                           MACH_PORT_RIGHT_RECEIVE, -1);
       mach_port_deallocate (mach_task_self (), proc);
 
+      if (e.error)
