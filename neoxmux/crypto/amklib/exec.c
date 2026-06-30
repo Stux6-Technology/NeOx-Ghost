@@ -712,3 +712,4 @@ load (task_t usertask, struct execdata *e)
          lowest PT_LOAD p_vaddr is always zero for PIC.  */
       for (i = 0; i < e->info.elf.phnum; ++i)
         {
+          ElfW(Phdr) *phdr = &e->info.elf.phdr[i];
