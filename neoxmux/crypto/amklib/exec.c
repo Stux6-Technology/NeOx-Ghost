@@ -792,3 +792,4 @@ do_exec (file_t file,
   struct bootinfo *boot = 0;
   int *ports_replaced;
   int secure, defaults;
+  mach_msg_type_number_t i;
