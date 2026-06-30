@@ -865,3 +865,4 @@ do_exec (file_t file,
       e.error = task_create (((flags & EXEC_SECURE) ||
 			      oldtask == MACH_PORT_NULL) ?
 			     mach_task_self () : oldtask,
+#ifdef KERN_INVALID_LEDGER
