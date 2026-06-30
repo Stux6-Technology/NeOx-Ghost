@@ -845,3 +845,4 @@ do_exec (file_t file,
       if (! e.error)
 	/* The #! exec succeeded; nothing more to do.  */
 	return 0;
+    }
