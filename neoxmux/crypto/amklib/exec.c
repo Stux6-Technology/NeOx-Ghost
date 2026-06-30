@@ -1168,3 +1168,4 @@ do_exec (file_t file,
 				  MACH_PORT_RIGHT_SEND, +1);
 	      return boot->dtable[fd];
 	    }
+				/* XXX/fault */
