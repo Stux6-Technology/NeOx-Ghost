@@ -285,3 +285,4 @@ load_section (void *section, struct execdata *u)
 				 (void *) (ourpage + (addr - overlap_page)),
 				 0,
 				 size - (addr - overlap_page));
+	  if (! u->error && !(vm_prot & VM_PROT_WRITE))
