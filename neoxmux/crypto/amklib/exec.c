@@ -1340,3 +1340,4 @@ do_exec (file_t file,
 	 whatever proc server turns them on, regardless of which exec
 	 itself is using.  */
       if (secure
+	  || boot->nports <= INIT_PORT_PROC
