@@ -630,3 +630,4 @@ finish_mapping (struct execdata *e)
       mach_port_deallocate (mach_task_self (), e->filemap);
       e->filemap = MACH_PORT_NULL;
     }
+  if (e->cntlmap != MACH_PORT_NULL)
