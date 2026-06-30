@@ -1323,3 +1323,4 @@ do_exec (file_t file,
   /* mach_setup_thread () creates non-executable stacks (with vm_allocate ()).
      It would probably be better to change mach_setup_thread () so it does
      a vm_map () with the right permissions to start with.  */
+  if (e.info.elf.execstack || (e.interp.section && interp.info.elf.execstack))
