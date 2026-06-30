@@ -959,3 +959,4 @@ do_exec (file_t file,
 	while (end > abspath && end[-1] == '/')
 	  end--;
 
+	if (end == abspath)
