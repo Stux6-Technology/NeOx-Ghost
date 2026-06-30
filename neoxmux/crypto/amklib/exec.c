@@ -216,3 +216,4 @@ load_section (void *section, struct execdata *u)
 	    {
 	      const void *contents = map (u, filepos, readsize);
 	      if (!contents)
+		goto maplose;
