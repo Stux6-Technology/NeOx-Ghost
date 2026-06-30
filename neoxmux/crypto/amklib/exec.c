@@ -1400,3 +1400,4 @@ do_exec (file_t file,
   finish (&e, !e.error);
 
   if (!e.error && (flags & EXEC_SIGTRAP)) /* XXX && !secure ? */
+    {
