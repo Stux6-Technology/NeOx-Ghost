@@ -978,3 +978,4 @@ do_exec (file_t file,
 	    existing += sizeof (ld_origin_s) - 1;
 	    existing_len = strnlen (existing, envplen - (existing - envp));
 
+	    /* Allocate room for the new content.  */
