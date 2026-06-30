@@ -1132,3 +1132,4 @@ do_exec (file_t file,
      ints) that the new program image will run under.  We will use these
      ports for looking up the interpreter file if there is one.  */
 
+  if (! e.error && e.interp.section)
