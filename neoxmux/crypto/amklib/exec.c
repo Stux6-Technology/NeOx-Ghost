@@ -1060,3 +1060,4 @@ do_exec (file_t file,
       }
 
     if (secure)
+      boot->intarray[INIT_UMASK] = std_ints ? std_ints[INIT_UMASK] : CMASK;
