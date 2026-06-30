@@ -1368,3 +1368,4 @@ do_exec (file_t file,
                                         rendezvous, MACH_MSG_TYPE_MAKE_SEND,
                                         &newproc);
 
+      mach_port_mod_refs (mach_task_self (), rendezvous,
