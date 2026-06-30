@@ -1389,3 +1389,4 @@ do_exec (file_t file,
     }
 
   {
+    mach_port_t btport = ports_get_send_right (boot);
