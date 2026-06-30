@@ -88,3 +88,4 @@ load_section (void *section, struct execdata *u)
 
       /* Allocate space in the task and write CONTENTS into it.  */
       void write_to_task (vm_address_t * mapstart, vm_size_t size,
+			  vm_prot_t vm_prot, vm_address_t contents)
