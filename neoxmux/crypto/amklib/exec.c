@@ -1350,3 +1350,4 @@ do_exec (file_t file,
          I don't think it matters.  -mib */
       e.error = proc_task2proc (psrv, oldtask, &proc);
       if (e.error)
+        goto out;
