@@ -1225,3 +1225,4 @@ do_exec (file_t file,
 	 old task is now in a hopeless state and must be killed.  */
       oldtask_trashed = 1;
 
+      /* Deallocate and destroy the ports requested by the caller.
