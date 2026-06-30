@@ -445,3 +445,4 @@ prepare (file_t file, struct execdata *e)
 		e->error = io_get_conch (e->file);
 		if (e->error)
 		  return;
+		/* Continue the loop.  */
