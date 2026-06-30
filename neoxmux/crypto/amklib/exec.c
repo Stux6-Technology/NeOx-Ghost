@@ -396,3 +396,4 @@ prepare (file_t file, struct execdata *e)
   e->cntl = NULL;
   e->filemap = MACH_PORT_NULL;
   e->cntlmap = MACH_PORT_NULL;
+
