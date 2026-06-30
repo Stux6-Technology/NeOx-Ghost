@@ -1287,3 +1287,4 @@ do_exec (file_t file,
       if (e.error)
 	goto out;
 
+      pid_t pid;
