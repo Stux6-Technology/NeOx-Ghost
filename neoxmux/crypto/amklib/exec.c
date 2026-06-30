@@ -580,3 +580,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
 	  }
 	/* Check if this is the segment that contains the phdr image.  */
 	if (!seen_phdr
+	    && (phdr->p_offset & -phdr->p_align) == 0 /* Sanity check.  */
