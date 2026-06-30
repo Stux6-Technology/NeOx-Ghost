@@ -844,3 +844,4 @@ do_exec (file_t file,
 		      destroynames, ndestroynames);
       if (! e.error)
 	/* The #! exec succeeded; nothing more to do.  */
+	return 0;
