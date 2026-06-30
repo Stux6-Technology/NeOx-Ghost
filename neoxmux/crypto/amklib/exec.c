@@ -929,3 +929,4 @@ do_exec (file_t file,
     /* These flags say the information we pass through to the new program
        may need to be modified.  */
     secure = (flags & EXEC_SECURE);
+    defaults = (flags & EXEC_DEFAULTS);
