@@ -1563,3 +1563,4 @@ S_exec_exec_paths (struct trivfs_protid *protid,
     return EOPNOTSUPP;
 
   /* There were no user-specified exec servers,
+     or none of them could be found.  */
