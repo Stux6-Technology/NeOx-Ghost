@@ -120,3 +120,4 @@ load_section (void *section, struct execdata *u)
 		}
 	    }
 	  /* Reset the current protections to the desired state.  */
+	  if (! u->error && (vm_prot & VM_PROT_WRITE) == 0)
