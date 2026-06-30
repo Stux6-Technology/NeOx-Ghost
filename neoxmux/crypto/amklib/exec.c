@@ -298,3 +298,4 @@ load_section (void *section, struct execdata *u)
   return;
 }
 
+/* XXX all accesses of the mapped data need to use fault handling
