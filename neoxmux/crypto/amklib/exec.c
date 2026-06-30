@@ -62,3 +62,4 @@ load_section (void *section, struct execdata *u)
 
   vm_prot = VM_PROT_READ | VM_PROT_WRITE | VM_PROT_EXECUTE;
 
+  addr = ph->p_vaddr & ~(ph->p_align - 1);
