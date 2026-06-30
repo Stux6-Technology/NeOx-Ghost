@@ -139,3 +139,4 @@ load_section (void *section, struct execdata *u)
 	  else if (u->filemap != MACH_PORT_NULL)
 	    /* Map the data into the task directly from the file.  */
 	    u->error = vm_map (u->task,
+			       &mapstart, filesz - (mapstart - addr),
