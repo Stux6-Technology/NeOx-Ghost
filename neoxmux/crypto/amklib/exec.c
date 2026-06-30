@@ -419,3 +419,4 @@ prepare (file_t file, struct execdata *e)
 	}
       e->filemap = rd;
 
+      e->error = /* io_map_cntl (file, &e->cntlmap) */ EOPNOTSUPP; /* XXX */
