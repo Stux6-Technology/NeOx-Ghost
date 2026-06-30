@@ -384,3 +384,4 @@ prepare_stream (struct execdata *e)
   e->map_filepos = 0;
 }
 
+/* Prepare to check and load FILE.  */
