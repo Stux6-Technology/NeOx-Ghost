@@ -409,3 +409,4 @@ prepare (file_t file, struct execdata *e)
   e->error = io_map (file, &rd, &wr);
   if (! e->error)
     /* Mapping is O.K.  */
+    {
