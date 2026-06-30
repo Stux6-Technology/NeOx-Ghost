@@ -476,3 +476,4 @@ prepare (file_t file, struct execdata *e)
 #define host_ELFDATA ELFDATA2MSB
 #endif
 #if BYTE_ORDER == LITTLE_ENDIAN
+#define host_ELFDATA ELFDATA2LSB
