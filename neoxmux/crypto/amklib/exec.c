@@ -941,3 +941,4 @@ do_exec (file_t file,
     if (e.error)
       goto stdout;
     boot->argv = argv;
+    boot->argvlen = argvlen;
