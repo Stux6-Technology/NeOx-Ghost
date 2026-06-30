@@ -988,3 +988,4 @@ do_exec (file_t file,
 		goto stdout;
 	      }
 
+	    /* And copy.  */
