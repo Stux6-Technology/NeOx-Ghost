@@ -728,3 +728,4 @@ load (task_t usertask, struct execdata *e)
       /* Deallocate the space, to be replaced by the actual mappings
          we do next.  */
       e->error = vm_deallocate (usertask, anywhere_start, mapping_size);
+      /* This may return an error if USERTASK dies, or if it's something
