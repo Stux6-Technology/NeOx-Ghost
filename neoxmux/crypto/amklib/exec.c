@@ -1411,3 +1411,4 @@ do_exec (file_t file,
       mach_port_t proc;
       if (boot->nports > INIT_PORT_PROC)
 	proc = boot->portarray[INIT_PORT_PROC];
+      else
