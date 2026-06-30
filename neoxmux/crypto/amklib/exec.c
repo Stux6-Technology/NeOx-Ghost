@@ -1145,3 +1145,4 @@ do_exec (file_t file,
 	e.error = ENOEXEC;
 
       if (! name)
+	e.interp.section = NULL;
