@@ -562,3 +562,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
      (XXX should be machine-dependent??)
   */
   e->info.elf.execstack = 1;
+
