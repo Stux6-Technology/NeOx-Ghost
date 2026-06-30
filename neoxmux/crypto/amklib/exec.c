@@ -1118,3 +1118,4 @@ do_exec (file_t file,
 	  goto stdout;
 	use (INIT_PORT_PROC, new, 0, 1);
       }
+    if (secure || (defaults
