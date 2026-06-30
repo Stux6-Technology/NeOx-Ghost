@@ -1193,3 +1193,4 @@ do_exec (file_t file,
 
 
   /* We are now committed to the exec.  It "should not fail".
+     If it does fail now, the task will be hopelessly munged.  */
