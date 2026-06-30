@@ -1438,3 +1438,4 @@ do_exec (file_t file,
 		(char *) &boot[1] - (char *) (&boot->pi + 1));
       else
 	/* Do this before we release the last reference.  */
+	if (boot->nports > INIT_PORT_PROC)
