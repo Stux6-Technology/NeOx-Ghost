@@ -735,3 +735,4 @@ load (task_t usertask, struct execdata *e)
     }
 
   for (i = 0; i < e->info.elf.phnum; ++i)
+    if (e->info.elf.phdr[i].p_type == PT_LOAD)
