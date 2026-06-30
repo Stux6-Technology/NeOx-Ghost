@@ -1499,3 +1499,4 @@ do_exec (file_t file,
 	munmap (portarray, nports * sizeof portarray[0]);
     }
 
+  return e.error;
