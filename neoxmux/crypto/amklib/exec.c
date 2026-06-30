@@ -1495,3 +1495,4 @@ do_exec (file_t file,
 	 transfer, deallocate the original space now.  */
       if (intarray_dealloc)
 	munmap (intarray, nints * sizeof intarray[0]);
+      if (!portarray_copy)
