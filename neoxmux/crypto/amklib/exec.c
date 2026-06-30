@@ -171,3 +171,4 @@ load_section (void *section, struct execdata *u)
 
       if (mapstart > addr)
 	{
+	  /* We must read and copy in the space in the section before the
