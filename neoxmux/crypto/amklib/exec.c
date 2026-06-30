@@ -361,3 +361,4 @@ map (struct execdata *e, off_t posn, size_t len)
 		  e->filemap, map_filepos (e), 1, VM_PROT_READ, VM_PROT_READ,
 		  VM_INHERIT_NONE))
 	{
+	  e->error = EIO;
