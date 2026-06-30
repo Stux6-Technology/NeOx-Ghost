@@ -1003,3 +1003,4 @@ do_exec (file_t file,
 			     PROT_READ|PROT_WRITE, MAP_ANON, 0, 0);
 
 	    memcpy (new_envp, ld_origin_s + 1, sizeof (ld_origin_s) - 2);
+	    memcpy (new_envp + sizeof (ld_origin_s) - 2, abspath, pathlen);
