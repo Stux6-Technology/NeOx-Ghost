@@ -855,3 +855,4 @@ do_exec (file_t file,
   e.info.elf.phdr = alloca (e.info.elf.phnum * sizeof (ElfW(Phdr)));
   check_elf_phdr (&e, phdr);
 
+  if (oldtask == MACH_PORT_NULL)
