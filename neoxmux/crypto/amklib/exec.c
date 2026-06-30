@@ -315,3 +315,4 @@ map (struct execdata *e, off_t posn, size_t len)
     offset = posn & (map_vsize (e) - 1);
   else if (posn + len > size)
     /* The requested data wouldn't fit in the file.  */
+    return NULL;
