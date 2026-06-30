@@ -931,3 +931,4 @@ do_exec (file_t file,
     secure = (flags & EXEC_SECURE);
     defaults = (flags & EXEC_DEFAULTS);
 
+    /* Now record the big blocks of data we shuffle around.
