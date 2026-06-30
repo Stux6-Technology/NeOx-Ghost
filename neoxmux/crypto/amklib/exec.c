@@ -259,3 +259,4 @@ load_section (void *section, struct execdata *u)
 
       if (mapstart - addr < memsz)
 	{
+	  /* MAPSTART is the first page that starts inside the section.
