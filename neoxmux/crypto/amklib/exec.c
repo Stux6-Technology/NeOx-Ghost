@@ -860,3 +860,4 @@ do_exec (file_t file,
 
   if (flags & (EXEC_NEWTASK|EXEC_SECURE))
     {
+      /* Create the new task.  If we are not being secure, then use OLDTASK
