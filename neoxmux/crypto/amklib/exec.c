@@ -1244,3 +1244,4 @@ do_exec (file_t file,
 		      VM_PROT_NONE, VM_PROT_NONE, VM_INHERIT_COPY);
     if (e.error)
       goto out;
+  }
