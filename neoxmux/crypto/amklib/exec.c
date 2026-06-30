@@ -1064,3 +1064,4 @@ do_exec (file_t file,
 
     /* Now choose the ports to give the new program.  */
 
+    boot->nports = nports < INIT_PORT_MAX ? INIT_PORT_MAX : nports;
