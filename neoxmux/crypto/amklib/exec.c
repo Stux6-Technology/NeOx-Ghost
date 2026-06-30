@@ -1315,3 +1315,4 @@ do_exec (file_t file,
   boot->stack_base = 0, boot->stack_size = 0; /* Don't care about values.  */
   e.error = mach_setup_thread (newtask, thread,
 			       (void *) (e.interp.section ? interp.entry :
+					 e.entry),
