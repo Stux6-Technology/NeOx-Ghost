@@ -1032,3 +1032,4 @@ do_exec (file_t file,
       goto stdout;
     boot->dtable = dtable;
     boot->dtablesize = dtablesize;
+
