@@ -1320,3 +1320,4 @@ do_exec (file_t file,
   if (e.error)
     goto out;
 
+  /* mach_setup_thread () creates non-executable stacks (with vm_allocate ()).
