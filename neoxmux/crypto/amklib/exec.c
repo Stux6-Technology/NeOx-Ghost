@@ -1475,3 +1475,4 @@ do_exec (file_t file,
 	     Terminate the old task and deallocate our right to it.  */
 	  task_terminate (oldtask);
 	  mach_port_deallocate (mach_task_self (), oldtask);
+	}
