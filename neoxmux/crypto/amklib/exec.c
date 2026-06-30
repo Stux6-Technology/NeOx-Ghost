@@ -1150,3 +1150,4 @@ do_exec (file_t file,
 	{
 	  /* Open the named file using the appropriate directory ports for
 	     the user.  */
+	  error_t user_port (int which, error_t (*operate) (mach_port_t))
