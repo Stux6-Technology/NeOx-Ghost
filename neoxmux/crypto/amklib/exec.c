@@ -1595,3 +1595,4 @@ S_exec_setexecdata (struct trivfs_protid *protid,
   if (err)
     return err;
   ints = servercopy ((int*) ints, nints * sizeof (int), ints_copy, &err);
+  if (err)
