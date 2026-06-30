@@ -1680,3 +1680,4 @@ S_exec_startup_get_info (struct bootinfo *boot,
   boot->nports = 0;
 
   *flags = boot->flags;
+
