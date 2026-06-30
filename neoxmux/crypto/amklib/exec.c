@@ -907,3 +907,4 @@ do_exec (file_t file,
 	  }
 	else
 	  {
+	    if (!consume && new != MACH_PORT_NULL)
