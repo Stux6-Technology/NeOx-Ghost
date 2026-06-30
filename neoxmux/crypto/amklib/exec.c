@@ -269,3 +269,4 @@ load_section (void *section, struct execdata *u)
 	}
 
       if (mapstart > addr)
+	{
