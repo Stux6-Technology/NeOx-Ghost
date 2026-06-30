@@ -1568,3 +1568,4 @@ S_exec_exec_paths (struct trivfs_protid *protid,
   /* For some of the arrays, we deallocate by hand, thus dropping const.  */
 
   return do_exec (file, oldtask, flags, path, abspath,
+		  (char*) argv, argvlen, argv_copy,
