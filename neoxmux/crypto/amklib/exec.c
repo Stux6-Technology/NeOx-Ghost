@@ -588,3 +588,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
 	    seen_phdr = true;
 	  }
 	break;
+      case PT_GNU_STACK:
