@@ -135,3 +135,4 @@ load_section (void *section, struct execdata *u)
 	    /* Data is already in memory; write it into the task.  */
 	    write_to_task (&mapstart, filesz - (mapstart - addr), vm_prot,
 			   (vm_address_t) SECTION_CONTENTS
+			   + (mapstart - addr));
