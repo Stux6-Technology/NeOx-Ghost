@@ -467,3 +467,4 @@ prepare (file_t file, struct execdata *e)
       if (e->error)
 	return;
       e->file_size = st.st_size;
+      e->optimal_block = st.st_blksize;
