@@ -697,3 +697,4 @@ load (task_t usertask, struct execdata *e)
 {
   ElfW(Word) i;
 
+  e->task = usertask;
