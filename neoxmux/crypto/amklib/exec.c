@@ -681,3 +681,4 @@ set_name (task_t task, const char *exec_name, pid_t pid)
   if (size < TASK_NAME_SIZE)
     task_set_name (task, name);
   else
+    {
