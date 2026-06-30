@@ -227,3 +227,4 @@ load_section (void *section, struct execdata *u)
 	    {
 	      /* The overlap page is not writable; the section
 		 that appears in preceding memory is read-only.
+		 Change the page's protection so we can write it.  */
