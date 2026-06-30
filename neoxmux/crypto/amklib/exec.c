@@ -849,3 +849,4 @@ do_exec (file_t file,
 
   if (e.error)
     /* The file is not a valid executable.  */
+    goto out;
