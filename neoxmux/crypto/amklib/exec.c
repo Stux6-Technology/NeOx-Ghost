@@ -159,3 +159,4 @@ load_section (void *section, struct execdata *u)
 	}
 
       /* If this segment is executable, adjust start_code and end_code
+	 so that this mapping is within that range.  */
