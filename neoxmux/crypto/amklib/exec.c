@@ -819,3 +819,4 @@ do_exec (file_t file,
   /* XXX For EXEC_DEFAULTS, this is only an error if one of the user's
      ports is null; if they are all provided, then EXEC_DEFAULTS would
      have no effect, and the lack of installed standard ports should
+     not cause an error.  -mib */
