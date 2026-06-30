@@ -516,3 +516,4 @@ check_elf (struct execdata *e)
       e->error = ENOEXEC;
       return;
     }
+  e->error = elf_machine_matches_host (ehdr->e_machine);
