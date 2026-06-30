@@ -1178,3 +1178,4 @@ do_exec (file_t file,
     {
       /* We opened an interpreter file.  Prepare it for loading too.  */
       prepare_and_check (interp.file, &interp);
+      if (! interp.error)
