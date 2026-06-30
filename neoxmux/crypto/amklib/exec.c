@@ -1112,3 +1112,4 @@ do_exec (file_t file,
 	mach_port_t new;
 	/* This task port refers to the old task; use it to fetch a new
 	   one for the new task.  */
+	e.error = proc_task2proc (boot->portarray[INIT_PORT_PROC],
