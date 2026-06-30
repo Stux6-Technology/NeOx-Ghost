@@ -255,3 +255,4 @@ load_section (void *section, struct execdata *u)
     {
       /* SEC_ALLOC: Allocate zero-filled memory for the section.  */
 
+      vm_address_t mapstart = round_page (addr);
