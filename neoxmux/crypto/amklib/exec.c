@@ -465,3 +465,4 @@ prepare (file_t file, struct execdata *e)
       struct stat st;
       e->error = io_stat (file, &st);
       if (e->error)
+	return;
