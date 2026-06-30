@@ -81,3 +81,4 @@ load_section (void *section, struct execdata *u)
   if (memsz == 0)
     /* This section is empty; ignore it.  */
     return;
+
