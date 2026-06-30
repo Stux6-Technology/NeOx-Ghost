@@ -123,3 +123,4 @@ load_section (void *section, struct execdata *u)
 	  if (! u->error && (vm_prot & VM_PROT_WRITE) == 0)
 	    u->error = vm_protect (u->task, *mapstart, size, 0, vm_prot);
 	}
+
