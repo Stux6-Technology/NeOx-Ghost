@@ -44,3 +44,4 @@ pthread_rwlock_t std_lock = PTHREAD_RWLOCK_INITIALIZER;
 
 /* Zero the specified region but don't crash the server if it faults.  */
 
+#include <hurd/sigpreempt.h>
