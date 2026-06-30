@@ -118,3 +118,4 @@ load_section (void *section, struct execdata *u)
 				         page, vm_page_size);
 		  munmap ((caddr_t) page, vm_page_size);
 		}
+	    }
