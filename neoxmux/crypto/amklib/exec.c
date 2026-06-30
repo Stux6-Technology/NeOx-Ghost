@@ -802,3 +802,4 @@ do_exec (file_t file,
   void prepare_and_check (file_t file, struct execdata *e)
     {
       /* Prepare E to read the file.  */
+      prepare (file, e);
