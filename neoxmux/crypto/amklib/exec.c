@@ -1416,3 +1416,4 @@ do_exec (file_t file,
 	e.error = proc_task2proc (procserver, newtask, &proc);
       if (!e.error)
 	/* Tell the proc server that the process has stopped with the
+	   SIGTRAP signal.  Don't bother to check for errors from the RPC
