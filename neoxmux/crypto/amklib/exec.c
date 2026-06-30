@@ -429,3 +429,4 @@ prepare (file_t file, struct execdata *e)
       if (e->cntl)
 	while (1)
 	  {
+	    pthread_spin_lock (&e->cntl->lock);
