@@ -734,3 +734,4 @@ load (task_t usertask, struct execdata *e)
         goto out;
     }
 
+  for (i = 0; i < e->info.elf.phnum; ++i)
