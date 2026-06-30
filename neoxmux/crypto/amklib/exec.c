@@ -1413,3 +1413,4 @@ do_exec (file_t file,
 	proc = boot->portarray[INIT_PORT_PROC];
       else
 	/* Ask the proc server for the proc port for this task.  */
+	e.error = proc_task2proc (procserver, newtask, &proc);
