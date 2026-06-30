@@ -956,3 +956,4 @@ do_exec (file_t file,
 	char *new_envp;
 
 	/* Drop trailing slashes.  */
+	while (end > abspath && end[-1] == '/')
