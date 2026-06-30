@@ -278,3 +278,4 @@ load_section (void *section, struct execdata *u)
 			      &ourpage, &size);
 	  if (u->error)
 	    {
+	      vm_deallocate (u->task, mapstart, memsz);
