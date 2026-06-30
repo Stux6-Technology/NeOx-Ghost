@@ -1423,3 +1423,4 @@ do_exec (file_t file,
     }
 
   if (boot)
+    {
