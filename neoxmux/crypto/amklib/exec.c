@@ -42,3 +42,4 @@ pthread_rwlock_t std_lock = PTHREAD_RWLOCK_INITIALIZER;
 
 #define	b2he()	a2he (errno)
 
+/* Zero the specified region but don't crash the server if it faults.  */
