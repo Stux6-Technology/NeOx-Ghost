@@ -1435,3 +1435,4 @@ do_exec (file_t file,
 	   of BOOT doesn't deallocate it.  It will be deallocated my MiG
 	   when we return the error.  */
 	memset (&boot->pi + 1, 0,
+		(char *) &boot[1] - (char *) (&boot->pi + 1));
