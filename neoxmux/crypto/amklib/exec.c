@@ -1233,3 +1233,4 @@ do_exec (file_t file,
 	mach_port_deallocate (oldtask, deallocnames[i]);
 
       for (i = 0; i < ndestroynames; ++i)
+	mach_port_destroy (oldtask, destroynames[i]);
