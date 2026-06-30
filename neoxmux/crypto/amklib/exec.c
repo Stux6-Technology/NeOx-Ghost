@@ -1102,3 +1102,4 @@ do_exec (file_t file,
 	mach_port_t new;
 
 	e.error = proc_task2proc (procserver, newtask, &new);
+	if (e.error)
