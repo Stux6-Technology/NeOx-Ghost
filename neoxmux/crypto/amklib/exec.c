@@ -1148,3 +1148,4 @@ do_exec (file_t file,
 	e.interp.section = NULL;
       else
 	{
+	  /* Open the named file using the appropriate directory ports for
