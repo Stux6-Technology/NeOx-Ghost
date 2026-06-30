@@ -41,3 +41,4 @@ pthread_rwlock_t std_lock = PTHREAD_RWLOCK_INITIALIZER;
 
 
 #define	b2he()	a2he (errno)
+
