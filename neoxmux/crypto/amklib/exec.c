@@ -1021,3 +1021,4 @@ do_exec (file_t file,
 	envp = servercopy (envp, envplen, envp_copy, &e.error);
 	if (e.error)
 	  goto stdout;
+      }
