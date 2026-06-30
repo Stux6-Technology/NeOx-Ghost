@@ -220,3 +220,4 @@ load_section (void *section, struct execdata *u)
 	      u->error = hurd_safe_copyin (readaddr, contents,
 	                                   readsize); /* XXX/fault */
 	      if (u->error)
+	        goto maplose;
