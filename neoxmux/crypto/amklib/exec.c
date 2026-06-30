@@ -100,3 +100,4 @@ load_section (void *section, struct execdata *u)
 			     VM_INHERIT_COPY);
 	  /* vm_write only works on integral multiples of vm_page_size */
 	  if (! u->error && size >= vm_page_size)
+	    u->error = vm_write (u->task, *mapstart, contents, size - off);
