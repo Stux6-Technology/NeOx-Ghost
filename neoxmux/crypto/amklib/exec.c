@@ -1267,3 +1267,4 @@ do_exec (file_t file,
   finish (&e, 0);
 
   /* Now record some essential addresses from the image itself that the
+     program's startup code will need to know.  We do this after loading
