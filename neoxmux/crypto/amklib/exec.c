@@ -1297,3 +1297,4 @@ do_exec (file_t file,
 	proc_set_exe (boot->portarray[INIT_PORT_PROC], abspath);
 
       set_name (newtask, argv, pid);
+
