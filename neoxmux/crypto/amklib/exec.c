@@ -411,3 +411,4 @@ prepare (file_t file, struct execdata *e)
     /* Mapping is O.K.  */
     {
       if (wr != MACH_PORT_NULL)
+	mach_port_deallocate (mach_task_self (), wr);
