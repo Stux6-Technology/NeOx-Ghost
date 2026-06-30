@@ -1238,3 +1238,4 @@ do_exec (file_t file,
 
   /* Map page zero redzoned.  */
   {
+    vm_address_t addr = 0;
