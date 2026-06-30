@@ -827,3 +827,4 @@ do_exec (file_t file,
   if (oldtask != MACH_PORT_NULL && (e.error = task_suspend (oldtask)))
     return e.error;
 
+  /* Prime E for executing FILE and check its validity.  */
