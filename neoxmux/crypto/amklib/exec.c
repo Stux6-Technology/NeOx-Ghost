@@ -947,3 +947,4 @@ do_exec (file_t file,
       {
 	/* Explicit absolute filename, put its dirname in the LD_ORIGIN_PATH
 	   environment variable for $ORIGIN rpath expansion. */
+	const char *end = strrchr (abspath, '/');
