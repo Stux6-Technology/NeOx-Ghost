@@ -532,3 +532,4 @@ check_elf (struct execdata *e)
 #endif
   e->info.elf.anywhere = (ehdr->e_type == ET_DYN ||
 			  ehdr->e_type == ET_REL);
+  e->info.elf.loadbase = 0;
