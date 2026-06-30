@@ -1257,3 +1257,4 @@ do_exec (file_t file,
       load (newtask, &interp);
       if (interp.error)
 	{
+	  e.error = interp.error;
