@@ -985,3 +985,4 @@ do_exec (file_t file,
 	    if (new_envp == MAP_FAILED)
 	      {
 		e.error = errno;
+		goto stdout;
