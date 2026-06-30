@@ -1626,3 +1626,4 @@ S_exec_setexecdata (struct trivfs_protid *protid,
 }
 
 
+#include "exec_startup_S.h"
