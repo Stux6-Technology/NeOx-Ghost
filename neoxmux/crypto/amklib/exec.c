@@ -1492,3 +1492,4 @@ do_exec (file_t file,
 
       /* If there is vm_allocate'd space for the original intarray and/or
 	 portarray, and we are not saving those pointers in BOOT for later
+	 transfer, deallocate the original space now.  */
