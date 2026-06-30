@@ -27,3 +27,4 @@
 #include <hurd.h>
 #include <hurd/exec.h>
 #include <sys/stat.h>
+#include <sys/param.h>
