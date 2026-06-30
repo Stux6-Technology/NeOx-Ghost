@@ -1083,3 +1083,4 @@ do_exec (file_t file,
       {
 	if (! task_get_bootstrap_port (oldtask,
 				       &boot->portarray[INIT_PORT_BOOTSTRAP]))
+	  ports_replaced[INIT_PORT_BOOTSTRAP] = 1;
