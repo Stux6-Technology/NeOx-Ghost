@@ -1402,3 +1402,4 @@ do_exec (file_t file,
   if (!e.error && (flags & EXEC_SIGTRAP)) /* XXX && !secure ? */
     {
       /* This is a "traced" exec, i.e. the new task is to be debugged.  The
+	 caller has requested that the new process stop with SIGTRAP before
