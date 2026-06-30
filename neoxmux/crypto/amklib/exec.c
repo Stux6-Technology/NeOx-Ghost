@@ -725,3 +725,4 @@ load (task_t usertask, struct execdata *e)
       e->info.elf.loadbase = anywhere_start;
       e->info.elf.anywhere = 0;
 
+      /* Deallocate the space, to be replaced by the actual mappings
