@@ -1000,3 +1000,4 @@ do_exec (file_t file,
 	    /* No existing definition, prepend one.  */
 	    new_envplen = sizeof (ld_origin_s) - 1 + pathlen + envplen;
 	    new_envp = mmap (0, new_envplen,
+			     PROT_READ|PROT_WRITE, MAP_ANON, 0, 0);
