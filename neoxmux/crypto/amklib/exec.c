@@ -788,3 +788,4 @@ do_exec (file_t file,
 {
   struct execdata e, interp;
   task_t newtask = MACH_PORT_NULL;
+  thread_t thread = MACH_PORT_NULL;
