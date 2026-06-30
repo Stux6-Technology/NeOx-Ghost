@@ -92,3 +92,4 @@ load_section (void *section, struct execdata *u)
 	{
 	  vm_size_t off = size % vm_page_size;
 	  /* Allocate with vm_map to set max protections.  */
+	  u->error = vm_map (u->task,
