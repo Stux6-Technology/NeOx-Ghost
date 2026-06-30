@@ -773,3 +773,4 @@ servercopy (void *arg, mach_msg_type_number_t argsize, boolean_t argcopy,
 static error_t
 do_exec (file_t file,
 	 task_t oldtask,
+	 int flags,
