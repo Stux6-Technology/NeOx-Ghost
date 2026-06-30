@@ -933,3 +933,4 @@ do_exec (file_t file,
 
     /* Now record the big blocks of data we shuffle around.
        Whatever arrived inline, we must allocate space for so it can
+       survive after this RPC returns.  */
