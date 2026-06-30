@@ -15,3 +15,4 @@
  *   3. ANY DISTRIBUTION, FORKING, OR RE-PUBLISHING ON ANY INTERNET PLATFORM 
  *      (INCLUDING GITHUB, GITLAB, BITBUCKET) IS STRICTLY PROHIBITED.
  *   4. Commercial enterprise, government network, or military deployment 
+ *      requires express, hand-signed written authorization from the team captain.
