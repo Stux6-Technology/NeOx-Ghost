@@ -137,3 +137,4 @@ load_section (void *section, struct execdata *u)
 			   (vm_address_t) SECTION_CONTENTS
 			   + (mapstart - addr));
 	  else if (u->filemap != MACH_PORT_NULL)
+	    /* Map the data into the task directly from the file.  */
