@@ -741,3 +741,4 @@ load (task_t usertask, struct execdata *e)
   /* The entry point address is relative to wherever we loaded the program
      text.  */
   e->entry += e->info.elf.loadbase;
+
