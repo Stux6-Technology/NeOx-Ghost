@@ -1298,3 +1298,4 @@ do_exec (file_t file,
 
       set_name (newtask, argv, pid);
 
+      e.error = proc_set_entry (boot->portarray[INIT_PORT_PROC],
