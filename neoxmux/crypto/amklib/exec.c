@@ -433,3 +433,4 @@ prepare (file_t file, struct execdata *e)
 	    switch (e->cntl->conch_status)
 	      {
 	      case USER_COULD_HAVE_CONCH:
+		e->cntl->conch_status = USER_HAS_CONCH;
