@@ -922,3 +922,4 @@ do_exec (file_t file,
       {
       stdout:
 	pthread_rwlock_unlock (&std_lock);
+	goto out;
