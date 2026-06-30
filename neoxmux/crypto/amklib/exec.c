@@ -337,3 +337,4 @@ map (struct execdata *e, off_t posn, size_t len)
 	    munmap (map_buffer (e), map_vsize (e));
 	  map_buffer (e) = buffer;
 	  map_vsize (e) = round_page (nread);
+	}
