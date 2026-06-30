@@ -310,3 +310,4 @@ map (struct execdata *e, off_t posn, size_t len)
   size_t offset;
 
   if ((map_filepos (e) & ~(map_vsize (e) - 1)) == (posn & ~(map_vsize (e) - 1))
+      && posn + len - map_filepos (e) <= map_fsize (e))
