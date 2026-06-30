@@ -77,3 +77,4 @@ load_section (void *section, struct execdata *u)
      by this point.  */
   assert_backtrace (!u->info.elf.anywhere);
   addr += u->info.elf.loadbase;
+
