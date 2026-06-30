@@ -439,3 +439,4 @@ prepare (file_t file, struct execdata *e)
 		/* Break out of the loop.  */
 		break;
 	      case USER_RELEASE_CONCH:
+	      case USER_HAS_NOT_CONCH:
