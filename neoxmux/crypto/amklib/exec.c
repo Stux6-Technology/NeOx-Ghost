@@ -662,3 +662,4 @@ finish (struct execdata *e, int dealloc_file)
 
 /* Set the name of the new task so that the kernel can use it in error
    messages.  If PID is not zero, it will be included the name.  */
+static void
