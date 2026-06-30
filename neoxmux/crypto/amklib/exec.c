@@ -730,3 +730,4 @@ load (task_t usertask, struct execdata *e)
       e->error = vm_deallocate (usertask, anywhere_start, mapping_size);
       /* This may return an error if USERTASK dies, or if it's something
          magical and not a real task port.  */
+      if (e->error)
