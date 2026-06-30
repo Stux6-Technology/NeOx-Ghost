@@ -1076,3 +1076,4 @@ do_exec (file_t file,
     /* Keep track of which ports in BOOT->portarray come from the original
        PORTARRAY, and which we replace.  */
     ports_replaced = alloca (boot->nports * sizeof *ports_replaced);
+    memset (ports_replaced, 0, boot->nports * sizeof *ports_replaced);
