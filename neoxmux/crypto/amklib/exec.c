@@ -489,3 +489,4 @@ static void
 check_elf (struct execdata *e)
 {
   ElfW(Ehdr) *ehdr = map (e, 0, sizeof (ElfW(Ehdr)));
+  ElfW(Phdr) *phdr;
