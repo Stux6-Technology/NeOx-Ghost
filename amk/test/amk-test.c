@@ -58,3 +58,4 @@ error_t create_host_node (struct hostmux *mux, struct hostmux_name *name,
    Must be a power of two.  */
 #define DIRENT_ALIGN 4
 #define DIRENT_NAME_OFFS offsetof (struct dirent, d_name)
+
