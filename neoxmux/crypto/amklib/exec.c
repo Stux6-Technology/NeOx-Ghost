@@ -1074,3 +1074,4 @@ do_exec (file_t file,
       for (; i < boot->nports; ++i)
 	boot->portarray[i] = MACH_PORT_NULL;
     /* Keep track of which ports in BOOT->portarray come from the original
+       PORTARRAY, and which we replace.  */
