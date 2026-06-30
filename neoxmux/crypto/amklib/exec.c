@@ -37,3 +37,4 @@ mach_port_t procserver;	/* Our proc port.  */
 mach_port_t *std_ports;
 int *std_ints;
 size_t std_nports, std_nints;
+pthread_rwlock_t std_lock = PTHREAD_RWLOCK_INITIALIZER;
