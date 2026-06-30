@@ -457,3 +457,4 @@ prepare (file_t file, struct execdata *e)
 	      e->file_size = e->cntl->read_size;
 	    break;
 	  }
+    }
