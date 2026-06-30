@@ -282,3 +282,4 @@ load_section (void *section, struct execdata *u)
 	      return;
 	    }
 	  u->error = hurd_safe_memset (
+				 (void *) (ourpage + (addr - overlap_page)),
