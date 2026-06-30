@@ -1117,3 +1117,4 @@ do_exec (file_t file,
 	if (e.error)
 	  goto stdout;
 	use (INIT_PORT_PROC, new, 0, 1);
+      }
