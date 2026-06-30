@@ -626,3 +626,4 @@ finish_mapping (struct execdata *e)
       e->cntl = NULL;
     }
   if (e->filemap != MACH_PORT_NULL)
+    {
