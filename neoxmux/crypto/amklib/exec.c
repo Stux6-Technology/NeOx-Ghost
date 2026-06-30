@@ -938,3 +938,4 @@ do_exec (file_t file,
     boot->flags = flags;
 
     argv = servercopy (argv, argvlen, argv_copy, &e.error);
+    if (e.error)
