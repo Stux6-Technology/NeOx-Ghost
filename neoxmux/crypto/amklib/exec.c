@@ -893,3 +893,4 @@ do_exec (file_t file,
       {
 	if (new != MACH_PORT_NULL && reauth)
 	  {
+	    mach_port_t ref = mach_reply_port (), authed;
