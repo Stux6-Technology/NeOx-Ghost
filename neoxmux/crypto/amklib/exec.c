@@ -1520,3 +1520,4 @@ S_exec_exec (struct trivfs_protid *protid,
 	     const mach_port_t *destroynames, mach_msg_type_number_t ndestroynames)
 {
   return S_exec_exec_paths (protid,
+				file,
