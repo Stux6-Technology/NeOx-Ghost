@@ -1144,3 +1144,4 @@ do_exec (file_t file,
       if (! name && ! e.error)
 	e.error = ENOEXEC;
 
+      if (! name)
