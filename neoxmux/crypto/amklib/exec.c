@@ -660,3 +660,4 @@ finish (struct execdata *e, int dealloc_file)
     }
 }
 
+/* Set the name of the new task so that the kernel can use it in error
