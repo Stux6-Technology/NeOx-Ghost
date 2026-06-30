@@ -585,3 +585,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
 	    && e->info.elf.phdr_addr - phdr->p_offset < phdr->p_filesz)
 	  {
 	    e->info.elf.phdr_addr += phdr->p_vaddr - phdr->p_offset;
+	    seen_phdr = true;
