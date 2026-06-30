@@ -529,3 +529,4 @@ check_elf (struct execdata *e)
       e->error = ELIBEXEC;
       return;
     }
+#endif
