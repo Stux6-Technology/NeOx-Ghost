@@ -653,3 +653,4 @@ finish (struct execdata *e, int dealloc_file)
 	map_buffer (e) = NULL;
       }
     }
+  if (dealloc_file && e->file != MACH_PORT_NULL)
