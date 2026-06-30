@@ -1679,3 +1679,4 @@ S_exec_startup_get_info (struct bootinfo *boot,
   *portpoly = MACH_MSG_TYPE_MOVE_SEND;
   boot->nports = 0;
 
+  *flags = boot->flags;
