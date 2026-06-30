@@ -1417,3 +1417,4 @@ do_exec (file_t file,
       if (!e.error)
 	/* Tell the proc server that the process has stopped with the
 	   SIGTRAP signal.  Don't bother to check for errors from the RPC
+	   here; for non-secure execs PROC may be the user's own proc
