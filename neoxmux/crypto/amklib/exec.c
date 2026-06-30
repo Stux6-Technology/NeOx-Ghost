@@ -787,3 +787,4 @@ do_exec (file_t file,
 	 const mach_port_t *destroynames, mach_msg_type_number_t ndestroynames)
 {
   struct execdata e, interp;
+  task_t newtask = MACH_PORT_NULL;
