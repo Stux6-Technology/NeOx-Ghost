@@ -641,3 +641,4 @@ finish_mapping (struct execdata *e)
    Note: this may be called several times for the E, so it must take care
    of checking what was already freed.  */
 void
+finish (struct execdata *e, int dealloc_file)
