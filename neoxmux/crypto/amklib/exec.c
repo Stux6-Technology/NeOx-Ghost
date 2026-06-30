@@ -415,3 +415,4 @@ prepare (file_t file, struct execdata *e)
       if (rd == MACH_PORT_NULL)
 	{
 	  e->error = EBADF;	/* ? XXX */
+	  return;
