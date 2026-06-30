@@ -1147,3 +1147,4 @@ do_exec (file_t file,
       if (! name)
 	e.interp.section = NULL;
       else
+	{
