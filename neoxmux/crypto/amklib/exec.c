@@ -1587,3 +1587,4 @@ S_exec_setexecdata (struct trivfs_protid *protid,
   if (! protid || (protid->realnode != MACH_PORT_NULL && ! protid->isroot))
     return EPERM;
 
+  if (nports < INIT_PORT_MAX || nints < INIT_INT_MAX)
