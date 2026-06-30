@@ -1007,3 +1007,4 @@ do_exec (file_t file,
 	    new_envp [sizeof (ld_origin_s) - 2 + pathlen] = 0;
 	    memcpy (new_envp + sizeof (ld_origin_s) - 2 + pathlen + 1, envp, envplen);
 	  }
+
