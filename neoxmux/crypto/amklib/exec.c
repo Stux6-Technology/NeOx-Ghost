@@ -1055,3 +1055,4 @@ do_exec (file_t file,
 			       &e.error);
 	if (e.error)
 	  goto stdout;
+	boot->intarray = intarray;
