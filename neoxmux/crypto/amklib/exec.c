@@ -1097,3 +1097,4 @@ do_exec (file_t file,
       use (INIT_PORT_AUTH, std_ports[INIT_PORT_AUTH], 0, 0);
     if (secure || (defaults
 		   && boot->portarray[INIT_PORT_PROC] == MACH_PORT_NULL))
+      {
