@@ -842,3 +842,4 @@ do_exec (file_t file,
 		      intarray, nints, intarray_copy,
 		      deallocnames, ndeallocnames,
 		      destroynames, ndestroynames);
+      if (! e.error)
