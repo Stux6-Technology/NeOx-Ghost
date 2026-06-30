@@ -666,3 +666,4 @@ static void
 set_name (task_t task, const char *exec_name, pid_t pid)
 {
   char *name;
+  int size;
