@@ -1046,3 +1046,4 @@ do_exec (file_t file,
 	    intarray_dealloc = !intarray_copy;
 	  }
 	else
+	  boot->intarray = intarray;
