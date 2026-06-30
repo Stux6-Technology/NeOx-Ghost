@@ -670,3 +670,4 @@ set_name (task_t task, const char *exec_name, pid_t pid)
 
   if (pid)
     size = asprintf (&name, "%s(%d)", exec_name, pid);
+  else
