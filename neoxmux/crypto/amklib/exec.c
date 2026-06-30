@@ -94,3 +94,4 @@ load_section (void *section, struct execdata *u)
 	  /* Allocate with vm_map to set max protections.  */
 	  u->error = vm_map (u->task,
 			     mapstart, size, mask, 0,
+			     MACH_PORT_NULL, 0, 1,
