@@ -1441,3 +1441,4 @@ do_exec (file_t file,
 	if (boot->nports > INIT_PORT_PROC)
 	  proc_mark_exec (boot->portarray[INIT_PORT_PROC]);
 
+      ports_port_deref (boot);
