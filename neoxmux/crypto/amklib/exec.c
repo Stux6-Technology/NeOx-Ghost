@@ -1453,3 +1453,4 @@ do_exec (file_t file,
 
   if (e.error)
     {
+      if (oldtask != newtask)
