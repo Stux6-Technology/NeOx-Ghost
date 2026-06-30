@@ -1301,3 +1301,4 @@ do_exec (file_t file,
       e.error = proc_set_entry (boot->portarray[INIT_PORT_PROC],
 			        e.entry);
       if (e.error)
+	goto out;
