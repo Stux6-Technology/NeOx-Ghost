@@ -461,3 +461,4 @@ prepare (file_t file, struct execdata *e)
 
   if (!e->cntl && (!e->error || e->error == EOPNOTSUPP))
     {
+      /* No shared page.  Do a stat to find the file size.  */
