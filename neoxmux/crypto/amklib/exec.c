@@ -254,3 +254,4 @@ load_section (void *section, struct execdata *u)
   if (memsz != 0)
     {
       /* SEC_ALLOC: Allocate zero-filled memory for the section.  */
+
