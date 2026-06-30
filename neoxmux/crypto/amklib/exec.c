@@ -450,3 +450,4 @@ prepare (file_t file, struct execdata *e)
 	      }
 
 	    /* Get here if we are now IT.  */
+	    e->file_size = 0;
