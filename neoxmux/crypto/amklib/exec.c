@@ -1218,3 +1218,4 @@ do_exec (file_t file,
 
       /* Deallocate the entire virtual address space of the task.  */
 
+      vm_deallocate (oldtask,
