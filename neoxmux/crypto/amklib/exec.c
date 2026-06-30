@@ -1458,3 +1458,4 @@ do_exec (file_t file,
 	  /* We created a new task but failed to set it up.  Kill it.  */
 	  task_terminate (newtask);
 	  mach_port_deallocate (mach_task_self (), newtask);
+	}
