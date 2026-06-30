@@ -808,3 +808,4 @@ do_exec (file_t file,
 
       /* Check the file for validity first.  */
       check (e);
+    }
