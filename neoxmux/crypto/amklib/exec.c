@@ -1480,3 +1480,4 @@ do_exec (file_t file,
 	/* Resume the task, it is ready to run the new program.  */
 	task_resume (oldtask);
       /* Deallocate the right to the new task we created.  */
+      mach_port_deallocate (mach_task_self (), newtask);
