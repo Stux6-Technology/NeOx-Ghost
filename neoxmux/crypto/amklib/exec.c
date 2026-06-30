@@ -886,3 +886,4 @@ do_exec (file_t file,
        If CONSUME is nonzero, a reference on NEW is consumed;
        it is invalid to give nonzero values to both REAUTH and CONSUME.  */
 #define use(idx, new, reauth, consume) \
+  do { use1 (idx, new, reauth, consume); \
