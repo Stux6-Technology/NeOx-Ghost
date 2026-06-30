@@ -221,3 +221,4 @@ load_section (void *section, struct execdata *u)
 	                                   readsize); /* XXX/fault */
 	      if (u->error)
 	        goto maplose;
+	    }
