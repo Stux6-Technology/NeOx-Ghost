@@ -1670,3 +1670,4 @@ S_exec_startup_get_info (struct bootinfo *boot,
   *dtablepoly = MACH_MSG_TYPE_MOVE_SEND;
   boot->dtablesize = 0;
 
+  *intarray = boot->intarray;
