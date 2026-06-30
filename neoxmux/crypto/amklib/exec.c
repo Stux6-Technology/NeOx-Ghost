@@ -153,3 +153,4 @@ load_section (void *section, struct execdata *u)
 	      void *buf = map (u, filepos + (mapstart - addr), size);
 	      if (buf)
 		write_to_task (&mapstart, size, vm_prot, (vm_address_t) buf);
+	    }
