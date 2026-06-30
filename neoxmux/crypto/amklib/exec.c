@@ -800,3 +800,4 @@ do_exec (file_t file,
      inline function because it stores pointers into alloca'd storage in E
      for later use in `load'.  */
   void prepare_and_check (file_t file, struct execdata *e)
+    {
