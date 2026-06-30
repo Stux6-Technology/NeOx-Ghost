@@ -897,3 +897,4 @@ do_exec (file_t file,
 	    /* MAKE_SEND is safe here because we destroy REF ourselves. */
 	    e.error = io_reauthenticate (new, ref, MACH_MSG_TYPE_MAKE_SEND);
 	    if (! e.error)
+	      e.error = auth_user_authenticate
