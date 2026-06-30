@@ -524,3 +524,4 @@ check_elf (struct execdata *e)
      The `map' call below for the phdrs may reuse the mapping window.  */
   e->entry = ehdr->e_entry;
 #ifdef ELIBEXEC
+  if (e->entry == 0)
