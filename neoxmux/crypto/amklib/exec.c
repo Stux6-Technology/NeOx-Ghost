@@ -1008,3 +1008,4 @@ do_exec (file_t file,
 	    memcpy (new_envp + sizeof (ld_origin_s) - 2 + pathlen + 1, envp, envplen);
 	  }
 
+	if (! envp_copy)
