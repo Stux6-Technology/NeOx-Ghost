@@ -623,3 +623,4 @@ finish_mapping (struct execdata *e)
 	  pthread_spin_unlock (&e->cntl->lock);
 	}
       munmap (e->cntl, vm_page_size);
+      e->cntl = NULL;
