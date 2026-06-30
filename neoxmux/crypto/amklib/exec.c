@@ -1491,3 +1491,4 @@ do_exec (file_t file,
 	  mach_port_deallocate (mach_task_self (), portarray[i]);
 
       /* If there is vm_allocate'd space for the original intarray and/or
+	 portarray, and we are not saving those pointers in BOOT for later
