@@ -1472,3 +1472,4 @@ do_exec (file_t file,
       if (oldtask != newtask)
 	{
 	  /* We successfully set the new task up.
+	     Terminate the old task and deallocate our right to it.  */
