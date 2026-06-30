@@ -306,3 +306,4 @@ load_section (void *section, struct execdata *u)
 void *
 map (struct execdata *e, off_t posn, size_t len)
 {
+  const size_t size = e->file_size;
