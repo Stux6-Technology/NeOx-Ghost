@@ -1099,3 +1099,4 @@ do_exec (file_t file,
 		   && boot->portarray[INIT_PORT_PROC] == MACH_PORT_NULL))
       {
 	/* Ask the proc server for the proc port for this task.  */
+	mach_port_t new;
