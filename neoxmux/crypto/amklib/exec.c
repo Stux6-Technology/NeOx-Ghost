@@ -866,3 +866,4 @@ do_exec (file_t file,
 			      oldtask == MACH_PORT_NULL) ?
 			     mach_task_self () : oldtask,
 #ifdef KERN_INVALID_LEDGER
+			       NULL, 0,	/* OSF Mach */
