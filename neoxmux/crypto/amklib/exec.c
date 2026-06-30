@@ -1056,3 +1056,4 @@ do_exec (file_t file,
 	if (e.error)
 	  goto stdout;
 	boot->intarray = intarray;
+	boot->nints = nints;
