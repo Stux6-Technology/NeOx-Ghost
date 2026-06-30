@@ -1206,3 +1206,4 @@ do_exec (file_t file,
 
       /* Terminate all the threads of the old task.  */
 
+      e.error = task_threads (oldtask, &threads, &nthreads);
