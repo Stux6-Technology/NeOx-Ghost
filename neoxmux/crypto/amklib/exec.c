@@ -1133,3 +1133,4 @@ do_exec (file_t file,
      ports for looking up the interpreter file if there is one.  */
 
   if (! e.error && e.interp.section)
+    {
