@@ -1351,3 +1351,4 @@ do_exec (file_t file,
       e.error = proc_task2proc (psrv, oldtask, &proc);
       if (e.error)
         goto out;
+      rendezvous = mach_reply_port ();
