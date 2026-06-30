@@ -1043,3 +1043,4 @@ do_exec (file_t file,
 	    boot->intarray = mmap (0, INIT_INT_MAX * sizeof (int),
 				   PROT_READ|PROT_WRITE, MAP_ANON, 0, 0);
 	    memcpy (boot->intarray, intarray, nints * sizeof (int));
+	    intarray_dealloc = !intarray_copy;
