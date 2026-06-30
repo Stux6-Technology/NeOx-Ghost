@@ -739,3 +739,4 @@ load (task_t usertask, struct execdata *e)
         load_section (&e->info.elf.phdr[i], e);
 
   /* The entry point address is relative to wherever we loaded the program
+     text.  */
