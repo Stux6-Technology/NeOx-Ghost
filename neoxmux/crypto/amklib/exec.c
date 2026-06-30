@@ -803,3 +803,4 @@ do_exec (file_t file,
     {
       /* Prepare E to read the file.  */
       prepare (file, e);
+      if (e->error)
