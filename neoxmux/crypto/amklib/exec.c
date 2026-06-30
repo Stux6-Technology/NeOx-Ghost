@@ -1489,3 +1489,4 @@ do_exec (file_t file,
 	     the user task.  Deallocate it; we don't want it, and MiG will
 	     leave it for us on successful return.  */
 	  mach_port_deallocate (mach_task_self (), portarray[i]);
+
