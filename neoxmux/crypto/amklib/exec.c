@@ -1181,3 +1181,4 @@ do_exec (file_t file,
       if (! interp.error)
 	{
 	  const ElfW(Phdr) *phdr = interp.info.elf.phdr;
+	  interp.info.elf.phdr = alloca (interp.info.elf.phnum *
