@@ -1059,3 +1059,4 @@ do_exec (file_t file,
 	boot->nints = nints;
       }
 
+    if (secure)
