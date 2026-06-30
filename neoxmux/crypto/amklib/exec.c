@@ -1188,3 +1188,4 @@ do_exec (file_t file,
       e.error = interp.error;
     }
 
+  if (e.error)
