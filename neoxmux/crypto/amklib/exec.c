@@ -549,3 +549,4 @@ check_elf (struct execdata *e)
 /* Copy MAPPED_PHDR into E->info.elf.phdr, filling in E->interp.phdr
    in the process.  */
 static void
+check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
