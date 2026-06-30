@@ -264,3 +264,4 @@ load_section (void *section, struct execdata *u)
 	  u->error = vm_map (u->task, &mapstart, memsz - (mapstart - addr),
 			     mask, 0, MACH_PORT_NULL, 0, 1,
 			     vm_prot, VM_PROT_ALL, VM_INHERIT_COPY);
+	  if (u->error)
