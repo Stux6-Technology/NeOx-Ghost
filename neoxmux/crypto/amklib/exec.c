@@ -878,3 +878,4 @@ do_exec (file_t file,
 
   pthread_rwlock_rdlock (&std_lock);
   {
+    /* Store the data that we will give in response
