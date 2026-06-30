@@ -1483,3 +1483,4 @@ do_exec (file_t file,
       mach_port_deallocate (mach_task_self (), newtask);
 
       for (i = 0; i < nports; ++i)
+	if (ports_replaced[i] && portarray[i] != MACH_PORT_NULL)
