@@ -1452,3 +1452,4 @@ do_exec (file_t file,
     }
 
   if (e.error)
+    {
