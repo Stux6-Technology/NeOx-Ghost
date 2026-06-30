@@ -1288,3 +1288,4 @@ do_exec (file_t file,
 	goto out;
 
       pid_t pid;
+      e.error = proc_task2pid (boot->portarray[INIT_PORT_PROC],
