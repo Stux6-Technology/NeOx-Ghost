@@ -1200,3 +1200,4 @@ do_exec (file_t file,
      spawn*().  */
 
   if (newtask == oldtask)
+    {
