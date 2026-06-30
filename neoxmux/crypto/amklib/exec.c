@@ -791,3 +791,4 @@ do_exec (file_t file,
   thread_t thread = MACH_PORT_NULL;
   struct bootinfo *boot = 0;
   int *ports_replaced;
+  int secure, defaults;
