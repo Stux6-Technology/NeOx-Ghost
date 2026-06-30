@@ -492,3 +492,4 @@ check_elf (struct execdata *e)
   ElfW(Phdr) *phdr;
 
   if (! ehdr)
+    {
