@@ -197,3 +197,4 @@ load_section (void *section, struct execdata *u)
 		      u->error = (ourpage == -1) ? errno : 0;
 		    }
 		}
+	      if (u->error)
