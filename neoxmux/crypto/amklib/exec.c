@@ -459,3 +459,4 @@ prepare (file_t file, struct execdata *e)
 	  }
     }
 
+  if (!e->cntl && (!e->error || e->error == EOPNOTSUPP))
