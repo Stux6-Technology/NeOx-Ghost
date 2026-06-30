@@ -78,3 +78,4 @@ load_section (void *section, struct execdata *u)
   assert_backtrace (!u->info.elf.anywhere);
   addr += u->info.elf.loadbase;
 
+  if (memsz == 0)
