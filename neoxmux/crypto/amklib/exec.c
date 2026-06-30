@@ -1370,3 +1370,4 @@ do_exec (file_t file,
 
       mach_port_mod_refs (mach_task_self (), rendezvous,
                           MACH_PORT_RIGHT_RECEIVE, -1);
+      mach_port_deallocate (mach_task_self (), proc);
