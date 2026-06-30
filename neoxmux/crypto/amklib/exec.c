@@ -593,3 +593,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
 	break;
       }
 
+  if (!seen_phdr)
