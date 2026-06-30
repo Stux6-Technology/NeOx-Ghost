@@ -976,3 +976,4 @@ do_exec (file_t file,
 	  {
 	    /* Definition already exists, just replace the content.  */
 	    existing += sizeof (ld_origin_s) - 1;
+	    existing_len = strnlen (existing, envplen - (existing - envp));
