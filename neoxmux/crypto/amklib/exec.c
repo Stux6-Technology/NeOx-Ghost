@@ -1538,3 +1538,4 @@ S_exec_exec (struct trivfs_protid *protid,
 }
 
 kern_return_t
+S_exec_exec_paths (struct trivfs_protid *protid,
