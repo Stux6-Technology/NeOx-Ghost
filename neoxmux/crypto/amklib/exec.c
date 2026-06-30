@@ -262,3 +262,4 @@ load_section (void *section, struct execdata *u)
 	  /* MAPSTART is the first page that starts inside the section.
 	     Allocate all the pages that start inside the section.  */
 	  u->error = vm_map (u->task, &mapstart, memsz - (mapstart - addr),
+			     mask, 0, MACH_PORT_NULL, 0, 1,
