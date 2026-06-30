@@ -1304,3 +1304,4 @@ do_exec (file_t file,
 	goto out;
     }
   else
+    set_name (newtask, argv, 0);
