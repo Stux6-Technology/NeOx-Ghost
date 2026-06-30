@@ -1272,3 +1272,4 @@ do_exec (file_t file,
     if (e.info.elf.phdr_addr != 0)
       {
 	e.info.elf.phdr_addr += e.info.elf.loadbase;
+	boot->phdr_addr = e.info.elf.phdr_addr;
