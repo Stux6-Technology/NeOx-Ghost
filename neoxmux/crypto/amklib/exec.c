@@ -807,3 +807,4 @@ do_exec (file_t file,
 	return;
 
       /* Check the file for validity first.  */
+      check (e);
