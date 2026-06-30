@@ -1216,3 +1216,4 @@ do_exec (file_t file,
 	}
       munmap ((caddr_t) threads, nthreads * sizeof (thread_t));
 
+      /* Deallocate the entire virtual address space of the task.  */
