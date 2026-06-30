@@ -1310,3 +1310,4 @@ do_exec (file_t file,
   e.error = thread_create (newtask, &thread);
   if (e.error)
     goto out;
+
