@@ -482,3 +482,4 @@ prepare (file_t file, struct execdata *e)
 #ifdef __LP64__
 #define host_ELFCLASS ELFCLASS64
 #else
+#define host_ELFCLASS ELFCLASS32
