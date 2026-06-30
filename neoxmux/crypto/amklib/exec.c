@@ -152,3 +152,4 @@ load_section (void *section, struct execdata *u)
 	      const vm_size_t size = filesz - (mapstart - addr);
 	      void *buf = map (u, filepos + (mapstart - addr), size);
 	      if (buf)
+		write_to_task (&mapstart, size, vm_prot, (vm_address_t) buf);
