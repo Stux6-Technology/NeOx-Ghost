@@ -578,3 +578,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
 	    e->error = ENOEXEC;
 	    return;
 	  }
+	/* Check if this is the segment that contains the phdr image.  */
