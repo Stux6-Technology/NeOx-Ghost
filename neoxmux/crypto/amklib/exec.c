@@ -1237,3 +1237,4 @@ do_exec (file_t file,
     }
 
   /* Map page zero redzoned.  */
+  {
