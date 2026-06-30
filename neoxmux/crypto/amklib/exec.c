@@ -1204,3 +1204,4 @@ do_exec (file_t file,
       thread_t *threads;
       mach_msg_type_number_t nthreads, i;
 
+      /* Terminate all the threads of the old task.  */
