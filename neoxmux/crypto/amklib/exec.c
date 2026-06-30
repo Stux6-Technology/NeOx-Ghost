@@ -1281,3 +1281,4 @@ do_exec (file_t file,
      no proc server, so we need to be careful here.  */
   if (boot->portarray[INIT_PORT_PROC] != MACH_PORT_NULL)
     {
+      /* Set the start_code and end_code values for this process.  */
