@@ -969,3 +969,4 @@ do_exec (file_t file,
 	  /* Existing variable at the beginning of envp.  */
 	  existing = envp - 1;
 	else
+	  /* Look for the definition.  */
