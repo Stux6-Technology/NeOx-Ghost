@@ -272,3 +272,4 @@ load_section (void *section, struct execdata *u)
 	{
 	  /* Zero space in the section before the first page boundary.  */
 	  vm_address_t overlap_page = trunc_page (addr);
+	  vm_address_t ourpage = 0;
