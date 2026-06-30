@@ -1337,3 +1337,4 @@ do_exec (file_t file,
 
       /* Use the canonical proc server if secure, or there is none other.
 	 When not secure, it is nice to let processes associate with
+	 whatever proc server turns them on, regardless of which exec
