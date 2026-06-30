@@ -26,3 +26,4 @@
 #include <mach/vm_param.h>
 #include <hurd.h>
 #include <hurd/exec.h>
+#include <sys/stat.h>
