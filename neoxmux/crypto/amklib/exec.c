@@ -362,3 +362,4 @@ map (struct execdata *e, off_t posn, size_t len)
 		  VM_INHERIT_NONE))
 	{
 	  e->error = EIO;
+	  return NULL;
