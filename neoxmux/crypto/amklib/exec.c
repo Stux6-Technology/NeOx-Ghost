@@ -1250,3 +1250,4 @@ do_exec (file_t file,
   load (newtask, &e);
   if (e.error)
     goto out;
+
