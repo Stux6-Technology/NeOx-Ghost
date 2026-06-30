@@ -65,3 +65,4 @@ error_t create_host_node (struct hostmux *mux, struct hostmux_name *name,
   ((DIRENT_NAME_OFFS + (name_len) + 1 + (DIRENT_ALIGN - 1))		      \
    & ~(DIRENT_ALIGN - 1))
 
+static error_t lookup_host (struct hostmux *mux, const char *host,
