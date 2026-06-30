@@ -604,3 +604,4 @@ check (struct execdata *e)
   check_elf (e);		/* XXX/fault */
 }
 
+
