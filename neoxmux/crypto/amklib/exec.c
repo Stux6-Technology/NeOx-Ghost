@@ -538,3 +538,4 @@ check_elf (struct execdata *e)
   phdr = map (e, ehdr->e_phoff, ehdr->e_phnum * sizeof (ElfW(Phdr)));
   if (! phdr)
     {
+      if (!e->error)
