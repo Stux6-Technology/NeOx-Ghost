@@ -1259,3 +1259,4 @@ do_exec (file_t file,
 	{
 	  e.error = interp.error;
 	  goto out;
+	}
