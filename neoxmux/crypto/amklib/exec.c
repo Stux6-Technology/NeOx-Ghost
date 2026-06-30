@@ -1069,3 +1069,4 @@ do_exec (file_t file,
 			    PROT_READ|PROT_WRITE, MAP_ANON, 0, 0);
     /* Start by copying the array as passed.  */
     for (i = 0; i < nports; ++i)
+      boot->portarray[i] = portarray[i];
