@@ -184,3 +184,4 @@ load_section (void *section, struct execdata *u)
 	  if (u->error)
 	    {
 	      if (u->error == KERN_INVALID_ADDRESS)
+		{
