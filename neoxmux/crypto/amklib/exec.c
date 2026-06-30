@@ -1312,3 +1312,4 @@ do_exec (file_t file,
     goto out;
 
   /* Start up the initial thread at the entry point.  */
+  boot->stack_base = 0, boot->stack_size = 0; /* Don't care about values.  */
