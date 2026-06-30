@@ -796,3 +796,4 @@ do_exec (file_t file,
   int intarray_dealloc = 0;	/* Dealloc INTARRAY before returning?  */
   int oldtask_trashed = 0;	/* Have we trashed the old task?  */
 
+  /* Prime E for executing FILE and check its validity.  This must be an
