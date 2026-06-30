@@ -495,3 +495,4 @@ check_elf (struct execdata *e)
     {
       if (!e->error)
 	e->error = ENOEXEC;
+      return;
