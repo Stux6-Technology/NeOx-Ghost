@@ -1277,3 +1277,4 @@ do_exec (file_t file,
       }
   boot->user_entry = e.entry;	/* already adjusted in `load' */
 
+  /* /hurd/exec is used to start /hurd/proc, so at this point there is
