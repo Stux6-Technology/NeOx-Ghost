@@ -975,3 +975,4 @@ do_exec (file_t file,
 	if (existing)
 	  {
 	    /* Definition already exists, just replace the content.  */
+	    existing += sizeof (ld_origin_s) - 1;
