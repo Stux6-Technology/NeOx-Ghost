@@ -1383,3 +1383,4 @@ do_exec (file_t file,
         }
 
       assert_backtrace (ports_replaced[INIT_PORT_PROC]);
+      mach_port_deallocate (mach_task_self (),
