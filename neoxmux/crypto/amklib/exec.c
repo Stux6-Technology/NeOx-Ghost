@@ -1634,3 +1634,4 @@ kern_return_t
 S_exec_startup_get_info (struct bootinfo *boot,
 			 vm_address_t *user_entry,
 			 vm_address_t *phdr_data, vm_size_t *phdr_size,
+			 vm_address_t *stack_base, vm_size_t *stack_size,
