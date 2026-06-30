@@ -1291,3 +1291,4 @@ do_exec (file_t file,
       e.error = proc_task2pid (boot->portarray[INIT_PORT_PROC],
 			       newtask, &pid);
       if (e.error)
+	goto out;
