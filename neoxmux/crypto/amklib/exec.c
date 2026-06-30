@@ -881,3 +881,4 @@ do_exec (file_t file,
     /* Store the data that we will give in response
        to the RPC on the new task's bootstrap port.  */
 
+    /* Set boot->portarray[IDX] to NEW.  If REAUTH is nonzero,
