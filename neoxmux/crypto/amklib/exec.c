@@ -1424,3 +1424,4 @@ do_exec (file_t file,
 
   if (boot)
     {
+      /* Release the original reference.  Now there is only one
