@@ -222,3 +222,4 @@ load_section (void *section, struct execdata *u)
 	      if (u->error)
 	        goto maplose;
 	    }
+	  u->error = vm_write (u->task, overlap_page, ourpage, size);
