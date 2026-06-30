@@ -513,3 +513,4 @@ check_elf (struct execdata *e)
       ehdr->e_ehsize < sizeof *ehdr ||
       ehdr->e_phentsize != sizeof (ElfW(Phdr)))
     {
+      e->error = ENOEXEC;
