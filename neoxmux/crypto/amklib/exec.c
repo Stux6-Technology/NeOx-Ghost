@@ -832,3 +832,4 @@ do_exec (file_t file,
 
   if (e.error == ENOEXEC)
     {
+      /* Check for a #! executable file.  */
