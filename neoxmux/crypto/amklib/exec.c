@@ -1487,3 +1487,4 @@ do_exec (file_t file,
 	  /* This port was replaced, so the reference that arrived in the
 	     original portarray is not being saved in BOOT for transfer to
 	     the user task.  Deallocate it; we don't want it, and MiG will
+	     leave it for us on successful return.  */
