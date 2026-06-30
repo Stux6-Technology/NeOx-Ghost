@@ -925,3 +925,4 @@ do_exec (file_t file,
 	goto out;
       }
     memset (&boot->pi + 1, 0, (char *) &boot[1] - (char *) (&boot->pi + 1));
+
