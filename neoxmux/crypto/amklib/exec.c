@@ -1609,3 +1609,4 @@ S_exec_setexecdata (struct trivfs_protid *protid,
       for (i = 0; i < std_nports; ++i)
 	mach_port_deallocate (mach_task_self (), std_ports[i]);
       munmap (std_ports, std_nports * sizeof (mach_port_t));
+    }
