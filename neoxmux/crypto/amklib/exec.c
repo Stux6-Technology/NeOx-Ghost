@@ -381,3 +381,4 @@ prepare_stream (struct execdata *e)
 {
   e->map_buffer = NULL;
   e->map_vsize = e->map_fsize = 0;
+  e->map_filepos = 0;
