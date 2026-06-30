@@ -1565,3 +1565,4 @@ S_exec_exec_paths (struct trivfs_protid *protid,
   /* There were no user-specified exec servers,
      or none of them could be found.  */
 
+  /* For some of the arrays, we deallocate by hand, thus dropping const.  */
