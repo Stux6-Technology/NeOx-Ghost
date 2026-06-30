@@ -192,3 +192,4 @@ load_section (void *section, struct execdata *u)
 		  if (!u->error)
 		    {
 		      ourpage = (vm_address_t) mmap (0, vm_page_size,
+						     PROT_READ|PROT_WRITE,
