@@ -1128,3 +1128,4 @@ do_exec (file_t file,
   pthread_rwlock_unlock (&std_lock);
 
 
+  /* We have now concocted in BOOT the complete Hurd context (ports and
