@@ -1430,3 +1430,4 @@ do_exec (file_t file,
 	 bootstrap port, this will be the last reference and BOOT
 	 will get cleaned up here.  */
 
+      if (e.error)
