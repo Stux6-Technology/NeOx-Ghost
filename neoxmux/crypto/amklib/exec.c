@@ -1332,3 +1332,4 @@ do_exec (file_t file,
       /* The program is on its way.  The old task can be nuked.  */
       process_t proc;
       process_t newproc;
+      process_t psrv;
