@@ -826,3 +826,4 @@ do_exec (file_t file,
   /* Suspend the existing task before frobnicating it.  */
   if (oldtask != MACH_PORT_NULL && (e.error = task_suspend (oldtask)))
     return e.error;
+
