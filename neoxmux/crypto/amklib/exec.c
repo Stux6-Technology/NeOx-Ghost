@@ -230,3 +230,4 @@ load_section (void *section, struct execdata *u)
 		 Change the page's protection so we can write it.  */
 	      u->error = vm_protect (u->task, overlap_page, size,
 				     0, vm_prot | VM_PROT_WRITE);
+	      if (!u->error)
