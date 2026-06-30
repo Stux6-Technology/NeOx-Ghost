@@ -610,3 +610,4 @@ static void
 finish_mapping (struct execdata *e)
 {
   if (e->cntl != NULL)
+    {
