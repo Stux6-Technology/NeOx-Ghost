@@ -786,3 +786,4 @@ do_exec (file_t file,
 	 const mach_port_t *deallocnames, mach_msg_type_number_t ndeallocnames,
 	 const mach_port_t *destroynames, mach_msg_type_number_t ndestroynames)
 {
+  struct execdata e, interp;
