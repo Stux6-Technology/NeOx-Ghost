@@ -35,3 +35,4 @@ mach_port_t procserver;	/* Our proc port.  */
 
 /* Standard exec data for secure execs.  */
 mach_port_t *std_ports;
+int *std_ints;
