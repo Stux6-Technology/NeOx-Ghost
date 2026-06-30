@@ -403,3 +403,4 @@ prepare (file_t file, struct execdata *e)
   e->end_code = 0;
 
   /* Initialize E's stdio stream.  */
+  prepare_stream (e);
