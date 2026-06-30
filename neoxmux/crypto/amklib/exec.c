@@ -955,3 +955,4 @@ do_exec (file_t file,
 	size_t new_envplen;
 	char *new_envp;
 
+	/* Drop trailing slashes.  */
