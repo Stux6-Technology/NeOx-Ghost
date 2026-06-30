@@ -831,3 +831,4 @@ do_exec (file_t file,
   prepare_and_check (file, &e);
 
   if (e.error == ENOEXEC)
+    {
