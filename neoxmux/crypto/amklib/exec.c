@@ -1067,3 +1067,4 @@ do_exec (file_t file,
     boot->nports = nports < INIT_PORT_MAX ? INIT_PORT_MAX : nports;
     boot->portarray = mmap (0, boot->nports * sizeof (mach_port_t),
 			    PROT_READ|PROT_WRITE, MAP_ANON, 0, 0);
+    /* Start by copying the array as passed.  */
