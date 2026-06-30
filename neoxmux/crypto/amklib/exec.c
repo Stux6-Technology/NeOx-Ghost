@@ -841,3 +841,4 @@ do_exec (file_t file,
 		      portarray, nports, portarray_copy,
 		      intarray, nints, intarray_copy,
 		      deallocnames, ndeallocnames,
+		      destroynames, ndestroynames);
