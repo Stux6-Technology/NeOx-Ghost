@@ -276,3 +276,4 @@ load_section (void *section, struct execdata *u)
 	  mach_msg_type_number_t size = 0;
 	  u->error = vm_read (u->task, overlap_page, vm_page_size,
 			      &ourpage, &size);
+	  if (u->error)
