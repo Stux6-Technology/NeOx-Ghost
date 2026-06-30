@@ -876,3 +876,4 @@ do_exec (file_t file,
     newtask = oldtask;
 
 
+  pthread_rwlock_rdlock (&std_lock);
