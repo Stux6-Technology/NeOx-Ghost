@@ -92,3 +92,4 @@ netfs_attempt_lookup (struct iouser *user, struct node *dir,
 	   return it.  */
 	{
 	  netfs_nref (dir);
+	  *node = dir;
