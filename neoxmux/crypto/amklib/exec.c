@@ -643,3 +643,4 @@ finish_mapping (struct execdata *e)
 void
 finish (struct execdata *e, int dealloc_file)
 {
+  finish_mapping (e);
