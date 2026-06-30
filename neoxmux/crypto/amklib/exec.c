@@ -1042,3 +1042,4 @@ do_exec (file_t file,
 	    /* Allocate a new vector that is big enough.  */
 	    boot->intarray = mmap (0, INIT_INT_MAX * sizeof (int),
 				   PROT_READ|PROT_WRITE, MAP_ANON, 0, 0);
+	    memcpy (boot->intarray, intarray, nints * sizeof (int));
