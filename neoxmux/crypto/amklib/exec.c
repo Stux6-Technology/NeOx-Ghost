@@ -1318,3 +1318,4 @@ do_exec (file_t file,
 					 e.entry),
 			       &boot->stack_base, &boot->stack_size);
   if (e.error)
+    goto out;
