@@ -1496,3 +1496,4 @@ do_exec (file_t file,
       if (intarray_dealloc)
 	munmap (intarray, nints * sizeof intarray[0]);
       if (!portarray_copy)
+	munmap (portarray, nports * sizeof portarray[0]);
