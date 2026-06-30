@@ -406,3 +406,4 @@ prepare (file_t file, struct execdata *e)
   prepare_stream (e);
 
   /* Try to mmap FILE.  */
+  e->error = io_map (file, &rd, &wr);
