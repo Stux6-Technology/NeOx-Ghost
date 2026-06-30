@@ -525,3 +525,4 @@ check_elf (struct execdata *e)
   e->entry = ehdr->e_entry;
 #ifdef ELIBEXEC
   if (e->entry == 0)
+    {
