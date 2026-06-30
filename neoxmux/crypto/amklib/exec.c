@@ -552,3 +552,4 @@ static void
 check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
 {
   const ElfW(Phdr) *phdr;
+  bool seen_phdr = false;
