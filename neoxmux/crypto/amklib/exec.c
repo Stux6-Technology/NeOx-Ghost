@@ -1035,3 +1035,4 @@ do_exec (file_t file,
 
     if ((secure || defaults) && nints < INIT_INT_MAX)
       {
+	/* Make sure the intarray is at least big enough.  */
