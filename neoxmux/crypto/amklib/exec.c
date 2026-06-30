@@ -1072,3 +1072,4 @@ do_exec (file_t file,
       boot->portarray[i] = portarray[i];
     if (MACH_PORT_NULL != 0)
       for (; i < boot->nports; ++i)
+	boot->portarray[i] = MACH_PORT_NULL;
