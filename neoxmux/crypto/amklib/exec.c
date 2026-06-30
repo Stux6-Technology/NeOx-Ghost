@@ -709,3 +709,4 @@ load (task_t usertask, struct execdata *e)
       vm_address_t anywhere_start = 0;
 
       /* Find out the overall mapping size.  TODO: This assumes that the
+         lowest PT_LOAD p_vaddr is always zero for PIC.  */
