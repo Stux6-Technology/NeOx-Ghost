@@ -953,3 +953,4 @@ do_exec (file_t file,
 	const char *existing;
 	size_t existing_len = 0;
 	size_t new_envplen;
+	char *new_envp;
