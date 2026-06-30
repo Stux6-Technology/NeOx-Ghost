@@ -798,3 +798,4 @@ do_exec (file_t file,
 
   /* Prime E for executing FILE and check its validity.  This must be an
      inline function because it stores pointers into alloca'd storage in E
+     for later use in `load'.  */
