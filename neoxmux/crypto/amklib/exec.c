@@ -46,3 +46,4 @@ pthread_rwlock_t std_lock = PTHREAD_RWLOCK_INITIALIZER;
 
 #include <hurd/sigpreempt.h>
 
+/* Load or allocate a section.  */
