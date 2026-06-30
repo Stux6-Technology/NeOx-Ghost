@@ -1166,3 +1166,4 @@ do_exec (file_t file,
 		}
 	      mach_port_mod_refs (mach_task_self (), boot->dtable[fd],
 				  MACH_PORT_RIGHT_SEND, +1);
+	      return boot->dtable[fd];
