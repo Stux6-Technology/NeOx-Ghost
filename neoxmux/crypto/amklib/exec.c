@@ -914,3 +914,4 @@ do_exec (file_t file,
 
 	boot->portarray[idx] = new;
 	ports_replaced[idx] = 1;
+      }
