@@ -1355,3 +1355,4 @@ do_exec (file_t file,
       e.error = proc_reauthenticate_reassign (proc,
                                               rendezvous,
                                               MACH_MSG_TYPE_MAKE_SEND,
+                                              newtask);
