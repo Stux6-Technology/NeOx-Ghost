@@ -1367,3 +1367,4 @@ do_exec (file_t file,
       e.error = auth_user_authenticate (boot->portarray[INIT_PORT_AUTH],
                                         rendezvous, MACH_MSG_TYPE_MAKE_SEND,
                                         &newproc);
+
