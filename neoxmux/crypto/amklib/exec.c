@@ -594,3 +594,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
       }
 
   if (!seen_phdr)
+    e->info.elf.phdr_addr = 0;
