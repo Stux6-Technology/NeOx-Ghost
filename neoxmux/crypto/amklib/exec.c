@@ -517,3 +517,4 @@ check_elf (struct execdata *e)
       return;
     }
   e->error = elf_machine_matches_host (ehdr->e_machine);
+  if (e->error)
