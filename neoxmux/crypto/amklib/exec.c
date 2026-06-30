@@ -1229,3 +1229,4 @@ do_exec (file_t file,
 	 These are ports the task wants not to lose if the exec call
 	 fails, but wants removed from the new program task.  */
 
+      for (i = 0; i < ndeallocnames; ++i)
