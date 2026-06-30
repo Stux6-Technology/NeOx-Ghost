@@ -625,3 +625,4 @@ finish_mapping (struct execdata *e)
       munmap (e->cntl, vm_page_size);
       e->cntl = NULL;
     }
+  if (e->filemap != MACH_PORT_NULL)
