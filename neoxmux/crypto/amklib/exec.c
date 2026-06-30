@@ -1201,3 +1201,4 @@ do_exec (file_t file,
 
   if (newtask == oldtask)
     {
+      thread_t *threads;
