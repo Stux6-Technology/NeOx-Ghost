@@ -542,3 +542,4 @@ check_elf (struct execdata *e)
 	e->error = ENOEXEC;
       return;
     }
+  e->info.elf.phdr = phdr;
