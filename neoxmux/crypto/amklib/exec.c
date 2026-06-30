@@ -1468,3 +1468,4 @@ do_exec (file_t file,
 	task_resume (oldtask);
     }
   else
+    {
