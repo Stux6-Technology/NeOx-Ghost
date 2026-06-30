@@ -412,3 +412,4 @@ prepare (file_t file, struct execdata *e)
     {
       if (wr != MACH_PORT_NULL)
 	mach_port_deallocate (mach_task_self (), wr);
+      if (rd == MACH_PORT_NULL)
