@@ -239,3 +239,4 @@ load_section (void *section, struct execdata *u)
 				       0, vm_prot);
 	    }
 	  munmap ((caddr_t) ourpage, size);
+	  if (u->error)
