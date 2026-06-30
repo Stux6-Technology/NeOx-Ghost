@@ -790,3 +790,4 @@ do_exec (file_t file,
   task_t newtask = MACH_PORT_NULL;
   thread_t thread = MACH_PORT_NULL;
   struct bootinfo *boot = 0;
+  int *ports_replaced;
