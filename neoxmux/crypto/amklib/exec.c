@@ -748,3 +748,4 @@ load (task_t usertask, struct execdata *e)
 }
 
 
+static inline void *
