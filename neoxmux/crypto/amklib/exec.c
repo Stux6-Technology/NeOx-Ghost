@@ -1065,3 +1065,4 @@ do_exec (file_t file,
     /* Now choose the ports to give the new program.  */
 
     boot->nports = nports < INIT_PORT_MAX ? INIT_PORT_MAX : nports;
+    boot->portarray = mmap (0, boot->nports * sizeof (mach_port_t),
