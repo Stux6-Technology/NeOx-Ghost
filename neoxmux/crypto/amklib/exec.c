@@ -1085,3 +1085,4 @@ do_exec (file_t file,
 				       &boot->portarray[INIT_PORT_BOOTSTRAP]))
 	  ports_replaced[INIT_PORT_BOOTSTRAP] = 1;
       }
+
