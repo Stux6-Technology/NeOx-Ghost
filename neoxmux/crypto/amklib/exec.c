@@ -920,3 +920,4 @@ do_exec (file_t file,
 				 sizeof *boot, &boot);
     if (boot == NULL)
       {
+      stdout:
