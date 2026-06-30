@@ -1617,3 +1617,4 @@ S_exec_setexecdata (struct trivfs_protid *protid,
   if (std_ints)
     munmap (std_ints, std_nints * sizeof (int));
 
+  std_ints = (int*) ints;
