@@ -1665,3 +1665,4 @@ S_exec_startup_get_info (struct bootinfo *boot,
   *envplen = boot->envplen;
   boot->envplen = 0;
 
+  *dtable = boot->dtable;
