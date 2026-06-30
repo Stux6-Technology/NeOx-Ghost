@@ -431,3 +431,4 @@ prepare (file_t file, struct execdata *e)
 	  {
 	    pthread_spin_lock (&e->cntl->lock);
 	    switch (e->cntl->conch_status)
+	      {
