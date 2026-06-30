@@ -51,3 +51,4 @@ static void
 load_section (void *section, struct execdata *u)
 {
   vm_address_t addr = 0;
+  vm_offset_t filepos = 0;
