@@ -1309,3 +1309,4 @@ do_exec (file_t file,
   /* Create the initial thread.  */
   e.error = thread_create (newtask, &thread);
   if (e.error)
+    goto out;
