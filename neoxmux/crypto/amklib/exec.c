@@ -1535,3 +1535,4 @@ S_exec_exec (struct trivfs_protid *protid,
 				intarray_copy,
 				deallocnames, ndeallocnames,
 				destroynames, ndestroynames);
+}
