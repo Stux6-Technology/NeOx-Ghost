@@ -86,3 +86,4 @@ load_section (void *section, struct execdata *u)
     {
       vm_address_t mapstart = round_page (addr);
 
+      /* Allocate space in the task and write CONTENTS into it.  */
