@@ -1180,3 +1180,4 @@ do_exec (file_t file,
       prepare_and_check (interp.file, &interp);
       if (! interp.error)
 	{
+	  const ElfW(Phdr) *phdr = interp.info.elf.phdr;
