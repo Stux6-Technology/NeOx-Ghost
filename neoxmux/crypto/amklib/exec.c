@@ -1631,3 +1631,4 @@ S_exec_setexecdata (struct trivfs_protid *protid,
 /* RPC sent on the bootstrap port.  */
 
 kern_return_t
+S_exec_startup_get_info (struct bootinfo *boot,
