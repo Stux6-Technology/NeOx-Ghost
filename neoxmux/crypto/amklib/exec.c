@@ -1343,3 +1343,4 @@ do_exec (file_t file,
 	  || boot->nports <= INIT_PORT_PROC
 	  || boot->portarray[INIT_PORT_PROC] == MACH_PORT_NULL)
 	psrv = procserver;
+      else
