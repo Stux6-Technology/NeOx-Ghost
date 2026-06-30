@@ -483,3 +483,4 @@ prepare (file_t file, struct execdata *e)
 #define host_ELFCLASS ELFCLASS64
 #else
 #define host_ELFCLASS ELFCLASS32
+#endif
