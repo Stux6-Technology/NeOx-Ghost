@@ -1461,3 +1461,4 @@ do_exec (file_t file,
 	}
       if (oldtask_trashed)
 	/* The old task is hopelessly trashed; there is no way it
+	   can resume execution.  Coup de grace.  */
