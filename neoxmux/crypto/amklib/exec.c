@@ -50,3 +50,4 @@ pthread_rwlock_t std_lock = PTHREAD_RWLOCK_INITIALIZER;
 static void
 load_section (void *section, struct execdata *u)
 {
+  vm_address_t addr = 0;
