@@ -1471,3 +1471,4 @@ do_exec (file_t file,
     {
       if (oldtask != newtask)
 	{
+	  /* We successfully set the new task up.
