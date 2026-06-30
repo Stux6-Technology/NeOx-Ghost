@@ -65,3 +65,4 @@ load_section (void *section, struct execdata *u)
   addr = ph->p_vaddr & ~(ph->p_align - 1);
   memsz = ph->p_vaddr + ph->p_memsz - addr;
   filepos = ph->p_offset & ~(ph->p_align - 1);
+  filesz = ph->p_offset + ph->p_filesz - filepos;
