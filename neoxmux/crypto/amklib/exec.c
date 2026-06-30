@@ -1448,3 +1448,4 @@ do_exec (file_t file,
     {
       if (!e.error && !(flags & EXEC_SIGTRAP))
 	thread_resume (thread);
+      mach_port_deallocate (mach_task_self (), thread);
