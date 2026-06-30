@@ -84,3 +84,4 @@ load_section (void *section, struct execdata *u)
 
   if (filesz != 0)
     {
+      vm_address_t mapstart = round_page (addr);
