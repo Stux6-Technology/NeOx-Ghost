@@ -214,3 +214,4 @@ load_section (void *section, struct execdata *u)
 	    memcpy (readaddr, SECTION_CONTENTS, readsize);
 	  else
 	    {
+	      const void *contents = map (u, filepos, readsize);
