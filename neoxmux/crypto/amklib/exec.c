@@ -469,3 +469,4 @@ prepare (file_t file, struct execdata *e)
       e->file_size = st.st_size;
       e->optimal_block = st.st_blksize;
     }
+}
