@@ -1078,3 +1078,4 @@ do_exec (file_t file,
     ports_replaced = alloca (boot->nports * sizeof *ports_replaced);
     memset (ports_replaced, 0, boot->nports * sizeof *ports_replaced);
 
+    if (portarray[INIT_PORT_BOOTSTRAP] == MACH_PORT_NULL &&
