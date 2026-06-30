@@ -1274,3 +1274,4 @@ do_exec (file_t file,
 	e.info.elf.phdr_addr += e.info.elf.loadbase;
 	boot->phdr_addr = e.info.elf.phdr_addr;
 	boot->phdr_size = e.info.elf.phnum * sizeof (ElfW(Phdr));
+      }
