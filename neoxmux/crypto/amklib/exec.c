@@ -357,3 +357,4 @@ map (struct execdata *e, off_t posn, size_t len)
 
       /* Map the data from the file.  */
       if (vm_map (mach_task_self (),
+		  (vm_address_t *) &map_buffer (e), map_vsize (e), 0, 1,
