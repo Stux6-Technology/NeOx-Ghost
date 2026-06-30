@@ -830,3 +830,4 @@ do_exec (file_t file,
   /* Prime E for executing FILE and check its validity.  */
   prepare_and_check (file, &e);
 
+  if (e.error == ENOEXEC)
