@@ -896,3 +896,4 @@ do_exec (file_t file,
 	    mach_port_t ref = mach_reply_port (), authed;
 	    /* MAKE_SEND is safe here because we destroy REF ourselves. */
 	    e.error = io_reauthenticate (new, ref, MACH_MSG_TYPE_MAKE_SEND);
+	    if (! e.error)
