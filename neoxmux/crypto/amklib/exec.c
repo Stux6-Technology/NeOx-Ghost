@@ -486,3 +486,4 @@ prepare (file_t file, struct execdata *e)
 #endif
 
 static void
+check_elf (struct execdata *e)
