@@ -112,3 +112,4 @@ load_section (void *section, struct execdata *u)
 		{
 		  u->error = hurd_safe_copyin ((void *) page, /* XXX/fault */
 			  (void *) (contents + (size - off)),
+			  off);
