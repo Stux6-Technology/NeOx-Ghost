@@ -930,3 +930,4 @@ do_exec (file_t file,
        may need to be modified.  */
     secure = (flags & EXEC_SECURE);
     defaults = (flags & EXEC_DEFAULTS);
+
