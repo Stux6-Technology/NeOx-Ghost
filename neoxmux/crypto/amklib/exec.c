@@ -1230,3 +1230,4 @@ do_exec (file_t file,
 	 fails, but wants removed from the new program task.  */
 
       for (i = 0; i < ndeallocnames; ++i)
+	mach_port_deallocate (oldtask, deallocnames[i]);
