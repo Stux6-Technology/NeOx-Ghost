@@ -891,3 +891,4 @@ do_exec (file_t file,
     void use1 (unsigned int idx, mach_port_t new,
 	       int reauth, int consume)
       {
+	if (new != MACH_PORT_NULL && reauth)
