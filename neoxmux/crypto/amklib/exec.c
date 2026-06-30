@@ -1256,3 +1256,4 @@ do_exec (file_t file,
       /* Load the interpreter file.  */
       load (newtask, &interp);
       if (interp.error)
+	{
