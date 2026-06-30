@@ -1240,3 +1240,4 @@ do_exec (file_t file,
   {
     vm_address_t addr = 0;
     e.error = vm_map (newtask,
+		      &addr, vm_page_size, 0, 0, MACH_PORT_NULL, 0, 1,
