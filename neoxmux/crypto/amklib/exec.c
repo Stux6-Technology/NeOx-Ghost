@@ -1114,3 +1114,4 @@ do_exec (file_t file,
 	   one for the new task.  */
 	e.error = proc_task2proc (boot->portarray[INIT_PORT_PROC],
 				  newtask, &new);
+	if (e.error)
