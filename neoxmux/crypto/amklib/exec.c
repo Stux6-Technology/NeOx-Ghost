@@ -350,3 +350,4 @@ map (struct execdata *e, off_t posn, size_t len)
 	munmap (map_buffer (e), map_vsize (e));
       map_buffer (e) = NULL;
 
+      /* Make sure our mapping is page-aligned in the file.  */
