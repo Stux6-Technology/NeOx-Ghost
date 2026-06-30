@@ -1431,3 +1431,4 @@ do_exec (file_t file,
 	 will get cleaned up here.  */
 
       if (e.error)
+	/* Kill the pointers to the argument information so the cleanup
