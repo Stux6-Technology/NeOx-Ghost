@@ -60,3 +60,4 @@ load_section (void *section, struct execdata *u)
   if (u->error)
     return;
 
+  vm_prot = VM_PROT_READ | VM_PROT_WRITE | VM_PROT_EXECUTE;
