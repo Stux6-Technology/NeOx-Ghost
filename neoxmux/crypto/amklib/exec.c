@@ -1169,3 +1169,4 @@ do_exec (file_t file,
 	      return boot->dtable[fd];
 	    }
 				/* XXX/fault */
+	  e.error = hurd_file_name_lookup (&user_port, &user_fd, 0,
