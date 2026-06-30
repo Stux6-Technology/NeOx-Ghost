@@ -1426,3 +1426,4 @@ do_exec (file_t file,
     {
       /* Release the original reference.  Now there is only one
 	 reference, which will be released on no-senders notification.
+	 If we are bailing out due to error before setting the task's
