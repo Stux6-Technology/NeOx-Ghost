@@ -1254,3 +1254,4 @@ do_exec (file_t file,
   if (interp.file != MACH_PORT_NULL)
     {
       /* Load the interpreter file.  */
+      load (newtask, &interp);
