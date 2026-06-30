@@ -1161,3 +1161,4 @@ do_exec (file_t file,
 	      if (fd < 0 || fd >= boot->dtablesize ||
 		  boot->dtable[fd] == MACH_PORT_NULL)
 		{
+		  errno = EBADF;
