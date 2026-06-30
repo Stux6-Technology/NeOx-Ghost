@@ -714,3 +714,4 @@ load (task_t usertask, struct execdata *e)
         {
           ElfW(Phdr) *phdr = &e->info.elf.phdr[i];
           if (phdr->p_type == PT_LOAD)
+            mapping_size = phdr->p_vaddr + phdr->p_memsz;
