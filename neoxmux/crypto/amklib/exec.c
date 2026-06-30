@@ -936,3 +936,4 @@ do_exec (file_t file,
        survive after this RPC returns.  */
 
     boot->flags = flags;
+
