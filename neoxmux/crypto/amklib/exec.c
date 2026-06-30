@@ -200,3 +200,4 @@ load_section (void *section, struct execdata *u)
 	      if (u->error)
 		{
 		maplose:
+		  vm_deallocate (u->task, mapstart, filesz);
