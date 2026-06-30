@@ -1012,3 +1012,4 @@ do_exec (file_t file,
 	  /* Deallocate original environment */
 	  munmap (envp, envplen);
 
+	envp = new_envp;
