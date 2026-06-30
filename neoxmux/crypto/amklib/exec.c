@@ -1227,3 +1227,4 @@ do_exec (file_t file,
 
       /* Deallocate and destroy the ports requested by the caller.
 	 These are ports the task wants not to lose if the exec call
+	 fails, but wants removed from the new program task.  */
