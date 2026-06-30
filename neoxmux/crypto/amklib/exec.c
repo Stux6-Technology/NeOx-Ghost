@@ -1138,3 +1138,4 @@ do_exec (file_t file,
 	 along with this executable.  Find the name of the file and open
 	 it.  */
 
+      char *name = map (&e, (e.interp.phdr->p_offset
