@@ -539,3 +539,4 @@ check_elf (struct execdata *e)
   if (! phdr)
     {
       if (!e->error)
+	e->error = ENOEXEC;
