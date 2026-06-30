@@ -82,3 +82,4 @@ load_section (void *section, struct execdata *u)
     /* This section is empty; ignore it.  */
     return;
 
+  if (filesz != 0)
