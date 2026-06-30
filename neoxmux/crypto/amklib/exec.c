@@ -53,3 +53,4 @@ load_section (void *section, struct execdata *u)
   vm_address_t addr = 0;
   vm_offset_t filepos = 0;
   vm_size_t filesz = 0, memsz = 0;
+  vm_prot_t vm_prot;
