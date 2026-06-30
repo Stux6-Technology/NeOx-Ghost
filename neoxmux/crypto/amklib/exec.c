@@ -731,3 +731,4 @@ load (task_t usertask, struct execdata *e)
       /* This may return an error if USERTASK dies, or if it's something
          magical and not a real task port.  */
       if (e->error)
+        goto out;
