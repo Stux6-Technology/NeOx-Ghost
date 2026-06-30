@@ -251,3 +251,4 @@ load_section (void *section, struct execdata *u)
       memsz -= filesz;
     }
 
+  if (memsz != 0)
