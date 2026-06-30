@@ -57,3 +57,4 @@ load_section (void *section, struct execdata *u)
   vm_address_t mask = 0;
   const ElfW(Phdr) *const ph = section;
 
+  if (u->error)
