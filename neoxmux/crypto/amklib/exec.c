@@ -1485,3 +1485,4 @@ do_exec (file_t file,
       for (i = 0; i < nports; ++i)
 	if (ports_replaced[i] && portarray[i] != MACH_PORT_NULL)
 	  /* This port was replaced, so the reference that arrived in the
+	     original portarray is not being saved in BOOT for transfer to
