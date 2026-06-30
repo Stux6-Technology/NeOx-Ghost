@@ -1569,3 +1569,4 @@ S_exec_exec_paths (struct trivfs_protid *protid,
 
   return do_exec (file, oldtask, flags, path, abspath,
 		  (char*) argv, argvlen, argv_copy,
+		  (char*) envp, envplen, envp_copy,
