@@ -949,3 +949,4 @@ do_exec (file_t file,
 	   environment variable for $ORIGIN rpath expansion. */
 	const char *end = strrchr (abspath, '/');
 	size_t pathlen;
+	const char ld_origin_s[] = "\0LD_ORIGIN_PATH=";
