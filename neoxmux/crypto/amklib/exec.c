@@ -892,3 +892,4 @@ do_exec (file_t file,
 	       int reauth, int consume)
       {
 	if (new != MACH_PORT_NULL && reauth)
+	  {
