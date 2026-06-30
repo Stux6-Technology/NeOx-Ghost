@@ -1577,3 +1577,4 @@ S_exec_exec_paths (struct trivfs_protid *protid,
 		  destroynames, ndestroynames);
 }
 
+kern_return_t
