@@ -601,3 +601,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
 static void
 check (struct execdata *e)
 {
+  check_elf (e);		/* XXX/fault */
