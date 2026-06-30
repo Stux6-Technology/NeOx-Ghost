@@ -998,3 +998,4 @@ do_exec (file_t file,
 	else
 	  {
 	    /* No existing definition, prepend one.  */
+	    new_envplen = sizeof (ld_origin_s) - 1 + pathlen + envplen;
