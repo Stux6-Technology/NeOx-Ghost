@@ -1326,3 +1326,4 @@ do_exec (file_t file,
   if (e.info.elf.execstack || (e.interp.section && interp.info.elf.execstack))
     e.error = vm_protect (newtask, boot->stack_base, boot->stack_size,
 			  0, VM_PROT_READ | VM_PROT_WRITE | VM_PROT_EXECUTE);
+
