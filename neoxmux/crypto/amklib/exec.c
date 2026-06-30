@@ -883,3 +883,4 @@ do_exec (file_t file,
 
     /* Set boot->portarray[IDX] to NEW.  If REAUTH is nonzero,
        io_reauthenticate NEW and set it to the authenticated port.
+       If CONSUME is nonzero, a reference on NEW is consumed;
