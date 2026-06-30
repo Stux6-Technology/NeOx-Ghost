@@ -1269,3 +1269,4 @@ do_exec (file_t file,
   /* Now record some essential addresses from the image itself that the
      program's startup code will need to know.  We do this after loading
      the image so that a load-anywhere image gets the adjusted addresses.  */
+    if (e.info.elf.phdr_addr != 0)
