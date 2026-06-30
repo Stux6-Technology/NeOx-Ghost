@@ -1023,3 +1023,4 @@ do_exec (file_t file,
 	  goto stdout;
       }
 
+    boot->envp = envp;
