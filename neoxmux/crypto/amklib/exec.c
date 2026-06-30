@@ -426,3 +426,4 @@ prepare (file_t file, struct execdata *e)
 			   VM_PROT_READ|VM_PROT_WRITE,
 			   VM_PROT_READ|VM_PROT_WRITE, VM_INHERIT_NONE);
 
+      if (e->cntl)
