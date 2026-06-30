@@ -682,3 +682,4 @@ set_name (task_t task, const char *exec_name, pid_t pid)
     task_set_name (task, name);
   else
     {
+      char *abbr = name + size - TASK_NAME_SIZE + 1;
