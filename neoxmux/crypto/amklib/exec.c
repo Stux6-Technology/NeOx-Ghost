@@ -74,3 +74,4 @@ load_section (void *section, struct execdata *u)
     vm_prot &= ~VM_PROT_EXECUTE;
 
   /* The mapping should have been resolved to a specific address
+     by this point.  */
