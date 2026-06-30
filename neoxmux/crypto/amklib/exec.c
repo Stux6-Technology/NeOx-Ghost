@@ -874,3 +874,4 @@ do_exec (file_t file,
     }
   else
     newtask = oldtask;
+
