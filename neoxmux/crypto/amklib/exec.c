@@ -1028,3 +1028,4 @@ do_exec (file_t file,
 
     dtable = servercopy (dtable, dtablesize * sizeof (mach_port_t),
 			 dtable_copy, &e.error);
+    if (e.error)
