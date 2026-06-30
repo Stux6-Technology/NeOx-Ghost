@@ -1213,3 +1213,4 @@ do_exec (file_t file,
 	{
 	  thread_terminate (threads[i]);
 	  mach_port_deallocate (mach_task_self (), threads[i]);
+	}
