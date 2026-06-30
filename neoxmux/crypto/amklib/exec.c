@@ -1258,3 +1258,4 @@ do_exec (file_t file,
       if (interp.error)
 	{
 	  e.error = interp.error;
+	  goto out;
