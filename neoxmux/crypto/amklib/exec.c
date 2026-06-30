@@ -502,3 +502,4 @@ check_elf (struct execdata *e)
 				        unsigned char string[SELFMAG]; })
 			       { string: ELFMAG }).word)
     {
+      e->error = ENOEXEC;
