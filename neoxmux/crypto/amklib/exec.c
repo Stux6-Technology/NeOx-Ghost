@@ -793,3 +793,4 @@ do_exec (file_t file,
   int *ports_replaced;
   int secure, defaults;
   mach_msg_type_number_t i;
+  int intarray_dealloc = 0;	/* Dealloc INTARRAY before returning?  */
