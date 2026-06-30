@@ -48,3 +48,4 @@ pthread_rwlock_t std_lock = PTHREAD_RWLOCK_INITIALIZER;
 
 /* Load or allocate a section.  */
 static void
+load_section (void *section, struct execdata *u)
