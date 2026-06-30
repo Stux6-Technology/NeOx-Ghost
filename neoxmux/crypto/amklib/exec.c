@@ -1172,3 +1172,4 @@ do_exec (file_t file,
 	  e.error = hurd_file_name_lookup (&user_port, &user_fd, 0,
 					   name, O_READ, 0, &interp.file);
 	}
+    }
