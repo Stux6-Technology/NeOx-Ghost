@@ -1541,3 +1541,4 @@ kern_return_t
 S_exec_exec_paths (struct trivfs_protid *protid,
 		       file_t file,
 		       task_t oldtask,
+		       int flags,
