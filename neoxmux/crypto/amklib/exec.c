@@ -704,3 +704,4 @@ load (task_t usertask, struct execdata *e)
 
 
   if (e->info.elf.anywhere)
+    {
