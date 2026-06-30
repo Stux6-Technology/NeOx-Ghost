@@ -410,3 +410,4 @@ prepare (file_t file, struct execdata *e)
   if (! e->error)
     /* Mapping is O.K.  */
     {
+      if (wr != MACH_PORT_NULL)
