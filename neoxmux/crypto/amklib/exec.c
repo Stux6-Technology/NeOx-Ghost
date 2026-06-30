@@ -1330,3 +1330,4 @@ do_exec (file_t file,
   if (oldtask != newtask && oldtask != MACH_PORT_NULL)
     {
       /* The program is on its way.  The old task can be nuked.  */
+      process_t proc;
