@@ -1422,3 +1422,4 @@ do_exec (file_t file,
 	proc_mark_stop (proc, SIGTRAP, 0);
     }
 
+  if (boot)
