@@ -325,3 +325,4 @@ map (struct execdata *e, off_t posn, size_t len)
       mach_msg_type_number_t nread = map_vsize (e);
 
       assert_backtrace (e->file_data == NULL); /* Must be first or second case.  */
+
