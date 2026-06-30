@@ -233,3 +233,4 @@ load_section (void *section, struct execdata *u)
 	      if (!u->error)
 		u->error = vm_write (u->task, overlap_page, ourpage, size);
 	      /* If this section is not supposed to be writable either,
+		 restore the page's protection to read-only.  */
