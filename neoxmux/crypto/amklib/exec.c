@@ -175,3 +175,4 @@ load_section (void *section, struct execdata *u)
              first page boundary.  */
 	  vm_address_t overlap_page = trunc_page (addr);
 	  vm_address_t ourpage = 0;
+	  mach_msg_type_number_t size = 0;
