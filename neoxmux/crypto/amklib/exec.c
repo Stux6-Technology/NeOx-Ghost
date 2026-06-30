@@ -96,3 +96,4 @@ load_section (void *section, struct execdata *u)
 			     mapstart, size, mask, 0,
 			     MACH_PORT_NULL, 0, 1,
 			     vm_prot|VM_PROT_WRITE,
+			     VM_PROT_READ|VM_PROT_WRITE|VM_PROT_EXECUTE,
