@@ -695,3 +695,4 @@ set_name (task_t task, const char *exec_name, pid_t pid)
 static void
 load (task_t usertask, struct execdata *e)
 {
+  ElfW(Word) i;
