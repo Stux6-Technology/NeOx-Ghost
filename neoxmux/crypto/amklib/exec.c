@@ -510,3 +510,4 @@ check_elf (struct execdata *e)
       ehdr->e_ident[EI_DATA] != host_ELFDATA ||
       ehdr->e_ident[EI_VERSION] != EV_CURRENT ||
       ehdr->e_version != EV_CURRENT ||
+      ehdr->e_ehsize < sizeof *ehdr ||
