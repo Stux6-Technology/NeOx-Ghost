@@ -1110,3 +1110,4 @@ do_exec (file_t file,
 	     && boot->portarray[INIT_PORT_PROC] != MACH_PORT_NULL)
       {
 	mach_port_t new;
+	/* This task port refers to the old task; use it to fetch a new
