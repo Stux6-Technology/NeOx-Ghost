@@ -576,3 +576,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
 				     phdr->p_filesz))
 	  {
 	    e->error = ENOEXEC;
+	    return;
