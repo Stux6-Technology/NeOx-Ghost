@@ -1405,3 +1405,4 @@ do_exec (file_t file,
 	 caller has requested that the new process stop with SIGTRAP before
 	 it starts.  Since the process has no signal thread yet to do its
 	 own POSIX signal mechanics, we simulate it by notifying the proc
+	 server of the signal and leaving the initial thread with a suspend
