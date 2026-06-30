@@ -1647,3 +1647,4 @@ S_exec_startup_get_info (struct bootinfo *boot,
 			 int **intarray, mach_msg_type_number_t *nints)
 {
   if (! boot)
+    return EOPNOTSUPP;
