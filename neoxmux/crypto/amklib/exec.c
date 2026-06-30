@@ -871,3 +871,4 @@ do_exec (file_t file,
 			     0, &newtask);
       if (e.error)
 	goto out;
+    }
