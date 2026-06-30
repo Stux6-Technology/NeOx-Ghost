@@ -302,3 +302,4 @@ load_section (void *section, struct execdata *u)
    to abort the RPC when mapped file data generates bad page faults.
    I've marked some accesses with XXX/fault comments.
    --roland  */
+
