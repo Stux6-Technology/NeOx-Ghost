@@ -967,3 +967,4 @@ do_exec (file_t file,
 
 	if (memcmp (envp, ld_origin_s + 1, sizeof (ld_origin_s) - 2) == 0)
 	  /* Existing variable at the beginning of envp.  */
+	  existing = envp - 1;
