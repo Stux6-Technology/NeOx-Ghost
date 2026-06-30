@@ -398,3 +398,4 @@ prepare (file_t file, struct execdata *e)
   e->cntlmap = MACH_PORT_NULL;
 
   e->interp.section = NULL;
+
