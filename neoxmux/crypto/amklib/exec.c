@@ -1464,3 +1464,4 @@ do_exec (file_t file,
 	   can resume execution.  Coup de grace.  */
 	task_terminate (oldtask);
       else
+	/* Resume the old task, which we suspended earlier.  */
