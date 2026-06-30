@@ -1294,3 +1294,4 @@ do_exec (file_t file,
 	goto out;
 
       if (abspath)
+	proc_set_exe (boot->portarray[INIT_PORT_PROC], abspath);
