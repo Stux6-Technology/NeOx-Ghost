@@ -1130,3 +1130,4 @@ do_exec (file_t file,
 
   /* We have now concocted in BOOT the complete Hurd context (ports and
      ints) that the new program image will run under.  We will use these
+     ports for looking up the interpreter file if there is one.  */
