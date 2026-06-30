@@ -1183,3 +1183,4 @@ do_exec (file_t file,
 	  const ElfW(Phdr) *phdr = interp.info.elf.phdr;
 	  interp.info.elf.phdr = alloca (interp.info.elf.phnum *
 					 sizeof (ElfW(Phdr)));
+	  check_elf_phdr (&interp, phdr);
