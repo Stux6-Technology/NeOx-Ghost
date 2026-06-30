@@ -617,3 +617,4 @@ finish_mapping (struct execdata *e)
 	  pthread_spin_unlock (&e->cntl->lock);
 	  io_release_conch (e->file);
 	}
+      else
