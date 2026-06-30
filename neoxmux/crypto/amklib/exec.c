@@ -1632,3 +1632,4 @@ S_exec_setexecdata (struct trivfs_protid *protid,
 
 kern_return_t
 S_exec_startup_get_info (struct bootinfo *boot,
+			 vm_address_t *user_entry,
