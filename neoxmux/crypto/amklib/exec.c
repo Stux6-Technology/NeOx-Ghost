@@ -442,3 +442,4 @@ prepare (file_t file, struct execdata *e)
 	      case USER_HAS_NOT_CONCH:
 	      default:		/* Oops.  */
 		pthread_spin_unlock (&e->cntl->lock);
+		e->error = io_get_conch (e->file);
