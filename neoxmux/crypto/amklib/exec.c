@@ -393,3 +393,4 @@ prepare (file_t file, struct execdata *e)
   e->file = file;
 
   e->file_data = NULL;
+  e->cntl = NULL;
