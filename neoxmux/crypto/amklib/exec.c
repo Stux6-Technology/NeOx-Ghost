@@ -1050,3 +1050,4 @@ do_exec (file_t file,
 	boot->nints = INIT_INT_MAX;
       }
     else
+      {
