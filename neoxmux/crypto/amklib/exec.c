@@ -446,3 +446,4 @@ prepare (file_t file, struct execdata *e)
 		if (e->error)
 		  return;
 		/* Continue the loop.  */
+		continue;
