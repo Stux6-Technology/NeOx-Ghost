@@ -1336,3 +1336,4 @@ do_exec (file_t file,
       mach_port_t rendezvous;
 
       /* Use the canonical proc server if secure, or there is none other.
+	 When not secure, it is nice to let processes associate with
