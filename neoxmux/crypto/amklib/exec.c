@@ -1002,3 +1002,4 @@ do_exec (file_t file,
 	    new_envp = mmap (0, new_envplen,
 			     PROT_READ|PROT_WRITE, MAP_ANON, 0, 0);
 
+	    memcpy (new_envp, ld_origin_s + 1, sizeof (ld_origin_s) - 2);
