@@ -703,3 +703,4 @@ load (task_t usertask, struct execdata *e)
     goto out;
 
 
+  if (e->info.elf.anywhere)
