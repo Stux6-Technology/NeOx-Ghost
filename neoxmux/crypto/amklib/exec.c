@@ -320,3 +320,4 @@ map (struct execdata *e, off_t posn, size_t len)
     return e->file_data + posn;
   } else if (e->filemap == MACH_PORT_NULL)
     {
+      /* No mapping for the file.  Read the data by RPC.  */
