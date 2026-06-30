@@ -158,3 +158,4 @@ load_section (void *section, struct execdata *u)
 	    return;
 	}
 
+      /* If this segment is executable, adjust start_code and end_code
