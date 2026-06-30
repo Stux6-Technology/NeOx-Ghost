@@ -847,3 +847,4 @@ do_exec (file_t file,
 	return 0;
     }
 
+  if (e.error)
