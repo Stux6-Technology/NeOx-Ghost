@@ -1173,3 +1173,4 @@ do_exec (file_t file,
 					   name, O_READ, 0, &interp.file);
 	}
     }
+
