@@ -1409,3 +1409,4 @@ do_exec (file_t file,
 	 count of one, as it would be if the process were stopped by a
 	 POSIX signal.  */
       mach_port_t proc;
+      if (boot->nports > INIT_PORT_PROC)
