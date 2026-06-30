@@ -1192,3 +1192,4 @@ do_exec (file_t file,
     goto out;
 
 
+  /* We are now committed to the exec.  It "should not fail".
