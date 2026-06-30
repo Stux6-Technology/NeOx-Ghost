@@ -521,3 +521,4 @@ check_elf (struct execdata *e)
     return;
 
   /* Extract all this information now, while EHDR is mapped.
+     The `map' call below for the phdrs may reuse the mapping window.  */
