@@ -399,3 +399,4 @@ prepare (file_t file, struct execdata *e)
 
   e->interp.section = NULL;
 
+  e->start_code = 0;
