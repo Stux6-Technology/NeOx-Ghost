@@ -333,3 +333,4 @@ map (struct execdata *e, off_t posn, size_t len)
       if (buffer != map_buffer (e))
 	{
 	  /* The data was returned out of line.  Discard the old buffer.  */
+	  if (map_vsize (e) != 0)
