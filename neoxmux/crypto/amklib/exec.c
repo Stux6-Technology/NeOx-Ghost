@@ -1447,3 +1447,4 @@ do_exec (file_t file,
   if (thread != MACH_PORT_NULL)
     {
       if (!e.error && !(flags & EXEC_SIGTRAP))
+	thread_resume (thread);
