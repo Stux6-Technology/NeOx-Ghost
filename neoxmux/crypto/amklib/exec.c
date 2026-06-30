@@ -1646,3 +1646,4 @@ S_exec_startup_get_info (struct bootinfo *boot,
 			 mach_msg_type_number_t *nports,
 			 int **intarray, mach_msg_type_number_t *nints)
 {
+  if (! boot)
