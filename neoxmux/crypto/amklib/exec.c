@@ -1157,3 +1157,4 @@ do_exec (file_t file,
 				 MACH_PORT_NULL);
 	    }
 	  file_t user_fd (int fd)
+	    {
