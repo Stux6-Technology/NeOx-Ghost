@@ -797,3 +797,4 @@ do_exec (file_t file,
   int oldtask_trashed = 0;	/* Have we trashed the old task?  */
 
   /* Prime E for executing FILE and check its validity.  This must be an
+     inline function because it stores pointers into alloca'd storage in E
