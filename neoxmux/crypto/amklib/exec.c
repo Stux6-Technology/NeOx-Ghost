@@ -1271,3 +1271,4 @@ do_exec (file_t file,
      the image so that a load-anywhere image gets the adjusted addresses.  */
     if (e.info.elf.phdr_addr != 0)
       {
+	e.info.elf.phdr_addr += e.info.elf.loadbase;
