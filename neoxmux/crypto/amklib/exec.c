@@ -835,3 +835,4 @@ do_exec (file_t file,
       /* Check for a #! executable file.  */
       check_hashbang (&e,
 		      file, oldtask, flags, path,
+		      argv, argvlen, argv_copy,
