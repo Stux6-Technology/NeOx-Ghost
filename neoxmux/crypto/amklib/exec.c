@@ -1266,3 +1266,4 @@ do_exec (file_t file,
   /* Clean up.  */
   finish (&e, 0);
 
+  /* Now record some essential addresses from the image itself that the
