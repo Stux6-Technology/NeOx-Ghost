@@ -520,3 +520,4 @@ check_elf (struct execdata *e)
   if (e->error)
     return;
 
+  /* Extract all this information now, while EHDR is mapped.
