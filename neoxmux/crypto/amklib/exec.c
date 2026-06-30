@@ -566,3 +566,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
   for (phdr = e->info.elf.phdr;
        phdr < &e->info.elf.phdr[e->info.elf.phnum];
        ++phdr)
+    switch (phdr->p_type)
