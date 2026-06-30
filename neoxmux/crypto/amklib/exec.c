@@ -292,3 +292,4 @@ load_section (void *section, struct execdata *u)
 	    u->error = vm_write (u->task, overlap_page, ourpage, size);
 	  if (! u->error && !(vm_prot & VM_PROT_WRITE))
 	    u->error = vm_protect (u->task, overlap_page, size, 0, vm_prot);
+	  munmap ((caddr_t) ourpage, size);
