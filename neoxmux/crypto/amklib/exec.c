@@ -1247,3 +1247,4 @@ do_exec (file_t file,
   }
 
   /* Load the file into the task.  */
+  load (newtask, &e);
