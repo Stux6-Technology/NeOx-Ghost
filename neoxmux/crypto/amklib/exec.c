@@ -1275,3 +1275,4 @@ do_exec (file_t file,
 	boot->phdr_addr = e.info.elf.phdr_addr;
 	boot->phdr_size = e.info.elf.phnum * sizeof (ElfW(Phdr));
       }
+  boot->user_entry = e.entry;	/* already adjusted in `load' */
