@@ -54,3 +54,4 @@
 error_t create_host_node (struct hostmux *mux, struct hostmux_name *name,
 			  struct node **node);
 
+/* Returned directory entries are aligned to blocks this many bytes long.
