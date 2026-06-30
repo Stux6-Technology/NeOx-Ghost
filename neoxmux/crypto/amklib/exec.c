@@ -203,3 +203,4 @@ load_section (void *section, struct execdata *u)
 		  vm_deallocate (u->task, mapstart, filesz);
 		  return;
 		}
+	    }
