@@ -493,3 +493,4 @@ check_elf (struct execdata *e)
 
   if (! ehdr)
     {
+      if (!e->error)
