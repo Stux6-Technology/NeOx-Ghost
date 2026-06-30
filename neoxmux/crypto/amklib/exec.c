@@ -1442,3 +1442,4 @@ do_exec (file_t file,
 	  proc_mark_exec (boot->portarray[INIT_PORT_PROC]);
 
       ports_port_deref (boot);
+    }
