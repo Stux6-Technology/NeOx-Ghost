@@ -1607,3 +1607,4 @@ S_exec_setexecdata (struct trivfs_protid *protid,
     {
       mach_msg_type_number_t i;
       for (i = 0; i < std_nports; ++i)
+	mach_port_deallocate (mach_task_self (), std_ports[i]);
