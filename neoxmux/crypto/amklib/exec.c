@@ -1357,3 +1357,4 @@ do_exec (file_t file,
                                               MACH_MSG_TYPE_MAKE_SEND,
                                               newtask);
       if (e.error)
+        {
