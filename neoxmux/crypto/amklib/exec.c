@@ -55,3 +55,4 @@ load_section (void *section, struct execdata *u)
   vm_size_t filesz = 0, memsz = 0;
   vm_prot_t vm_prot;
   vm_address_t mask = 0;
+  const ElfW(Phdr) *const ph = section;
