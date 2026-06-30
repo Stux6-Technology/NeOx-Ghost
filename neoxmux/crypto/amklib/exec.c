@@ -1048,3 +1048,4 @@ do_exec (file_t file,
 	else
 	  boot->intarray = intarray;
 	boot->nints = INIT_INT_MAX;
+      }
