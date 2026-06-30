@@ -1093,3 +1093,4 @@ do_exec (file_t file,
       /* Q: Doesn't this let anyone run a program and make it
 	 get a root auth port?
 	 A: No; the standard port for INIT_PORT_AUTH has no UID's at all.
+	 See init.trim/init.c (init_stdarrays).  */
