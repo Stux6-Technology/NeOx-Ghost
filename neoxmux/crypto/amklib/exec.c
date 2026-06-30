@@ -1354,3 +1354,4 @@ do_exec (file_t file,
       rendezvous = mach_reply_port ();
       e.error = proc_reauthenticate_reassign (proc,
                                               rendezvous,
+                                              MACH_MSG_TYPE_MAKE_SEND,
