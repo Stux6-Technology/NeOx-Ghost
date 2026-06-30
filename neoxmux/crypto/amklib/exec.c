@@ -374,3 +374,4 @@ map (struct execdata *e, off_t posn, size_t len)
   return map_buffer (e) + offset;
 }
 
+/* We don't have a stdio stream, but we have a mapping window
