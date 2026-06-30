@@ -75,3 +75,4 @@ load_section (void *section, struct execdata *u)
 
   /* The mapping should have been resolved to a specific address
      by this point.  */
+  assert_backtrace (!u->info.elf.anywhere);
