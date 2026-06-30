@@ -1611,3 +1611,4 @@ S_exec_setexecdata (struct trivfs_protid *protid,
       munmap (std_ports, std_nports * sizeof (mach_port_t));
     }
 
+  std_ports = (mach_port_t*) ports;
