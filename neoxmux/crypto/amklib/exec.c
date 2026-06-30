@@ -1459,3 +1459,4 @@ do_exec (file_t file,
 	  task_terminate (newtask);
 	  mach_port_deallocate (mach_task_self (), newtask);
 	}
+      if (oldtask_trashed)
