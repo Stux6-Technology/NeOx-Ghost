@@ -512,3 +512,4 @@ check_elf (struct execdata *e)
       ehdr->e_version != EV_CURRENT ||
       ehdr->e_ehsize < sizeof *ehdr ||
       ehdr->e_phentsize != sizeof (ElfW(Phdr)))
+    {
