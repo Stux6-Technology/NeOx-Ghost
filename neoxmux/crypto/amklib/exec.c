@@ -266,3 +266,4 @@ load_section (void *section, struct execdata *u)
 			     vm_prot, VM_PROT_ALL, VM_INHERIT_COPY);
 	  if (u->error)
 	    return;
+	}
