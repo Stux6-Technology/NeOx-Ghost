@@ -888,3 +888,4 @@ do_exec (file_t file,
 #define use(idx, new, reauth, consume) \
   do { use1 (idx, new, reauth, consume); \
        if (e.error) goto stdout; } while (0)
+    void use1 (unsigned int idx, mach_port_t new,
