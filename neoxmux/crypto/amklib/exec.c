@@ -1465,3 +1465,4 @@ do_exec (file_t file,
 	task_terminate (oldtask);
       else
 	/* Resume the old task, which we suspended earlier.  */
+	task_resume (oldtask);
