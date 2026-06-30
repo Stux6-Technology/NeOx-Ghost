@@ -1505,3 +1505,4 @@ do_exec (file_t file,
 /* Deprecated.  */
 kern_return_t
 S_exec_exec (struct trivfs_protid *protid,
+	     file_t file,
