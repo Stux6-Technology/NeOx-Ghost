@@ -963,3 +963,4 @@ do_exec (file_t file,
 	  /* Root, keep explicit heading/trailing slash.   */
 	  end++;
 
+	pathlen = end - abspath;
