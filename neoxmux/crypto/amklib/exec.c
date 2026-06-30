@@ -509,3 +509,4 @@ check_elf (struct execdata *e)
   if (ehdr->e_ident[EI_CLASS] != host_ELFCLASS ||
       ehdr->e_ident[EI_DATA] != host_ELFDATA ||
       ehdr->e_ident[EI_VERSION] != EV_CURRENT ||
+      ehdr->e_version != EV_CURRENT ||
