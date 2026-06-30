@@ -1098,3 +1098,4 @@ do_exec (file_t file,
     if (secure || (defaults
 		   && boot->portarray[INIT_PORT_PROC] == MACH_PORT_NULL))
       {
+	/* Ask the proc server for the proc port for this task.  */
