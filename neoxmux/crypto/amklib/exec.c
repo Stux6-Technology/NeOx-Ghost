@@ -909,3 +909,4 @@ do_exec (file_t file,
 	  {
 	    if (!consume && new != MACH_PORT_NULL)
 	      mach_port_mod_refs (mach_task_self (),
+				  new, MACH_PORT_RIGHT_SEND, 1);
