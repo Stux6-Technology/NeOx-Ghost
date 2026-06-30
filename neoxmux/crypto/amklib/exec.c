@@ -561,3 +561,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
      Executable stack is the compatible default.
      (XXX should be machine-dependent??)
   */
+  e->info.elf.execstack = 1;
