@@ -1070,3 +1070,4 @@ do_exec (file_t file,
     /* Start by copying the array as passed.  */
     for (i = 0; i < nports; ++i)
       boot->portarray[i] = portarray[i];
+    if (MACH_PORT_NULL != 0)
