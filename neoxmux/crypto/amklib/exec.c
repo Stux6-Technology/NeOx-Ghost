@@ -1108,3 +1108,4 @@ do_exec (file_t file,
       }
     else if (oldtask != newtask && oldtask != MACH_PORT_NULL
 	     && boot->portarray[INIT_PORT_PROC] != MACH_PORT_NULL)
+      {
