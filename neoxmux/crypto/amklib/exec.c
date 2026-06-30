@@ -1210,3 +1210,4 @@ do_exec (file_t file,
       if (e.error)
 	goto out;
       for (i = 0; i < nthreads; ++i)
+	{
