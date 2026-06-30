@@ -550,3 +550,4 @@ check_elf (struct execdata *e)
    in the process.  */
 static void
 check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
+{
