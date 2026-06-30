@@ -816,3 +816,4 @@ do_exec (file_t file,
   interp.file = MACH_PORT_NULL;
 
   /* Catch this error now, rather than later.  */
+  /* XXX For EXEC_DEFAULTS, this is only an error if one of the user's
