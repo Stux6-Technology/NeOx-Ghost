@@ -1369,3 +1369,4 @@ do_exec (file_t file,
                                         &newproc);
 
       mach_port_mod_refs (mach_task_self (), rendezvous,
+                          MACH_PORT_RIGHT_RECEIVE, -1);
