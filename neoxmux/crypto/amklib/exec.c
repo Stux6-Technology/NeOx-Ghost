@@ -912,3 +912,4 @@ do_exec (file_t file,
 				  new, MACH_PORT_RIGHT_SEND, 1);
 	  }
 
+	boot->portarray[idx] = new;
