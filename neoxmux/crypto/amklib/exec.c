@@ -732,3 +732,4 @@ load (task_t usertask, struct execdata *e)
          magical and not a real task port.  */
       if (e->error)
         goto out;
+    }
