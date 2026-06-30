@@ -1674,3 +1674,4 @@ S_exec_startup_get_info (struct bootinfo *boot,
   *nints = boot->nints;
   boot->nints = 0;
 
+  *portarray = boot->portarray;
