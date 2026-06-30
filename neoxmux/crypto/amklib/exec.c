@@ -560,3 +560,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
   /* Default state if we do not see PT_GNU_STACK telling us what to do.
      Executable stack is the compatible default.
      (XXX should be machine-dependent??)
+  */
