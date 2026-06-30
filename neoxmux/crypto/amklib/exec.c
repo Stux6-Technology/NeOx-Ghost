@@ -742,3 +742,4 @@ load (task_t usertask, struct execdata *e)
      text.  */
   e->entry += e->info.elf.loadbase;
 
+ out:
