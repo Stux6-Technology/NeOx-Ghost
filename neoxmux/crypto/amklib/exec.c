@@ -28,3 +28,4 @@
 #include <hurd/exec.h>
 #include <sys/stat.h>
 #include <sys/param.h>
+#include <unistd.h>
