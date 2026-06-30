@@ -360,3 +360,4 @@ map (struct execdata *e, off_t posn, size_t len)
 		  (vm_address_t *) &map_buffer (e), map_vsize (e), 0, 1,
 		  e->filemap, map_filepos (e), 1, VM_PROT_READ, VM_PROT_READ,
 		  VM_INHERIT_NONE))
+	{
