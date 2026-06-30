@@ -1009,3 +1009,4 @@ do_exec (file_t file,
 	  }
 
 	if (! envp_copy)
+	  /* Deallocate original environment */
