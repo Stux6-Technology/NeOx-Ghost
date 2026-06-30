@@ -1437,3 +1437,4 @@ do_exec (file_t file,
 	memset (&boot->pi + 1, 0,
 		(char *) &boot[1] - (char *) (&boot->pi + 1));
       else
+	/* Do this before we release the last reference.  */
