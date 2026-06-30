@@ -958,3 +958,4 @@ do_exec (file_t file,
 	/* Drop trailing slashes.  */
 	while (end > abspath && end[-1] == '/')
 	  end--;
+
