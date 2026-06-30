@@ -387,3 +387,4 @@ prepare_stream (struct execdata *e)
 /* Prepare to check and load FILE.  */
 static void
 prepare (file_t file, struct execdata *e)
+{
