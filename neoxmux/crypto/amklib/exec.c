@@ -299,3 +299,4 @@ load_section (void *section, struct execdata *u)
 }
 
 /* XXX all accesses of the mapped data need to use fault handling
+   to abort the RPC when mapped file data generates bad page faults.
