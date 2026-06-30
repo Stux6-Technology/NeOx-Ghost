@@ -499,3 +499,4 @@ check_elf (struct execdata *e)
     }
 
   if (*(ElfW(Word) *) ehdr != ((union { ElfW(Word) word;
+				        unsigned char string[SELFMAG]; })
