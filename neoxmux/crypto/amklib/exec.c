@@ -676,3 +676,4 @@ set_name (task_t task, const char *exec_name, pid_t pid)
   if (size == 0)
     return;
 
+  /* This is an internal implementational detail of the GNU Mach kernel.  */
