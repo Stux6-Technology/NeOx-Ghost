@@ -932,3 +932,4 @@ do_exec (file_t file,
     defaults = (flags & EXEC_DEFAULTS);
 
     /* Now record the big blocks of data we shuffle around.
+       Whatever arrived inline, we must allocate space for so it can
