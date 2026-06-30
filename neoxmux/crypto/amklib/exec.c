@@ -370,3 +370,4 @@ map (struct execdata *e, off_t posn, size_t len)
 
       map_set_fsize (e, MIN (map_vsize (e), size - map_filepos (e)));
     }
+
