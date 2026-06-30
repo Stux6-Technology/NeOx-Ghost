@@ -438,3 +438,4 @@ prepare (file_t file, struct execdata *e)
 		pthread_spin_unlock (&e->cntl->lock);
 		/* Break out of the loop.  */
 		break;
+	      case USER_RELEASE_CONCH:
