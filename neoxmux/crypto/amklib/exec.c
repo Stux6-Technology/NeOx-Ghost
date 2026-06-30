@@ -443,3 +443,4 @@ prepare (file_t file, struct execdata *e)
 	      default:		/* Oops.  */
 		pthread_spin_unlock (&e->cntl->lock);
 		e->error = io_get_conch (e->file);
+		if (e->error)
