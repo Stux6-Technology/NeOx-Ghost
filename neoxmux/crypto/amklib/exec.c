@@ -408,3 +408,4 @@ prepare (file_t file, struct execdata *e)
   /* Try to mmap FILE.  */
   e->error = io_map (file, &rd, &wr);
   if (! e->error)
+    /* Mapping is O.K.  */
