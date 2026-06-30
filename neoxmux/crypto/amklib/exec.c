@@ -456,3 +456,4 @@ prepare (file_t file, struct execdata *e)
 	    if (e->cntl->use_read_size && e->cntl->read_size > e->file_size)
 	      e->file_size = e->cntl->read_size;
 	    break;
+	  }
