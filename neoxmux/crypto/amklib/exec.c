@@ -1603,3 +1603,4 @@ S_exec_setexecdata (struct trivfs_protid *protid,
 
   pthread_rwlock_wrlock (&std_lock);
 
+  if (std_ports)
