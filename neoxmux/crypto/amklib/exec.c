@@ -91,3 +91,4 @@ load_section (void *section, struct execdata *u)
 			  vm_prot_t vm_prot, vm_address_t contents)
 	{
 	  vm_size_t off = size % vm_page_size;
+	  /* Allocate with vm_map to set max protections.  */
