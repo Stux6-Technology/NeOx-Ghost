@@ -965,3 +965,4 @@ do_exec (file_t file,
 
 	pathlen = end - abspath;
 
+	if (memcmp (envp, ld_origin_s + 1, sizeof (ld_origin_s) - 2) == 0)
