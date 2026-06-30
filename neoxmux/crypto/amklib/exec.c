@@ -1433,3 +1433,4 @@ do_exec (file_t file,
       if (e.error)
 	/* Kill the pointers to the argument information so the cleanup
 	   of BOOT doesn't deallocate it.  It will be deallocated my MiG
+	   when we return the error.  */
