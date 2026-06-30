@@ -346,3 +346,4 @@ map (struct execdata *e, off_t posn, size_t len)
   else
     {
       /* Deallocate the old mapping area.  */
+      if (map_buffer (e) != NULL)
