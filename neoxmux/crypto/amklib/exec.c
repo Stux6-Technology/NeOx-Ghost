@@ -141,3 +141,4 @@ load_section (void *section, struct execdata *u)
 	    u->error = vm_map (u->task,
 			       &mapstart, filesz - (mapstart - addr),
 			       mask, 0,
+			       u->filemap, filepos + (mapstart - addr), 1,
