@@ -437,3 +437,4 @@ prepare (file_t file, struct execdata *e)
 	      case USER_HAS_CONCH:
 		pthread_spin_unlock (&e->cntl->lock);
 		/* Break out of the loop.  */
+		break;
