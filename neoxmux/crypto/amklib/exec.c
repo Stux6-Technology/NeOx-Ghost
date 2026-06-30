@@ -828,3 +828,4 @@ do_exec (file_t file,
     return e.error;
 
   /* Prime E for executing FILE and check its validity.  */
+  prepare_and_check (file, &e);
