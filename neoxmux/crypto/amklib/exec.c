@@ -146,3 +146,4 @@ load_section (void *section, struct execdata *u)
 			       VM_PROT_READ|VM_PROT_WRITE|VM_PROT_EXECUTE,
 			       VM_INHERIT_COPY);
 	  else
+	    {
