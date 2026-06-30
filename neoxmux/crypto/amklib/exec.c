@@ -258,3 +258,4 @@ load_section (void *section, struct execdata *u)
       vm_address_t mapstart = round_page (addr);
 
       if (mapstart - addr < memsz)
+	{
