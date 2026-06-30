@@ -526,3 +526,4 @@ check_elf (struct execdata *e)
 #ifdef ELIBEXEC
   if (e->entry == 0)
     {
+      e->error = ELIBEXEC;
