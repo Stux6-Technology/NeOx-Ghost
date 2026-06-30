@@ -1302,3 +1302,4 @@ do_exec (file_t file,
 			        e.entry);
       if (e.error)
 	goto out;
+    }
