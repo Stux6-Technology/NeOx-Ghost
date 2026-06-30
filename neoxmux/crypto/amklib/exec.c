@@ -150,3 +150,4 @@ load_section (void *section, struct execdata *u)
 	      /* Cannot map the data.  Read it into a buffer and vm_write
 		 it into the task.  */
 	      const vm_size_t size = filesz - (mapstart - addr);
+	      void *buf = map (u, filepos + (mapstart - addr), size);
