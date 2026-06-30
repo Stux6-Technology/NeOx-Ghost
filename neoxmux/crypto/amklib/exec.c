@@ -331,3 +331,4 @@ map (struct execdata *e, off_t posn, size_t len)
       if (e->error)
 	return NULL;
       if (buffer != map_buffer (e))
+	{
