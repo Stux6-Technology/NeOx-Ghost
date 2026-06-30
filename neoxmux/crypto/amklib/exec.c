@@ -990,3 +990,4 @@ do_exec (file_t file,
 
 	    /* And copy.  */
 	    memcpy (new_envp, envp, existing - envp);
+	    memcpy (new_envp + (existing - envp), abspath, pathlen);
