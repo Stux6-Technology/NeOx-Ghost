@@ -867,3 +867,4 @@ do_exec (file_t file,
 			     mach_task_self () : oldtask,
 #ifdef KERN_INVALID_LEDGER
 			       NULL, 0,	/* OSF Mach */
+#endif
