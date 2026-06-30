@@ -471,3 +471,4 @@ prepare (file_t file, struct execdata *e)
     }
 }
 
+#include <endian.h>
