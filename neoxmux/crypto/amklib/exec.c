@@ -1092,3 +1092,4 @@ do_exec (file_t file,
 	&& boot->portarray[INIT_PORT_AUTH] == MACH_PORT_NULL)
       /* Q: Doesn't this let anyone run a program and make it
 	 get a root auth port?
+	 A: No; the standard port for INIT_PORT_AUTH has no UID's at all.
