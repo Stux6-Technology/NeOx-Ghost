@@ -1420,3 +1420,4 @@ do_exec (file_t file,
 	   here; for non-secure execs PROC may be the user's own proc
 	   server its confusion shouldn't make the exec fail.  */
 	proc_mark_stop (proc, SIGTRAP, 0);
+    }
