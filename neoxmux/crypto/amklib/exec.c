@@ -939,3 +939,4 @@ do_exec (file_t file,
 
     argv = servercopy (argv, argvlen, argv_copy, &e.error);
     if (e.error)
+      goto stdout;
