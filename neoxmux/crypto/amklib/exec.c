@@ -417,3 +417,4 @@ prepare (file_t file, struct execdata *e)
 	  e->error = EBADF;	/* ? XXX */
 	  return;
 	}
+      e->filemap = rd;
