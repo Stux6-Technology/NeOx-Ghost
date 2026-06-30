@@ -193,3 +193,4 @@ load_section (void *section, struct execdata *u)
 		    {
 		      ourpage = (vm_address_t) mmap (0, vm_page_size,
 						     PROT_READ|PROT_WRITE,
+						     MAP_ANON, 0, 0);
