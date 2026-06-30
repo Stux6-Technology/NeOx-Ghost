@@ -1164,3 +1164,4 @@ do_exec (file_t file,
 		  errno = EBADF;
 		  return MACH_PORT_NULL;
 		}
+	      mach_port_mod_refs (mach_task_self (), boot->dtable[fd],
