@@ -1664,3 +1664,4 @@ S_exec_startup_get_info (struct bootinfo *boot,
   *envpp = boot->envp;
   *envplen = boot->envplen;
   boot->envplen = 0;
+
