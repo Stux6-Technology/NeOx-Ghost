@@ -1407,3 +1407,4 @@ do_exec (file_t file,
 	 own POSIX signal mechanics, we simulate it by notifying the proc
 	 server of the signal and leaving the initial thread with a suspend
 	 count of one, as it would be if the process were stopped by a
+	 POSIX signal.  */
