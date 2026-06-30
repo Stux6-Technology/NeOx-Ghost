@@ -136,3 +136,4 @@ load_section (void *section, struct execdata *u)
 	    write_to_task (&mapstart, filesz - (mapstart - addr), vm_prot,
 			   (vm_address_t) SECTION_CONTENTS
 			   + (mapstart - addr));
+	  else if (u->filemap != MACH_PORT_NULL)
