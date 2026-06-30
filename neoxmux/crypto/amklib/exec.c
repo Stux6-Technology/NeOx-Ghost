@@ -857,3 +857,4 @@ do_exec (file_t file,
 
   if (oldtask == MACH_PORT_NULL)
     flags |= EXEC_NEWTASK;
+
