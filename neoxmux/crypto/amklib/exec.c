@@ -545,3 +545,4 @@ check_elf (struct execdata *e)
   e->info.elf.phdr = phdr;
   e->info.elf.phdr_addr = ehdr->e_phoff;
 }
+
