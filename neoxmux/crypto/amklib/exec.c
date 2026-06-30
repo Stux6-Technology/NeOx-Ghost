@@ -979,3 +979,4 @@ do_exec (file_t file,
 	    existing_len = strnlen (existing, envplen - (existing - envp));
 
 	    /* Allocate room for the new content.  */
+	    new_envplen = envplen - existing_len + pathlen;
