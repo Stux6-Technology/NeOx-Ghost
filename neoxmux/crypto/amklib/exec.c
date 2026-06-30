@@ -1328,3 +1328,4 @@ do_exec (file_t file,
 			  0, VM_PROT_READ | VM_PROT_WRITE | VM_PROT_EXECUTE);
 
   if (oldtask != newtask && oldtask != MACH_PORT_NULL)
+    {
