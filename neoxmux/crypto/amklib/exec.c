@@ -1175,3 +1175,4 @@ do_exec (file_t file,
     }
 
   if (interp.file != MACH_PORT_NULL)
+    {
