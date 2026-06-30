@@ -1469,3 +1469,4 @@ do_exec (file_t file,
     }
   else
     {
+      if (oldtask != newtask)
