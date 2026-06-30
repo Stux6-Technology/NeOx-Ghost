@@ -1444,3 +1444,4 @@ do_exec (file_t file,
       ports_port_deref (boot);
     }
 
+  if (thread != MACH_PORT_NULL)
