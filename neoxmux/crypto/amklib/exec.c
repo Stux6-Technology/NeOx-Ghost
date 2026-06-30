@@ -973,3 +973,4 @@ do_exec (file_t file,
 	  existing = memmem (envp, envplen, ld_origin_s, sizeof (ld_origin_s) - 1);
 
 	if (existing)
+	  {
