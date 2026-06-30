@@ -1156,3 +1156,4 @@ do_exec (file_t file,
 				 boot->portarray[which] :
 				 MACH_PORT_NULL);
 	    }
+	  file_t user_fd (int fd)
