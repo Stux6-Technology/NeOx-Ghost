@@ -1080,3 +1080,4 @@ do_exec (file_t file,
 
     if (portarray[INIT_PORT_BOOTSTRAP] == MACH_PORT_NULL &&
 	oldtask != MACH_PORT_NULL)
+      {
