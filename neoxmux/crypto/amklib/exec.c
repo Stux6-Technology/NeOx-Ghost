@@ -694,3 +694,4 @@ set_name (task_t task, const char *exec_name, pid_t pid)
 /* Load the file.  */
 static void
 load (task_t usertask, struct execdata *e)
+{
