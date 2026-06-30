@@ -864,3 +864,4 @@ do_exec (file_t file,
 	 for the task_create RPC, in case it is something magical.  */
       e.error = task_create (((flags & EXEC_SECURE) ||
 			      oldtask == MACH_PORT_NULL) ?
+			     mach_task_self () : oldtask,
