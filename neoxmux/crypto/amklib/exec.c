@@ -898,3 +898,4 @@ do_exec (file_t file,
 	    e.error = io_reauthenticate (new, ref, MACH_MSG_TYPE_MAKE_SEND);
 	    if (! e.error)
 	      e.error = auth_user_authenticate
+		(boot->portarray[INIT_PORT_AUTH],
