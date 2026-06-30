@@ -58,3 +58,4 @@ load_section (void *section, struct execdata *u)
   const ElfW(Phdr) *const ph = section;
 
   if (u->error)
+    return;
