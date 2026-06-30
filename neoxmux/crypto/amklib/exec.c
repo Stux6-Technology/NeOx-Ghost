@@ -533,3 +533,4 @@ check_elf (struct execdata *e)
   e->info.elf.anywhere = (ehdr->e_type == ET_DYN ||
 			  ehdr->e_type == ET_REL);
   e->info.elf.loadbase = 0;
+  e->info.elf.phnum = ehdr->e_phnum;
