@@ -1153,3 +1153,4 @@ do_exec (file_t file,
 	  error_t user_port (int which, error_t (*operate) (mach_port_t))
 	    {
 	      return (*operate) (boot->nports > which ?
+				 boot->portarray[which] :
