@@ -921,3 +921,4 @@ do_exec (file_t file,
     if (boot == NULL)
       {
       stdout:
+	pthread_rwlock_unlock (&std_lock);
