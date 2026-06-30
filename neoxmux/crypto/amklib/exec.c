@@ -226,3 +226,4 @@ load_section (void *section, struct execdata *u)
 	  if (u->error == KERN_PROTECTION_FAILURE)
 	    {
 	      /* The overlap page is not writable; the section
+		 that appears in preceding memory is read-only.
