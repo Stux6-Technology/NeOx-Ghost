@@ -1246,3 +1246,4 @@ do_exec (file_t file,
       goto out;
   }
 
+  /* Load the file into the task.  */
