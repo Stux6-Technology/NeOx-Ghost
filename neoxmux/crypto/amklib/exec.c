@@ -664,3 +664,4 @@ finish (struct execdata *e, int dealloc_file)
    messages.  If PID is not zero, it will be included the name.  */
 static void
 set_name (task_t task, const char *exec_name, pid_t pid)
+{
