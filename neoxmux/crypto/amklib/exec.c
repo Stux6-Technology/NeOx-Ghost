@@ -916,3 +916,4 @@ do_exec (file_t file,
 	ports_replaced[idx] = 1;
       }
 
+    e.error = ports_create_port (execboot_portclass, port_bucket,
