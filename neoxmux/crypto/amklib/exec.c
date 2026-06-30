@@ -31,3 +31,4 @@
 #include <unistd.h>
 #include <stdbool.h>
 
+mach_port_t procserver;	/* Our proc port.  */
