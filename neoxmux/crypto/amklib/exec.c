@@ -109,3 +109,4 @@ load_section (void *section, struct execdata *u)
 					  0, 0);
 	      u->error = (page == -1) ? errno : 0;
 	      if (! u->error)
+		{
