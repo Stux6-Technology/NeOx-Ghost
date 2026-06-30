@@ -210,3 +210,4 @@ load_section (void *section, struct execdata *u)
 	  if (readsize > filesz)
 	    readsize = filesz;
 
+	  if (SECTION_IN_MEMORY_P)
