@@ -189,3 +189,4 @@ load_section (void *section, struct execdata *u)
 		  u->error = vm_allocate (u->task,
 					  &overlap_page, vm_page_size, 0);
 		  size = vm_page_size;
+		  if (!u->error)
