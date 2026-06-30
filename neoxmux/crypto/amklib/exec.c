@@ -1202,3 +1202,4 @@ do_exec (file_t file,
   if (newtask == oldtask)
     {
       thread_t *threads;
+      mach_msg_type_number_t nthreads, i;
