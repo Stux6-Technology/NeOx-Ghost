@@ -327,3 +327,4 @@ map (struct execdata *e, off_t posn, size_t len)
       assert_backtrace (e->file_data == NULL); /* Must be first or second case.  */
 
       /* Read as much as we can get into the buffer right now.  */
+      e->error = io_read (e->file, &buffer, &nread, posn, round_page (len));
