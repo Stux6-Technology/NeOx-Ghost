@@ -1307,3 +1307,4 @@ do_exec (file_t file,
     set_name (newtask, argv, 0);
 
   /* Create the initial thread.  */
+  e.error = thread_create (newtask, &thread);
