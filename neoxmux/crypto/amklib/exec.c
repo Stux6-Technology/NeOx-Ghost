@@ -1479,3 +1479,4 @@ do_exec (file_t file,
       else
 	/* Resume the task, it is ready to run the new program.  */
 	task_resume (oldtask);
+      /* Deallocate the right to the new task we created.  */
