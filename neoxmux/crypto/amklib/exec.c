@@ -905,3 +905,4 @@ do_exec (file_t file,
 	      return;
 	    new = authed;
 	  }
+	else
