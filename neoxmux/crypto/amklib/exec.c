@@ -986,3 +986,4 @@ do_exec (file_t file,
 	      {
 		e.error = errno;
 		goto stdout;
+	      }
