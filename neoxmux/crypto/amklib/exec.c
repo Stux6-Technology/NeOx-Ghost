@@ -890,3 +890,4 @@ do_exec (file_t file,
        if (e.error) goto stdout; } while (0)
     void use1 (unsigned int idx, mach_port_t new,
 	       int reauth, int consume)
+      {
