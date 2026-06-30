@@ -341,3 +341,4 @@ map (struct execdata *e, off_t posn, size_t len)
 
       map_filepos (e) = posn;
       map_set_fsize (e, nread);
+      offset = 0;
