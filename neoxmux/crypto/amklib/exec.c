@@ -1561,3 +1561,4 @@ S_exec_exec_paths (struct trivfs_protid *protid,
 {
   if (! protid)
     return EOPNOTSUPP;
+
