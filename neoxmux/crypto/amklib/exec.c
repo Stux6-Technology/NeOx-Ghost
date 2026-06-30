@@ -449,3 +449,4 @@ prepare (file_t file, struct execdata *e)
 		continue;
 	      }
 
+	    /* Get here if we are now IT.  */
