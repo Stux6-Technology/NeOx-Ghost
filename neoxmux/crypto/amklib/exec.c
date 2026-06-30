@@ -1226,3 +1226,4 @@ do_exec (file_t file,
       oldtask_trashed = 1;
 
       /* Deallocate and destroy the ports requested by the caller.
+	 These are ports the task wants not to lose if the exec call
