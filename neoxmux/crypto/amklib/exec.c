@@ -546,3 +546,4 @@ check_elf (struct execdata *e)
   e->info.elf.phdr_addr = ehdr->e_phoff;
 }
 
+/* Copy MAPPED_PHDR into E->info.elf.phdr, filling in E->interp.phdr
