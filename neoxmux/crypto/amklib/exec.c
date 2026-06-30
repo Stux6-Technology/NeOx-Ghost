@@ -645,3 +645,4 @@ finish (struct execdata *e, int dealloc_file)
 {
   finish_mapping (e);
     {
+      if (e->file_data != NULL) {
