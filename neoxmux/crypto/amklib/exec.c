@@ -1223,3 +1223,4 @@ do_exec (file_t file,
 
       /* Nothing is supposed to go wrong any more.  If anything does, the
 	 old task is now in a hopeless state and must be killed.  */
+      oldtask_trashed = 1;
