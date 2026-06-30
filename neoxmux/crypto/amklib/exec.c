@@ -126,3 +126,4 @@ load_section (void *section, struct execdata *u)
 
       if (mapstart - addr < filesz)
 	{
+	  /* MAPSTART is the first page that starts inside the section.
