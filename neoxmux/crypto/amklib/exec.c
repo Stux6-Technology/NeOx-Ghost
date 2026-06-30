@@ -1498,3 +1498,4 @@ do_exec (file_t file,
       if (!portarray_copy)
 	munmap (portarray, nports * sizeof portarray[0]);
     }
+
