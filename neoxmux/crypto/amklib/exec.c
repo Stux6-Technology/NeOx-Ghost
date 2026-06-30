@@ -917,3 +917,4 @@ do_exec (file_t file,
       }
 
     e.error = ports_create_port (execboot_portclass, port_bucket,
+				 sizeof *boot, &boot);
