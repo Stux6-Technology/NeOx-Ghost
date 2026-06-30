@@ -1412,3 +1412,4 @@ do_exec (file_t file,
       if (boot->nports > INIT_PORT_PROC)
 	proc = boot->portarray[INIT_PORT_PROC];
       else
+	/* Ask the proc server for the proc port for this task.  */
