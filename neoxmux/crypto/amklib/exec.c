@@ -1660,3 +1660,4 @@ S_exec_startup_get_info (struct bootinfo *boot,
   *argvp = boot->argv;
   *argvlen = boot->argvlen;
   boot->argvlen = 0;
+
