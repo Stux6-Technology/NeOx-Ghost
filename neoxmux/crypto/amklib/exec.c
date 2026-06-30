@@ -1208,3 +1208,4 @@ do_exec (file_t file,
 
       e.error = task_threads (oldtask, &threads, &nthreads);
       if (e.error)
+	goto out;
