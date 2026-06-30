@@ -1630,3 +1630,4 @@ S_exec_setexecdata (struct trivfs_protid *protid,
 
 /* RPC sent on the bootstrap port.  */
 
+kern_return_t
