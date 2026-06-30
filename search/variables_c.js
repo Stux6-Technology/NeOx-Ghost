@@ -10,12 +10,13 @@ var searchData=
   ['port_7',['port',['../structmodreq.html#a65e16b43ab3a192e76c4340cdf51d3b3',1,'modreq']]],
   ['prev_8',['prev',['../structvcons.html#a51c147eead8bd62962fa6846da0738ae',1,'vcons']]],
   ['privileged_5fhost_5fport_9',['privileged_host_port',['../boot_8c.html#a793ae24c44402c9143c7a4d1b307c9ec',1,'boot.c']]],
-  ['pseudo_5fconsole_10',['pseudo_console',['../boot_8c.html#ae80884a892993dc51b90c366626e57c4',1,'boot.c']]],
-  ['pseudo_5fkernel_11',['pseudo_kernel',['../boot_8c.html#aa3a42e748a9387525d8263661ad994f2',1,'boot.c']]],
-  ['pseudo_5fmaster_5fdevice_5fport_12',['pseudo_master_device_port',['../boot_8c.html#ad0264ede85949866284839a8aa0cfbe4',1,'boot.c']]],
-  ['pseudo_5fprivileged_5fhost_5fport_13',['pseudo_privileged_host_port',['../boot_8c.html#a2c7b7c52540ceebe3c420b6d206e3ed7',1,'boot.c']]],
-  ['pseudo_5fpset_14',['pseudo_pset',['../boot_8c.html#aed623b62921039f44e7eb32f55db36cf',1,'boot.c']]],
-  ['pseudo_5froot_15',['pseudo_root',['../boot_8c.html#a98367cf10c291c9ecad1f77fc07f34ce',1,'boot.c']]],
-  ['pseudo_5ftime_16',['pseudo_time',['../boot_8c.html#a248381647c082204bf912dd046f18954',1,'boot.c']]],
-  ['psmdp_5fchild_5fname_17',['psmdp_child_name',['../boot_8c.html#a4a7abe445fb2cb11503552c582bff55f',1,'boot.c']]]
+  ['procserver_10',['procserver',['../exec_8c.html#a903b2289cc3a177c7b02a5fcf4eae52a',1,'exec.c']]],
+  ['pseudo_5fconsole_11',['pseudo_console',['../boot_8c.html#ae80884a892993dc51b90c366626e57c4',1,'boot.c']]],
+  ['pseudo_5fkernel_12',['pseudo_kernel',['../boot_8c.html#aa3a42e748a9387525d8263661ad994f2',1,'boot.c']]],
+  ['pseudo_5fmaster_5fdevice_5fport_13',['pseudo_master_device_port',['../boot_8c.html#ad0264ede85949866284839a8aa0cfbe4',1,'boot.c']]],
+  ['pseudo_5fprivileged_5fhost_5fport_14',['pseudo_privileged_host_port',['../boot_8c.html#a2c7b7c52540ceebe3c420b6d206e3ed7',1,'boot.c']]],
+  ['pseudo_5fpset_15',['pseudo_pset',['../boot_8c.html#aed623b62921039f44e7eb32f55db36cf',1,'boot.c']]],
+  ['pseudo_5froot_16',['pseudo_root',['../boot_8c.html#a98367cf10c291c9ecad1f77fc07f34ce',1,'boot.c']]],
+  ['pseudo_5ftime_17',['pseudo_time',['../boot_8c.html#a248381647c082204bf912dd046f18954',1,'boot.c']]],
+  ['psmdp_5fchild_5fname_18',['psmdp_child_name',['../boot_8c.html#a4a7abe445fb2cb11503552c582bff55f',1,'boot.c']]]
 ];

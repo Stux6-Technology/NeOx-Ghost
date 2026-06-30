@@ -24,13 +24,14 @@ var searchData=
   ['prevention_20system_20tt_20nedir_21',['&lt;tt&gt;Real Time Intrusion Prevention System&lt;/tt&gt; nedir ?',['../md_neoxmux_2test_2plan.html#autotoc_md2',1,'']]],
   ['private_2eh_22',['private.h',['../private_8h.html',1,'']]],
   ['privileged_5fhost_5fport_23',['privileged_host_port',['../boot_8c.html#a793ae24c44402c9143c7a4d1b307c9ec',1,'boot.c']]],
-  ['projesi_20neoxmux_20lokalize_20sunucu_20ve_20rt_20ips_20sistemi_24',['Neox Ghost Projesi - NeOxMUX Lokalize Sunucu ve RT IPS Sistemi',['../md_neoxmux_2test_2plan.html',1,'']]],
-  ['pseudo_5fconsole_25',['pseudo_console',['../boot_8c.html#ae80884a892993dc51b90c366626e57c4',1,'boot.c']]],
-  ['pseudo_5fkernel_26',['pseudo_kernel',['../boot_8c.html#aa3a42e748a9387525d8263661ad994f2',1,'boot.c']]],
-  ['pseudo_5fmaster_5fdevice_5fport_27',['pseudo_master_device_port',['../boot_8c.html#ad0264ede85949866284839a8aa0cfbe4',1,'boot.c']]],
-  ['pseudo_5fprivileged_5fhost_5fport_28',['pseudo_privileged_host_port',['../boot_8c.html#a2c7b7c52540ceebe3c420b6d206e3ed7',1,'boot.c']]],
-  ['pseudo_5fpset_29',['pseudo_pset',['../boot_8c.html#aed623b62921039f44e7eb32f55db36cf',1,'boot.c']]],
-  ['pseudo_5froot_30',['pseudo_root',['../boot_8c.html#a98367cf10c291c9ecad1f77fc07f34ce',1,'boot.c']]],
-  ['pseudo_5ftime_31',['pseudo_time',['../boot_8c.html#a248381647c082204bf912dd046f18954',1,'boot.c']]],
-  ['psmdp_5fchild_5fname_32',['psmdp_child_name',['../boot_8c.html#a4a7abe445fb2cb11503552c582bff55f',1,'boot.c']]]
+  ['procserver_24',['procserver',['../exec_8c.html#a903b2289cc3a177c7b02a5fcf4eae52a',1,'exec.c']]],
+  ['projesi_20neoxmux_20lokalize_20sunucu_20ve_20rt_20ips_20sistemi_25',['Neox Ghost Projesi - NeOxMUX Lokalize Sunucu ve RT IPS Sistemi',['../md_neoxmux_2test_2plan.html',1,'']]],
+  ['pseudo_5fconsole_26',['pseudo_console',['../boot_8c.html#ae80884a892993dc51b90c366626e57c4',1,'boot.c']]],
+  ['pseudo_5fkernel_27',['pseudo_kernel',['../boot_8c.html#aa3a42e748a9387525d8263661ad994f2',1,'boot.c']]],
+  ['pseudo_5fmaster_5fdevice_5fport_28',['pseudo_master_device_port',['../boot_8c.html#ad0264ede85949866284839a8aa0cfbe4',1,'boot.c']]],
+  ['pseudo_5fprivileged_5fhost_5fport_29',['pseudo_privileged_host_port',['../boot_8c.html#a2c7b7c52540ceebe3c420b6d206e3ed7',1,'boot.c']]],
+  ['pseudo_5fpset_30',['pseudo_pset',['../boot_8c.html#aed623b62921039f44e7eb32f55db36cf',1,'boot.c']]],
+  ['pseudo_5froot_31',['pseudo_root',['../boot_8c.html#a98367cf10c291c9ecad1f77fc07f34ce',1,'boot.c']]],
+  ['pseudo_5ftime_32',['pseudo_time',['../boot_8c.html#a248381647c082204bf912dd046f18954',1,'boot.c']]],
+  ['psmdp_5fchild_5fname_33',['psmdp_child_name',['../boot_8c.html#a4a7abe445fb2cb11503552c582bff55f',1,'boot.c']]]
 ];
