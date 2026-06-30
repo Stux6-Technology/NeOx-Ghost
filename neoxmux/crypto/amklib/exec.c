@@ -993,3 +993,4 @@ do_exec (file_t file,
 	    memcpy (new_envp + (existing - envp), abspath, pathlen);
 	    memcpy (new_envp + (existing - envp) + pathlen,
 		    existing + existing_len,
+		    envplen - ((existing - envp) + existing_len));
