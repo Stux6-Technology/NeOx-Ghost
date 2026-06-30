@@ -1106,3 +1106,4 @@ do_exec (file_t file,
 	  goto stdout;
 	use (INIT_PORT_PROC, new, 0, 1);
       }
+    else if (oldtask != newtask && oldtask != MACH_PORT_NULL
