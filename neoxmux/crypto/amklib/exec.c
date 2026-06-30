@@ -906,3 +906,4 @@ do_exec (file_t file,
 	    new = authed;
 	  }
 	else
+	  {
