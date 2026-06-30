@@ -133,3 +133,4 @@ load_section (void *section, struct execdata *u)
 #define SECTION_CONTENTS	(u->file_data + filepos)
 	  if (SECTION_IN_MEMORY_P)
 	    /* Data is already in memory; write it into the task.  */
+	    write_to_task (&mapstart, filesz - (mapstart - addr), vm_prot,
