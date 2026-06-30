@@ -1346,3 +1346,4 @@ do_exec (file_t file,
       else
 	psrv = boot->portarray[INIT_PORT_PROC];
 
+      /* XXX there is a race here for SIGKILLing the process. -roland
