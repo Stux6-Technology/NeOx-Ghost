@@ -723,3 +723,4 @@ load (task_t usertask, struct execdata *e)
         goto out;  /* not enough memory?  */
 
       e->info.elf.loadbase = anywhere_start;
+      e->info.elf.anywhere = 0;
