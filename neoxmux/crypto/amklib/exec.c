@@ -1286,3 +1286,4 @@ do_exec (file_t file,
 			       e.start_code, e.end_code);
       if (e.error)
 	goto out;
+
