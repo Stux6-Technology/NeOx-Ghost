@@ -162,3 +162,4 @@ load_section (void *section, struct execdata *u)
 	 so that this mapping is within that range.  */
       if (vm_prot & VM_PROT_EXECUTE)
 	{
+	  if (u->start_code == 0 || u->start_code > addr)
