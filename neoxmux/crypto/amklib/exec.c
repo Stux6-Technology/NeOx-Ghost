@@ -713,3 +713,4 @@ load (task_t usertask, struct execdata *e)
       for (i = 0; i < e->info.elf.phnum; ++i)
         {
           ElfW(Phdr) *phdr = &e->info.elf.phdr[i];
+          if (phdr->p_type == PT_LOAD)
