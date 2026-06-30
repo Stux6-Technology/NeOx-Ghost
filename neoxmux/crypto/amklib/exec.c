@@ -658,3 +658,4 @@ finish (struct execdata *e, int dealloc_file)
       mach_port_deallocate (mach_task_self (), e->file);
       e->file = MACH_PORT_NULL;
     }
+}
