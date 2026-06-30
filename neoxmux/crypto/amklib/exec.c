@@ -1113,3 +1113,4 @@ do_exec (file_t file,
 	/* This task port refers to the old task; use it to fetch a new
 	   one for the new task.  */
 	e.error = proc_task2proc (boot->portarray[INIT_PORT_PROC],
+				  newtask, &new);
