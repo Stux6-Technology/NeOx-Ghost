@@ -1053,3 +1053,4 @@ do_exec (file_t file,
       {
 	intarray = servercopy (intarray, nints * sizeof (int), intarray_copy,
 			       &e.error);
+	if (e.error)
