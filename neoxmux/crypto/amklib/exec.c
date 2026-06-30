@@ -119,3 +119,4 @@ load_section (void *section, struct execdata *u)
 		  munmap ((caddr_t) page, vm_page_size);
 		}
 	    }
+	  /* Reset the current protections to the desired state.  */
