@@ -805,3 +805,4 @@ do_exec (file_t file,
       prepare (file, e);
       if (e->error)
 	return;
+
