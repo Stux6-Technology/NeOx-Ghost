@@ -319,3 +319,4 @@ map (struct execdata *e, off_t posn, size_t len)
   else if (e->file_data != NULL) {
     return e->file_data + posn;
   } else if (e->filemap == MACH_PORT_NULL)
+    {
