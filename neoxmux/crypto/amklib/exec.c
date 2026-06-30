@@ -130,3 +130,4 @@ load_section (void *section, struct execdata *u)
 	     Map all the pages that start inside the section.  */
 
 #define SECTION_IN_MEMORY_P	(u->file_data != NULL)
+#define SECTION_CONTENTS	(u->file_data + filepos)
