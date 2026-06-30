@@ -766,3 +766,4 @@ servercopy (void *arg, mach_msg_type_number_t argsize, boolean_t argcopy,
       return NULL;
     }
   memcpy (copy, arg, argsize);
+  return copy;
