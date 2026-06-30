@@ -611,3 +611,4 @@ finish_mapping (struct execdata *e)
 {
   if (e->cntl != NULL)
     {
+      pthread_spin_lock (&e->cntl->lock);
