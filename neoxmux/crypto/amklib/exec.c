@@ -207,3 +207,4 @@ load_section (void *section, struct execdata *u)
 
 	  readaddr = (void *) (ourpage + (addr - overlap_page));
 	  readsize = size - (addr - overlap_page);
+	  if (readsize > filesz)
