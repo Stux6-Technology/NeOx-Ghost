@@ -887,3 +887,4 @@ do_exec (file_t file,
        it is invalid to give nonzero values to both REAUTH and CONSUME.  */
 #define use(idx, new, reauth, consume) \
   do { use1 (idx, new, reauth, consume); \
+       if (e.error) goto stdout; } while (0)
