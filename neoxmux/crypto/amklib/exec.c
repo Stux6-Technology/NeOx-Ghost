@@ -1211,3 +1211,4 @@ do_exec (file_t file,
 	goto out;
       for (i = 0; i < nthreads; ++i)
 	{
+	  thread_terminate (threads[i]);
