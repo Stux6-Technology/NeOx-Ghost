@@ -984,3 +984,4 @@ do_exec (file_t file,
 			     PROT_READ|PROT_WRITE, MAP_ANON, 0, 0);
 	    if (new_envp == MAP_FAILED)
 	      {
+		e.error = errno;
