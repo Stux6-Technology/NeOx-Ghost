@@ -466,3 +466,4 @@ prepare (file_t file, struct execdata *e)
       e->error = io_stat (file, &st);
       if (e->error)
 	return;
+      e->file_size = st.st_size;
