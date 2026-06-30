@@ -614,3 +614,4 @@ finish_mapping (struct execdata *e)
       pthread_spin_lock (&e->cntl->lock);
       if (e->cntl->conch_status == USER_RELEASE_CONCH)
 	{
+	  pthread_spin_unlock (&e->cntl->lock);
