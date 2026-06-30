@@ -155,3 +155,4 @@ load_section (void *section, struct execdata *u)
 		write_to_task (&mapstart, size, vm_prot, (vm_address_t) buf);
 	    }
 	  if (u->error)
+	    return;
