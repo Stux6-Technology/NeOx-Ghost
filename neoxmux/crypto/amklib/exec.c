@@ -1045,3 +1045,4 @@ do_exec (file_t file,
 	    memcpy (boot->intarray, intarray, nints * sizeof (int));
 	    intarray_dealloc = !intarray_copy;
 	  }
+	else
