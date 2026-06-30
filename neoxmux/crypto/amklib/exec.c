@@ -1280,3 +1280,4 @@ do_exec (file_t file,
   /* /hurd/exec is used to start /hurd/proc, so at this point there is
      no proc server, so we need to be careful here.  */
   if (boot->portarray[INIT_PORT_PROC] != MACH_PORT_NULL)
+    {
