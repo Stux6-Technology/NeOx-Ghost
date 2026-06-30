@@ -1090,3 +1090,4 @@ do_exec (file_t file,
        others below it. */
     if ((secure || defaults)
 	&& boot->portarray[INIT_PORT_AUTH] == MACH_PORT_NULL)
+      /* Q: Doesn't this let anyone run a program and make it
