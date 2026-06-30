@@ -573,3 +573,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
 	break;
       case PT_LOAD:
 	if (e->file_size <= (off_t) (phdr->p_offset +
+				     phdr->p_filesz))
