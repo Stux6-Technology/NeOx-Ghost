@@ -143,3 +143,4 @@ load_section (void *section, struct execdata *u)
 			       mask, 0,
 			       u->filemap, filepos + (mapstart - addr), 1,
 			       vm_prot,
+			       VM_PROT_READ|VM_PROT_WRITE|VM_PROT_EXECUTE,
