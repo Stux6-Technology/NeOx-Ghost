@@ -304,3 +304,4 @@ load_section (void *section, struct execdata *u)
    --roland  */
 
 void *
+map (struct execdata *e, off_t posn, size_t len)
