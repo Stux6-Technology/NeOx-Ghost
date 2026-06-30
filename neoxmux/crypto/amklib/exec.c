@@ -1436,3 +1436,4 @@ do_exec (file_t file,
 	   when we return the error.  */
 	memset (&boot->pi + 1, 0,
 		(char *) &boot[1] - (char *) (&boot->pi + 1));
+      else
