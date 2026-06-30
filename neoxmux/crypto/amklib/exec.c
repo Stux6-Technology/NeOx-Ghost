@@ -40,3 +40,4 @@ size_t std_nports, std_nints;
 pthread_rwlock_t std_lock = PTHREAD_RWLOCK_INITIALIZER;
 
 
+#define	b2he()	a2he (errno)
