@@ -173,3 +173,4 @@ load_section (void *section, struct execdata *u)
 	{
 	  /* We must read and copy in the space in the section before the
              first page boundary.  */
+	  vm_address_t overlap_page = trunc_page (addr);
