@@ -570,3 +570,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
       {
       case PT_INTERP:
 	e->interp.phdr = phdr;
+	break;
