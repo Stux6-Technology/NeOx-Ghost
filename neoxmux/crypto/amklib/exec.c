@@ -1671,3 +1671,4 @@ S_exec_startup_get_info (struct bootinfo *boot,
   boot->dtablesize = 0;
 
   *intarray = boot->intarray;
+  *nints = boot->nints;
