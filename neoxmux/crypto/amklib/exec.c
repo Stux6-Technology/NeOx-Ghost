@@ -1396,3 +1396,4 @@ do_exec (file_t file,
 
  out:
   if (interp.file != MACH_PORT_NULL)
+    finish (&interp, 1);
