@@ -414,3 +414,4 @@ prepare (file_t file, struct execdata *e)
 	mach_port_deallocate (mach_task_self (), wr);
       if (rd == MACH_PORT_NULL)
 	{
+	  e->error = EBADF;	/* ? XXX */
