@@ -1185,3 +1185,4 @@ do_exec (file_t file,
 					 sizeof (ElfW(Phdr)));
 	  check_elf_phdr (&interp, phdr);
 	}
+      e.error = interp.error;
