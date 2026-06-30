@@ -811,3 +811,4 @@ do_exec (file_t file,
     }
 
 
+  /* Here is the main body of the function.  */
