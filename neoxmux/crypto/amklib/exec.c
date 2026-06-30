@@ -498,3 +498,4 @@ check_elf (struct execdata *e)
       return;
     }
 
+  if (*(ElfW(Word) *) ehdr != ((union { ElfW(Word) word;
