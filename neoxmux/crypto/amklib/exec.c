@@ -430,3 +430,4 @@ prepare (file_t file, struct execdata *e)
 	while (1)
 	  {
 	    pthread_spin_lock (&e->cntl->lock);
+	    switch (e->cntl->conch_status)
