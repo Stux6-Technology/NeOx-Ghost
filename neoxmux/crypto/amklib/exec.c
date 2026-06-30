@@ -1149,3 +1149,4 @@ do_exec (file_t file,
       else
 	{
 	  /* Open the named file using the appropriate directory ports for
+	     the user.  */
