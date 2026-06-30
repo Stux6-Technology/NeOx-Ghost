@@ -1335,3 +1335,4 @@ do_exec (file_t file,
       process_t psrv;
       mach_port_t rendezvous;
 
+      /* Use the canonical proc server if secure, or there is none other.
