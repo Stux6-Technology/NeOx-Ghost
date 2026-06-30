@@ -506,3 +506,4 @@ check_elf (struct execdata *e)
       return;
     }
 
+  if (ehdr->e_ident[EI_CLASS] != host_ELFCLASS ||
