@@ -1163,3 +1163,4 @@ do_exec (file_t file,
 		{
 		  errno = EBADF;
 		  return MACH_PORT_NULL;
+		}
