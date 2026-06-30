@@ -186,3 +186,4 @@ load_section (void *section, struct execdata *u)
 	      if (u->error == KERN_INVALID_ADDRESS)
 		{
 		  /* The space is unallocated.  */
+		  u->error = vm_allocate (u->task,
