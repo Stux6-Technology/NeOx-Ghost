@@ -339,3 +339,4 @@ map (struct execdata *e, off_t posn, size_t len)
 	  map_vsize (e) = round_page (nread);
 	}
 
+      map_filepos (e) = posn;
