@@ -1623,3 +1623,4 @@ S_exec_setexecdata (struct trivfs_protid *protid,
   pthread_rwlock_unlock (&std_lock);
 
   return 0;
+}
