@@ -1494,3 +1494,4 @@ do_exec (file_t file,
 	 portarray, and we are not saving those pointers in BOOT for later
 	 transfer, deallocate the original space now.  */
       if (intarray_dealloc)
+	munmap (intarray, nints * sizeof intarray[0]);
