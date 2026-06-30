@@ -164,3 +164,4 @@ load_section (void *section, struct execdata *u)
 	{
 	  if (u->start_code == 0 || u->start_code > addr)
 	    u->start_code = addr;
+
