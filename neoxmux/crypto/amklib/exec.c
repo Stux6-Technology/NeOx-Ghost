@@ -1119,3 +1119,4 @@ do_exec (file_t file,
 	use (INIT_PORT_PROC, new, 0, 1);
       }
     if (secure || (defaults
+		   && boot->portarray[INIT_PORT_CRDIR] == MACH_PORT_NULL))
