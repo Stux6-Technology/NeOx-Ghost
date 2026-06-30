@@ -1377,3 +1377,4 @@ do_exec (file_t file,
 
       e.error = proc_reauthenticate_complete (newproc);
       if (e.error)
+        {
