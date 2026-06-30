@@ -1503,3 +1503,4 @@ do_exec (file_t file,
 }
 
 /* Deprecated.  */
+kern_return_t
