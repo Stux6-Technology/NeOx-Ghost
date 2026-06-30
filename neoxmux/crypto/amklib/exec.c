@@ -903,3 +903,4 @@ do_exec (file_t file,
 	    mach_port_destroy (mach_task_self (), ref);
 	    if (e.error)
 	      return;
+	    new = authed;
