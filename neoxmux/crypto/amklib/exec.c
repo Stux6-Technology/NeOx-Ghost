@@ -882,3 +882,4 @@ do_exec (file_t file,
        to the RPC on the new task's bootstrap port.  */
 
     /* Set boot->portarray[IDX] to NEW.  If REAUTH is nonzero,
+       io_reauthenticate NEW and set it to the authenticated port.
