@@ -1016,3 +1016,4 @@ do_exec (file_t file,
 	envplen = new_envplen;
       }
     else
+      {
