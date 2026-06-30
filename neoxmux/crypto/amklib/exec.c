@@ -1390,3 +1390,4 @@ do_exec (file_t file,
 
   {
     mach_port_t btport = ports_get_send_right (boot);
+    e.error = task_set_bootstrap_port (newtask, btport);
