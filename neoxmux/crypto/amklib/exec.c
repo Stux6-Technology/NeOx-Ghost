@@ -1439,3 +1439,4 @@ do_exec (file_t file,
       else
 	/* Do this before we release the last reference.  */
 	if (boot->nports > INIT_PORT_PROC)
+	  proc_mark_exec (boot->portarray[INIT_PORT_PROC]);
