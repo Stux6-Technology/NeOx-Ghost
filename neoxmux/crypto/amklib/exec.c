@@ -1087,3 +1087,4 @@ do_exec (file_t file,
       }
 
     /* Note that the parentheses on this first test are different from the
+       others below it. */
