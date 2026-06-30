@@ -869,3 +869,4 @@ do_exec (file_t file,
 			       NULL, 0,	/* OSF Mach */
 #endif
 			     0, &newtask);
+      if (e.error)
