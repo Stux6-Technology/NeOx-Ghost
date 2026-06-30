@@ -935,3 +935,4 @@ do_exec (file_t file,
        Whatever arrived inline, we must allocate space for so it can
        survive after this RPC returns.  */
 
+    boot->flags = flags;
