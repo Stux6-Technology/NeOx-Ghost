@@ -69,3 +69,4 @@ load_section (void *section, struct execdata *u)
   if ((ph->p_flags & PF_R) == 0)
     vm_prot &= ~VM_PROT_READ;
   if ((ph->p_flags & PF_W) == 0)
+    vm_prot &= ~VM_PROT_WRITE;
