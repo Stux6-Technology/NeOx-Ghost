@@ -647,3 +647,4 @@ finish (struct execdata *e, int dealloc_file)
     {
       if (e->file_data != NULL) {
 	free (e->file_data);
+	e->file_data = NULL;
