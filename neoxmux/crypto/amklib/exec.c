@@ -169,3 +169,4 @@ load_section (void *section, struct execdata *u)
 	    u->end_code = addr + memsz;
 	}
 
+      if (mapstart > addr)
