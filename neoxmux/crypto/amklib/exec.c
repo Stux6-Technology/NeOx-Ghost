@@ -404,3 +404,4 @@ prepare (file_t file, struct execdata *e)
 
   /* Initialize E's stdio stream.  */
   prepare_stream (e);
+
