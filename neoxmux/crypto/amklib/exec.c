@@ -1421,3 +1421,4 @@ do_exec (file_t file,
 	   server its confusion shouldn't make the exec fail.  */
 	proc_mark_stop (proc, SIGTRAP, 0);
     }
+
