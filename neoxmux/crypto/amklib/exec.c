@@ -944,3 +944,4 @@ do_exec (file_t file,
     boot->argvlen = argvlen;
 
     if (abspath && abspath[0] == '/')
+      {
