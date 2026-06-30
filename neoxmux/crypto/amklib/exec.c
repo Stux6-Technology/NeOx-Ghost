@@ -168,3 +168,4 @@ load_section (void *section, struct execdata *u)
 	  if (u->end_code < addr + memsz)
 	    u->end_code = addr + memsz;
 	}
+
