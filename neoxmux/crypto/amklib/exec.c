@@ -618,3 +618,4 @@ finish_mapping (struct execdata *e)
 	  io_release_conch (e->file);
 	}
       else
+	{
