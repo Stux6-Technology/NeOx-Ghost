@@ -817,3 +817,4 @@ do_exec (file_t file,
 
   /* Catch this error now, rather than later.  */
   /* XXX For EXEC_DEFAULTS, this is only an error if one of the user's
+     ports is null; if they are all provided, then EXEC_DEFAULTS would
