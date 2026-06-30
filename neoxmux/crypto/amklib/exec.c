@@ -720,3 +720,4 @@ load (task_t usertask, struct execdata *e)
       /* Ask the kernel to find this much contiguous memory.  */
       e->error = vm_allocate (usertask, &anywhere_start, mapping_size, 1);
       if (e->error)
+        goto out;  /* not enough memory?  */
