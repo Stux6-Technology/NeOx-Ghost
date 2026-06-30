@@ -556,3 +556,4 @@ check_elf_phdr (struct execdata *e, const ElfW(Phdr) *mapped_phdr)
 
   memcpy (e->info.elf.phdr, mapped_phdr,
 	  e->info.elf.phnum * sizeof (ElfW(Phdr)));
+
