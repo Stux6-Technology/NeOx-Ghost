@@ -536,3 +536,4 @@ check_elf (struct execdata *e)
   e->info.elf.phnum = ehdr->e_phnum;
 
   phdr = map (e, ehdr->e_phoff, ehdr->e_phnum * sizeof (ElfW(Phdr)));
+  if (! phdr)
