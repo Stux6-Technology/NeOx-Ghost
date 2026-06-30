@@ -317,3 +317,4 @@ map (struct execdata *e, off_t posn, size_t len)
     /* The requested data wouldn't fit in the file.  */
     return NULL;
   else if (e->file_data != NULL) {
+    return e->file_data + posn;
