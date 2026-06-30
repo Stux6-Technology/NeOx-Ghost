@@ -946,3 +946,4 @@ do_exec (file_t file,
     if (abspath && abspath[0] == '/')
       {
 	/* Explicit absolute filename, put its dirname in the LD_ORIGIN_PATH
+	   environment variable for $ORIGIN rpath expansion. */
