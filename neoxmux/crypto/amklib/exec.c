@@ -1020,3 +1020,4 @@ do_exec (file_t file,
 	/* No explicit abspath, just copy the existing environment */
 	envp = servercopy (envp, envplen, envp_copy, &e.error);
 	if (e.error)
+	  goto stdout;
