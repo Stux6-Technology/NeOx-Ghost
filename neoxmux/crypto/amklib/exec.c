@@ -246,3 +246,4 @@ load_section (void *section, struct execdata *u)
       if (u->cntl)
 	u->cntl->accessed = 1;
 
+      /* Tell the code below to zero-fill the remaining area.  */
