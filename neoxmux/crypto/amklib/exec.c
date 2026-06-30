@@ -823,3 +823,4 @@ do_exec (file_t file,
   if ((!std_ports || !std_ints) && (flags & (EXEC_SECURE|EXEC_DEFAULTS)))
     return EIEIO;
 
+  /* Suspend the existing task before frobnicating it.  */
