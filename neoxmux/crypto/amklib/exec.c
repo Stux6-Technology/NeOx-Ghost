@@ -23,3 +23,4 @@
 
 #include "priv.h"
 #include <mach/gnumach.h>
+#include <mach/vm_param.h>
