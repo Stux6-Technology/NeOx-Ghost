@@ -1415,3 +1415,4 @@ do_exec (file_t file,
 	/* Ask the proc server for the proc port for this task.  */
 	e.error = proc_task2proc (procserver, newtask, &proc);
       if (!e.error)
+	/* Tell the proc server that the process has stopped with the
