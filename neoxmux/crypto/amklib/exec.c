@@ -240,3 +240,4 @@ load_section (void *section, struct execdata *u)
 	    }
 	  munmap ((caddr_t) ourpage, size);
 	  if (u->error)
+	    goto maplose;
