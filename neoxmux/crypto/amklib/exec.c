@@ -1649,3 +1649,4 @@ S_exec_startup_get_info (struct bootinfo *boot,
   if (! boot)
     return EOPNOTSUPP;
 
+  /* Pass back all the information we are storing.  */
