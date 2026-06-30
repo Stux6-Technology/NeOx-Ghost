@@ -1221,3 +1221,4 @@ do_exec (file_t file,
       vm_deallocate (oldtask,
 		     VM_MIN_ADDRESS, VM_MAX_ADDRESS - VM_MIN_ADDRESS);
 
+      /* Nothing is supposed to go wrong any more.  If anything does, the
