@@ -108,3 +108,4 @@ load_section (void *section, struct execdata *u)
 					  PROT_READ|PROT_WRITE, MAP_ANON,
 					  0, 0);
 	      u->error = (page == -1) ? errno : 0;
+	      if (! u->error)
