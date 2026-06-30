@@ -114,3 +114,4 @@ load_section (void *section, struct execdata *u)
 			  (void *) (contents + (size - off)),
 			  off);
 		  if (! u->error)
+		    u->error = vm_write (u->task, *mapstart + (size - off),
