@@ -1040,3 +1040,4 @@ do_exec (file_t file,
 			      round_page (INIT_INT_MAX * sizeof (int))))
 	  {
 	    /* Allocate a new vector that is big enough.  */
+	    boot->intarray = mmap (0, INIT_INT_MAX * sizeof (int),
