@@ -1086,3 +1086,4 @@ do_exec (file_t file,
 	  ports_replaced[INIT_PORT_BOOTSTRAP] = 1;
       }
 
+    /* Note that the parentheses on this first test are different from the
