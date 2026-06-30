@@ -444,3 +444,4 @@ prepare (file_t file, struct execdata *e)
 		pthread_spin_unlock (&e->cntl->lock);
 		e->error = io_get_conch (e->file);
 		if (e->error)
+		  return;
