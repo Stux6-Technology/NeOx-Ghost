@@ -705,3 +705,4 @@ load (task_t usertask, struct execdata *e)
 
   if (e->info.elf.anywhere)
     {
+      vm_address_t mapping_size = 0;
