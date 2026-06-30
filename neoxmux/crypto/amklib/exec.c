@@ -1015,3 +1015,4 @@ do_exec (file_t file,
 	envp = new_envp;
 	envplen = new_envplen;
       }
+    else
