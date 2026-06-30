@@ -1159,3 +1159,4 @@ do_exec (file_t file,
 	  file_t user_fd (int fd)
 	    {
 	      if (fd < 0 || fd >= boot->dtablesize ||
+		  boot->dtable[fd] == MACH_PORT_NULL)
