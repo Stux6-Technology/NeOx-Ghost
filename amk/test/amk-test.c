@@ -31,3 +31,4 @@
    published by the Free Software Foundation; either version 2, or (at
    your option) any later version.
 
+   The GNU Hurd is distributed in the hope that it will be useful, but
