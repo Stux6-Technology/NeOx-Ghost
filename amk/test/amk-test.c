@@ -80,3 +80,4 @@ netfs_attempt_lookup (struct iouser *user, struct node *dir,
 {
   error_t err;
 
+  if (dir->nn->name)
