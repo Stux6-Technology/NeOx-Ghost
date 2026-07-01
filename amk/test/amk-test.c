@@ -71,3 +71,4 @@ static error_t lookup_host (struct hostmux *mux, const char *host,
 /* [root] Directory operations.  */
 
 /* Lookup NAME in DIR for USER; set *NODE to the found name upon return.  If
+   the name was not found, then return ENOENT.  On any error, clear *NODE.
