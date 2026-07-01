@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['dev_5fmap_0',['dev_map',['../structdev__map.html',1,'']]],
-  ['display_1',['display',['../structdisplay.html',1,'']]]
+  ['changes_0',['changes',['../structchanges.html',1,'']]],
+  ['cmd_1',['cmd',['../structcmd.html',1,'']]],
+  ['cons_2',['cons',['../structcons.html',1,'']]],
+  ['cursor_3',['cursor',['../structcursor.html',1,'']]]
 ];

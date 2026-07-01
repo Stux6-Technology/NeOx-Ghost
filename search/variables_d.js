@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['qrhead_0',['qrhead',['../boot_8c.html#afc5d25d1fdb7ffca2b2a95c895ee33d1',1,'boot.c']]],
-  ['qrtail_1',['qrtail',['../boot_8c.html#aa72e798fd2f99ec028279133c0b961b9',1,'boot.c']]],
-  ['queuelock_2',['queuelock',['../boot_8c.html#a9cb57365d4f6e16268cdba92a87cdfd5',1,'boot.c']]]
+  ['output_0',['output',['../structdisplay.html#ab9ffc594ab933426e695eea878915b06',1,'display']]],
+  ['owner_5fid_1',['owner_id',['../structdisplay.html#a0903b15435b4fa8fc8f8783aa9dac6ef',1,'display']]]
 ];

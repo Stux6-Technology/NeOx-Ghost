@@ -1,13 +1,23 @@
 var searchData=
 [
-  ['readlock_0',['readlock',['../boot_8c.html#a781db32238f629c573501890fce8fc2e',1,'boot.c']]],
-  ['receive_5fset_1',['receive_set',['../boot_8c.html#ab3e7d83d63ca55dd7e33edd7e28c538f',1,'boot.c']]],
-  ['refcnt_2',['refcnt',['../structvcons.html#a39dd1d1bb6e8459fd1dfe13fe1cd664e',1,'vcons']]],
-  ['reply_5fport_3',['reply_port',['../structqr.html#ad068c9d0afde697443a55f22989167fd',1,'qr']]],
-  ['reply_5ftype_4',['reply_type',['../structqr.html#ad75efaf78c8f3c885ecde8f1e273671c',1,'qr']]],
-  ['resumed_5',['resumed',['../structoutput.html#aed3602dc77f64751d771d41f8ddae7ba',1,'output']]],
-  ['ret_5ftype_6',['ret_type',['../structsym.html#adb7ca5602929424b21741dee1b9f1339',1,'sym']]],
-  ['root_5fstore_7',['root_store',['../boot_8c.html#ad1f89e14b3f863d62a53326e8725f26e',1,'boot.c']]],
-  ['row_8',['row',['../structchanges.html#a6ed221c294d80a8152176b1d68966b96',1,'changes']]],
-  ['run_5fon_5fexec_9',['run_on_exec',['../structsym.html#aae0cc5bb95c7fba37289c70b4b6e78a6',1,'sym']]]
+  ['pager_0',['pager',['../structuser__pager.html#a94663a8210b3d6444e02e989c54cdbd9',1,'user_pager']]],
+  ['params_1',['params',['../structparse.html#ae8733c97c6369f6aaeda264eb47d02a0',1,'parse']]],
+  ['parse_2',['parse',['../structoutput.html#a1fb00afba28e5157435c7ee21c62f264',1,'output']]],
+  ['path_3',['path',['../structcmd.html#a27ebff925e29d3ffeb5d49a88b518930',1,'cmd']]],
+  ['pending_4',['pending',['../structmodreq.html#a600dcf77103fa1ff3bc0d729a704a130',1,'modreq']]],
+  ['php_5fchild_5fname_5',['php_child_name',['../boot_8c.html#ab81a1d93058f29ab37f3f9335a21bff9',1,'boot.c']]],
+  ['pi_6',['pi',['../structnotify.html#ad1b37e0e3f69f95fc82606a28ff9d6dc',1,'notify']]],
+  ['port_7',['port',['../structmodreq.html#a65e16b43ab3a192e76c4340cdf51d3b3',1,'modreq']]],
+  ['preprocessor_5fconfig_8',['preprocessor_config',['../classtest_1_1MmprojModel.html#a12a985d4782747ecf8400d4e66902dad',1,'test.MmprojModel.preprocessor_config'],['../classtest_1_1MmprojModel.html#af885868de6b0b2a688e86ced4ef6c4ca',1,'test.MmprojModel.preprocessor_config']]],
+  ['prev_9',['prev',['../structvcons.html#a51c147eead8bd62962fa6846da0738ae',1,'vcons']]],
+  ['privileged_5fhost_5fport_10',['privileged_host_port',['../boot_8c.html#a793ae24c44402c9143c7a4d1b307c9ec',1,'boot.c']]],
+  ['procserver_11',['procserver',['../exec_8c.html#a903b2289cc3a177c7b02a5fcf4eae52a',1,'exec.c']]],
+  ['pseudo_5fconsole_12',['pseudo_console',['../boot_8c.html#ae80884a892993dc51b90c366626e57c4',1,'boot.c']]],
+  ['pseudo_5fkernel_13',['pseudo_kernel',['../boot_8c.html#aa3a42e748a9387525d8263661ad994f2',1,'boot.c']]],
+  ['pseudo_5fmaster_5fdevice_5fport_14',['pseudo_master_device_port',['../boot_8c.html#ad0264ede85949866284839a8aa0cfbe4',1,'boot.c']]],
+  ['pseudo_5fprivileged_5fhost_5fport_15',['pseudo_privileged_host_port',['../boot_8c.html#a2c7b7c52540ceebe3c420b6d206e3ed7',1,'boot.c']]],
+  ['pseudo_5fpset_16',['pseudo_pset',['../boot_8c.html#aed623b62921039f44e7eb32f55db36cf',1,'boot.c']]],
+  ['pseudo_5froot_17',['pseudo_root',['../boot_8c.html#a98367cf10c291c9ecad1f77fc07f34ce',1,'boot.c']]],
+  ['pseudo_5ftime_18',['pseudo_time',['../boot_8c.html#a248381647c082204bf912dd046f18954',1,'boot.c']]],
+  ['psmdp_5fchild_5fname_19',['psmdp_child_name',['../boot_8c.html#a4a7abe445fb2cb11503552c582bff55f',1,'boot.c']]]
 ];

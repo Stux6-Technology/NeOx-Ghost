@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['hostmux_0',['hostmux',['../structhostmux.html',1,'']]],
-  ['hostmux_5fname_1',['hostmux_name',['../structhostmux__name.html',1,'']]]
+  ['dev_5fmap_0',['dev_map',['../structdev__map.html',1,'']]],
+  ['display_1',['display',['../structdisplay.html',1,'']]]
 ];

@@ -1,4 +1,22 @@
 var searchData=
 [
-  ['_5f_5fattribute_5f_5f_0',['__attribute__',['../boot_8c.html#a474fecf6e1c4e51259f5ffa7b62cbaa6',1,'__attribute__((__noreturn__)):&#160;boot.c'],['../boot_8c.html#a32969c618e1807a87a28ed234b8cd30a',1,'__attribute__((noreturn)):&#160;boot.c']]]
+  ['_5f_5fattribute_5f_5f_0',['__attribute__',['../boot_8c.html#a32969c618e1807a87a28ed234b8cd30a',1,'__attribute__((noreturn)):&#160;boot.c'],['../boot_8c.html#a474fecf6e1c4e51259f5ffa7b62cbaa6',1,'__attribute__((__noreturn__)):&#160;boot.c']]],
+  ['_5f_5finit_5f_5f_1',['__init__',['../classtest_1_1TextModel.html#a5c9b330afbb3a537556c486b4c8a9480',1,'test.TextModel.__init__()'],['../classtest_1_1ModelBase.html#a4b052850feb50afeae9ee2257649f1de',1,'test.ModelBase.__init__()'],['../classtest_1_1MmprojModel.html#aca455b5722943ed21e799b9edf4f2b01',1,'test.MmprojModel.__init__()']]],
+  ['_5f_5finit_5fsubclass_5f_5f_2',['__init_subclass__',['../classtest_1_1TextModel.html#a615e174e6707772c7931157dc714939c',1,'test::TextModel']]],
+  ['_5fcreate_5fvocab_5fsentencepiece_3',['_create_vocab_sentencepiece',['../classtest_1_1TextModel.html#abe7232385121e90e3c862083c9e4ced5',1,'test::TextModel']]],
+  ['_5ffind_5fparam_4',['_find_param',['../classtest_1_1MmprojModel.html#a4d3e884d382b1725b316ed39f8423639',1,'test::MmprojModel']]],
+  ['_5freverse_5fhf_5fpart_5',['_reverse_hf_part',['../classtest_1_1BaichuanModel.html#a8659ff53d92876bcc45e76c23a7242b1',1,'test::BaichuanModel']]],
+  ['_5freverse_5fhf_5fpermute_6',['_reverse_hf_permute',['../classtest_1_1BaichuanModel.html#ae8403f236c8219f3671cf43a50e56339',1,'test.BaichuanModel._reverse_hf_permute()'],['../classtest_1_1XverseModel.html#ad797ea8dcff2ae72bda7d37e3d224904',1,'test.XverseModel._reverse_hf_permute()']]],
+  ['_5freverse_5fhf_5fpermute_5fpart_7',['_reverse_hf_permute_part',['../classtest_1_1BaichuanModel.html#a381d30d21168240bd0c08117008b9b75',1,'test::BaichuanModel']]],
+  ['_5fset_5fvocab_5fbuiltin_8',['_set_vocab_builtin',['../classtest_1_1TextModel.html#aca0bcd9b892d7a4c9d87c948c8d36fd4',1,'test::TextModel']]],
+  ['_5fset_5fvocab_5fglmedge_9',['_set_vocab_glmedge',['../classtest_1_1TextModel.html#aef5c1f8e6bf2ec364d9192ea8ded1bd6',1,'test::TextModel']]],
+  ['_5fset_5fvocab_5fgpt2_10',['_set_vocab_gpt2',['../classtest_1_1TextModel.html#a7b84c3fcbcaa47ecd8f35e31a9eae78b',1,'test::TextModel']]],
+  ['_5fset_5fvocab_5finterns1_11',['_set_vocab_interns1',['../classtest_1_1TextModel.html#a9f98682e3a90b044cf8bd903b098bf3a',1,'test::TextModel']]],
+  ['_5fset_5fvocab_5fllama_5fhf_12',['_set_vocab_llama_hf',['../classtest_1_1TextModel.html#a35e15178d4a274c7cccda118103efcdb',1,'test::TextModel']]],
+  ['_5fset_5fvocab_5fmistral_13',['_set_vocab_mistral',['../classtest_1_1TextModel.html#ae8a9e35e522ee43812c4ccbb7fc6cba2',1,'test::TextModel']]],
+  ['_5fset_5fvocab_5fnone_14',['_set_vocab_none',['../classtest_1_1TextModel.html#a2c3bb183dd591a8ebd75baea8c63b339',1,'test::TextModel']]],
+  ['_5fset_5fvocab_5fqwen_15',['_set_vocab_qwen',['../classtest_1_1TextModel.html#af45e18e18888ff146e5682cfe2261c45',1,'test::TextModel']]],
+  ['_5fset_5fvocab_5frwkv_5fworld_16',['_set_vocab_rwkv_world',['../classtest_1_1TextModel.html#aa564c85ab98a04a6fbba34c09eab2ebf',1,'test::TextModel']]],
+  ['_5fset_5fvocab_5fsentencepiece_17',['_set_vocab_sentencepiece',['../classtest_1_1TextModel.html#ab79d71ef7c5e5633c3329cc549c2d0a9',1,'test::TextModel']]],
+  ['_5ftry_5fset_5fpooling_5ftype_18',['_try_set_pooling_type',['../classtest_1_1TextModel.html#ad52b7695adee630623cfa41551cadf8f',1,'test::TextModel']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['qr_0',['qr',['../structqr.html',1,'']]]
+  ['netnode_0',['netnode',['../structnetnode.html',1,'']]],
+  ['notify_1',['notify',['../structnotify.html',1,'']]]
 ];

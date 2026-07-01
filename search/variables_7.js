@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['id_0',['id',['../structvcons.html#a1a108b1e8c2d0e102911f717ffe78b45',1,'vcons']]],
-  ['inpt_5fnode_1',['inpt_node',['../structvcons.html#aef0dfe81fed4483b5881ed22c383b9b6',1,'vcons']]],
-  ['input_2',['input',['../structvcons.html#ae1a0d47e9b2e4b07ed72157545b9be9c',1,'vcons']]],
-  ['insert_5fmode_3',['insert_mode',['../structdisplay.html#ab57f2e583e9ffaca2414b9b202d43193',1,'display']]]
+  ['gguf_5fwriter_0',['gguf_writer',['../classtest_1_1ModelBase.html#a1016b494bf09a4dbc63fbc3547306799',1,'test.ModelBase.gguf_writer'],['../classtest_1_1ModelBase.html#a368a34af7011411406a2a30e9f3a024f',1,'test.ModelBase.gguf_writer'],['../classtest_1_1TextModel.html#aab0db6bbc18886e290b37820d3ba27f8',1,'test.TextModel.gguf_writer'],['../classtest_1_1XverseModel.html#ad6b0b70dadc808957c4b04f12a2ce3be',1,'test.XverseModel.gguf_writer']]],
+  ['global_5fconfig_1',['global_config',['../classtest_1_1MmprojModel.html#a043b74b5c36c1fe2db264c1d19fe25c2',1,'test.MmprojModel.global_config'],['../classtest_1_1MmprojModel.html#aac64c8c05ff91ebea8823f13c04f9efe',1,'test.MmprojModel.global_config']]]
 ];

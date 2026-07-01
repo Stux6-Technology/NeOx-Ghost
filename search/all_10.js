@@ -6,12 +6,15 @@ var searchData=
   ['real_20time_20intrusion_20prevention_20system_20tt_20nedir_3',['&lt;tt&gt;Real Time Intrusion Prevention System&lt;/tt&gt; nedir ?',['../md_neoxmux_2test_2plan.html#autotoc_md2',1,'']]],
   ['receive_5fset_4',['receive_set',['../boot_8c.html#ab3e7d83d63ca55dd7e33edd7e28c538f',1,'boot.c']]],
   ['refcnt_5',['refcnt',['../structvcons.html#a39dd1d1bb6e8459fd1dfe13fe1cd664e',1,'vcons']]],
-  ['reply_5fport_6',['reply_port',['../structqr.html#ad068c9d0afde697443a55f22989167fd',1,'qr']]],
-  ['reply_5ftype_7',['reply_type',['../structqr.html#ad75efaf78c8f3c885ecde8f1e273671c',1,'qr']]],
-  ['resumed_8',['resumed',['../structoutput.html#aed3602dc77f64751d771d41f8ddae7ba',1,'output']]],
-  ['ret_5ftype_9',['ret_type',['../structsym.html#adb7ca5602929424b21741dee1b9f1339',1,'sym']]],
-  ['root_5fstore_10',['root_store',['../boot_8c.html#ad1f89e14b3f863d62a53326e8725f26e',1,'boot.c']]],
-  ['row_11',['row',['../structchanges.html#a6ed221c294d80a8152176b1d68966b96',1,'changes']]],
-  ['rt_20ips_20sistemi_12',['Neox Ghost Projesi - NeOxMUX Lokalize Sunucu ve RT IPS Sistemi',['../md_neoxmux_2test_2plan.html',1,'']]],
-  ['run_5fon_5fexec_13',['run_on_exec',['../structsym.html#aae0cc5bb95c7fba37289c70b4b6e78a6',1,'sym']]]
+  ['register_6',['register',['../classtest_1_1ModelBase.html#ab74780589911abd18afd5b8d5b6d1382',1,'test::ModelBase']]],
+  ['remote_5fhf_5fmodel_5fid_7',['remote_hf_model_id',['../classtest_1_1ModelBase.html#adfd32ad7d2b6a3d0e83fb9e96c12e050',1,'test.ModelBase.remote_hf_model_id'],['../classtest_1_1ModelBase.html#ae2b8bfe8e3e7a16e8c56039b9b8e4472',1,'test.ModelBase.remote_hf_model_id']]],
+  ['reply_5fport_8',['reply_port',['../structqr.html#ad068c9d0afde697443a55f22989167fd',1,'qr']]],
+  ['reply_5ftype_9',['reply_type',['../structqr.html#ad75efaf78c8f3c885ecde8f1e273671c',1,'qr']]],
+  ['resumed_10',['resumed',['../structoutput.html#aed3602dc77f64751d771d41f8ddae7ba',1,'output']]],
+  ['ret_5ftype_11',['ret_type',['../structsym.html#adb7ca5602929424b21741dee1b9f1339',1,'sym']]],
+  ['root_5fstore_12',['root_store',['../boot_8c.html#ad1f89e14b3f863d62a53326e8725f26e',1,'boot.c']]],
+  ['rope_5fparameters_13',['rope_parameters',['../classtest_1_1TextModel.html#a0d542a43711e1a0e810f343a875d65e5',1,'test::TextModel']]],
+  ['row_14',['row',['../structchanges.html#a6ed221c294d80a8152176b1d68966b96',1,'changes']]],
+  ['rt_20ips_20sistemi_15',['Neox Ghost Projesi - NeOxMUX Lokalize Sunucu ve RT IPS Sistemi',['../md_neoxmux_2test_2plan.html',1,'']]],
+  ['run_5fon_5fexec_16',['run_on_exec',['../structsym.html#aae0cc5bb95c7fba37289c70b4b6e78a6',1,'sym']]]
 ];

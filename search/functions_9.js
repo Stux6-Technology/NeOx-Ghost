@@ -1,4 +1,10 @@
 var searchData=
 [
-  ['queue_5fread_0',['queue_read',['../boot_8c.html#a47051440f063aac23712f15851cadec7',1,'boot.c']]]
+  ['mach_5fmsg_5fforward_0',['mach_msg_forward',['../boot_8c.html#ada7024786d07319c71dd98c18a277d7c',1,'boot.c']]],
+  ['main_1',['main',['../boot_8c.html#a647f21a28344e1d9c643f4115516d7c9',1,'main(int argc, char **argv, char **envp):&#160;boot.c'],['../console_8c.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;console.c'],['../hostmux_8c.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;hostmux.c']]],
+  ['map_2',['map',['../exec_8c.html#a6503ca6f7438d9907ac8da4a010d41ce',1,'exec.c']]],
+  ['map_5ftensor_5fname_3',['map_tensor_name',['../classtest_1_1ModelBase.html#aad4311350147b26c02c88afb49a6da9a',1,'test::ModelBase']]],
+  ['match_5fmodel_5ftensor_5fname_4',['match_model_tensor_name',['../classtest_1_1ModelBase.html#a2629c13337385c90c93c676252242445',1,'test::ModelBase']]],
+  ['mig_5freply_5fsetup_5',['mig_reply_setup',['../boot_8c.html#aa334319761eab495974a0557c8a64f73',1,'boot.c']]],
+  ['modify_5ftensors_6',['modify_tensors',['../classtest_1_1ModelBase.html#a2fdc3da62cb780583842461f0be227e5',1,'test.ModelBase.modify_tensors()'],['../classtest_1_1GPTNeoXModel.html#ab50b35670a93049090ba6bc73f7f30e8',1,'test.GPTNeoXModel.modify_tensors()'],['../classtest_1_1BloomModel.html#a6bd6028ffb7a62788a7ce371a5a43831',1,'test.BloomModel.modify_tensors()'],['../classtest_1_1MPTModel.html#a26ab356a3e46001c6ab487f402bb4a37',1,'test.MPTModel.modify_tensors()'],['../classtest_1_1BaichuanModel.html#a85fd36dc4b90511a7fb14b48a63ba9be',1,'test.BaichuanModel.modify_tensors()'],['../classtest_1_1XverseModel.html#aa0853d6bb3e0c2c72425afa77e3c02c2',1,'test.XverseModel.modify_tensors()'],['../classtest_1_1FalconModel.html#ab30809d4ad254ca5757558446827418d',1,'test.FalconModel.modify_tensors()']]]
 ];

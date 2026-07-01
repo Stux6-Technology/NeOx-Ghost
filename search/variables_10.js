@@ -1,11 +1,15 @@
 var searchData=
 [
-  ['task_0',['task',['../structcmd.html#a92096691ac0beeda7cb3f3815d2cdd90',1,'cmd']]],
-  ['task_5fnotification_5fport_1',['task_notification_port',['../boot_8c.html#aece3cc6c1dd1deb15ed887bd2c1bbc9f',1,'boot.c']]],
-  ['taskname_2',['taskname',['../boot_8c.html#ae7efd1a9b965840a58b9f1852a8fb25d',1,'boot.c']]],
-  ['text_3',['text',['../structarg.html#a0f3b5cb4be3d6d4e51edb9b7e985ab45',1,'arg']]],
-  ['top_4',['top',['../structscrolling__region.html#ae42ce593587199f026bc65ab1718cca2',1,'scrolling_region']]],
-  ['trans_5ftemplate_5',['trans_template',['../structhostmux.html#aedd51970b9137d630d3be0f0a2a015c8',1,'hostmux']]],
-  ['trans_5ftemplate_5flen_6',['trans_template_len',['../structhostmux.html#a4fcc3f419817b27bbdd1a5fb193da04d',1,'hostmux']]],
-  ['type_7',['type',['../structqr.html#ae453be442c9ebd3623488af9c1ff86d7',1,'qr::type'],['../structsym.html#a0ee120bb37bfd8a12c895e3fedfa0abc',1,'sym::type'],['../structarg.html#a6a49746790074f74092de66dc89254f1',1,'arg::type']]]
+  ['readlock_0',['readlock',['../boot_8c.html#a781db32238f629c573501890fce8fc2e',1,'boot.c']]],
+  ['receive_5fset_1',['receive_set',['../boot_8c.html#ab3e7d83d63ca55dd7e33edd7e28c538f',1,'boot.c']]],
+  ['refcnt_2',['refcnt',['../structvcons.html#a39dd1d1bb6e8459fd1dfe13fe1cd664e',1,'vcons']]],
+  ['remote_5fhf_5fmodel_5fid_3',['remote_hf_model_id',['../classtest_1_1ModelBase.html#ae2b8bfe8e3e7a16e8c56039b9b8e4472',1,'test.ModelBase.remote_hf_model_id'],['../classtest_1_1ModelBase.html#adfd32ad7d2b6a3d0e83fb9e96c12e050',1,'test.ModelBase.remote_hf_model_id']]],
+  ['reply_5fport_4',['reply_port',['../structqr.html#ad068c9d0afde697443a55f22989167fd',1,'qr']]],
+  ['reply_5ftype_5',['reply_type',['../structqr.html#ad75efaf78c8f3c885ecde8f1e273671c',1,'qr']]],
+  ['resumed_6',['resumed',['../structoutput.html#aed3602dc77f64751d771d41f8ddae7ba',1,'output']]],
+  ['ret_5ftype_7',['ret_type',['../structsym.html#adb7ca5602929424b21741dee1b9f1339',1,'sym']]],
+  ['root_5fstore_8',['root_store',['../boot_8c.html#ad1f89e14b3f863d62a53326e8725f26e',1,'boot.c']]],
+  ['rope_5fparameters_9',['rope_parameters',['../classtest_1_1TextModel.html#a0d542a43711e1a0e810f343a875d65e5',1,'test::TextModel']]],
+  ['row_10',['row',['../structchanges.html#a6ed221c294d80a8152176b1d68966b96',1,'changes']]],
+  ['run_5fon_5fexec_11',['run_on_exec',['../structsym.html#aae0cc5bb95c7fba37289c70b4b6e78a6',1,'sym']]]
 ];

@@ -1,12 +1,21 @@
 var searchData=
 [
-  ['data_5favailable_0',['data_available',['../structinput.html#aa87476cb9ef8e656d152b0589cc47ac1',1,'input']]],
-  ['dead_5ftask_5fnotification_5fport_1',['dead_task_notification_port',['../boot_8c.html#ab159fbec6e9cf9ec406087a887d66da1',1,'boot.c']]],
-  ['default_5fboot_5fscript_2',['default_boot_script',['../boot_8c.html#af1ca6fe697a1b6a8967e31d990ebebb9',1,'boot.c']]],
-  ['device_5fname_3',['device_name',['../structdev__map.html#a7c590f131b4ec66e21c925c8d302c424',1,'dev_map']]],
-  ['dir_5fnode_4',['dir_node',['../structvcons.html#aa56b511b638baa1d4f86b32000f3877f',1,'vcons']]],
-  ['dirmod_5freqs_5',['dirmod_reqs',['../structcons.html#a939c8ac501f7ac8eefbb40283b8b6548',1,'cons']]],
-  ['dirmod_5ftick_6',['dirmod_tick',['../structcons.html#a4188a20375e62813f45edca326490315',1,'cons']]],
-  ['disp_5fnode_7',['disp_node',['../structvcons.html#af3646060b73f0179a237bbda27839ee4',1,'vcons']]],
-  ['display_8',['display',['../structvcons.html#afdc0d0bee782655c0aa7debc240d76de',1,'vcons::display'],['../structnotify.html#ae7397c3e1c33e9faab11e9c7fe37df93',1,'notify::display']]]
+  ['canon_0',['canon',['../structhostmux__name.html#abf7c3ef0a35187f9d170bd1722bd8e19',1,'hostmux_name']]],
+  ['canonicalize_1',['canonicalize',['../structhostmux.html#ac4b27d50094e96c2968b20dfd61bec4d',1,'hostmux']]],
+  ['cd_2',['cd',['../structoutput.html#accd4a2a17813022c7d8fa424b2f7c426',1,'output::cd'],['../structinput.html#a8ee24daa096debb5163b63b423853e4a',1,'input::cd']]],
+  ['cd_5fallocated_3',['cd_allocated',['../structinput.html#adc88496d865f710e0aeefe6849d621ac',1,'input']]],
+  ['cd_5fbuffer_4',['cd_buffer',['../structinput.html#ac9b913b53de11253dad09eb34c71ede5',1,'input']]],
+  ['cd_5fsize_5',['cd_size',['../structinput.html#ae0c181ec35366813ae46f636a60e005c',1,'input']]],
+  ['changes_6',['changes',['../structdisplay.html#a7ac3e246e0fdc17c9acd8bb9abb2df3c',1,'display']]],
+  ['child_5ftask_7',['child_task',['../boot_8c.html#a072feeaa1ffc71b61cab7c09cd7ecfbb',1,'boot.c']]],
+  ['col_8',['col',['../structchanges.html#ad096eb1433c33babd0e373b9b38d21c1',1,'changes']]],
+  ['cons_9',['cons',['../structnetnode.html#a7dd239d8fcd0332e8b300ed782276658',1,'netnode::cons'],['../structvcons.html#aded3ec623410a9b8c840bad04038dfb7',1,'vcons::cons']]],
+  ['cons_5fnode_10',['cons_node',['../structvcons.html#a2526f9aac70977b2c14bd99c3a0ab9f3',1,'vcons']]],
+  ['console_5fmaptime_11',['console_maptime',['../console_8c.html#a7a6ef5a514fc0321675bd656c44bdac2',1,'console.c']]],
+  ['console_5fmscount_12',['console_mscount',['../boot_8c.html#a3acbcb3704c25cb5fac6f759c2ee82f0',1,'boot.c']]],
+  ['control_13',['CONTROL',['../classtest_1_1SentencePieceTokenTypes.html#ac5e8e1cdc065eb45618755940eb299ff',1,'test::SentencePieceTokenTypes']]],
+  ['csr_14',['csr',['../structdisplay.html#ae81c4d2669a7d3b14fbdd89e286f3633',1,'display']]],
+  ['cur_5fline_15',['cur_line',['../structchanges.html#ac5b3497fa35c030ff6611484fe9210d4',1,'changes']]],
+  ['current_16',['current',['../structattr.html#a716ebb4fa5ffd645358e47cc0e59a396',1,'attr']]],
+  ['cursor_17',['cursor',['../structchanges.html#accddaf707d65cc8c9e9d47692bd35841',1,'changes::cursor'],['../structdisplay.html#a3bc310484f559efd62e90495564262bb',1,'display::cursor']]]
 ];
