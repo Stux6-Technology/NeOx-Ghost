@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['user_5fpager_0',['user_pager',['../structuser__pager.html',1,'']]],
-  ['user_5fpager_5finfo_1',['user_pager_info',['../structuser__pager__info.html',1,'']]]
+  ['scrolling_5fregion_0',['scrolling_region',['../structscrolling__region.html',1,'']]],
+  ['sentencepiecetokentypes_1',['SentencePieceTokenTypes',['../classtest_1_1SentencePieceTokenTypes.html',1,'test']]],
+  ['stablelmmodel_2',['StableLMModel',['../classtest_1_1StableLMModel.html',1,'test']]],
+  ['starcodermodel_3',['StarCoderModel',['../classtest_1_1StarCoderModel.html',1,'test']]],
+  ['sym_4',['sym',['../structsym.html',1,'']]]
 ];

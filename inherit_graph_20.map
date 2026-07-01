@@ -1,21 +1,33 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classtest_1_1ModelBase.html" title=" " alt="" coords="5,129,128,155"/>
-<area shape="rect" id="Node000001" href="$classtest_1_1MmprojModel.html" title=" " alt="" coords="176,104,317,129"/>
-<area shape="poly" id="edge3_Node000000_Node000001" title=" " alt="" coords="141,129,175,124,176,129,142,134"/>
-<area shape="rect" id="Node000002" href="$classtest_1_1TextModel.html" title=" " alt="" coords="187,153,306,179"/>
-<area shape="poly" id="edge4_Node000000_Node000002" title=" " alt="" coords="142,149,188,155,187,161,141,155"/>
-<area shape="rect" id="Node000003" href="$classtest_1_1BaichuanModel.html" title=" " alt="" coords="366,5,517,31"/>
-<area shape="poly" id="edge5_Node000002_Node000003" title=" " alt="" coords="308,144,315,139,333,115,339,90,345,65,364,40,382,29,385,33,367,44,350,67,344,92,337,117,319,143,312,149"/>
-<area shape="rect" id="Node000004" href="$classtest_1_1BloomModel.html" title=" " alt="" coords="375,55,508,80"/>
-<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="303,146,316,138,330,126,339,114,349,102,364,89,388,78,390,83,367,94,352,105,343,117,334,130,319,143,306,150"/>
-<area shape="rect" id="Node000005" href="$classtest_1_1FalconModel.html" title=" " alt="" coords="375,104,507,129"/>
-<area shape="poly" id="edge7_Node000002_Node000005" title=" " alt="" coords="310,147,389,127,391,132,311,153"/>
-<area shape="rect" id="Node000006" href="$classtest_1_1GPTNeoXModel.html" title=" " alt="" coords="365,153,517,179"/>
-<area shape="poly" id="edge8_Node000002_Node000006" title=" " alt="" coords="319,163,365,163,365,169,319,169"/>
-<area shape="rect" id="Node000007" href="$classtest_1_1MPTModel.html" title=" " alt="" coords="382,203,501,228"/>
-<area shape="poly" id="edge9_Node000002_Node000007" title=" " alt="" coords="311,179,391,200,389,205,310,185"/>
-<area shape="rect" id="Node000008" href="$classtest_1_1OrionModel.html" title=" " alt="" coords="378,252,505,277"/>
-<area shape="poly" id="edge10_Node000002_Node000008" title=" " alt="" coords="278,184,319,211,366,237,398,250,396,254,364,242,316,216,275,189"/>
-<area shape="rect" id="Node000009" href="$classtest_1_1XverseModel.html" title=" " alt="" coords="373,301,509,327"/>
-<area shape="poly" id="edge11_Node000002_Node000009" title=" " alt="" coords="267,188,309,238,337,264,367,286,393,299,390,304,364,291,333,268,305,241,263,191"/>
+<area shape="rect" id="Node000000" href="$classtest_1_1ModelBase.html" title=" " alt="" coords="5,228,128,253"/>
+<area shape="rect" id="Node000001" href="$classtest_1_1MmprojModel.html" title=" " alt="" coords="176,203,317,228"/>
+<area shape="poly" id="edge3_Node000000_Node000001" title=" " alt="" coords="141,228,175,223,176,228,142,233"/>
+<area shape="rect" id="Node000002" href="$classtest_1_1TextModel.html" title=" " alt="" coords="187,252,306,277"/>
+<area shape="poly" id="edge4_Node000000_Node000002" title=" " alt="" coords="142,248,188,254,187,259,141,253"/>
+<area shape="rect" id="Node000003" href="$classtest_1_1BaichuanModel.html" title=" " alt="" coords="367,5,518,31"/>
+<area shape="poly" id="edge5_Node000002_Node000003" title=" " alt="" coords="310,242,315,238,332,213,339,189,340,165,338,140,336,116,338,91,346,65,363,40,379,29,382,33,367,44,350,68,343,92,342,116,343,140,345,165,344,190,337,215,319,241,314,246"/>
+<area shape="rect" id="Node000004" href="$classtest_1_1BloomModel.html" title=" " alt="" coords="376,55,509,80"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="310,243,315,238,329,219,336,201,338,165,341,127,349,108,363,89,380,78,383,82,367,93,353,111,346,129,344,165,341,203,334,222,319,241,313,247"/>
+<area shape="rect" id="Node000005" href="$classtest_1_1FalconModel.html" title=" " alt="" coords="377,104,509,129"/>
+<area shape="poly" id="edge7_Node000002_Node000005" title=" " alt="" coords="308,243,315,237,332,214,338,189,345,164,352,151,364,139,382,127,384,132,367,143,356,154,350,166,344,190,337,216,319,241,312,247"/>
+<area shape="rect" id="Node000006" href="$classtest_1_1GPTNeoXModel.html" title=" " alt="" coords="367,153,519,179"/>
+<area shape="poly" id="edge8_Node000002_Node000006" title=" " alt="" coords="303,244,316,237,330,225,339,213,349,200,364,188,388,176,390,181,367,192,352,204,343,216,334,229,319,242,306,249"/>
+<area shape="rect" id="Node000007" href="$classtest_1_1LlamaModel.html" title=" " alt="" coords="377,203,508,228"/>
+<area shape="poly" id="edge9_Node000002_Node000007" title=" " alt="" coords="310,246,391,225,392,231,312,251"/>
+<area shape="rect" id="Node000010" href="$classtest_1_1MPTModel.html" title=" " alt="" coords="383,252,502,277"/>
+<area shape="poly" id="edge12_Node000002_Node000010" title=" " alt="" coords="319,262,383,262,383,267,319,267"/>
+<area shape="rect" id="Node000011" href="$classtest_1_1OrionModel.html" title=" " alt="" coords="379,301,506,327"/>
+<area shape="poly" id="edge13_Node000002_Node000011" title=" " alt="" coords="312,278,392,299,391,304,310,283"/>
+<area shape="rect" id="Node000012" href="$classtest_1_1RefactModel.html" title=" " alt="" coords="376,351,509,376"/>
+<area shape="poly" id="edge14_Node000002_Node000012" title=" " alt="" coords="278,283,319,310,366,336,398,348,396,353,364,340,316,314,275,287"/>
+<area shape="rect" id="Node000013" href="$classtest_1_1StableLMModel.html" title=" " alt="" coords="367,400,518,425"/>
+<area shape="poly" id="edge15_Node000002_Node000013" title=" " alt="" coords="267,287,309,336,337,362,367,385,393,398,390,402,364,390,333,367,305,340,263,290"/>
+<area shape="rect" id="Node000014" href="$classtest_1_1StarCoderModel.html" title=" " alt="" coords="365,449,520,475"/>
+<area shape="poly" id="edge16_Node000002_Node000014" title=" " alt="" coords="261,289,301,361,331,401,367,435,389,447,387,452,364,439,327,404,297,364,257,292"/>
+<area shape="rect" id="Node000015" href="$classtest_1_1XverseModel.html" title=" " alt="" coords="375,499,511,524"/>
+<area shape="poly" id="edge17_Node000002_Node000015" title=" " alt="" coords="257,290,271,332,294,385,326,438,345,462,367,484,388,496,385,501,364,488,341,466,321,441,289,387,267,334,252,292"/>
+<area shape="rect" id="Node000008" href="$classtest_1_1AfmoeModel.html" title=" " alt="" coords="568,179,703,204"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="521,203,567,197,568,202,522,208"/>
+<area shape="rect" id="Node000009" href="$classtest_1_1ArceeModel.html" title=" " alt="" coords="571,228,699,253"/>
+<area shape="poly" id="edge11_Node000007_Node000009" title=" " alt="" coords="522,223,571,230,571,235,522,228"/>
 </map>

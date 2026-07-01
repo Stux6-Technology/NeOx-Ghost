@@ -7,7 +7,8 @@ var searchData=
   ['pager_5freport_5fextent_4',['pager_report_extent',['../pager_8c.html#a118f070508824282064f0347a13d115a',1,'pager.c']]],
   ['pager_5funlock_5fpage_5',['pager_unlock_page',['../pager_8c.html#ad159931cff97569f300d26941292a6bc',1,'pager.c']]],
   ['pager_5fwrite_5fpage_6',['pager_write_page',['../pager_8c.html#a3f8e7a71a34a4d3e0abb3cdf398e0a58',1,'pager.c']]],
-  ['prepare_5fmetadata_7',['prepare_metadata',['../classtest_1_1ModelBase.html#a8021bf84ae1aa9f2d173643eb0259a30',1,'test.ModelBase.prepare_metadata()'],['../classtest_1_1TextModel.html#ab962b0ea075d3624bbc36531e0ebe89a',1,'test.TextModel.prepare_metadata()'],['../classtest_1_1MmprojModel.html#a076d198004e1b075f35d9cf3db1e052d',1,'test.MmprojModel.prepare_metadata()']]],
-  ['prepare_5ftensors_8',['prepare_tensors',['../classtest_1_1ModelBase.html#a15868983abce2c24dc4734642b658662',1,'test::ModelBase']]],
-  ['print_5fregistered_5fmodels_9',['print_registered_models',['../classtest_1_1ModelBase.html#a48575cba5d91281181a3d862ea401cd7',1,'test::ModelBase']]]
+  ['permute_7',['permute',['../classtest_1_1LlamaModel.html#ac20996b920f7239b01b627f6f816a402',1,'test::LlamaModel']]],
+  ['prepare_5fmetadata_8',['prepare_metadata',['../classtest_1_1ModelBase.html#a8021bf84ae1aa9f2d173643eb0259a30',1,'test.ModelBase.prepare_metadata()'],['../classtest_1_1TextModel.html#ab962b0ea075d3624bbc36531e0ebe89a',1,'test.TextModel.prepare_metadata()'],['../classtest_1_1MmprojModel.html#a076d198004e1b075f35d9cf3db1e052d',1,'test.MmprojModel.prepare_metadata()']]],
+  ['prepare_5ftensors_9',['prepare_tensors',['../classtest_1_1ModelBase.html#a15868983abce2c24dc4734642b658662',1,'test.ModelBase.prepare_tensors()'],['../classtest_1_1StableLMModel.html#a81794288bf5fa2120bec810990f65d21',1,'test.StableLMModel.prepare_tensors()'],['../classtest_1_1LlamaModel.html#a9aedffeba6c14e1509202d42e7e0f0e1',1,'test.LlamaModel.prepare_tensors()']]],
+  ['print_5fregistered_5fmodels_10',['print_registered_models',['../classtest_1_1ModelBase.html#a48575cba5d91281181a3d862ea401cd7',1,'test::ModelBase']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['textmodel_0',['TextModel',['../classtest_1_1TextModel.html',1,'test']]]
+  ['refactmodel_0',['RefactModel',['../classtest_1_1RefactModel.html',1,'test']]]
 ];

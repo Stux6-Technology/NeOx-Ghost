@@ -1,7 +1,7 @@
 var searchData=
 [
   ['_5f_5fattribute_5f_5f_0',['__attribute__',['../boot_8c.html#a32969c618e1807a87a28ed234b8cd30a',1,'__attribute__((noreturn)):&#160;boot.c'],['../boot_8c.html#a474fecf6e1c4e51259f5ffa7b62cbaa6',1,'__attribute__((__noreturn__)):&#160;boot.c']]],
-  ['_5f_5finit_5f_5f_1',['__init__',['../classtest_1_1TextModel.html#a5c9b330afbb3a537556c486b4c8a9480',1,'test.TextModel.__init__()'],['../classtest_1_1ModelBase.html#a4b052850feb50afeae9ee2257649f1de',1,'test.ModelBase.__init__()'],['../classtest_1_1MmprojModel.html#aca455b5722943ed21e799b9edf4f2b01',1,'test.MmprojModel.__init__()']]],
+  ['_5f_5finit_5f_5f_1',['__init__',['../classtest_1_1TextModel.html#a5c9b330afbb3a537556c486b4c8a9480',1,'test.TextModel.__init__()'],['../classtest_1_1LlamaModel.html#ad1da4bbfab688ee69b975cef72dd15c2',1,'test.LlamaModel.__init__()'],['../classtest_1_1ModelBase.html#a4b052850feb50afeae9ee2257649f1de',1,'test.ModelBase.__init__()'],['../classtest_1_1MmprojModel.html#aca455b5722943ed21e799b9edf4f2b01',1,'test.MmprojModel.__init__()']]],
   ['_5f_5finit_5fsubclass_5f_5f_2',['__init_subclass__',['../classtest_1_1TextModel.html#a615e174e6707772c7931157dc714939c',1,'test::TextModel']]],
   ['_5fcreate_5fvocab_5fsentencepiece_3',['_create_vocab_sentencepiece',['../classtest_1_1TextModel.html#abe7232385121e90e3c862083c9e4ced5',1,'test::TextModel']]],
   ['_5ffind_5fparam_4',['_find_param',['../classtest_1_1MmprojModel.html#a4d3e884d382b1725b316ed39f8423639',1,'test::MmprojModel']]],
@@ -18,5 +18,6 @@ var searchData=
   ['_5fset_5fvocab_5fqwen_15',['_set_vocab_qwen',['../classtest_1_1TextModel.html#af45e18e18888ff146e5682cfe2261c45',1,'test::TextModel']]],
   ['_5fset_5fvocab_5frwkv_5fworld_16',['_set_vocab_rwkv_world',['../classtest_1_1TextModel.html#aa564c85ab98a04a6fbba34c09eab2ebf',1,'test::TextModel']]],
   ['_5fset_5fvocab_5fsentencepiece_17',['_set_vocab_sentencepiece',['../classtest_1_1TextModel.html#ab79d71ef7c5e5633c3329cc549c2d0a9',1,'test::TextModel']]],
-  ['_5ftry_5fset_5fpooling_5ftype_18',['_try_set_pooling_type',['../classtest_1_1TextModel.html#ad52b7695adee630623cfa41551cadf8f',1,'test::TextModel']]]
+  ['_5fstack_5fqk_5fnorm_18',['_stack_qk_norm',['../classtest_1_1StableLMModel.html#ac61478754cedb8e1e3c879ea3499641c',1,'test::StableLMModel']]],
+  ['_5ftry_5fset_5fpooling_5ftype_19',['_try_set_pooling_type',['../classtest_1_1TextModel.html#ad52b7695adee630623cfa41551cadf8f',1,'test::TextModel']]]
 ];
