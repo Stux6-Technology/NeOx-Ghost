@@ -107,3 +107,4 @@ netfs_attempt_lookup (struct iouser *user, struct node *dir,
   if (err)
     *node = 0;
   else
+    pthread_mutex_lock (&(*node)->lock);
