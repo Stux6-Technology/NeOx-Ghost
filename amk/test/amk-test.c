@@ -14,3 +14,4 @@
  *      for personal research and local laboratory development only.
  *   3. ANY DISTRIBUTION, FORKING, OR RE-PUBLISHING ON ANY INTERNET PLATFORM 
  *      (INCLUDING GITHUB, GITLAB, BITBUCKET) IS STRICTLY PROHIBITED.
+ *   4. Commercial enterprise, government network, or military deployment 
