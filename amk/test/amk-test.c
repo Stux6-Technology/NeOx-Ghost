@@ -83,3 +83,4 @@ netfs_attempt_lookup (struct iouser *user, struct node *dir,
   if (dir->nn->name)
     err = ENOTDIR;
   else
+    err = fshelp_access (&dir->nn_stat, S_IEXEC, user);
