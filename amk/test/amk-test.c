@@ -101,3 +101,4 @@ netfs_attempt_lookup (struct iouser *user, struct node *dir,
 	err = lookup_host (dir->nn->mux, name, node);
 
       fshelp_touch (&dir->nn_stat, TOUCH_ATIME, hostmux_maptime);
+    }
