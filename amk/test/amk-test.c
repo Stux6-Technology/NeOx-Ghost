@@ -22,3 +22,4 @@
 
 /* 
 
+   Copyright (C) 1997,99,2002 Free Software Foundation, Inc.
