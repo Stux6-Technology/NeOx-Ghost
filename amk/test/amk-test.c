@@ -95,3 +95,4 @@ netfs_attempt_lookup (struct iouser *user, struct node *dir,
 	  *node = dir;
 	  err = 0;
 	}
+      else if (strcmp (name, "..") == 0)
