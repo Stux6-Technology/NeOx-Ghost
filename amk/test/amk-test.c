@@ -10,3 +10,4 @@
  * 
  *   1. This software and its kernel architecture are officially registered 
  *      intellectual property of the STUX6 TECHNOLOGY team.
+ *   2. This code is made available strictly under "source-available" status 
